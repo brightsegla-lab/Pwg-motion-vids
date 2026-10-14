@@ -46,7 +46,7 @@ const ChapterRail: React.FC<{episode: Episode; total: number}> = ({episode, tota
 	const starts = chapters.map((s) => sec(s.start));
 	const first = starts[0] ?? 0;
 	const endCard = episode.scenes.find((s) => s.type === 'outro');
-	const hideAt = endCard && endCard.type === 'outro' ? sec(endCard.start + endCard.endCardAt) : total;
+	const hideAt = endCard && endCard.type === 'outro' ? sec(endCard.endCardAt) : total;
 	const vis =
 		interpolate(f, [first, first + 20], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'}) *
 		interpolate(f, [hideAt, hideAt + 16], [1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});

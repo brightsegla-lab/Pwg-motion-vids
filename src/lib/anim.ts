@@ -50,3 +50,10 @@ export const activeIndex = (frame: number, at: number[]) => {
 	});
 	return idx;
 };
+
+/** Absolute audio seconds → seconds relative to a scene start (undefined stays undefined). */
+export const rel = (start: number, at?: number) => (at === undefined ? undefined : at - start);
+
+/** Absolute audio seconds → frame inside a scene, with a fallback frame. */
+export const frameAt = (start: number, at: number | undefined, fallback: number) =>
+	at === undefined ? fallback : sec(at - start);

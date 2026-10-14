@@ -3,7 +3,7 @@ import {useCurrentFrame} from 'remotion';
 import {colors, fonts, radius, shadow} from '../brand/theme';
 import {SkinSection} from '../components/Illustrations';
 import {Footnote, SceneFrame} from '../components/SceneFrame';
-import {activeIndex, cues, enter, fade, progress, sec} from '../lib/anim';
+import {activeIndex, cues, enter, fade, frameAt, progress, rel, sec} from '../lib/anim';
 import type {SceneProps, StageCardsSceneSpec} from '../engine/types';
 
 const SEV = [colors.sev1, colors.sev2, colors.sev3, colors.sev4];
@@ -14,10 +14,10 @@ export const StageCardsScene: React.FC<SceneProps<StageCardsSceneSpec>> = ({spec
 	const at = cues(spec.stages.length, durationInFrames, {
 		lead: sec(3),
 		tail: sec(spec.footnote ? 9 : 4),
-		explicit: spec.stages.map((s) => s.at),
+		explicit: spec.stages.map((s) => rel(spec.start, s.at)),
 	});
 	const active = activeIndex(f, at);
-	const footAt = spec.footnote?.at !== undefined ? sec(spec.footnote.at) : durationInFrames - sec(7);
+	const footAt = frameAt(spec.start, spec.footnote?.at, durationInFrames - sec(7));
 	const gap = 32;
 	const cardW = (1680 - gap * 3) / 4;
 	const barP = progress(f, at[0], at[at.length - 1] - at[0] + 30);
@@ -34,7 +34,7 @@ export const StageCardsScene: React.FC<SceneProps<StageCardsSceneSpec>> = ({spec
 							style={{
 								...enter(f, at[i], {dist: 48, dur: 22}),
 								width: cardW,
-								height: 560,
+								height: 612,
 								background: colors.white,
 								borderRadius: radius.card,
 								overflow: 'hidden',
@@ -63,14 +63,14 @@ export const StageCardsScene: React.FC<SceneProps<StageCardsSceneSpec>> = ({spec
 							</div>
 							<div style={{padding: '22px 28px 26px', display: 'flex', flexDirection: 'column', gap: 10}}>
 								<div style={{fontFamily: fonts.sans, fontWeight: 800, fontSize: 40, lineHeight: 1.1, color: colors.ink}}>{s.title}</div>
-								<div style={{fontFamily: fonts.sans, fontWeight: 500, fontSize: 30, lineHeight: 1.25, color: colors.inkSoft}}>{s.sub}</div>
+								<div style={{...fade(f, frameAt(spec.start, s.subAt, at[i]), 16), fontFamily: fonts.sans, fontWeight: 500, fontSize: 30, lineHeight: 1.25, color: colors.inkSoft}}>{s.sub}</div>
 							</div>
 						</div>
 					);
 				})}
 			</div>
 			{/* severity scale */}
-			<div style={{position: 'absolute', left: 120, top: 846, width: 1680, ...fade(f, at[0], 20)}}>
+			<div style={{position: 'absolute', left: 120, top: 898, width: 1680, ...fade(f, at[0], 20)}}>
 				<div style={{height: 14, borderRadius: 7, background: 'rgba(16,24,20,0.08)', overflow: 'hidden'}}>
 					<div
 						style={{
@@ -81,22 +81,6 @@ export const StageCardsScene: React.FC<SceneProps<StageCardsSceneSpec>> = ({spec
 							backgroundSize: '1680px 100%',
 						}}
 					/>
-				</div>
-				<div
-					style={{
-						display: 'flex',
-						justifyContent: 'space-between',
-						marginTop: 10,
-						fontFamily: fonts.sans,
-						fontWeight: 700,
-						fontSize: 28,
-						letterSpacing: 3,
-						textTransform: 'uppercase',
-						color: colors.inkSoft,
-					}}
-				>
-					<span>Haut intakt</span>
-					<span>Tiefe Wunde</span>
 				</div>
 			</div>
 			{spec.footnote ? <Footnote text={spec.footnote.text} at={footAt} tone={tone} /> : null}

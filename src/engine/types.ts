@@ -1,14 +1,18 @@
 import type {Tone} from '../brand/theme';
 
 // Every scene type takes its content as data, so a new episode is just a new
-// file in src/episodes/. Times (`at`) are seconds relative to the scene start;
-// leave them out and reveals are spread evenly over the scene.
+// file in src/episodes/.
+//
+// ALL TIMES ARE ABSOLUTE SECONDS ON THE EPISODE AUDIO (same clock as the SRT).
+// `at` = the moment an element starts to appear. Leave it out and reveals are
+// spread evenly over the scene.
 
 export type Chapter = {num: string; title: string; kicker?: string};
+export type Timed = {text: string; at?: number};
 
 type Base = {
 	id: string;
-	/** Scene start in seconds on the episode audio. Scenes end where the next begins. */
+	/** Scene start (s). Scenes end where the next begins. */
 	start: number;
 	tone?: Tone;
 	chapter?: Chapter;
@@ -16,65 +20,69 @@ type Base = {
 
 export type TitleSceneSpec = Base & {
 	type: 'title';
-	series: string; // "Prophylaxen-Reihe · Folge 1"
-	episodeTitle: string; // "Dekubitusprophylaxe"
-	tagline?: string; // script line
-	hosts?: string; // "MIT NORA UND BEN"
+	/** Line above the logo (phase A). */
+	subtitle?: Timed;
+	/** Script line under the wordmark (phase A). */
+	tagline?: Timed;
+	/** When the show lockup hands over to the episode block (s). */
+	switchAt: number;
+	series: Timed; // pill
+	seriesNote?: Timed; // small line under the pill
+	episodeTitle: Timed;
 	photo?: string; // public/ path
-	/** When the show lockup hands over to the episode title (s). */
-	switchAt?: number;
 };
 
-export type ListItem = {label: string; sub?: string; icon?: string; at?: number};
+export type ListItem = {label: string; sub?: string; icon?: string; at?: number; subAt?: number};
 
 export type ListSceneSpec = Base & {
 	type: 'list';
-	layout: 'chain' | 'grid';
+	layout: 'chain' | 'grid' | 'pills';
 	columns?: number;
 	items: ListItem[];
 	/** Optional illustration next to a chain. */
 	illustration?: 'patientProfile';
-	footnote?: {text: string; at?: number};
+	footnote?: Timed;
 };
 
 export type BodyDiagramSceneSpec = Base & {
 	type: 'body';
 	view: 'back';
-	markers: {key: string; label: string; sub?: string; at?: number}[];
-	footnote?: {text: string; at?: number};
+	lead?: Timed;
+	markers: {key: string; label: string; at?: number}[];
+	footnote?: Timed;
 };
 
 export type ProcedureSceneSpec = Base & {
 	type: 'fingertest';
 	title: string;
 	steps: {label: string; at?: number}[];
-	outcomes: {blanches: boolean; title: string; verdict: string; at?: number}[];
+	outcomes: {blanches: boolean; title: string; verdict: string; at: number; verdictAt?: number}[];
 };
 
 export type StageCardsSceneSpec = Base & {
 	type: 'stages';
-	label: string; // "Kategorie" / "Stadium"
-	stages: {title: string; sub: string; at?: number}[];
-	footnote?: {text: string; at?: number};
+	label: string; // "Stadium"
+	stages: {title: string; sub: string; at?: number; subAt?: number}[];
+	footnote?: Timed;
 };
 
 export type CaseSceneSpec = Base & {
 	type: 'case';
-	badge: string; // "Praxis-Übung"
-	patient: string; // "Herr Schmidt, 82 Jahre"
-	facts: {text: string; at?: number}[];
-	question: {text: string; at?: number};
-	answers: {text: string; at?: number}[];
+	badge?: Timed;
+	patient: Timed;
+	facts: Timed[];
+	conclusion?: Timed;
+	question: Timed;
+	answerGroups: {title: string; at?: number; items: Timed[]}[];
 };
 
 export type OutroSceneSpec = Base & {
 	type: 'outro';
 	recapTitle: string;
-	recap: {text: string; at?: number}[];
-	endCardAt: number; // seconds into the scene
-	cta: string;
-	next?: {kicker: string; title: string};
-	tagline?: string;
+	recap: {label: string; sub?: string; at?: number}[];
+	endCardAt: number;
+	ctas: (Timed & {icon?: string})[];
+	farewell?: Timed;
 };
 
 export type SceneSpec =

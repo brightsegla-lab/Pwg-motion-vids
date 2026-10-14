@@ -38,23 +38,24 @@ src/
 | `fingertest` | FingerTestScene     | Ablauf-Schritte + zwei animierte Ergebnisse                 |
 | `stages`     | StageCardsScene     | 4 Stufen-Karten mit Schweregrad-Farben & Hautschnitt        |
 | `case`       | CaseScene           | Patientenfall auf Creme (Klemmbrett, Frage, Lösungen)       |
-| `outro`      | OutroScene          | Zusammenfassung → Endkarte (Abo-CTA, nächste Folge)         |
+| `outro`      | OutroScene          | Zusammenfassung → Endkarte (CTAs, Verabschiedung)            |
 
 ## Neue Folge anlegen (z. B. Sturzprophylaxe)
 
 1. Audio nach `public/audio/sturzprophylaxe.mp3` legen, Länge messen:
    `ffprobe -v error -show_entries format=duration -of csv=p=0 public/audio/sturzprophylaxe.mp3`
-2. `src/episodes/dekubitusprophylaxe.ts` kopieren, Inhalte, `duration` und `start`-Zeiten anpassen.
-3. In `src/Root.tsx` zur `episodes`-Liste hinzufügen.
-4. Neue Icons bei Bedarf in `src/components/Icons.tsx` ergänzen (64×64, Linienstil).
+2. Transkript (JSON mit Wort-Zeitstempeln) nach `assets/transcript/` legen.
+3. `src/episodes/dekubitusprophylaxe.ts` kopieren, Inhalte, `duration` und Zeiten (`say(...)`) anpassen.
+4. In `src/Root.tsx` zur `episodes`-Liste hinzufügen.
+5. Neue Icons bei Bedarf in `src/components/Icons.tsx` ergänzen (64×64, Linienstil).
 
 ## Timing feinjustieren
 
-- `start` (Sekunden auf der Tonspur) legt fest, wann eine Szene beginnt; sie endet automatisch
-  beim nächsten `start` (18 Frames weicher Crossfade).
-- Ohne `at` werden Listenpunkte gleichmäßig über die Szene verteilt. Mit `at` (Sekunden ab
-  Szenenbeginn) erscheint ein Punkt genau dann, wenn er im Dialog fällt.
-- Im Studio (`npm run dev`) mit Ton scrubben, die Sekunde ablesen und eintragen.
+- Alle Zeiten in `src/episodes/*.ts` sind **absolute Sekunden auf der Tonspur** – dieselbe Uhr wie
+  das SRT/JSON in `assets/transcript/`. `say(45.02)` = „wird bei 45,02 s gesagt“ → erscheint 0,2 s früher.
+- Wann fällt ein Wort? `python3 scripts/cue.py assets/transcript/dekubitusprophylaxe.json "Fersen" 120`
+- `start` legt fest, wann eine Szene beginnt; sie endet beim nächsten `start` (18 Frames Crossfade).
+- Liste aller Einblendungen mit Zeitstempel: `node scripts/cue-sheet.mjs > out/cue-sheet.md`
 
 ## Gestaltungsregeln
 

@@ -96,19 +96,35 @@ export const PatientProfile: React.FC<{
 export type BodyPoint = {x: number; y: number};
 
 export const BODY_POINTS: Record<string, BodyPoint[]> = {
-	hinterkopf: [{x: 200, y: 66}],
+	hinterkopf: [{x: 200, y: 64}],
 	schulterblaetter: [
-		{x: 152, y: 238},
-		{x: 248, y: 238},
-	],
-	kreuzbein: [{x: 200, y: 446}],
-	fersen: [
-		{x: 158, y: 858},
-		{x: 242, y: 858},
+		{x: 150, y: 236},
+		{x: 250, y: 236},
 	],
 	ellenbogen: [
-		{x: 82, y: 352},
-		{x: 318, y: 352},
+		{x: 84, y: 352},
+		{x: 316, y: 352},
+	],
+	kreuzbein: [{x: 200, y: 440}],
+	huefte: [
+		{x: 108, y: 462},
+		{x: 292, y: 462},
+	],
+	sitzbein: [
+		{x: 164, y: 506},
+		{x: 236, y: 506},
+	],
+	knie: [
+		{x: 156, y: 664},
+		{x: 244, y: 664},
+	],
+	knoechel: [
+		{x: 122, y: 812},
+		{x: 278, y: 812},
+	],
+	fersen: [
+		{x: 158, y: 862},
+		{x: 242, y: 862},
 	],
 };
 
@@ -158,15 +174,15 @@ export const BodyBack: React.FC<{
 				const pts = BODY_POINTS[m.key] ?? [];
 				return pts.map((pt, j) => (
 					<g key={`${m.key}${j}`} opacity={p}>
-						<circle cx={pt.x} cy={pt.y} r={46 + pulse(f + i * 10) * 8} fill="url(#bb-glow)" />
-						<circle cx={pt.x} cy={pt.y} r={22} fill={colors.sev3} stroke="#FFFFFF" strokeWidth={4} />
+						<circle cx={pt.x} cy={pt.y} r={36 + pulse(f + i * 10) * 6} fill="url(#bb-glow)" />
+						<circle cx={pt.x} cy={pt.y} r={20} fill={colors.sev3} stroke="#FFFFFF" strokeWidth={4} />
 						<text
 							x={pt.x}
-							y={pt.y + 10}
+							y={pt.y + 8}
 							textAnchor="middle"
 							fontFamily={fonts.sans}
 							fontWeight={800}
-							fontSize={28}
+							fontSize={24}
 							fill="#FFFFFF"
 						>
 							{i + 1}
@@ -240,9 +256,9 @@ export const FingerTest: React.FC<{
 	const press = down * (1 - up); // 0..1..0
 	const fingerY = interpolate(press, [0, 1], [-70, 0]);
 	const fingerOpacity = progress(f, at - 16, 16) * (1 - progress(f, at + 84, 18));
-	// Blanching: pale while pressed; after release a pale imprint stays (A) or the red stays (B).
-	const afterRelease = progress(f, at + 66, 20);
-	const pale = blanches ? Math.max(press, afterRelease * 0.9) : 0;
+	// Blanching: intact skin turns pale under the finger and reddens again after release;
+	// a Dekubitus stays red whatever the pressure.
+	const pale = blanches ? press : 0;
 	const red = interpolateColors(pale, [0, 1], ['#D9534A', '#F7E4DA']);
 	return (
 		<svg viewBox="0 0 400 300" width={width} height={(width * 300) / 400} style={{overflow: 'visible'}}>

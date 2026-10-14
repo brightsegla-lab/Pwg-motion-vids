@@ -82,6 +82,44 @@ const paths: Record<string, React.ReactNode> = {
 			<path d="M37 47L41 51L49 42" />
 		</>
 	),
+	wheelchair: (
+		<>
+			<circle cx="24" cy="9" r="4.5" />
+			<path d="M24 16V32H40L46 48M18 20V34M24 24H36" />
+			<circle cx="27" cy="44" r="13" />
+		</>
+	),
+	glass: (
+		<>
+			<path d="M17 9H47L42 57H22Z" />
+			<path d="M20 28C26 25 30 31 36 28C40 26 42 27 44 28" />
+		</>
+	),
+	glucose: (
+		<>
+			<rect x="10" y="9" width="30" height="46" rx="6" />
+			<rect x="15" y="15" width="20" height="13" rx="2" />
+			<circle cx="25" cy="42" r="4" />
+			<path d="M51 26C47 33 45 37 45 41A6 6 0 0 0 57 41C57 37 55 33 51 26Z" />
+		</>
+	),
+	hand: (
+		<path d="M21 34V16A3 3 0 0 1 27 16V30M27 30V11A3 3 0 0 1 33 11V30M33 30V14A3 3 0 0 1 39 14V32M39 32V21A3 3 0 0 1 45 21V40C45 50 39 57 30 57C24 57 20 53 16 47L10 38A3 3 0 0 1 15 34L21 40" />
+	),
+	tilt: (
+		<>
+			<path d="M6 52H58" />
+			<path d="M28 52L56 34V52Z" />
+			<circle cx="13" cy="40" r="5" />
+			<path d="M20 38L52 25" strokeWidth={6} />
+		</>
+	),
+	chat: (
+		<>
+			<path d="M9 12H55V42H30L17 53V42H9Z" />
+			<path d="M21 27H21.5M32 27H32.5M43 27H43.5" strokeWidth={5} />
+		</>
+	),
 	check: <path d="M14 33L26 45L50 19" />,
 	alert: (
 		<>

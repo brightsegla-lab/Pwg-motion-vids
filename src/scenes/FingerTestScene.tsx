@@ -4,7 +4,7 @@ import {colors, fonts, radius, shadow} from '../brand/theme';
 import {Icon} from '../components/Icons';
 import {FingerTest} from '../components/Illustrations';
 import {SceneFrame} from '../components/SceneFrame';
-import {cues, enter, fade, sec} from '../lib/anim';
+import {cues, enter, fade, frameAt, rel, sec} from '../lib/anim';
 import type {ProcedureSceneSpec, SceneProps} from '../engine/types';
 
 export const FingerTestScene: React.FC<SceneProps<ProcedureSceneSpec>> = ({spec, durationInFrames}) => {
@@ -14,7 +14,7 @@ export const FingerTestScene: React.FC<SceneProps<ProcedureSceneSpec>> = ({spec,
 	const at = cues(n, durationInFrames, {
 		lead: sec(2.5),
 		tail: sec(5),
-		explicit: [...spec.steps.map((s) => s.at), ...spec.outcomes.map((o) => o.at)],
+		explicit: [...spec.steps.map((s) => rel(spec.start, s.at)), ...spec.outcomes.map((o) => rel(spec.start, o.at))],
 	});
 	const stepAt = at.slice(0, spec.steps.length);
 	const outAt = at.slice(spec.steps.length);
@@ -62,27 +62,30 @@ export const FingerTestScene: React.FC<SceneProps<ProcedureSceneSpec>> = ({spec,
 			<div style={{position: 'absolute', left: 120, right: 120, top: 440, bottom: 90, display: 'flex', gap: 40}}>
 				{spec.outcomes.map((o, i) => {
 					const good = o.blanches;
+					const verdictAt = frameAt(spec.start, o.verdictAt, outAt[i] + 60);
 					const accent = good ? colors.green : colors.sev3;
 					return (
 						<div
 							key={o.title}
 							style={{
-								...fade(f, outAt[i] - 20, 20),
+								...fade(f, outAt[i], 18),
 								flex: 1,
 								background: colors.white,
 								borderRadius: radius.card,
 								boxShadow: shadow.card,
 								padding: '30px 40px',
+								overflow: 'hidden',
 								display: 'flex',
 								flexDirection: 'column',
 								alignItems: 'center',
 							}}
 						>
-							<FingerTest width={400} at={outAt[i]} blanches={o.blanches} />
-							<div style={{...enter(f, outAt[i] + 80), textAlign: 'center', marginTop: 18}}>
-								<div style={{fontFamily: fonts.sans, fontWeight: 800, fontSize: 46, color: colors.ink}}>{o.title}</div>
+							<FingerTest width={400} at={verdictAt - 15} blanches={o.blanches} />
+							<div style={{textAlign: 'center', marginTop: 18}}>
+								<div style={{...enter(f, outAt[i] + 4, {dist: 20}), fontFamily: fonts.sans, fontWeight: 800, fontSize: 46, color: colors.ink}}>{o.title}</div>
 								<div
 									style={{
+										...enter(f, verdictAt, {dist: 20}),
 										marginTop: 18,
 										display: 'inline-flex',
 										alignItems: 'center',
@@ -93,7 +96,7 @@ export const FingerTestScene: React.FC<SceneProps<ProcedureSceneSpec>> = ({spec,
 										padding: '12px 30px',
 										fontFamily: fonts.sans,
 										fontWeight: 700,
-										fontSize: 36,
+										fontSize: 32,
 									}}
 								>
 									<Icon name={good ? 'check' : 'alert'} size={38} stroke={5} />

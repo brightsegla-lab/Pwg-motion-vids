@@ -1,0 +1,767 @@
+1
+00:00:00,000 --> 00:00:13,300
+[Musik spielt]
+
+2
+00:00:13,300 --> 00:00:15,240
+Willkommen zurück bei Pflege WG.
+
+3
+00:00:15,580 --> 00:00:18,540
+Dem Podcast von Azubis für Azubis.
+
+4
+00:00:18,540 --> 00:00:20,260
+Und heute starten wir was Neues, oder?
+
+5
+00:00:20,580 --> 00:00:22,840
+Genau, wir haben uns überlegt, eine kleine
+
+6
+00:00:22,840 --> 00:00:24,780
+Reihe zu machen zu den Prophylaxen.
+
+7
+00:00:24,780 --> 00:00:27,460
+[seufzt] Die Prophylaxen. Da hab ich in
+
+8
+00:00:27,460 --> 00:00:29,700
+der Schule ganze Karteikartenstapel für
+
+9
+00:00:29,700 --> 00:00:30,180
+gehabt.
+
+10
+00:00:30,180 --> 00:00:32,320
+[lacht] Ja, das Thema ist einfach
+
+11
+00:00:32,320 --> 00:00:34,520
+riiiesig. Aber genau deshalb machen wir's
+
+12
+00:00:34,520 --> 00:00:36,680
+jetzt nach und nach. Eine pro Folge.
+
+13
+00:00:36,760 --> 00:00:38,600
+Und heute fangen wir an mit ...?
+
+14
+00:00:38,600 --> 00:00:40,940
+[räuspert sich] Dekubitusprophylaxe.
+
+15
+00:00:41,240 --> 00:00:43,180
+Klassiker. Das ist doch die mit dem
+
+16
+00:00:43,180 --> 00:00:44,240
+Wundliegen, oder?
+
+17
+00:00:44,280 --> 00:00:46,280
+Genau. Ein Dekubitus ist ein
+
+18
+00:00:46,280 --> 00:00:48,480
+Druckgeschwür. Entsteht durch anhaltenden
+
+19
+00:00:48,500 --> 00:00:49,860
+Druck auf Haut und Gewebe.
+
+20
+00:00:50,140 --> 00:00:52,080
+Also wenn jemand zu lange in der gleichen
+
+21
+00:00:52,080 --> 00:00:52,880
+Position liegt.
+
+22
+00:00:53,100 --> 00:00:55,160
+Richtig. Und dann wird die Durchblutung an
+
+23
+00:00:55,160 --> 00:00:57,280
+der Stelle gestört. Das Gewebe kriegt
+
+24
+00:00:57,280 --> 00:00:59,120
+nicht mehr genug Sauerstoff und kann im
+
+25
+00:00:59,120 --> 00:01:00,400
+schlimmsten Fall absterben.
+
+26
+00:01:00,640 --> 00:01:02,640
+Krass. Das klingt nach ziemlich viel
+
+27
+00:01:02,640 --> 00:01:04,440
+Schaden für so eine banale Ursache.
+
+28
+00:01:04,700 --> 00:01:06,820
+Ist es auch. Deshalb ist Prophylaxe hier
+
+29
+00:01:06,820 --> 00:01:08,780
+so wichtig. Lass uns kurz über die
+
+30
+00:01:08,780 --> 00:01:11,100
+Risikofaktoren reden, weil da erkennst du
+
+31
+00:01:11,100 --> 00:01:12,680
+schon, wer besonders gefährdet ist.
+
+32
+00:01:12,940 --> 00:01:13,720
+Schieß los.
+
+33
+00:01:13,720 --> 00:01:15,760
+Bettlägerigkeit oder eingeschränkte
+
+34
+00:01:15,760 --> 00:01:18,580
+Beweglichkeit, hohes Alter, Lähmungen,
+
+35
+00:01:18,580 --> 00:01:21,200
+Mangelernährung oder Untergewicht, zu
+
+36
+00:01:21,200 --> 00:01:23,260
+wenig trinken, Diabetes,
+
+37
+00:01:23,260 --> 00:01:24,660
+Durchblutungsstörungen.
+
+38
+00:01:24,660 --> 00:01:26,060
+Das sind ja schon einige.
+
+39
+00:01:26,060 --> 00:01:28,880
+Ja, und dazu kommt noch Inkontinenz, weil
+
+40
+00:01:28,880 --> 00:01:30,800
+feuchte Haut anfälliger ist,
+
+41
+00:01:30,800 --> 00:01:32,140
+eingeschränktes Schmerz- oder
+
+42
+00:01:32,140 --> 00:01:34,800
+Berührungsempfinden und Reibung oder
+
+43
+00:01:34,800 --> 00:01:36,960
+Scherkräfte, zum Beispiel beim Hochziehen
+
+44
+00:01:36,960 --> 00:01:37,580
+im Bett.
+
+45
+00:01:37,580 --> 00:01:40,520
+Okay, Moment. Scherkräfte? Was genau
+
+46
+00:01:40,520 --> 00:01:41,100
+ist das noch mal?
+
+47
+00:01:41,380 --> 00:01:43,400
+Stell dir vor, der Patient rutscht im Bett
+
+48
+00:01:43,400 --> 00:01:45,580
+nach unten und du ziehst ihn wieder hoch,
+
+49
+00:01:45,580 --> 00:01:48,040
+ohne ihn richtig anzuheben. Dann reibt
+
+50
+00:01:48,040 --> 00:01:49,940
+die Haut über die Matratze und das
+
+51
+00:01:49,940 --> 00:01:51,580
+belastet das Gewebe zusätzlich.
+
+52
+00:01:51,860 --> 00:01:54,740
+Ah, deshalb sagt man immer, lieber anheben
+
+53
+00:01:54,740 --> 00:01:55,400
+statt ziehen.
+
+54
+00:01:55,560 --> 00:01:56,800
+Genau deshalb.
+
+55
+00:01:56,800 --> 00:01:59,180
+Und wo entsteht so was am häufigsten? Ich
+
+56
+00:01:59,180 --> 00:02:01,060
+mein, nicht überall am Körper gleich,
+
+57
+00:02:01,060 --> 00:02:01,240
+oder?
+
+58
+00:02:01,500 --> 00:02:03,760
+Nein, vor allem an Stellen, wo Knochen
+
+59
+00:02:03,760 --> 00:02:06,180
+dicht unter der Haut liegen. Hinterkopf,
+
+60
+00:02:06,180 --> 00:02:08,919
+Schulterblätter, Ellenbogen, Kreuzbein und
+
+61
+00:02:08,919 --> 00:02:11,840
+Steißbein, Hüfte, Sitzbeinhöcker,
+
+62
+00:02:11,840 --> 00:02:13,660
+Knie, Knöchel, Fersen.
+
+63
+00:02:13,920 --> 00:02:16,400
+Also überall da, wo's beim Liegen drückt.
+
+64
+00:02:16,640 --> 00:02:19,160
+Genau. Wo Knochen auf Haut trifft, da
+
+65
+00:02:19,160 --> 00:02:21,060
+drückt es am meisten. Das ist eigentlich
+
+66
+00:02:21,060 --> 00:02:22,120
+die Eselsbrücke dafür.
+
+67
+00:02:22,360 --> 00:02:25,180
+Gute Eselsbrücke. Sag mal, wie erkennt man
+
+68
+00:02:25,180 --> 00:02:27,060
+das eigentlich früh, bevor's schlimm
+
+69
+00:02:27,060 --> 00:02:27,280
+wird?
+
+70
+00:02:27,480 --> 00:02:29,580
+Guter Punkt. Es gibt den sogenannten
+
+71
+00:02:29,580 --> 00:02:32,060
+Fingertest nach Phillips. Man drückt kurz
+
+72
+00:02:32,060 --> 00:02:33,780
+mit dem Finger auf die gerötete Stelle.
+
+73
+00:02:34,060 --> 00:02:34,780
+Und dann?
+
+74
+00:02:34,780 --> 00:02:36,640
+Wenn die Haut noch intakt ist, wird sie
+
+75
+00:02:36,640 --> 00:02:38,780
+durch den Druck kurz heller und die Rötung
+
+76
+00:02:38,780 --> 00:02:40,280
+kommt danach schnell zurück.
+
+77
+00:02:40,380 --> 00:02:42,220
+Und wenn's schon ein Dekubitus ist?
+
+78
+00:02:42,480 --> 00:02:44,460
+Dann bleibt die Stelle rot, verändert die
+
+79
+00:02:44,460 --> 00:02:46,540
+Farbe nicht, egal wie fest du drückst.
+
+80
+00:02:46,820 --> 00:02:49,260
+Alles klar. Das kann ich mir merken. Und
+
+81
+00:02:49,260 --> 00:02:51,580
+die Stadien, die hab ich auch mal gehört,
+
+82
+00:02:51,580 --> 00:02:53,360
+aber nie ganz sauber im Kopf gehabt.
+
+83
+00:02:53,640 --> 00:02:56,180
+Kein Problem, das machen wir kurz. Stadium
+
+84
+00:02:56,180 --> 00:02:58,820
+eins: Die Haut ist noch intakt, aber es
+
+85
+00:02:58,820 --> 00:03:00,380
+gibt eine Rötung, die sich nicht
+
+86
+00:03:00,380 --> 00:03:01,400
+wegdrücken lässt.
+
+87
+00:03:01,400 --> 00:03:03,580
+Also genau das, was der Fingertest zeigt.
+
+88
+00:03:03,840 --> 00:03:06,800
+Exakt. Stadium zwei: Da ist schon ein
+
+89
+00:03:06,800 --> 00:03:08,860
+Teilverlust der Haut. Kann sich auch als
+
+90
+00:03:08,860 --> 00:03:09,600
+Blase zeigen.
+
+91
+00:03:10,240 --> 00:03:13,080
+Stadium drei: Vollständiger Hautverlust.
+
+92
+00:03:13,080 --> 00:03:15,280
+Das Fett darunter wird sichtbar, aber noch
+
+93
+00:03:15,280 --> 00:03:16,920
+keine Knochen oder Sehnen.
+
+94
+00:03:16,920 --> 00:03:18,280
+Und Stadium vier?
+
+95
+00:03:18,280 --> 00:03:20,460
+Vollständiger Gewebeverlust. Da liegen
+
+96
+00:03:20,460 --> 00:03:22,980
+dann Knochen, Sehnen oder Muskeln frei.
+
+97
+00:03:22,980 --> 00:03:25,460
+[seufzt] Okay, das klingt wirklich nach
+
+98
+00:03:25,460 --> 00:03:27,480
+was, das man auf jeden Fall verhindern
+
+99
+00:03:27,480 --> 00:03:27,880
+will.
+
+100
+00:03:27,880 --> 00:03:29,460
+Genau deshalb reden wir über die
+
+101
+00:03:29,460 --> 00:03:31,840
+Prophylaxe. Was denkst du, was macht man
+
+102
+00:03:31,840 --> 00:03:32,220
+dagegen?
+
+103
+00:03:32,500 --> 00:03:35,040
+Also regelmäßig umlagern, würd ich sagen?
+
+104
+00:03:35,260 --> 00:03:37,680
+Ganz genau. Regelmäßige Lagerung und
+
+105
+00:03:37,680 --> 00:03:39,980
+Positionswechsel. Klassisch alle zwei
+
+106
+00:03:39,980 --> 00:03:42,160
+Stunden, aber immer nach individuellem
+
+107
+00:03:42,160 --> 00:03:42,460
+Plan.
+
+108
+00:03:42,680 --> 00:03:44,360
+Und dann gibt's doch auch diese speziellen
+
+109
+00:03:44,360 --> 00:03:46,460
+Lagerungen, 30 Grad und so?
+
+110
+00:03:46,520 --> 00:03:48,820
+Ja, die 30-Grad-Lagerung und die
+
+111
+00:03:48,980 --> 00:03:51,900
+135-Grad-Lagerung, die nehmen den Druck
+
+112
+00:03:51,900 --> 00:03:54,080
+von den besonders gefährdeten Stellen.
+
+113
+00:03:54,080 --> 00:03:56,720
+Dazu kommt Mobilisation fördern, also
+
+114
+00:03:56,720 --> 00:03:59,020
+aufstehen, gehen, Bewegungsübungen, wenn
+
+115
+00:03:59,020 --> 00:03:59,420
+möglich.
+
+116
+00:03:59,680 --> 00:04:02,000
+Und Hautkontrolle, oder? Also wirklich
+
+117
+00:04:02,000 --> 00:04:03,100
+regelmäßig hingucken.
+
+118
+00:04:03,400 --> 00:04:05,840
+Absolut. Tägliche Hautkontrolle und
+
+119
+00:04:05,840 --> 00:04:08,660
+Hautpflege mit geeigneten Produkten. Dazu
+
+120
+00:04:08,660 --> 00:04:10,340
+druckentlastende Hilfsmittel,
+
+121
+00:04:10,340 --> 00:04:12,880
+Antidekubitusmatratze, Sitzkissen,
+
+122
+00:04:12,880 --> 00:04:13,840
+Fersenschoner.
+
+123
+00:04:13,840 --> 00:04:15,680
+Und Ernährung spielt da auch mit rein,
+
+124
+00:04:15,680 --> 00:04:16,079
+oder?
+
+125
+00:04:16,140 --> 00:04:18,720
+Ja, ausreichend trinken und eiweißreich
+
+126
+00:04:18,720 --> 00:04:20,760
+essen, weil der Körper Eiweiß braucht, um
+
+127
+00:04:20,760 --> 00:04:21,880
+Gewebe zu regenerieren.
+
+128
+00:04:22,500 --> 00:04:25,340
+Und ganz wichtig: Alles dokumentieren,
+
+129
+00:04:25,340 --> 00:04:26,860
+Maßnahmen und Hautzustand.
+
+130
+00:04:27,100 --> 00:04:29,180
+Okay, lass uns das mal an einem Fall
+
+131
+00:04:29,180 --> 00:04:30,680
+durchgehen. Das hilft mir immer am
+
+132
+00:04:30,680 --> 00:04:31,100
+meisten.
+
+133
+00:04:31,340 --> 00:04:31,860
+Gute Idee.
+
+134
+00:04:32,480 --> 00:04:35,360
+Also, ein bettlägeriger Patient, hohes
+
+135
+00:04:35,360 --> 00:04:38,180
+Alter, isst wenig, trinkt wenig und du
+
+136
+00:04:38,180 --> 00:04:40,420
+bemerkst am Steißbein eine Rötung, die
+
+137
+00:04:40,420 --> 00:04:42,080
+auch nach dem Fingertest nicht heller
+
+138
+00:04:42,080 --> 00:04:42,580
+wird.
+
+139
+00:04:42,580 --> 00:04:45,500
+Also die Rötung bleibt. Das heißt, es
+
+140
+00:04:45,500 --> 00:04:46,780
+ist schon Stadium eins.
+
+141
+00:04:47,040 --> 00:04:49,000
+Richtig. Und was machst du jetzt als
+
+142
+00:04:49,000 --> 00:04:49,440
+Erstes?
+
+143
+00:04:49,720 --> 00:04:51,820
+Ich würd sofort umlagern, den Druck von
+
+144
+00:04:51,820 --> 00:04:53,660
+der Stelle nehmen und dokumentieren.
+
+145
+00:04:53,880 --> 00:04:55,260
+Genau. Und danach?
+
+146
+00:04:55,260 --> 00:04:57,160
+Engmaschiger kontrollieren, vielleicht
+
+147
+00:04:57,160 --> 00:04:59,460
+öfter umlagern als sonst und schauen, dass
+
+148
+00:04:59,460 --> 00:05:00,760
+er genug trinkt und isst.
+
+149
+00:05:01,020 --> 00:05:02,800
+Perfekt. Du hast das drauf.
+
+150
+00:05:02,800 --> 00:05:05,560
+[lacht] Danke. Das mit den Fallbeispielen
+
+151
+00:05:05,560 --> 00:05:07,580
+mag ich echt. Das bleibt viel besser
+
+152
+00:05:07,580 --> 00:05:08,760
+hängen als reine Theorie.
+
+153
+00:05:09,100 --> 00:05:10,740
+Seh ich genauso. Das machen wir jetzt
+
+154
+00:05:10,740 --> 00:05:11,160
+öfter so.
+
+155
+00:05:11,460 --> 00:05:13,480
+Fassen wir noch mal ganz kurz zusammen.
+
+156
+00:05:13,480 --> 00:05:15,720
+Dekubitus ist ein Druckgeschwür durch
+
+157
+00:05:15,720 --> 00:05:18,080
+anhaltenden Druck, meist an knochennahen
+
+158
+00:05:18,160 --> 00:05:18,500
+Stellen.
+
+159
+00:05:18,760 --> 00:05:20,560
+Risikofaktoren sind vor allem
+
+160
+00:05:20,560 --> 00:05:23,000
+Bettlägerigkeit, hohes Alter,
+
+161
+00:05:23,000 --> 00:05:25,120
+Mangelernährung und Feuchtigkeit durch
+
+162
+00:05:25,120 --> 00:05:26,100
+Inkontinenz.
+
+163
+00:05:26,100 --> 00:05:28,040
+Früherkennung über den Fingertest nach
+
+164
+00:05:28,040 --> 00:05:30,140
+Phillips und die Einteilung läuft über
+
+165
+00:05:30,140 --> 00:05:31,120
+vier Stadien.
+
+166
+00:05:31,120 --> 00:05:33,920
+Und die wichtigsten Maßnahmen: Umlagern,
+
+167
+00:05:33,920 --> 00:05:36,260
+mobilisieren, Haut kontrollieren und
+
+168
+00:05:36,260 --> 00:05:38,500
+pflegen, druckentlastende Hilfsmittel
+
+169
+00:05:38,500 --> 00:05:41,080
+nutzen und auf Ernährung und Flüssigkeit
+
+170
+00:05:41,080 --> 00:05:41,580
+achten.
+
+171
+00:05:41,580 --> 00:05:42,640
+Genau so.
+
+172
+00:05:42,640 --> 00:05:44,740
+So, das war's für heute von uns.
+
+173
+00:05:44,740 --> 00:05:46,780
+Falls ihr bis hierhin durchgehalten habt,
+
+174
+00:05:46,780 --> 00:05:48,540
+[lacht] Respekt, ehrlich.
+
+175
+00:05:48,540 --> 00:05:50,180
+Und falls euch das was gebracht hat für
+
+176
+00:05:50,180 --> 00:05:52,280
+die Ausbildung oder ihr einfach Lust auf
+
+177
+00:05:52,280 --> 00:05:53,000
+mehr habt ...
+
+178
+00:05:53,000 --> 00:05:55,380
+Dann abonniert uns gern. Kostet nix und
+
+179
+00:05:55,380 --> 00:05:56,960
+ihr verpasst keine Folge mehr.
+
+180
+00:05:56,960 --> 00:05:58,820
+Und wenn ihr noch Fragen habt zum Thema
+
+181
+00:05:58,820 --> 00:06:01,060
+oder was unklar war oder ihr wollt einfach
+
+182
+00:06:01,060 --> 00:06:02,440
+mal meckern, dass ich wieder zu viel
+
+183
+00:06:02,440 --> 00:06:03,220
+gequatscht hab ...
+
+184
+00:06:03,220 --> 00:06:05,280
+[lacht] Was regelmäßig vorkommt.
+
+185
+00:06:05,280 --> 00:06:07,020
+Dann schreibt's einfach in die Kommentare.
+
+186
+00:06:07,020 --> 00:06:08,540
+Wir lesen wirklich alles.
+
+187
+00:06:08,820 --> 00:06:11,140
+Stimmt. Und manchmal wird aus euren Fragen
+
+188
+00:06:11,140 --> 00:06:13,400
+sogar die nächste Folge. Also scheut euch
+
+189
+00:06:13,400 --> 00:06:13,840
+nicht.
+
+190
+00:06:13,840 --> 00:06:16,540
+Genau. Bis zum nächsten Mal bei Pflege
+
+191
+00:06:16,540 --> 00:06:17,160
+WG.
+
+192
+00:06:17,160 --> 00:06:18,620
+Macht's gut. Tschüss zusammen.
