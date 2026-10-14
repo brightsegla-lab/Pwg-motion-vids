@@ -3,25 +3,40 @@ import {AbsoluteFill} from 'remotion';
 import {colors, fonts, radius, shadow} from '../brand/theme';
 import {LogoMark, Wordmark} from '../components/Brand';
 import {CreamBackground, GreenBackground} from '../components/Backgrounds';
-import {BodyBack, SkinSection} from '../components/Illustrations';
+import {BodyBack, BodyFront, BodyRegion, SkinSection} from '../components/Illustrations';
 
 // YouTube thumbnail (1920×1080, exported as JPG < 2 MB).
 // Rules: ≤ 4 big words, one focal visual, nothing important in the bottom-right
 // corner (YouTube puts the video length there), readable at 160 px wide.
 
 export type ThumbnailProps = {
-	variant: 'body' | 'stages';
+	variant: 'body' | 'stages' | 'paresis';
+	tone?: 'green' | 'cream';
 	series: string; // "Prophylaxen-Reihe"
-	headline: string; // "DEKUBITUS"
+	headline: string[]; // one entry per line, e.g. ["DEKUBITUS"]
+	headlineSize?: number;
 	accent: string; // "vorbeugen"
+	accentSize?: number;
 	tag: string; // "für Pflege-Azubis"
-	markers: string[]; // BODY_POINTS keys shown on the body variant
+	markers?: string[]; // BODY_POINTS keys shown on the body variant
+	figures?: {label: string; affected: BodyRegion[]}[]; // paresis variant
 };
 
 const SEV = [colors.sev1, colors.sev2, colors.sev3, colors.sev4];
 
-export const Thumbnail: React.FC<ThumbnailProps> = ({variant, series, headline, accent, tag, markers}) => {
-	const onGreen = variant === 'body';
+export const Thumbnail: React.FC<ThumbnailProps> = ({
+	variant,
+	tone,
+	series,
+	headline,
+	headlineSize = 178,
+	accent,
+	accentSize = 150,
+	tag,
+	markers = [],
+	figures = [],
+}) => {
+	const onGreen = (tone ?? (variant === 'stages' ? 'cream' : 'green')) === 'green';
 	return (
 		<AbsoluteFill>
 			{onGreen ? <GreenBackground deep /> : <CreamBackground />}
@@ -33,7 +48,7 @@ export const Thumbnail: React.FC<ThumbnailProps> = ({variant, series, headline, 
 			</div>
 
 			{/* Headline block */}
-			<div style={{position: 'absolute', left: 100, top: 300, width: 1080}}>
+			<div style={{position: 'absolute', left: 100, top: headline.length > 1 ? 250 : 300, width: 1080}}>
 				<div
 					style={{
 						display: 'inline-block',
@@ -55,13 +70,15 @@ export const Thumbnail: React.FC<ThumbnailProps> = ({variant, series, headline, 
 						marginTop: 26,
 						fontFamily: fonts.sans,
 						fontWeight: 900,
-						fontSize: 178,
-						lineHeight: 0.92,
+						fontSize: headlineSize,
+						lineHeight: 0.95,
 						letterSpacing: -4,
 						color: colors.ink,
 					}}
 				>
-					{headline}
+					{headline.map((l) => (
+						<div key={l}>{l}</div>
+					))}
 				</div>
 				<div style={{position: 'relative', display: 'inline-block', marginTop: 18, marginLeft: 6}}>
 					<div
@@ -81,7 +98,7 @@ export const Thumbnail: React.FC<ThumbnailProps> = ({variant, series, headline, 
 							position: 'relative',
 							fontFamily: fonts.marker,
 							fontWeight: 700,
-							fontSize: 150,
+							fontSize: accentSize,
 							lineHeight: 1,
 							color: colors.ink,
 							transform: 'rotate(-3deg)',
@@ -115,6 +132,52 @@ export const Thumbnail: React.FC<ThumbnailProps> = ({variant, series, headline, 
 						}}
 					/>
 					<BodyBack height={960} markers={markers.map((key) => ({key, label: key, at: -1000}))} />
+				</div>
+			) : variant === 'paresis' ? (
+				<div
+					style={{
+						position: 'absolute',
+						right: 100,
+						top: 110,
+						width: 700,
+						display: 'flex',
+						flexWrap: 'wrap',
+						gap: 28,
+					}}
+				>
+					{figures.map((fg) => (
+						<div
+							key={fg.label}
+							style={{
+								width: 336,
+								height: 420,
+								background: colors.white,
+								borderRadius: radius.card,
+								boxShadow: shadow.card,
+								display: 'flex',
+								flexDirection: 'column',
+								alignItems: 'center',
+								justifyContent: 'space-between',
+								padding: '20px 0 22px',
+								boxSizing: 'border-box',
+							}}
+						>
+							<div
+								style={{
+									background: colors.ink,
+									color: colors.white,
+									borderRadius: radius.pill,
+									padding: '6px 34px',
+									fontFamily: fonts.sans,
+									fontWeight: 800,
+									fontSize: 46,
+								}}
+							>
+								{fg.label}
+							</div>
+							<BodyFront height={300} affected={fg.affected} />
+						</div>
+					))}
 				</div>
 			) : (
 				<div style={{position: 'absolute', right: 120, top: 120, width: 560, height: 800}}>

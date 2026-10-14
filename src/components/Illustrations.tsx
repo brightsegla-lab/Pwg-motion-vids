@@ -294,3 +294,46 @@ export const FingerTest: React.FC<{
 };
 
 
+
+/* ------------------------------------------------------------------ */
+/* Standing body, front view – affected regions filled (Parese/Plegie) */
+/* ------------------------------------------------------------------ */
+
+export type BodyRegion = 'armL' | 'armR' | 'legL' | 'legR' | 'trunkL' | 'trunkR';
+
+export const BodyFront: React.FC<{
+	height: number;
+	affected: BodyRegion[];
+	base?: string;
+	hit?: string;
+}> = ({height, affected, base = '#DCEBE2', hit = colors.sev3}) => {
+	const c = (r: BodyRegion) => (affected.includes(r) ? hit : base);
+	const w = (height * 400) / 900;
+	const torso =
+		'M118 176 C150 158 250 158 282 176 C304 188 308 214 302 246 L290 380 C288 418 292 448 298 484 C290 512 110 512 102 484 C108 448 112 418 110 380 L98 246 C92 214 96 188 118 176 Z';
+	// Viewer's left = patient's right.
+	return (
+		<svg viewBox="0 0 400 900" width={w} height={height} style={{overflow: 'visible'}}>
+			<defs>
+				<clipPath id="bf-left">
+					<rect x={0} y={0} width={200} height={900} />
+				</clipPath>
+				<clipPath id="bf-right">
+					<rect x={200} y={0} width={200} height={900} />
+				</clipPath>
+			</defs>
+			<g strokeLinecap="round" fill="none">
+				<path d="M114 196 C92 252 84 320 78 392 L72 470" strokeWidth={44} stroke={c('armR')} />
+				<ellipse cx={71} cy={500} rx={20} ry={34} fill={c('armR')} />
+				<path d="M286 196 C308 252 316 320 322 392 L328 470" strokeWidth={44} stroke={c('armL')} />
+				<ellipse cx={329} cy={500} rx={20} ry={34} fill={c('armL')} />
+				<path d="M156 470 C154 580 154 680 156 790 L158 846" strokeWidth={70} stroke={c('legR')} />
+				<path d="M244 470 C246 580 246 680 244 790 L242 846" strokeWidth={70} stroke={c('legL')} />
+			</g>
+			<path d={torso} fill={c('trunkR')} clipPath="url(#bf-left)" />
+			<path d={torso} fill={c('trunkL')} clipPath="url(#bf-right)" />
+			<rect x={176} y={120} width={48} height={60} rx={14} fill={base} />
+			<ellipse cx={200} cy={78} rx={50} ry={60} fill={base} />
+		</svg>
+	);
+};
