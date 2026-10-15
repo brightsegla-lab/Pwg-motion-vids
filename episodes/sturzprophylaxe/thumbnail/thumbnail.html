@@ -1,0 +1,65 @@
+<!doctype html>
+<!-- YouTube thumbnail · Pflege-WG #2 Sturzprophylaxe (1920×1080).
+     Background = clean 3D frames from the episode (stage + orbs hidden).
+     ?v=a → spotlit cable, scene pushed right · ?v=b → close-up on the cable.
+     Rules: ≤ 4 big words, one focal visual, bottom-right corner kept unimportant. -->
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <style>
+      html, body { margin: 0; width: 1920px; height: 1080px; overflow: hidden; background: #0b1622; }
+      #t { position: relative; width: 1920px; height: 1080px; overflow: hidden; font-family: Montserrat, sans-serif; }
+      #room { position: absolute; background-size: cover; }
+      .a #room { left: 470px; top: -60px; width: 1920px; height: 1140px; transform: scale(1.12); transform-origin: 30% 60%; background-image: url(room-a.png); }
+      .b #room { left: 0; top: 0; width: 1920px; height: 1080px; background-image: url(room-b.png); }
+      #shade { position: absolute; inset: 0; }
+      .a #shade { background: linear-gradient(90deg, #0b1622 0%, #0b1622 30%, rgba(11, 22, 34, 0.7) 46%, rgba(11, 22, 34, 0) 62%); }
+      .b #shade { background: linear-gradient(90deg, rgba(11, 22, 34, 0.96) 0%, rgba(11, 22, 34, 0.88) 36%, rgba(11, 22, 34, 0.2) 58%, rgba(11, 22, 34, 0) 70%); }
+      #brand { position: absolute; left: 100px; top: 84px; display: flex; align-items: center; gap: 22px; }
+      #brand img { width: 104px; display: block; }
+      .wm { font-weight: 800; font-size: 54px; color: #fff; letter-spacing: 0.01em; }
+      .wm span { color: #f4c430; }
+      #copy { position: absolute; left: 100px; top: 262px; }
+      .chip { display: inline-block; background: #2ecc91; color: #101814; border-radius: 999px; padding: 14px 36px; font-weight: 800; font-size: 40px; letter-spacing: 5px; text-transform: uppercase; }
+      .head { margin-top: 22px; font-weight: 900; font-size: 250px; line-height: 0.9; letter-spacing: -6px; color: #fff; text-shadow: 0 10px 60px rgba(0, 0, 0, 0.5); }
+      .acc { position: relative; display: inline-block; margin: 14px 0 0 8px; }
+      .acc i { position: absolute; left: -18px; right: -26px; top: 40px; bottom: 6px; background: #f4c430; border-radius: 18px; transform: rotate(-2deg); }
+      .acc b { position: relative; display: block; font-family: Kalam, cursive; font-weight: 700; font-size: 156px; line-height: 1; color: #101814; transform: rotate(-3deg); }
+      .sub { margin-top: 38px; font-weight: 700; font-size: 50px; color: #fff; }
+      /* warning callout pointing at the cable */
+      #warn { position: absolute; display: flex; align-items: center; gap: 18px; background: #f4c430; color: #101814; border-radius: 999px; padding: 16px 38px 16px 22px; font-weight: 900; font-size: 58px; box-shadow: 0 18px 50px rgba(0, 0, 0, 0.45); transform: rotate(-3deg); }
+      #warn svg { width: 64px; height: 64px; }
+      .a #warn { left: 1150px; top: 250px; }
+      .b #warn { left: 1150px; top: 520px; }
+      #line { position: absolute; inset: 0; }
+    </style>
+  </head>
+  <body>
+    <div id="t">
+      <div id="room"></div>
+      <div id="shade"></div>
+      <svg id="line" viewBox="0 0 1920 1080"><path id="lp" fill="none" stroke="#f4c430" stroke-width="8" stroke-linecap="round" stroke-dasharray="2 22" /><circle id="lc" r="16" fill="#f4c430" /></svg>
+      <div id="brand"><img src="../assets/brand/mark-white.png" alt="" /><div class="wm">PFLEGE-<span>WG</span></div></div>
+      <div id="copy">
+        <div class="chip">Prophylaxen-Reihe</div>
+        <div class="head">STURZ</div>
+        <div class="acc"><i></i><b>vorbeugen</b></div>
+        <div class="sub">Einfach erklärt für Pflege-Azubis</div>
+      </div>
+      <div id="warn">
+        <svg viewBox="0 0 64 64" fill="none" stroke="#101814" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><path d="M32 8L58 54H6Z" /><path d="M32 24V38" /><circle cx="32" cy="46" r="1.5" /></svg>
+        Stolperfalle!
+      </div>
+    </div>
+    <script>
+      var v = new URLSearchParams(location.search).get("v") || "a";
+      document.getElementById("t").className = v;
+      // dotted leader from the callout to the cable in the spotlight
+      var P = { a: [[1330, 350], [1300, 598]], b: [[1300, 625], [1130, 592]] }[v];
+      document.getElementById("lp").setAttribute("d", "M" + P[0] + " Q" + (P[0][0] - 30) + "," + (P[1][1] - 60) + " " + P[1]);
+      document.getElementById("lc").setAttribute("cx", P[1][0]);
+      document.getElementById("lc").setAttribute("cy", P[1][1]);
+    </script>
+  </body>
+</html>
