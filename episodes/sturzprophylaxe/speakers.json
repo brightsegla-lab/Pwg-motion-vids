@@ -1,0 +1,760 @@
+{
+ "source": "assets/transcript/sturzprophylaxe.json + .srt",
+ "method": "diarization ids named by median pitch; each turn re-checked by its own pitch",
+ "voices": {
+  "Nora": {
+   "diarizationId": "speaker_0",
+   "medianPitchHz": 219.2
+  },
+  "Ben": {
+   "diarizationId": "speaker_1",
+   "medianPitchHz": 130.6
+  }
+ },
+ "turns": [
+  {
+   "start": 0.0,
+   "end": 14.42,
+   "speaker": "Nora",
+   "srt": [
+    1,
+    2
+   ],
+   "text": "Willkommen zurück bei Pflege WG.",
+   "pitchHz": 110.3,
+   "check": "pitch suggests Ben"
+  },
+  {
+   "start": 14.86,
+   "end": 19.54,
+   "speaker": "Ben",
+   "srt": [
+    3,
+    4,
+    5
+   ],
+   "text": "Und weiter geht's mit unserer Prophylaxen-Reihe. Letztes Mal Dekubitus, heute?",
+   "pitchHz": 135.0
+  },
+  {
+   "start": 19.92,
+   "end": 20.9,
+   "speaker": "Nora",
+   "srt": [
+    6
+   ],
+   "text": "Sturzprophylaxe.",
+   "pitchHz": 172.0,
+   "check": "pitch suggests Ben"
+  },
+  {
+   "start": 21.28,
+   "end": 26.22,
+   "speaker": "Ben",
+   "srt": [
+    7,
+    8,
+    9
+   ],
+   "text": "Oh, das Thema kenn ich gut, weil bei uns auf Station ist das echt an der Tagesordnung.",
+   "pitchHz": 122.1
+  },
+  {
+   "start": 26.3,
+   "end": 34.98,
+   "speaker": "Nora",
+   "srt": [
+    10,
+    11,
+    12,
+    13
+   ],
+   "text": "Ja, Stürze sind eins der häufigsten Ereignisse überhaupt in der Pflege. Also fangen wir mal ganz vorne an: Was ist ein Sturz eigentlich, offiziell?",
+   "pitchHz": 231.9
+  },
+  {
+   "start": 35.34,
+   "end": 37.86,
+   "speaker": "Ben",
+   "srt": [
+    14,
+    15
+   ],
+   "text": "Ich würd sagen, jemand fällt unabsichtlich hin.",
+   "pitchHz": 137.9
+  },
+  {
+   "start": 38.1,
+   "end": 47.8,
+   "speaker": "Nora",
+   "srt": [
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "text": "Genau das: Ein unbeabsichtigtes zu Boden fallen. Die Ursachen können Gangunsicherheit sein, Ausrutschen, Schwindel oder einfach körperliche und geistige Schwäche.",
+   "pitchHz": 225.4
+  },
+  {
+   "start": 48.1,
+   "end": 51.7,
+   "speaker": "Ben",
+   "srt": [
+    21,
+    22
+   ],
+   "text": "Und die Folgen können ja richtig übel sein, nicht nur die Prellung.",
+   "pitchHz": 118.5
+  },
+  {
+   "start": 51.7,
+   "end": 61.6,
+   "speaker": "Nora",
+   "srt": [
+    23,
+    24,
+    25,
+    26
+   ],
+   "text": "Stimmt. Knochenbrüche, klassisch der Oberschenkelhalsbruch, Kopfverletzungen, Schmerzen und, was man oft unterschätzt, die Angst vor weiteren Stürzen danach.",
+   "pitchHz": 216.2
+  },
+  {
+   "start": 61.88,
+   "end": 66.88,
+   "speaker": "Ben",
+   "srt": [
+    27,
+    28,
+    29
+   ],
+   "text": "Und dadurch verliert jemand dann auch an Selbstständigkeit, weil er sich nicht mehr traut, alleine aufzustehen.",
+   "pitchHz": 126.0
+  },
+  {
+   "start": 66.88,
+   "end": 69.64,
+   "speaker": "Nora",
+   "srt": [
+    30,
+    31
+   ],
+   "text": "Genau, das ist eigentlich der Teufelskreis dabei.",
+   "pitchHz": 223.9
+  },
+  {
+   "start": 69.7,
+   "end": 75.26,
+   "speaker": "Ben",
+   "srt": [
+    32,
+    33,
+    34
+   ],
+   "text": "Okay, und wie schätzt man jetzt ein Sturzrisiko überhaupt ein? Gibt's da nicht diese ganzen Skalen?",
+   "pitchHz": 126.0
+  },
+  {
+   "start": 75.52,
+   "end": 86.5,
+   "speaker": "Nora",
+   "srt": [
+    35,
+    36,
+    37,
+    38,
+    39,
+    40
+   ],
+   "text": "Interessanterweise sagt der Expertenstandard vom DNQP, dass es gar kein festes Assessment-Instrument geben muss. Stattdessen soll man jeden Patienten und seine individuelle Situation betrachten.",
+   "pitchHz": 219.2
+  },
+  {
+   "start": 86.5,
+   "end": 87.86,
+   "speaker": "Ben",
+   "srt": [
+    41
+   ],
+   "text": "Wie meinst du das konkret?",
+   "pitchHz": 112.7
+  },
+  {
+   "start": 87.86,
+   "end": 99.06,
+   "speaker": "Nora",
+   "srt": [
+    42,
+    43,
+    44,
+    45,
+    46
+   ],
+   "text": "Es gibt drei Arten von Risikofaktoren, die man checkt. Erstens: personenbezogen. Also zum Beispiel eingeschränkte Gehfähigkeit, Muskelschwäche, Seh- oder Hörstörungen, Demenz.",
+   "pitchHz": 200.0
+  },
+  {
+   "start": 99.06,
+   "end": 99.84,
+   "speaker": "Ben",
+   "srt": [
+    47
+   ],
+   "text": "Zweitens?",
+   "pitchHz": 141.6
+  },
+  {
+   "start": 99.84,
+   "end": 107.96,
+   "speaker": "Nora",
+   "srt": [
+    48,
+    49,
+    50,
+    51
+   ],
+   "text": "Medikamentenbezogen. Also Medikamente, die Schwindel verursachen können oder die Wahrnehmung und Koordination beeinträchtigen, wie Sedativa.",
+   "pitchHz": 213.3
+  },
+  {
+   "start": 107.96,
+   "end": 108.8,
+   "speaker": "Ben",
+   "srt": [
+    52
+   ],
+   "text": "Und drittens?",
+   "pitchHz": 140.5
+  },
+  {
+   "start": 108.82,
+   "end": 113.52,
+   "speaker": "Nora",
+   "srt": [
+    53,
+    54,
+    55
+   ],
+   "text": "Umgebungsbezogen. Zum Beispiel schwache Beleuchtung oder ein unaufgeräumtes Zimmer.",
+   "pitchHz": 205.1
+  },
+  {
+   "start": 113.6,
+   "end": 117.46,
+   "speaker": "Ben",
+   "srt": [
+    56,
+    57
+   ],
+   "text": "Ah, interessant. Also nicht nur der Patient selbst, sondern auch sein Umfeld.",
+   "pitchHz": 139.7
+  },
+  {
+   "start": 117.68,
+   "end": 124.72,
+   "speaker": "Nora",
+   "srt": [
+    58,
+    59,
+    60
+   ],
+   "text": "Genau. Und das macht auch Sinn, weil viele Maßnahmen setzen ja genau da an. Lass uns mal durchgehen, was man konkret tun kann.",
+   "pitchHz": 216.2
+  },
+  {
+   "start": 124.8,
+   "end": 131.46,
+   "speaker": "Ben",
+   "srt": [
+    61,
+    62,
+    63
+   ],
+   "text": "Okay, ich fang an mit dem, was mir sofort einfällt. Stolperfallen beseitigen. Kabel, Teppiche, so was.",
+   "pitchHz": 129.0
+  },
+  {
+   "start": 131.46,
+   "end": 139.98,
+   "speaker": "Nora",
+   "srt": [
+    64,
+    65,
+    66,
+    67
+   ],
+   "text": "Ganz genau. Und auch Schwellen oder Stufenkanten mit Antirutschprofil versehen oder farbig markieren. Und verschüttete Flüssigkeiten sofort aufwischen.",
+   "pitchHz": 216.2
+  },
+  {
+   "start": 140.28,
+   "end": 144.4,
+   "speaker": "Ben",
+   "srt": [
+    68,
+    69
+   ],
+   "text": "Logisch. Pfütze auf dem Boden ist ja quasi eine Einladung zum Ausrutschen.",
+   "pitchHz": 120.3
+  },
+  {
+   "start": 144.4,
+   "end": 152.18,
+   "speaker": "Nora",
+   "srt": [
+    70,
+    71,
+    72,
+    73
+   ],
+   "text": "So ungefähr, ja. Dann Rollstühle, Toilettenstühle, Betten, Personenwagen immer feststellen bei Benutzung.",
+   "pitchHz": 216.2
+  },
+  {
+   "start": 152.5,
+   "end": 158.6,
+   "speaker": "Ben",
+   "srt": [
+    74,
+    75,
+    76
+   ],
+   "text": "Und bewegliche Wagen im Flur, Wäschewagen, Getränkewagen auch feststellen, wenn sie grad nicht gebraucht werden.",
+   "pitchHz": 124.0
+  },
+  {
+   "start": 158.86,
+   "end": 166.52,
+   "speaker": "Nora",
+   "srt": [
+    77,
+    78,
+    79,
+    80
+   ],
+   "text": "Genau. Dann die Betthöhe, die sollte so eingestellt sein, dass ein bequemes Ein- und Aussteigen möglich ist. Nicht zu hoch.",
+   "pitchHz": 238.8
+  },
+  {
+   "start": 166.56,
+   "end": 168.92,
+   "speaker": "Ben",
+   "srt": [
+    81,
+    82
+   ],
+   "text": "Und Schuhwerk. Das wird auch oft unterschätzt.",
+   "pitchHz": 179.8,
+   "check": "pitch suggests Nora"
+  },
+  {
+   "start": 169.18,
+   "end": 180.08,
+   "speaker": "Nora",
+   "srt": [
+    83,
+    84,
+    85,
+    86,
+    87
+   ],
+   "text": "Total. Auf gutes und festes Schuhwerk achten. Und falls nur offene Hausschlappen da sind oder der Patient gar keine Schuhe mitgebracht hat, gibt's Antirutschsocken mit Gummierung an der Sohle.",
+   "pitchHz": 202.5
+  },
+  {
+   "start": 180.08,
+   "end": 182.1,
+   "speaker": "Ben",
+   "srt": [
+    88
+   ],
+   "text": "Gute Lösung für den Klinikalltag.",
+   "pitchHz": 141.0
+  },
+  {
+   "start": 182.1,
+   "end": 192.02,
+   "speaker": "Nora",
+   "srt": [
+    89,
+    90,
+    91,
+    92,
+    93
+   ],
+   "text": "Dann noch Haltegriffe in Dusche und Toilette regelmäßig auf Festigkeit prüfen, auf langen Fluren Sitzmöglichkeiten bereitstellen und für funktionierende Nachtbeleuchtung sorgen.",
+   "pitchHz": 223.8
+  },
+  {
+   "start": 192.34,
+   "end": 195.7,
+   "speaker": "Ben",
+   "srt": [
+    94,
+    95
+   ],
+   "text": "Und was ist mit den Hüftprotektoren? Die hab ich schon öfter gesehen.",
+   "pitchHz": 148.9
+  },
+  {
+   "start": 195.9,
+   "end": 202.66,
+   "speaker": "Nora",
+   "srt": [
+    96,
+    97,
+    98,
+    99
+   ],
+   "text": "Genau, die kann man bei bekannter Sturzneigung anlegen. Die polstern den Oberschenkelhals ab, falls es doch zum Sturz kommt.",
+   "pitchHz": 219.2
+  },
+  {
+   "start": 202.94,
+   "end": 208.1,
+   "speaker": "Ben",
+   "srt": [
+    100,
+    101,
+    102
+   ],
+   "text": "Und bei Medikamenten, da hast du vorhin schon Sedativa erwähnt, aber es gibt noch mehr, oder?",
+   "pitchHz": 133.3
+  },
+  {
+   "start": 208.44,
+   "end": 216.72,
+   "speaker": "Nora",
+   "srt": [
+    103,
+    104,
+    105,
+    106
+   ],
+   "text": "Ja, auch Diuretika und Abführmittel erhöhen das Sturzrisiko, weil der Patient manchmal in großer Eile zur Toilette will und dabei stürzt.",
+   "pitchHz": 225.4
+  },
+  {
+   "start": 216.84,
+   "end": 219.92,
+   "speaker": "Ben",
+   "srt": [
+    107,
+    108
+   ],
+   "text": "Ah, das hätt ich jetzt nicht direkt mit Sturzrisiko verbunden.",
+   "pitchHz": 112.7
+  },
+  {
+   "start": 220.2,
+   "end": 227.92,
+   "speaker": "Nora",
+   "srt": [
+    109,
+    110,
+    111,
+    112
+   ],
+   "text": "Viele nicht. Deshalb in so einem Fall am besten den Toilettenstuhl ans Bett stellen, feststellen und die Armlehnen auf Festigkeit prüfen.",
+   "pitchHz": 228.6
+  },
+  {
+   "start": 228.18,
+   "end": 231.0,
+   "speaker": "Ben",
+   "srt": [
+    113,
+    114
+   ],
+   "text": "Und am Ende natürlich wieder alles dokumentieren.",
+   "pitchHz": 127.5
+  },
+  {
+   "start": 231.18,
+   "end": 235.92,
+   "speaker": "Nora",
+   "srt": [
+    115,
+    116
+   ],
+   "text": "Genau, mit Handzeichen und Uhrzeit. Und ganz wichtiger Merksatz dazu?",
+   "pitchHz": 219.2
+  },
+  {
+   "start": 236.02,
+   "end": 239.94,
+   "speaker": "Ben",
+   "srt": [
+    117,
+    118
+   ],
+   "text": "Lass mich raten: So viel Hilfe wie nötig, so wenig wie möglich.",
+   "pitchHz": 132.2
+  },
+  {
+   "start": 239.94,
+   "end": 242.24,
+   "speaker": "Nora",
+   "srt": [
+    119
+   ],
+   "text": "Genau den meinte ich.",
+   "pitchHz": 231.9
+  },
+  {
+   "start": 242.24,
+   "end": 244.82,
+   "speaker": "Ben",
+   "srt": [
+    120,
+    121
+   ],
+   "text": "Okay, lass uns das mal an einem Fall durchgehen.",
+   "pitchHz": 122.1
+  },
+  {
+   "start": 244.88,
+   "end": 256.26,
+   "speaker": "Nora",
+   "srt": [
+    122,
+    123,
+    124,
+    125,
+    126
+   ],
+   "text": "Gerne. Also, ein Patient nimmt ein Diuretikum, hat schon mal gestürzt und du merkst, das Zimmer ist nachts ziemlich dunkel und zwischen Bett und Tür liegt ein loses Kabel vom Nachttischlämpchen.",
+   "pitchHz": 222.2
+  },
+  {
+   "start": 256.36,
+   "end": 268.64,
+   "speaker": "Ben",
+   "srt": [
+    127,
+    128,
+    129,
+    130,
+    131,
+    132
+   ],
+   "text": "Okay, da sind ja gleich mehrere Risikofaktoren auf einmal. Medikamentenbezogen durchs Diuretikum, personenbezogen, weil schon mal gestürzt und umgebungsbezogen wegen Dunkelheit und Kabel.",
+   "pitchHz": 121.2
+  },
+  {
+   "start": 268.68,
+   "end": 271.0,
+   "speaker": "Nora",
+   "srt": [
+    133
+   ],
+   "text": "Genau erkannt. Und was machst du jetzt?",
+   "pitchHz": 206.5
+  },
+  {
+   "start": 271.28,
+   "end": 279.28,
+   "speaker": "Ben",
+   "srt": [
+    134,
+    135,
+    136,
+    137
+   ],
+   "text": "Kabel wegräumen, Nachtlicht sicherstellen und mit dem Patienten vereinbaren, dass er sich vor dem Aufstehen meldet, besonders wenn er nachts zur Toilette muss.",
+   "pitchHz": 129.0
+  },
+  {
+   "start": 279.54,
+   "end": 284.44,
+   "speaker": "Nora",
+   "srt": [
+    138,
+    139,
+    140
+   ],
+   "text": "Perfekt. Und vielleicht auch den Toilettenstuhl direkt ans Bett stellen, damit der Weg kürzer ist.",
+   "pitchHz": 222.2
+  },
+  {
+   "start": 284.44,
+   "end": 286.02,
+   "speaker": "Ben",
+   "srt": [
+    141
+   ],
+   "text": "Stimmt, guter Zusatz.",
+   "pitchHz": 155.5
+  },
+  {
+   "start": 286.02,
+   "end": 287.68,
+   "speaker": "Nora",
+   "srt": [
+    142
+   ],
+   "text": "Fassen wir noch mal kurz zusammen.",
+   "pitchHz": 219.2
+  },
+  {
+   "start": 287.68,
+   "end": 296.64,
+   "speaker": "Ben",
+   "srt": [
+    143,
+    144,
+    145,
+    146
+   ],
+   "text": "Ein Sturz ist unbeabsichtigtes zu Boden fallen. Die Risikofaktoren teilen sich in personenbezogen, medikamentenbezogen und umgebungsbezogen.",
+   "pitchHz": 131.1
+  },
+  {
+   "start": 296.64,
+   "end": 304.96,
+   "speaker": "Nora",
+   "srt": [
+    147,
+    148,
+    149,
+    150
+   ],
+   "text": "Und die Maßnahmen reichen von Stolperfallen beseitigen über festes Schuhwerk und Hüftprotektoren bis hin zu Beleuchtung und Dokumentation.",
+   "pitchHz": 223.8
+  },
+  {
+   "start": 304.96,
+   "end": 309.64,
+   "speaker": "Ben",
+   "srt": [
+    151,
+    152
+   ],
+   "text": "Und immer dran denken: So viel Hilfe wie nötig, so wenig wie möglich.",
+   "pitchHz": 135.6
+  },
+  {
+   "start": 309.7,
+   "end": 310.88,
+   "speaker": "Nora",
+   "srt": [
+    153
+   ],
+   "text": "Genau so.",
+   "pitchHz": 181.8
+  },
+  {
+   "start": 310.88,
+   "end": 312.98,
+   "speaker": "Ben",
+   "srt": [
+    154
+   ],
+   "text": "So, das war's für heute von uns.",
+   "pitchHz": 116.8
+  },
+  {
+   "start": 312.98,
+   "end": 316.98,
+   "speaker": "Nora",
+   "srt": [
+    155,
+    156
+   ],
+   "text": "Falls ihr bis hierhin durchgehalten habt, Respekt, ehrlich.",
+   "pitchHz": 219.2
+  },
+  {
+   "start": 316.98,
+   "end": 321.22,
+   "speaker": "Ben",
+   "srt": [
+    157,
+    158,
+    159
+   ],
+   "text": "Und falls euch das was gebracht hat für die Ausbildung oder ihr einfach Lust auf mehr habt-",
+   "pitchHz": 141.6
+  },
+  {
+   "start": 321.48,
+   "end": 325.38,
+   "speaker": "Nora",
+   "srt": [
+    160,
+    161
+   ],
+   "text": "Dann abonniert uns gern. Kostet nix und ihr verpasst keine Folge mehr.",
+   "pitchHz": 228.6
+  },
+  {
+   "start": 325.44,
+   "end": 332.0,
+   "speaker": "Ben",
+   "srt": [
+    162,
+    163,
+    164,
+    165
+   ],
+   "text": "Und wenn ihr noch Fragen habt zum Thema oder was unklar war oder ihr wollt einfach mal meckern, dass ich wieder zu viel gequatscht hab-",
+   "pitchHz": 130.6
+  },
+  {
+   "start": 332.0,
+   "end": 334.2,
+   "speaker": "Nora",
+   "srt": [
+    166
+   ],
+   "text": "Was regelmäßig vorkommt.",
+   "pitchHz": 216.2
+  },
+  {
+   "start": 334.2,
+   "end": 337.8,
+   "speaker": "Ben",
+   "srt": [
+    167,
+    168
+   ],
+   "text": "Dann schreibt's einfach in die Kommentare. Wir lesen wirklich alles.",
+   "pitchHz": 127.0
+  },
+  {
+   "start": 337.8,
+   "end": 342.72,
+   "speaker": "Nora",
+   "srt": [
+    169,
+    170,
+    171
+   ],
+   "text": "Stimmt. Und manchmal wird aus euren Fragen sogar die nächste Folge. Also scheut euch nicht.",
+   "pitchHz": 216.2
+  },
+  {
+   "start": 342.78,
+   "end": 346.08,
+   "speaker": "Ben",
+   "srt": [
+    172,
+    173
+   ],
+   "text": "Genau. Bis zum nächsten Mal bei Pflege WG.",
+   "pitchHz": 144.1
+  },
+  {
+   "start": 346.08,
+   "end": 347.72,
+   "speaker": "Nora",
+   "srt": [
+    174
+   ],
+   "text": "Macht's gut. Tschüss zusammen.",
+   "pitchHz": 271.2
+  }
+ ]
+}

@@ -1,0 +1,695 @@
+1
+00:00:00,000 --> 00:00:12,280
+[Musik]
+
+2
+00:00:12,280 --> 00:00:14,420
+Willkommen zurück bei Pflege WG.
+
+3
+00:00:14,860 --> 00:00:16,300
+Und weiter geht's mit unserer
+
+4
+00:00:16,300 --> 00:00:19,200
+Prophylaxen-Reihe. Letztes Mal Dekubitus,
+
+5
+00:00:19,200 --> 00:00:19,540
+heute?
+
+6
+00:00:19,920 --> 00:00:20,900
+Sturzprophylaxe.
+
+7
+00:00:21,280 --> 00:00:23,680
+Oh, das Thema kenn ich gut, weil bei uns
+
+8
+00:00:23,680 --> 00:00:25,240
+auf Station ist das echt an der
+
+9
+00:00:25,240 --> 00:00:26,220
+Tagesordnung.
+
+10
+00:00:26,300 --> 00:00:28,500
+Ja, Stürze sind eins der häufigsten
+
+11
+00:00:28,500 --> 00:00:31,140
+Ereignisse überhaupt in der Pflege. Also
+
+12
+00:00:31,140 --> 00:00:33,380
+fangen wir mal ganz vorne an: Was ist ein
+
+13
+00:00:33,380 --> 00:00:34,980
+Sturz eigentlich, offiziell?
+
+14
+00:00:35,340 --> 00:00:37,600
+Ich würd sagen, jemand fällt unabsichtlich
+
+15
+00:00:37,600 --> 00:00:37,860
+hin.
+
+16
+00:00:38,100 --> 00:00:40,800
+Genau das: Ein unbeabsichtigtes zu Boden
+
+17
+00:00:40,800 --> 00:00:42,520
+fallen. Die Ursachen können
+
+18
+00:00:42,520 --> 00:00:44,760
+Gangunsicherheit sein, Ausrutschen,
+
+19
+00:00:44,760 --> 00:00:47,040
+Schwindel oder einfach körperliche und
+
+20
+00:00:47,040 --> 00:00:47,800
+geistige Schwäche.
+
+21
+00:00:48,100 --> 00:00:50,040
+Und die Folgen können ja richtig übel
+
+22
+00:00:50,040 --> 00:00:51,700
+sein, nicht nur die Prellung.
+
+23
+00:00:51,700 --> 00:00:54,140
+Stimmt. Knochenbrüche, klassisch der
+
+24
+00:00:54,140 --> 00:00:56,720
+Oberschenkelhalsbruch, Kopfverletzungen,
+
+25
+00:00:56,720 --> 00:00:59,580
+Schmerzen und, was man oft unterschätzt,
+
+26
+00:00:59,580 --> 00:01:01,600
+die Angst vor weiteren Stürzen danach.
+
+27
+00:01:01,880 --> 00:01:03,520
+Und dadurch verliert jemand dann auch an
+
+28
+00:01:03,520 --> 00:01:05,300
+Selbstständigkeit, weil er sich nicht mehr
+
+29
+00:01:05,300 --> 00:01:06,880
+traut, alleine aufzustehen.
+
+30
+00:01:06,880 --> 00:01:09,020
+Genau, das ist eigentlich der Teufelskreis
+
+31
+00:01:09,020 --> 00:01:09,640
+dabei.
+
+32
+00:01:09,700 --> 00:01:11,860
+Okay, und wie schätzt man jetzt ein
+
+33
+00:01:11,860 --> 00:01:14,140
+Sturzrisiko überhaupt ein? Gibt's da nicht
+
+34
+00:01:14,140 --> 00:01:15,260
+diese ganzen Skalen?
+
+35
+00:01:15,520 --> 00:01:16,900
+Interessanterweise sagt der
+
+36
+00:01:16,900 --> 00:01:19,760
+Expertenstandard vom DNQP, dass es gar
+
+37
+00:01:19,760 --> 00:01:21,640
+kein festes Assessment-Instrument geben
+
+38
+00:01:21,640 --> 00:01:24,000
+muss. Stattdessen soll man jeden Patienten
+
+39
+00:01:24,000 --> 00:01:25,660
+und seine individuelle Situation
+
+40
+00:01:25,660 --> 00:01:26,500
+betrachten.
+
+41
+00:01:26,500 --> 00:01:27,860
+Wie meinst du das konkret?
+
+42
+00:01:27,860 --> 00:01:29,960
+Es gibt drei Arten von Risikofaktoren, die
+
+43
+00:01:29,960 --> 00:01:32,780
+man checkt. Erstens: personenbezogen.
+
+44
+00:01:32,780 --> 00:01:34,400
+Also zum Beispiel eingeschränkte
+
+45
+00:01:34,400 --> 00:01:37,260
+Gehfähigkeit, Muskelschwäche, Seh- oder
+
+46
+00:01:37,260 --> 00:01:39,060
+Hörstörungen, Demenz.
+
+47
+00:01:39,060 --> 00:01:39,840
+Zweitens?
+
+48
+00:01:39,840 --> 00:01:42,420
+Medikamentenbezogen. Also Medikamente, die
+
+49
+00:01:42,420 --> 00:01:44,400
+Schwindel verursachen können oder die
+
+50
+00:01:44,400 --> 00:01:45,840
+Wahrnehmung und Koordination
+
+51
+00:01:45,840 --> 00:01:47,960
+beeinträchtigen, wie Sedativa.
+
+52
+00:01:47,960 --> 00:01:48,800
+Und drittens?
+
+53
+00:01:48,820 --> 00:01:51,020
+Umgebungsbezogen. Zum Beispiel schwache
+
+54
+00:01:51,020 --> 00:01:52,980
+Beleuchtung oder ein unaufgeräumtes
+
+55
+00:01:52,980 --> 00:01:53,520
+Zimmer.
+
+56
+00:01:53,600 --> 00:01:55,420
+Ah, interessant. Also nicht nur der
+
+57
+00:01:55,420 --> 00:01:57,460
+Patient selbst, sondern auch sein Umfeld.
+
+58
+00:01:57,680 --> 00:01:59,920
+Genau. Und das macht auch Sinn, weil viele
+
+59
+00:01:59,920 --> 00:02:02,600
+Maßnahmen setzen ja genau da an. Lass uns
+
+60
+00:02:02,600 --> 00:02:04,460
+mal durchgehen, was man konkret tun kann.
+
+61
+00:02:04,800 --> 00:02:07,100
+Okay, ich fang an mit dem, was mir sofort
+
+62
+00:02:07,100 --> 00:02:10,039
+einfällt. Stolperfallen beseitigen. Kabel,
+
+63
+00:02:10,039 --> 00:02:11,460
+Teppiche, so was.
+
+64
+00:02:11,460 --> 00:02:13,320
+Ganz genau. Und auch Schwellen oder
+
+65
+00:02:13,320 --> 00:02:15,620
+Stufenkanten mit Antirutschprofil versehen
+
+66
+00:02:15,620 --> 00:02:18,180
+oder farbig markieren. Und verschüttete
+
+67
+00:02:18,180 --> 00:02:19,980
+Flüssigkeiten sofort aufwischen.
+
+68
+00:02:20,280 --> 00:02:22,580
+Logisch. Pfütze auf dem Boden ist ja quasi
+
+69
+00:02:22,580 --> 00:02:24,400
+eine Einladung zum Ausrutschen.
+
+70
+00:02:24,400 --> 00:02:27,080
+[lacht] So ungefähr, ja. Dann
+
+71
+00:02:27,080 --> 00:02:29,480
+Rollstühle, Toilettenstühle, Betten,
+
+72
+00:02:29,480 --> 00:02:31,700
+Personenwagen immer feststellen bei
+
+73
+00:02:31,700 --> 00:02:32,180
+Benutzung.
+
+74
+00:02:32,500 --> 00:02:35,040
+Und bewegliche Wagen im Flur, Wäschewagen,
+
+75
+00:02:35,040 --> 00:02:37,440
+Getränkewagen auch feststellen, wenn sie
+
+76
+00:02:37,440 --> 00:02:38,600
+grad nicht gebraucht werden.
+
+77
+00:02:38,860 --> 00:02:41,720
+Genau. Dann die Betthöhe, die sollte
+
+78
+00:02:41,720 --> 00:02:43,880
+so eingestellt sein, dass ein bequemes
+
+79
+00:02:43,880 --> 00:02:46,040
+Ein- und Aussteigen möglich ist. Nicht zu
+
+80
+00:02:46,040 --> 00:02:46,520
+hoch.
+
+81
+00:02:46,560 --> 00:02:48,320
+Und Schuhwerk. Das wird auch oft
+
+82
+00:02:48,320 --> 00:02:48,920
+unterschätzt.
+
+83
+00:02:49,180 --> 00:02:51,880
+Total. Auf gutes und festes Schuhwerk
+
+84
+00:02:51,880 --> 00:02:54,160
+achten. Und falls nur offene Hausschlappen
+
+85
+00:02:54,160 --> 00:02:56,420
+da sind oder der Patient gar keine Schuhe
+
+86
+00:02:56,420 --> 00:02:58,680
+mitgebracht hat, gibt's Antirutschsocken
+
+87
+00:02:58,680 --> 00:03:00,080
+mit Gummierung an der Sohle.
+
+88
+00:03:00,080 --> 00:03:02,100
+Gute Lösung für den Klinikalltag.
+
+89
+00:03:02,100 --> 00:03:04,240
+Dann noch Haltegriffe in Dusche und
+
+90
+00:03:04,240 --> 00:03:06,540
+Toilette regelmäßig auf Festigkeit prüfen,
+
+91
+00:03:06,540 --> 00:03:08,840
+auf langen Fluren Sitzmöglichkeiten
+
+92
+00:03:08,840 --> 00:03:11,020
+bereitstellen und für funktionierende
+
+93
+00:03:11,020 --> 00:03:12,020
+Nachtbeleuchtung sorgen.
+
+94
+00:03:12,340 --> 00:03:14,620
+Und was ist mit den Hüftprotektoren? Die
+
+95
+00:03:14,620 --> 00:03:15,700
+hab ich schon öfter gesehen.
+
+96
+00:03:15,900 --> 00:03:17,820
+Genau, die kann man bei bekannter
+
+97
+00:03:17,820 --> 00:03:20,060
+Sturzneigung anlegen. Die polstern den
+
+98
+00:03:20,060 --> 00:03:22,060
+Oberschenkelhals ab, falls es doch zum
+
+99
+00:03:22,060 --> 00:03:22,660
+Sturz kommt.
+
+100
+00:03:22,940 --> 00:03:25,120
+Und bei Medikamenten, da hast du vorhin
+
+101
+00:03:25,120 --> 00:03:27,620
+schon Sedativa erwähnt, aber es gibt noch
+
+102
+00:03:27,620 --> 00:03:28,100
+mehr, oder?
+
+103
+00:03:28,440 --> 00:03:30,960
+Ja, auch Diuretika und Abführmittel
+
+104
+00:03:30,980 --> 00:03:33,320
+erhöhen das Sturzrisiko, weil der Patient
+
+105
+00:03:33,320 --> 00:03:35,660
+manchmal in großer Eile zur Toilette will
+
+106
+00:03:35,660 --> 00:03:36,720
+und dabei stürzt.
+
+107
+00:03:36,840 --> 00:03:38,640
+Ah, das hätt ich jetzt nicht direkt mit
+
+108
+00:03:38,640 --> 00:03:39,920
+Sturzrisiko verbunden.
+
+109
+00:03:40,200 --> 00:03:42,640
+Viele nicht. Deshalb in so einem Fall am
+
+110
+00:03:42,640 --> 00:03:44,380
+besten den Toilettenstuhl ans Bett
+
+111
+00:03:44,380 --> 00:03:46,980
+stellen, feststellen und die Armlehnen auf
+
+112
+00:03:46,980 --> 00:03:47,920
+Festigkeit prüfen.
+
+113
+00:03:48,180 --> 00:03:50,200
+Und am Ende natürlich wieder alles
+
+114
+00:03:50,200 --> 00:03:51,000
+dokumentieren.
+
+115
+00:03:51,180 --> 00:03:53,960
+Genau, mit Handzeichen und Uhrzeit. Und
+
+116
+00:03:53,960 --> 00:03:55,920
+ganz wichtiger Merksatz dazu?
+
+117
+00:03:56,020 --> 00:03:58,580
+Lass mich raten: So viel Hilfe wie nötig,
+
+118
+00:03:58,580 --> 00:03:59,940
+so wenig wie möglich.
+
+119
+00:03:59,940 --> 00:04:02,240
+[lacht] Genau den meinte ich.
+
+120
+00:04:02,240 --> 00:04:04,140
+Okay, lass uns das mal an einem Fall
+
+121
+00:04:04,140 --> 00:04:04,820
+durchgehen.
+
+122
+00:04:04,880 --> 00:04:07,480
+Gerne. Also, ein Patient nimmt ein
+
+123
+00:04:07,480 --> 00:04:10,020
+Diuretikum, hat schon mal gestürzt und du
+
+124
+00:04:10,020 --> 00:04:12,100
+merkst, das Zimmer ist nachts ziemlich
+
+125
+00:04:12,100 --> 00:04:14,320
+dunkel und zwischen Bett und Tür liegt ein
+
+126
+00:04:14,320 --> 00:04:16,260
+loses Kabel vom Nachttischlämpchen.
+
+127
+00:04:16,360 --> 00:04:18,660
+Okay, da sind ja gleich mehrere
+
+128
+00:04:18,660 --> 00:04:20,820
+Risikofaktoren auf einmal.
+
+129
+00:04:20,820 --> 00:04:23,380
+Medikamentenbezogen durchs Diuretikum,
+
+130
+00:04:23,380 --> 00:04:25,840
+personenbezogen, weil schon mal gestürzt
+
+131
+00:04:25,840 --> 00:04:28,060
+und umgebungsbezogen wegen Dunkelheit und
+
+132
+00:04:28,060 --> 00:04:28,640
+Kabel.
+
+133
+00:04:28,680 --> 00:04:31,000
+Genau erkannt. Und was machst du jetzt?
+
+134
+00:04:31,280 --> 00:04:33,900
+Kabel wegräumen, Nachtlicht sicherstellen
+
+135
+00:04:33,900 --> 00:04:35,800
+und mit dem Patienten vereinbaren, dass er
+
+136
+00:04:35,800 --> 00:04:38,020
+sich vor dem Aufstehen meldet, besonders
+
+137
+00:04:38,020 --> 00:04:39,280
+wenn er nachts zur Toilette muss.
+
+138
+00:04:39,540 --> 00:04:41,200
+Perfekt. Und vielleicht auch den
+
+139
+00:04:41,200 --> 00:04:43,000
+Toilettenstuhl direkt ans Bett stellen,
+
+140
+00:04:43,000 --> 00:04:44,440
+damit der Weg kürzer ist.
+
+141
+00:04:44,440 --> 00:04:46,020
+Stimmt, guter Zusatz.
+
+142
+00:04:46,020 --> 00:04:47,680
+Fassen wir noch mal kurz zusammen.
+
+143
+00:04:47,680 --> 00:04:50,100
+Ein Sturz ist unbeabsichtigtes zu Boden
+
+144
+00:04:50,100 --> 00:04:52,580
+fallen. Die Risikofaktoren teilen sich in
+
+145
+00:04:52,580 --> 00:04:55,380
+personenbezogen, medikamentenbezogen und
+
+146
+00:04:55,380 --> 00:04:56,640
+umgebungsbezogen.
+
+147
+00:04:56,640 --> 00:04:58,240
+Und die Maßnahmen reichen von
+
+148
+00:04:58,240 --> 00:05:00,600
+Stolperfallen beseitigen über festes
+
+149
+00:05:00,600 --> 00:05:03,040
+Schuhwerk und Hüftprotektoren bis hin zu
+
+150
+00:05:03,040 --> 00:05:04,960
+Beleuchtung und Dokumentation.
+
+151
+00:05:04,960 --> 00:05:07,480
+Und immer dran denken: So viel Hilfe wie
+
+152
+00:05:07,480 --> 00:05:09,640
+nötig, so wenig wie möglich.
+
+153
+00:05:09,700 --> 00:05:10,880
+Genau so.
+
+154
+00:05:10,880 --> 00:05:12,980
+So, das war's für heute von uns.
+
+155
+00:05:12,980 --> 00:05:14,900
+Falls ihr bis hierhin durchgehalten habt,
+
+156
+00:05:14,900 --> 00:05:16,980
+[lacht] Respekt, ehrlich.
+
+157
+00:05:16,980 --> 00:05:18,560
+Und falls euch das was gebracht hat für
+
+158
+00:05:18,580 --> 00:05:20,760
+die Ausbildung oder ihr einfach Lust auf
+
+159
+00:05:20,760 --> 00:05:21,220
+mehr habt-
+
+160
+00:05:21,480 --> 00:05:23,800
+Dann abonniert uns gern. Kostet nix und
+
+161
+00:05:23,800 --> 00:05:25,380
+ihr verpasst keine Folge mehr.
+
+162
+00:05:25,440 --> 00:05:27,340
+Und wenn ihr noch Fragen habt zum Thema
+
+163
+00:05:27,340 --> 00:05:29,760
+oder was unklar war oder ihr wollt einfach
+
+164
+00:05:29,760 --> 00:05:31,180
+mal meckern, dass ich wieder zu viel
+
+165
+00:05:31,180 --> 00:05:32,000
+gequatscht hab-
+
+166
+00:05:32,000 --> 00:05:34,200
+[lacht] Was regelmäßig vorkommt.
+
+167
+00:05:34,200 --> 00:05:36,160
+Dann schreibt's einfach in die Kommentare.
+
+168
+00:05:36,160 --> 00:05:37,800
+Wir lesen wirklich alles.
+
+169
+00:05:37,800 --> 00:05:40,100
+Stimmt. Und manchmal wird aus euren Fragen
+
+170
+00:05:40,100 --> 00:05:42,320
+sogar die nächste Folge. Also scheut euch
+
+171
+00:05:42,320 --> 00:05:42,720
+nicht.
+
+172
+00:05:42,780 --> 00:05:45,460
+Genau. Bis zum nächsten Mal bei Pflege
+
+173
+00:05:45,460 --> 00:05:46,080
+WG.
+
+174
+00:05:46,080 --> 00:05:47,720
+Macht's gut. Tschüss zusammen.

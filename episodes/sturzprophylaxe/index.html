@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <title>Pflege-WG #2 · Sturzprophylaxe</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/vendor/gsap.min.js"></script>
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/shots.js"></script>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="348.55" data-width="1920" data-height="1080">
+      <!-- Background: cream + dot grid (2D scenes) / brand green (outro) -->
+      <div id="bg" class="layer clip" data-start="0" data-duration="348.55" data-track-index="0">
+        <div class="dots"></div>
+        <div class="blob b1"></div>
+        <div class="blob b2"></div>
+        <div class="blob b3"></div>
+        <div class="green"></div>
+      </div>
+
+      <!-- 3D world (Three.js, rendered from HyperFrames time) -->
+      <div id="world-clip" class="layer clip" data-start="0" data-duration="348.55" data-track-index="1">
+        <div id="world" class="layer"><canvas id="gl" width="1920" height="1080" data-layout-allow-occlusion></canvas></div>
+      </div>
+
+      <!-- Speaker orbs (Nora / Ben), driven by the precomputed loudness envelope -->
+      <div id="orb-clip" class="layer clip" data-start="0" data-duration="348.55" data-track-index="3">
+        <div id="dock" class="glass frost"></div>
+        <canvas id="orbs" width="1920" height="1080" data-layout-allow-occlusion></canvas>
+      </div>
+
+      <!-- 2D scenes -->
+      <div id="stage" class="layer clip" data-start="0" data-duration="348.55" data-track-index="2">
+        <!-- 0 · Intro -->
+        <section id="s-intro" class="scene dark">
+          <div id="i-shade" class="layer" style="background: radial-gradient(70% 60% at 50% 45%, rgba(6, 16, 26, 0.55), rgba(6, 16, 26, 0.15) 70%, rgba(6, 16, 26, 0) 100%)"></div>
+          <div id="i-brand" style="position: absolute; top: 96px; left: 0; right: 0; display: flex; justify-content: center; align-items: center; gap: 22px">
+            <img src="assets/brand/mark-white.png" alt="" style="width: 104px; height: auto; display: block" />
+            <div class="wordmark" style="font-size: 54px; color: #fff">PFLEGE-<span class="wg">WG</span></div>
+          </div>
+          <div style="position: absolute; top: 300px; left: 0; right: 0; display: flex; flex-direction: column; align-items: center; gap: 30px">
+            <div id="i-reihe" class="chip" style="background: rgba(255, 255, 255, 0.14); border: 1.5px solid rgba(255, 255, 255, 0.4); color: #fff; letter-spacing: 0.14em; text-transform: uppercase; font-size: 30px">Prophylaxen-Reihe · Folge 2</div>
+            <div id="i-title" style="font-weight: 900; font-size: 150px; letter-spacing: -0.02em; color: #fff; text-shadow: 0 8px 50px rgba(0, 0, 0, 0.45)">Sturzprophylaxe</div>
+          </div>
+          <div id="i-haeufig" style="position: absolute; bottom: 70px; left: 0; right: 0; display: flex; justify-content: center">
+            <div class="glass night frost card" style="padding: 22px 34px"><span class="mid">Stürze: eins der häufigsten Ereignisse in der Pflege</span></div>
+          </div>
+        </section>
+
+        <!-- 1 · Was ist ein Sturz? -->
+        <section id="s-def" class="scene">
+          <div class="hdr">
+            <div class="tag"><i></i>Grundlagen</div>
+            <div class="h1">Was ist ein Sturz?</div>
+          </div>
+          <div id="d-def" class="glass card" style="position: absolute; left: 120px; top: 330px; width: 760px; padding: 44px 48px">
+            <div class="lbl">Definition</div>
+            <div class="big">Ein <span style="color: var(--green)">unbeabsichtigtes</span> zu Boden fallen</div>
+          </div>
+          <div id="d-urs" class="glass card" style="position: absolute; left: 960px; top: 330px; width: 840px; padding: 40px 46px">
+            <div class="lbl">Ursachen</div>
+            <div class="rows" style="margin-top: 12px; gap: 22px">
+              <div class="row" id="d-u1"><div class="dot"></div><div class="t">Gangunsicherheit</div></div>
+              <div class="row" id="d-u2"><div class="dot"></div><div class="t">Ausrutschen</div></div>
+              <div class="row" id="d-u3"><div class="dot"></div><div class="t">Schwindel</div></div>
+              <div class="row" id="d-u4"><div class="dot"></div><div class="t">Körperliche &amp; geistige Schwäche</div></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 2 · Folgen (3D femur) -->
+        <section id="s-folgen" class="scene">
+          <div class="hdr">
+            <div class="tag red"><i></i>Folgen</div>
+            <div class="h1">Was ein Sturz anrichtet</div>
+          </div>
+          <div class="glass frost card" style="position: absolute; right: 100px; top: 230px; width: 760px; padding: 34px 40px">
+            <div class="rows" style="gap: 16px">
+              <div class="row" id="f1"><div class="dot"></div><div class="t">Prellungen</div></div>
+              <div class="row" id="f2"><div class="dot"></div><div class="t">Knochenbrüche</div></div>
+              <div class="row" id="f3" style="padding-left: 36px"><div class="dot" style="background: var(--red)"></div><div><div class="t" style="color: var(--red)">Oberschenkelhalsbruch</div><div class="s">klassisch</div></div></div>
+              <div class="row" id="f4"><div class="dot"></div><div class="t">Kopfverletzungen</div></div>
+              <div class="row" id="f5"><div class="dot"></div><div class="t">Schmerzen</div></div>
+              <div class="row" id="f6"><div class="dot" style="background: var(--gold)"></div><div><div class="t">Angst vor weiteren Stürzen</div><div class="s" id="f6s">oft unterschätzt</div></div></div>
+              <div class="row" id="f7"><div class="dot" style="background: var(--gold)"></div><div><div class="t">Weniger Selbstständigkeit</div><div class="s">traut sich nicht mehr, allein aufzustehen</div></div></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 3 · Teufelskreis -->
+        <section id="s-kreis" class="scene">
+          <div class="hdr">
+            <div class="tag gold"><i></i>Folgen</div>
+            <div class="h1">Der Teufelskreis</div>
+          </div>
+          <svg id="k-svg" width="1920" height="1080" viewBox="0 0 1920 1080" style="position: absolute; inset: 0">
+            <defs>
+              <marker id="k-arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0F5C3A" /></marker>
+            </defs>
+            <circle cx="960" cy="610" r="250" fill="none" stroke="rgba(15,92,58,.12)" stroke-width="40" />
+            <path id="k-a1" d="M1060 382 A250 250 0 0 1 1176 735" fill="none" stroke="#0F5C3A" stroke-width="7" stroke-linecap="round" marker-end="url(#k-arrow)" />
+            <path id="k-a2" d="M1070 836 A250 250 0 0 1 850 836" fill="none" stroke="#0F5C3A" stroke-width="7" stroke-linecap="round" marker-end="url(#k-arrow)" />
+            <path id="k-a3" d="M744 735 A250 250 0 0 1 860 382" fill="none" stroke="#0F5C3A" stroke-width="7" stroke-linecap="round" marker-end="url(#k-arrow)" />
+            <circle id="k-runner" cx="960" cy="360" r="14" fill="#F4C430" />
+          </svg>
+          <div id="k-n1" class="glass card" style="position: absolute; left: 810px; top: 300px; width: 300px; text-align: center; padding: 22px"><div class="big" style="font-size: 46px">Sturz</div></div>
+          <div id="k-n2" class="glass card" style="position: absolute; left: 1150px; top: 720px; width: 360px; text-align: center; padding: 22px"><div class="big" style="font-size: 46px">Angst</div></div>
+          <div id="k-n3" class="glass card" style="position: absolute; left: 410px; top: 720px; width: 420px; text-align: center; padding: 22px"><div class="big" style="font-size: 42px">weniger Bewegung</div></div>
+          <div id="k-q" style="position: absolute; left: 0; right: 0; bottom: 60px; display: flex; justify-content: center">
+            <div class="chip ink">Wie schätzt man das Sturzrisiko ein?</div>
+          </div>
+        </section>
+
+        <!-- 4 · DNQP -->
+        <section id="s-dnqp" class="scene">
+          <div class="hdr">
+            <div class="tag"><i></i>Risiko einschätzen</div>
+            <div class="h1">Expertenstandard <span style="color: var(--green)">DNQP</span></div>
+          </div>
+          <div id="q-skalen" class="chip" style="position: absolute; left: 120px; top: 340px; background: rgba(217, 54, 43, 0.1); color: var(--red); border: 2px solid rgba(217, 54, 43, 0.35)">Feste Skala?<span style="font-weight: 800">✕</span></div>
+          <div id="q-kein" class="glass card" style="position: absolute; left: 120px; top: 460px; width: 820px; padding: 40px 46px">
+            <div class="lbl">Merke</div>
+            <div class="mid">Kein festes Assessment-Instrument nötig</div>
+          </div>
+          <div id="q-indiv" class="glass card" style="position: absolute; left: 1000px; top: 460px; width: 800px; padding: 40px 46px; border-color: rgba(46, 204, 145, 0.9)">
+            <div class="lbl">Stattdessen</div>
+            <div class="mid">Jeden Patienten und seine individuelle Situation betrachten</div>
+          </div>
+        </section>
+
+        <!-- 5 · Drei Arten von Risikofaktoren (3D plinths) -->
+        <section id="s-risk" class="scene">
+          <div class="hdr">
+            <div class="tag gold"><i></i>Risikofaktoren</div>
+            <div class="h1">Drei Arten von Risikofaktoren</div>
+          </div>
+          <div style="position: absolute; left: 100px; right: 100px; top: 640px; display: flex; gap: 36px">
+            <div id="r-c1" class="glass frost card" style="flex: 1; padding: 28px 32px">
+              <div class="lbl">Risikofaktor 1</div>
+              <div class="mid" style="font-size: 40px">Personenbezogen</div>
+              <div class="sub" style="margin-top: 10px; font-size: 27px"><span id="r-p1">eingeschränkte Gehfähigkeit</span><span id="r-p2"> · Muskelschwäche</span><span id="r-p3"> · Seh- oder Hörstörungen</span><span id="r-p4"> · Demenz</span></div>
+            </div>
+            <div id="r-c2" class="glass frost card" style="flex: 1; padding: 28px 32px">
+              <div class="lbl">Risikofaktor 2</div>
+              <div class="mid" style="font-size: 40px">Medikamentenbezogen</div>
+              <div class="sub" style="margin-top: 10px; font-size: 27px"><span id="r-m1">verursachen Schwindel</span><span id="r-m2"> · beeinträchtigen Wahrnehmung &amp; Koordination</span><span id="r-m3"> · z. B. Sedativa</span></div>
+            </div>
+            <div id="r-c3" class="glass frost card" style="flex: 1; padding: 28px 32px">
+              <div class="lbl">Risikofaktor 3</div>
+              <div class="mid" style="font-size: 40px">Umgebungsbezogen</div>
+              <div class="sub" style="margin-top: 10px; font-size: 27px"><span id="r-u1">schwache Beleuchtung</span><span id="r-u2"> · unaufgeräumtes Zimmer</span></div>
+            </div>
+          </div>
+          <div id="r-umfeld" style="position: absolute; left: 0; right: 0; top: 230px; display: flex; justify-content: center">
+            <div class="chip ink">Nicht nur der Patient selbst – auch sein Umfeld</div>
+          </div>
+        </section>
+
+        <!-- 6 · Umgebung (3D room) -->
+        <section id="s-env" class="scene">
+          <div class="hdr">
+            <div class="tag"><i></i>Maßnahme · Umgebung</div>
+            <div class="h1">Was man konkret tun kann</div>
+          </div>
+          <div class="glass frost card" style="position: absolute; right: 90px; top: 236px; width: 690px; padding: 14px 34px">
+            <div class="check" id="e1"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 17 L13.5 23 L25 10" /></svg></div><div><div class="t">Stolperfallen beseitigen</div><div class="s">Kabel, Teppiche</div></div></div>
+            <div class="check" id="e2"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 17 L13.5 23 L25 10" /></svg></div><div><div class="t">Schwellen &amp; Stufenkanten sichern</div><div class="s">Antirutschprofil oder farbig markieren</div></div></div>
+            <div class="check" id="e3"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 17 L13.5 23 L25 10" /></svg></div><div><div class="t">Verschüttetes sofort aufwischen</div></div></div>
+            <div class="check" id="e4"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 17 L13.5 23 L25 10" /></svg></div><div><div class="t">Rollstühle, Toilettenstühle &amp; Betten feststellen</div></div></div>
+            <div class="check" id="e5"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 17 L13.5 23 L25 10" /></svg></div><div><div class="t">Wagen im Flur feststellen</div></div></div>
+            <div class="check" id="e6"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 17 L13.5 23 L25 10" /></svg></div><div><div class="t">Betthöhe anpassen</div><div class="s">bequemes Ein- und Aussteigen, nicht zu hoch</div></div></div>
+          </div>
+        </section>
+
+        <!-- 7 · Schuhwerk (3D sock) -->
+        <section id="s-sock" class="scene">
+          <div class="hdr">
+            <div class="tag"><i></i>Maßnahme</div>
+            <div class="h1">Schuhwerk</div>
+          </div>
+          <div class="glass frost card" style="position: absolute; right: 110px; top: 300px; width: 760px; padding: 36px 42px">
+            <div class="rows" style="gap: 26px">
+              <div class="row" id="k1"><div class="dot"></div><div class="t">Gutes, festes Schuhwerk</div></div>
+              <div class="row" id="k2"><div class="dot" style="background: var(--gold)"></div><div><div class="t">Nur Hausschlappen oder keine Schuhe?</div></div></div>
+              <div class="row" id="k3"><div class="dot"></div><div><div class="t">Antirutschsocken</div><div class="s" id="k3s">mit Gummierung an der Sohle</div></div></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 8 · Umgebung 2 (3D room) -->
+        <section id="s-env2" class="scene">
+          <div class="hdr">
+            <div class="tag"><i></i>Maßnahme · Umgebung</div>
+            <div class="h1">Was man konkret tun kann</div>
+          </div>
+          <div class="glass frost card" style="position: absolute; right: 90px; top: 250px; width: 690px; padding: 18px 34px">
+            <div class="check" id="g1"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 17 L13.5 23 L25 10" /></svg></div><div><div class="t">Haltegriffe prüfen</div><div class="s">in Dusche &amp; Toilette, regelmäßig auf Festigkeit</div></div></div>
+            <div class="check" id="g2"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 17 L13.5 23 L25 10" /></svg></div><div><div class="t">Sitzmöglichkeiten bereitstellen</div><div class="s">auf langen Fluren</div></div></div>
+            <div class="check" id="g3"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 17 L13.5 23 L25 10" /></svg></div><div><div class="t">Funktionierende Nachtbeleuchtung</div></div></div>
+          </div>
+        </section>
+
+        <!-- 9 · Hüftprotektoren (3D pad) -->
+        <section id="s-hip" class="scene">
+          <div class="hdr">
+            <div class="tag"><i></i>Maßnahme</div>
+            <div class="h1">Hüftprotektoren</div>
+          </div>
+          <div class="glass frost card" style="position: absolute; right: 110px; top: 330px; width: 720px; padding: 36px 42px">
+            <div class="rows" style="gap: 26px">
+              <div class="row" id="h1"><div class="dot" style="background: var(--gold)"></div><div class="t">Bei bekannter Sturzneigung</div></div>
+              <div class="row" id="h2"><div class="dot"></div><div class="t">Polstern den Oberschenkelhals ab</div></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 10 · Medikamente (2D) -->
+        <section id="s-meds" class="scene">
+          <div class="hdr">
+            <div class="tag red"><i></i>Risikofaktor · Medikamente</div>
+            <div class="h1">Nicht nur Sedativa</div>
+          </div>
+          <div style="position: absolute; left: 120px; top: 340px; display: flex; gap: 26px">
+            <div id="m1" class="glass card" style="padding: 26px 40px"><div class="mid">Sedativa</div></div>
+            <div id="m2" class="glass card" style="padding: 26px 40px; border-color: rgba(217, 54, 43, 0.6)"><div class="mid">Diuretika</div></div>
+            <div id="m3" class="glass card" style="padding: 26px 40px; border-color: rgba(217, 54, 43, 0.6)"><div class="mid">Abführmittel</div></div>
+          </div>
+          <div id="m4" class="glass card" style="position: absolute; left: 120px; top: 560px; width: 1100px; padding: 36px 44px">
+            <div class="lbl" style="color: var(--red)">Warum?</div>
+            <div class="mid">In großer Eile zur Toilette – und dabei stürzen</div>
+          </div>
+        </section>
+
+        <!-- 11 · Toilettenstuhl (3D room) -->
+        <section id="s-meds3d" class="scene">
+          <div class="hdr">
+            <div class="tag"><i></i>Maßnahme · Diuretika &amp; Abführmittel</div>
+            <div class="h1">Toilettenstuhl ans Bett</div>
+          </div>
+          <div class="glass frost card" style="position: absolute; right: 90px; top: 280px; width: 660px; padding: 18px 34px">
+            <div class="check" id="t1"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 17 L13.5 23 L25 10" /></svg></div><div><div class="t">Ans Bett stellen</div></div></div>
+            <div class="check" id="t2"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 17 L13.5 23 L25 10" /></svg></div><div><div class="t">Feststellen</div></div></div>
+            <div class="check" id="t3"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 17 L13.5 23 L25 10" /></svg></div><div><div class="t">Armlehnen auf Festigkeit prüfen</div></div></div>
+          </div>
+        </section>
+
+        <!-- 12 · Dokumentation + Merksatz -->
+        <section id="s-doku" class="scene">
+          <div class="hdr">
+            <div class="tag"><i></i>Maßnahme</div>
+            <div class="h1">Alles dokumentieren</div>
+          </div>
+          <div id="o-doc" class="glass card" style="position: absolute; left: 120px; top: 320px; width: 700px; padding: 40px 46px; display: flex; gap: 30px; align-items: center">
+            <svg width="96" height="96" viewBox="0 0 64 64" fill="none" stroke="#1B8F5A" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><rect x="13" y="11" width="38" height="47" rx="5" /><rect x="23" y="6" width="18" height="9" rx="3" /><path d="M21 27H43M21 35H43M21 43H33" /><path d="M37 47L41 51L49 42" /></svg>
+            <div><div class="mid">mit Handzeichen</div><div class="mid" style="color: var(--green)">und Uhrzeit</div></div>
+          </div>
+          <div id="o-merk" class="glass card" style="position: absolute; left: 120px; right: 120px; top: 600px; padding: 44px 56px; border: 3px solid var(--mint)">
+            <div class="lbl">Merke</div>
+            <div class="marker" style="font-size: 76px; line-height: 1.1; color: var(--deep)">„So viel Hilfe wie nötig, so wenig wie möglich.“</div>
+          </div>
+        </section>
+
+        <!-- 13 · Fallbeispiel (3D night room) -->
+        <section id="s-case" class="scene dark">
+          <div class="hdr">
+            <div class="tag"><i></i>Fallbeispiel</div>
+            <div class="h1">Ein Patient, nachts</div>
+          </div>
+          <div id="c-facts" class="glass night frost card" style="position: absolute; left: 110px; top: 270px; width: 600px; padding: 28px 34px">
+            <div class="lbl">Situation</div>
+            <div class="rows" style="gap: 14px">
+              <div class="row" id="c1"><div class="dot"></div><div class="t" style="font-size: 31px">Nimmt ein Diuretikum</div></div>
+              <div class="row" id="c2"><div class="dot"></div><div class="t" style="font-size: 31px">Ist schon mal gestürzt</div></div>
+              <div class="row" id="c3"><div class="dot"></div><div class="t" style="font-size: 31px">Zimmer nachts ziemlich dunkel</div></div>
+              <div class="row" id="c4"><div class="dot"></div><div class="t" style="font-size: 31px">Loses Kabel zwischen Bett und Tür</div></div>
+            </div>
+          </div>
+          <div id="c-sol" class="glass night frost card" style="position: absolute; right: 90px; top: 270px; width: 640px; padding: 16px 32px">
+            <div class="check" id="cs1"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 17 L13.5 23 L25 10" /></svg></div><div><div class="t">Kabel wegräumen</div></div></div>
+            <div class="check" id="cs2"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 17 L13.5 23 L25 10" /></svg></div><div><div class="t">Nachtlicht sicherstellen</div></div></div>
+            <div class="check" id="cs3"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 17 L13.5 23 L25 10" /></svg></div><div><div class="t">Vor dem Aufstehen melden</div><div class="s">besonders nachts zur Toilette</div></div></div>
+            <div class="check" id="cs4"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 17 L13.5 23 L25 10" /></svg></div><div><div class="t">Toilettenstuhl direkt ans Bett</div><div class="s">damit der Weg kürzer ist</div></div></div>
+          </div>
+          <!-- labels anchored to 3D points (positions set by world3d.js) -->
+          <div id="a-med" class="anchor left"><div class="pin"></div><div class="lab glass night"><div class="lbl" style="margin: 0">Medikamentenbezogen</div><div class="sub" style="font-size: 24px">Diuretikum</div></div></div>
+          <div id="a-person" class="anchor"><div class="pin"></div><div class="lab glass night"><div class="lbl" style="margin: 0">Personenbezogen</div><div class="sub" style="font-size: 24px">schon mal gestürzt</div></div></div>
+          <div id="a-umg" class="anchor below"><div class="pin"></div><div class="lab glass night"><div class="lbl" style="margin: 0">Umgebungsbezogen</div><div class="sub" style="font-size: 24px">Dunkelheit &amp; Kabel</div></div></div>
+        </section>
+
+        <!-- 14 · Zusammenfassung -->
+        <section id="s-sum" class="scene">
+          <div class="hdr">
+            <div class="tag"><i></i>Zusammenfassung</div>
+            <div class="h1">Kurz zusammengefasst</div>
+          </div>
+          <div id="z-cards" style="position: absolute; left: 110px; right: 110px; top: 300px; display: flex; gap: 30px; align-items: flex-start">
+            <div id="z1" class="glass card" style="flex: 1; padding: 32px 36px">
+              <div class="lbl">Sturz</div>
+              <div class="mid">Unbeabsichtigtes zu Boden fallen</div>
+            </div>
+            <div id="z2" class="glass card" style="flex: 1; padding: 32px 36px">
+              <div class="lbl">Risikofaktoren</div>
+              <div class="rows" style="gap: 10px">
+                <div class="row"><div class="dot"></div><div class="t" style="font-size: 31px">personenbezogen</div></div>
+                <div class="row"><div class="dot"></div><div class="t" style="font-size: 31px">medikamentenbezogen</div></div>
+                <div class="row"><div class="dot"></div><div class="t" style="font-size: 31px">umgebungsbezogen</div></div>
+              </div>
+            </div>
+            <div id="z3" class="glass card" style="flex: 1.15; padding: 32px 36px">
+              <div class="lbl">Maßnahmen</div>
+              <div class="rows" style="gap: 10px">
+                <div class="row" id="z3a"><div class="dot"></div><div class="t" style="font-size: 31px">Stolperfallen beseitigen</div></div>
+                <div class="row" id="z3b"><div class="dot"></div><div class="t" style="font-size: 31px">Festes Schuhwerk</div></div>
+                <div class="row" id="z3c"><div class="dot"></div><div class="t" style="font-size: 31px">Hüftprotektoren</div></div>
+                <div class="row" id="z3d"><div class="dot"></div><div class="t" style="font-size: 31px">Beleuchtung</div></div>
+                <div class="row" id="z3e"><div class="dot"></div><div class="t" style="font-size: 31px">Dokumentation</div></div>
+              </div>
+            </div>
+          </div>
+          <div id="z-quote" class="glass card" style="position: absolute; left: 200px; right: 200px; top: 300px; padding: 60px 70px; border: 3px solid var(--mint); text-align: center">
+            <div class="lbl">Immer dran denken</div>
+            <div class="marker" style="font-size: 92px; line-height: 1.1; color: var(--deep)">„So viel Hilfe wie nötig, so wenig wie möglich.“</div>
+          </div>
+        </section>
+
+        <!-- 15 · Outro / end card -->
+        <section id="s-outro" class="scene">
+          <div id="o-brand" style="position: absolute; top: 80px; left: 0; right: 0; display: flex; flex-direction: column; align-items: center; gap: 22px">
+            <img src="assets/brand/mark-black.png" alt="" style="width: 150px; height: auto; display: block" />
+            <div class="wordmark" style="font-size: 84px">PFLEGE-<span class="wg">WG</span></div>
+          </div>
+          <div style="position: absolute; top: 730px; left: 0; right: 0; display: flex; justify-content: center; gap: 30px">
+            <div id="o-abo" class="chip ink" style="font-size: 36px; padding: 20px 40px">Abonniert uns gern</div>
+            <div id="o-kom" class="chip" style="font-size: 36px; padding: 20px 40px; background: rgba(255, 255, 255, 0.85); color: var(--ink)">Schreibt's in die Kommentare</div>
+          </div>
+          <div id="o-next" class="glass card" style="position: absolute; left: 0; right: 0; margin: 0 auto; top: 860px; width: 760px; padding: 22px 34px; display: flex; align-items: center; gap: 22px">
+            <div class="lbl" style="margin: 0; color: var(--deep)">Nächste Folge</div>
+            <div class="mid" style="font-size: 38px">Pneumonieprophylaxe</div>
+          </div>
+          <div id="o-bye" class="marker" style="position: absolute; left: 0; right: 0; top: 615px; text-align: center; font-size: 60px; color: var(--ink)">Bis zum nächsten Mal bei Pflege-WG</div>
+        </section>
+
+        <!-- watermark (content scenes) -->
+        <div id="wm">
+          <img src="assets/brand/mark-black-small.png" alt="" />
+          <div class="wordmark" style="font-size: 30px">PFLEGE-<span class="wg" style="color: var(--green)">WG</span></div>
+        </div>
+
+        <!-- cut dip between 3D shots -->
+        <div id="dip" class="layer" style="background: var(--cream); opacity: 0"></div>
+      </div>
+
+
+      <audio id="voice" src="assets/audio/sturzprophylaxe.mp3" data-start="0" data-duration="348.55" data-track-index="4" data-volume="1"></audio>
+    </div>
+
+    <script type="importmap">
+      { "imports": { "three": "./assets/vendor/three.module.js" } }
+    </script>
+    <script type="module" src="assets/js/world3d.js"></script>
+    <script src="assets/js/orbs.js"></script>
+    <script src="assets/js/timeline.js"></script>
+    <script>
+      window.__timelines["main"] = window.__pwgTimeline;
+    </script>
+  </body>
+</html>
