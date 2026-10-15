@@ -19,9 +19,15 @@ const P = (t, a, d = 1) => ease((t - a) / d); // eased 0→1 progress starting a
 const lerp = (a, b, k) => a + (b - a) * k;
 const TAU = Math.PI * 2;
 
+// "draft" renders the 3D at half resolution with lighter shadows (fast review renders);
+// the final render uses full resolution. Read once — variables never change mid-render.
+const VARS = (window.__hyperframes && window.__hyperframes.getVariables && window.__hyperframes.getVariables()) || {};
+const DRAFT = VARS.quality === "draft";
+const RES = DRAFT ? 0.5 : 1;
+const SHADOW = DRAFT ? 1024 : 2048;
 const canvas = document.getElementById("gl");
-const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, preserveDrawingBuffer: true });
-renderer.setSize(W, H, false);
+const renderer = new THREE.WebGLRenderer({ canvas, antialias: !DRAFT, preserveDrawingBuffer: true });
+renderer.setSize(W * RES, H * RES, false);
 renderer.setPixelRatio(1);
 renderer.shadowMap.enabled = true;
 renderer.shadowMap.type = THREE.PCFSoftShadowMap;
@@ -55,7 +61,7 @@ function studioScene(bg) {
   const key = new THREE.DirectionalLight(0xffffff, 2.2);
   key.position.set(3.5, 7, 5);
   key.castShadow = true;
-  key.shadow.mapSize.set(2048, 2048);
+  key.shadow.mapSize.set(SHADOW, SHADOW);
   key.shadow.radius = 6;
   Object.assign(key.shadow.camera, { left: -5, right: 5, top: 5, bottom: -5, near: 0.5, far: 25 });
   key.shadow.bias = -0.0004;
@@ -233,7 +239,7 @@ const R = {};
   s.add(R.hemi);
   R.key = new THREE.DirectionalLight(0xffffff, 2.0);
   R.key.castShadow = true;
-  R.key.shadow.mapSize.set(2048, 2048);
+  R.key.shadow.mapSize.set(SHADOW, SHADOW);
   R.key.shadow.radius = 5;
   Object.assign(R.key.shadow.camera, { left: -6, right: 6, top: 6, bottom: -6, near: 0.5, far: 30 });
   R.key.shadow.bias = -0.0004;
@@ -243,7 +249,7 @@ const R = {};
   R.spot.position.set(-1.6, 3.6, 0.2);
   R.spot.target.position.set(-1.7, 0, 0.1);
   R.spot.castShadow = true;
-  R.spot.shadow.mapSize.set(1024, 1024);
+  R.spot.shadow.mapSize.set(SHADOW / 2, SHADOW / 2);
   s.add(R.spot);
   s.add(R.spot.target);
   R.beam = add(s, new THREE.ConeGeometry(1.25, 3.6, 48, 1, true), new THREE.MeshBasicMaterial({ color: 0xcfe2ff, transparent: true, opacity: 0, depthWrite: false, blending: THREE.AdditiveBlending, side: THREE.DoubleSide }), [-1.65, 1.8, 0.15], [0, 0, 0], { cast: false, recv: false });
