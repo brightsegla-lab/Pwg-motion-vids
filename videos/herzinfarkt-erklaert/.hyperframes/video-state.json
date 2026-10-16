@@ -1,0 +1,787 @@
+{
+  "version": 1,
+  "historyId": "216c1f17-6102-4010-8f0f-960699ef41cd",
+  "currentRevision": "70f45507-e846-4d89-8dba-d527b6b23b50",
+  "pendingChanges": false,
+  "files": {
+    "AGENTS.md": {
+      "hash": "1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/1d/1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5"
+    },
+    "BRIEF.md": {
+      "hash": "72d699650fb384083aa93a205775d24e6a3ab1692ee7d594c25ef7f385bbb24f",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/72/72d699650fb384083aa93a205775d24e6a3ab1692ee7d594c25ef7f385bbb24f"
+    },
+    "CLAUDE.md": {
+      "hash": "1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/1d/1d4f0c8ca2507b94fd7c9df709fff01416adbd51a0f922b9d6ed2f40129147d5"
+    },
+    "SCRIPT.md": {
+      "hash": "cdfb1ed66b07f177724655762c05f7c88a01bf6735eb8ed1466c2c6627dea9f9",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/cd/cdfb1ed66b07f177724655762c05f7c88a01bf6735eb8ed1466c2c6627dea9f9"
+    },
+    "STORYBOARD.md": {
+      "hash": "d9e868f3d89ae11273d882b689a6092046f7e62c7b493e34e83fae95af2dca7f",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/d9/d9e868f3d89ae11273d882b689a6092046f7e62c7b493e34e83fae95af2dca7f"
+    },
+    "assets/css/med2be.css": {
+      "hash": "d3eb618d1f1e37b8ba015a7732603b9106680cb70ff35e2933d54c609356c1dd",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/d3/d3eb618d1f1e37b8ba015a7732603b9106680cb70ff35e2933d54c609356c1dd"
+    },
+    "assets/fonts/barlow-latin-500-normal.woff2": {
+      "hash": "cd759df8ef9efc98fee14307b4eb5ba27f08b1f8f2f3ad2872432e25c89907a8",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/cd/cd759df8ef9efc98fee14307b4eb5ba27f08b1f8f2f3ad2872432e25c89907a8"
+    },
+    "assets/fonts/barlow-latin-700-normal.woff2": {
+      "hash": "2d797dd8b35dcb3413e1af9d7052b3f4f8c341a147cdcb01f4f06af80db53289",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/2d/2d797dd8b35dcb3413e1af9d7052b3f4f8c341a147cdcb01f4f06af80db53289"
+    },
+    "assets/fonts/barlow-latin-800-normal.woff2": {
+      "hash": "231d487a993e28bc5567c2be8da48acd8e0a209891c11448491eab45db0f8d7c",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/23/231d487a993e28bc5567c2be8da48acd8e0a209891c11448491eab45db0f8d7c"
+    },
+    "assets/fonts/barlow-latin-900-normal.woff2": {
+      "hash": "6f5d995ccc4d8ffd9e8cb4c303fc1f3646d6c62d40269ef59463332f12d5b897",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/6f/6f5d995ccc4d8ffd9e8cb4c303fc1f3646d6c62d40269ef59463332f12d5b897"
+    },
+    "assets/fonts/ibm-plex-mono-latin-500-normal.woff2": {
+      "hash": "01d285447409c8a588692162439a038b8cbd7871309ee20267b0d2d91c6e8e22",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/01/01d285447409c8a588692162439a038b8cbd7871309ee20267b0d2d91c6e8e22"
+    },
+    "assets/vendor/gsap.min.js": {
+      "hash": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/c1/c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+    },
+    "capture/extracted/tokens.json": {
+      "hash": "e29c9131ecd2d27bb185c1156acd9ab5dcf3fb6132661d0c1e32a4746ab76c99",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/e2/e29c9131ecd2d27bb185c1156acd9ab5dcf3fb6132661d0c1e32a4746ab76c99"
+    },
+    "capture/extracted/visible-text.txt": {
+      "hash": "6ce219ceda7c514c06dd2cd95933073d6a925c3f27a8b83645818da05a382add",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/6c/6ce219ceda7c514c06dd2cd95933073d6a925c3f27a8b83645818da05a382add"
+    },
+    "compositions/frames/01-hook.html": {
+      "hash": "d6dd31daf19228f4187706d560e0b6391c5e80a4ff9709b8746ce18d5dbfd6c8",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/d6/d6dd31daf19228f4187706d560e0b6391c5e80a4ff9709b8746ce18d5dbfd6c8"
+    },
+    "compositions/frames/02-title.html": {
+      "hash": "4010ee19e1c884d125690af2ec858dfd550cac0c78edb68a121876f012b8f7c7",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/40/4010ee19e1c884d125690af2ec858dfd550cac0c78edb68a121876f012b8f7c7"
+    },
+    "compositions/frames/03-risiko.html": {
+      "hash": "3efa39526ac184e0ed050c60575131da629ac05d6aceaca1390861609fd39e07",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/3e/3efa39526ac184e0ed050c60575131da629ac05d6aceaca1390861609fd39e07"
+    },
+    "compositions/frames/04-atherosklerose.html": {
+      "hash": "664cb68c97c9717714cec18d8c3cff61c5f74b73398c515de4d599b6dccc50aa",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/66/664cb68c97c9717714cec18d8c3cff61c5f74b73398c515de4d599b6dccc50aa"
+    },
+    "compositions/frames/05-plaque.html": {
+      "hash": "e0d8f9ffef733a9169ae95ed56e1e569cc9e9bb87a69f004f6d5e76323682fb1",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/e0/e0d8f9ffef733a9169ae95ed56e1e569cc9e9bb87a69f004f6d5e76323682fb1"
+    },
+    "compositions/frames/06-ruptur.html": {
+      "hash": "9bd213e5da09f2635c174785237a81a9cfd8057b1dd5c66f9708a2ba521a4446",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/9b/9bd213e5da09f2635c174785237a81a9cfd8057b1dd5c66f9708a2ba521a4446"
+    },
+    "compositions/frames/07-nekrose.html": {
+      "hash": "c21368fb54f058243013604bb7bccec47b9195b4ad7035adeb954763c2c662c5",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/c2/c21368fb54f058243013604bb7bccec47b9195b4ad7035adeb954763c2c662c5"
+    },
+    "compositions/frames/08-gefaesse.html": {
+      "hash": "94174fec0158cd4ea507f850036f5b31a7f550b5c9b0d25ef295078c499fc116",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/94/94174fec0158cd4ea507f850036f5b31a7f550b5c9b0d25ef295078c499fc116"
+    },
+    "compositions/frames/09-symptome.html": {
+      "hash": "58c88ce56edbae4a5bd1f4d0aea958e5bfcefc551e271ddd415f890b41d28ff9",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/58/58c88ce56edbae4a5bd1f4d0aea958e5bfcefc551e271ddd415f890b41d28ff9"
+    },
+    "compositions/frames/10-ekg.html": {
+      "hash": "5aa735bf4ab819cf724a8981c65a56ff5918c8570bdcce13cbe98af5006a263d",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/5a/5aa735bf4ab819cf724a8981c65a56ff5918c8570bdcce13cbe98af5006a263d"
+    },
+    "compositions/frames/11-troponin.html": {
+      "hash": "ee751cb33a72e9650c73fdd9c801fded3add4f628e1cca2e6745cfc1abe4a8c8",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/ee/ee751cb33a72e9650c73fdd9c801fded3add4f628e1cca2e6745cfc1abe4a8c8"
+    },
+    "compositions/frames/12-therapie.html": {
+      "hash": "7088c2ed696b3293f79c86eebdbd73c18c6f368c3dd8f37bbbc8d9ee89c51779",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/70/7088c2ed696b3293f79c86eebdbd73c18c6f368c3dd8f37bbbc8d9ee89c51779"
+    },
+    "compositions/frames/13-merke.html": {
+      "hash": "6cb169167867a297970e3f16d115fc7fde1d1305d5fc6b97bc9807e9d94d27e7",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/6c/6cb169167867a297970e3f16d115fc7fde1d1305d5fc6b97bc9807e9d94d27e7"
+    },
+    "frame.md": {
+      "hash": "9b907dc33f3866db6386f099bd3020d07ac894310f6e4f86c68e38633f89c657",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/9b/9b907dc33f3866db6386f099bd3020d07ac894310f6e4f86c68e38633f89c657"
+    },
+    "hyperframes.json": {
+      "hash": "9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/93/9313260261b6e431830877ee35083331270bc6b9a32d50650abe2bd58bdf558d"
+    },
+    "index.html": {
+      "hash": "218b7e8ecea64cb2ba935d5c1eba9476c2487adc7931c1eec4ae04a1cc719ef4",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/21/218b7e8ecea64cb2ba935d5c1eba9476c2487adc7931c1eec4ae04a1cc719ef4"
+    },
+    "meta.json": {
+      "hash": "3681c8e69544f4ad0fdd2c4a54b54c746b5be6c3bc9ee0605804c245bc9b8492",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/36/3681c8e69544f4ad0fdd2c4a54b54c746b5be6c3bc9ee0605804c245bc9b8492"
+    },
+    "package.json": {
+      "hash": "bdd233d794354a50d35f8dcd9a9eccd656754890bd28f8c1c70f667179aa7e1f",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/bd/bdd233d794354a50d35f8dcd9a9eccd656754890bd28f8c1c70f667179aa7e1f"
+    },
+    "refs/ref-4-hands-frame.jpg": {
+      "hash": "4e536b37c16f29bd8467d44ecba8f9edbee8057fbcac2fc601dd5c8b61385bde",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/4e/4e536b37c16f29bd8467d44ecba8f9edbee8057fbcac2fc601dd5c8b61385bde"
+    },
+    "tools/post_assemble.py": {
+      "hash": "efedcf391bf1b5c914cf6432c98fa7ec58e58dce1fb81f820dab9a2e715fa908",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/ef/efedcf391bf1b5c914cf6432c98fa7ec58e58dce1fb81f820dab9a2e715fa908"
+    },
+    "tools/sketch_frames.py": {
+      "hash": "536c3a23450c42759d420a010c2b8997453ff3c18528f2dbdf8be29a78dcc280",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/53/536c3a23450c42759d420a010c2b8997453ff3c18528f2dbdf8be29a78dcc280"
+    },
+    "refs/ref-1-hand-handles.gif": {
+      "hash": "2b514cfa3d39ca72b1c9a4cef97349ff41a538977a2633005b42908db98da6cb",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/2b/2b514cfa3d39ca72b1c9a4cef97349ff41a538977a2633005b42908db98da6cb"
+    },
+    "refs/ref-2-eye-planet.gif": {
+      "hash": "9f685e20b26dcb5f507f609abb7d8bb35c44fa90b6ff80f8a05467c9a40c47c0",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/9f/9f685e20b26dcb5f507f609abb7d8bb35c44fa90b6ff80f8a05467c9a40c47c0"
+    },
+    "refs/ref-3-flame.gif": {
+      "hash": "bffb61fd7967dcbb64f484a6f7c7a2b74e6dc4b074281773a7bc3c41250591fb",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/bf/bffb61fd7967dcbb64f484a6f7c7a2b74e6dc4b074281773a7bc3c41250591fb"
+    },
+    "boards/stills/frame-00-at-2.4s.png": {
+      "hash": "574aa22dd5b7b6e83cefdf156222ec28fcada4fbd97cd731c8693e3299a03720",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/57/574aa22dd5b7b6e83cefdf156222ec28fcada4fbd97cd731c8693e3299a03720"
+    },
+    "boards/stills/frame-01-at-7.3s.png": {
+      "hash": "52581c47e7c49749b6b9b5cd1db4517de3c62bfe1536abe3ee9e2454f77a5dcc",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/52/52581c47e7c49749b6b9b5cd1db4517de3c62bfe1536abe3ee9e2454f77a5dcc"
+    },
+    "boards/stills/frame-02-at-13.4s.png": {
+      "hash": "14333706e6bd17380d5e641b9294d74fb6c884747e33bcc9b30e8a920f4ee573",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/14/14333706e6bd17380d5e641b9294d74fb6c884747e33bcc9b30e8a920f4ee573"
+    },
+    "boards/stills/frame-03-at-20.8s.png": {
+      "hash": "cd195a2e20a793ade15189de6e51e23606986a4f72b4326b4b9e2d6ea237bedc",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/cd/cd195a2e20a793ade15189de6e51e23606986a4f72b4326b4b9e2d6ea237bedc"
+    },
+    "boards/stills/frame-04-at-27.3s.png": {
+      "hash": "0041d516ad5cf378126117cde3a3af65242b05f7b3d145b5a7e0a1cc57aa6cc0",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/00/0041d516ad5cf378126117cde3a3af65242b05f7b3d145b5a7e0a1cc57aa6cc0"
+    },
+    "boards/stills/frame-05-at-33.7s.png": {
+      "hash": "6a7aa87f28fc9df6ce12099b81bf495ea2eb584790d56296affd0030f90a7c19",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/6a/6a7aa87f28fc9df6ce12099b81bf495ea2eb584790d56296affd0030f90a7c19"
+    },
+    "boards/stills/frame-06-at-41.6s.png": {
+      "hash": "8a19b80948848a80514bbd181f9553aa841e215243ec587dc265eeec5c97e5d6",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/8a/8a19b80948848a80514bbd181f9553aa841e215243ec587dc265eeec5c97e5d6"
+    },
+    "boards/stills/frame-07-at-49.8s.png": {
+      "hash": "81ce52a276de96630e7bb221bacf4ca11e5d8f73872f2a354a2edafa9c3248b3",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/81/81ce52a276de96630e7bb221bacf4ca11e5d8f73872f2a354a2edafa9c3248b3"
+    },
+    "boards/stills/frame-08-at-58.7s.png": {
+      "hash": "2a7222968eda9aba0de02aa3cb79b9173838f47bb086d340c5a903b358920eab",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/2a/2a7222968eda9aba0de02aa3cb79b9173838f47bb086d340c5a903b358920eab"
+    },
+    "boards/stills/frame-09-at-66.4s.png": {
+      "hash": "f084a9d6a9a7118686e7ca6edc4564b89f75fa79be88dd82cd2af4fcb4d1be3c",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/f0/f084a9d6a9a7118686e7ca6edc4564b89f75fa79be88dd82cd2af4fcb4d1be3c"
+    },
+    "boards/stills/frame-10-at-73.2s.png": {
+      "hash": "b946280e6f08e113027c4f75054246bde74516ad18c47817fefde6f75b21d45a",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/b9/b946280e6f08e113027c4f75054246bde74516ad18c47817fefde6f75b21d45a"
+    },
+    "boards/stills/frame-11-at-82.9s.png": {
+      "hash": "a786249803a13b3100e4ee6158f51532f2cb4f72348e2faf7ed4dbab6fa790d3",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/a7/a786249803a13b3100e4ee6158f51532f2cb4f72348e2faf7ed4dbab6fa790d3"
+    },
+    "boards/stills/frame-12-at-91.7s.png": {
+      "hash": "f6f618cc12d64893dc0ffeaf5d65a4deb8ad4cca103de9dff335f977d798fe8c",
+      "content": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/f6/f6f618cc12d64893dc0ffeaf5d65a4deb8ad4cca103de9dff335f977d798fe8c"
+    }
+  },
+  "revisions": {
+    "1a0df838-b8a1-4dcc-8a6d-fa4d940dedd9": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792142210518,
+      "endedAt": 1792142210953,
+      "files": {
+        "boards/stills/contact-sheet-1.jpg": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/17/179dd50a8ed01eb555487578856c77357a408bd32540548443fc4b869ab9b0e0"
+        },
+        "boards/stills/contact-sheet-2.jpg": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/cf/cf58c69fe17da0a518c6b9a0076c03c669e070c27430316971850adff885cc02"
+        },
+        "boards/stills/frame-00-at-2.4s.png": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/b6/b6f31fb6fa1664f8224a1d3688d4a720d38e3b509d26808d58e592145114279d"
+        },
+        "boards/stills/frame-01-at-7.3s.png": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/52/52581c47e7c49749b6b9b5cd1db4517de3c62bfe1536abe3ee9e2454f77a5dcc"
+        },
+        "boards/stills/frame-02-at-13.4s.png": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/14/14333706e6bd17380d5e641b9294d74fb6c884747e33bcc9b30e8a920f4ee573"
+        },
+        "boards/stills/frame-03-at-20.8s.png": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/23/235452bbe4bf40860a60c539995fb75c4d622adb43a7a81488afb9cb79607de7"
+        },
+        "boards/stills/frame-04-at-27.3s.png": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/00/0041d516ad5cf378126117cde3a3af65242b05f7b3d145b5a7e0a1cc57aa6cc0"
+        },
+        "boards/stills/frame-05-at-33.7s.png": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/6a/6a7aa87f28fc9df6ce12099b81bf495ea2eb584790d56296affd0030f90a7c19"
+        },
+        "boards/stills/frame-06-at-41.6s.png": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/8a/8a19b80948848a80514bbd181f9553aa841e215243ec587dc265eeec5c97e5d6"
+        },
+        "boards/stills/frame-07-at-49.8s.png": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/b7/b77cf5f12ded18abe65e5ca81f93e9ee6e3ca76e3d24bc3d4397c1d0e1a1a056"
+        },
+        "boards/stills/frame-08-at-58.7s.png": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/2a/2a7222968eda9aba0de02aa3cb79b9173838f47bb086d340c5a903b358920eab"
+        },
+        "boards/stills/frame-09-at-66.4s.png": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/9d/9dad49c9e0a97c99c6aa7940dcb29b1583fcf7e4b1c40a3c1558da3a951ab8de"
+        },
+        "boards/stills/frame-10-at-73.2s.png": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/b9/b946280e6f08e113027c4f75054246bde74516ad18c47817fefde6f75b21d45a"
+        },
+        "boards/stills/frame-11-at-82.9s.png": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/90/90d8e947ca6260f7d1fbb1dcedf37da31cfc9ad43ece44ab4697674ecb9b5dce"
+        },
+        "boards/stills/frame-12-at-91.7s.png": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/b8/b8baec40250e7473a79fe65350a529d61ad9fe3377dede8e02807b0df09152a3"
+        },
+        "compositions/frames/01-hook.html": {
+          "before": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/ff/ff0190efb43ebbb8f012f8616bba2b02b1c0bae6ed4354eda47207a7ef12d66f",
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/5d/5d6bcc707b87b94ed07f4f68d8b5f45719e65bf63bb93c99054666498ad4224b"
+        },
+        "compositions/frames/04-atherosklerose.html": {
+          "before": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/bd/bddb1f372db62d19f84764a0efb64d79a7cd47a9efca89dd59607dbd797eab14",
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/23/2371273710f1a70139a3d5047a9ddd514f85199a3fbb5d20ea8073efb4f94155"
+        },
+        "compositions/frames/08-gefaesse.html": {
+          "before": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/65/652e0e286b69876eb9d3e0f13d35ce58e6b0f8f5db94076ee7960ef202f1d5ba",
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/61/612cc75e315d81e13c2f245b4474c302ba9dad5ad656f3fe7891654283ec058e"
+        },
+        "compositions/frames/10-ekg.html": {
+          "before": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/a9/a94dc17614a3dcb00c9fb55617657804d989b02fb64112a3d3cfd25a009c9337",
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/a4/a493c49a6a822aa753e39f75c749cbd28b48db9d2b4d3c3ccfaac7f3951a7a82"
+        },
+        "compositions/frames/12-therapie.html": {
+          "before": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/20/2017ee5cb1139287fdd2021e4c38c037931b2ff871a50994c79fee554baa748d",
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/b0/b050309dc686a05a54e0fd49a5ce1d901274023d9f685fa77b122fce3b16790f"
+        },
+        "compositions/frames/13-merke.html": {
+          "before": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/48/480c8fad9dafe73edb5c049e54cbf811b2533796f0f153e88bed261bb3a0400c",
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/b0/b045e11013e379f2389231c0818255f87f087dd63bbf911a2dd4e283bc6c788f"
+        },
+        "tools/sketch_frames.py": {
+          "before": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/8e/8e58273c709cabbfcfd34eb8724a8a98c5d07f5b02a270344fae2e3b2d4ee923",
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/bb/bbc1535d0777966a86e5664ec8d4aea7f0c1c4debe3bfdbddb31e9221b6ac9dd"
+        }
+      }
+    },
+    "2d60f25f-c44d-47e4-ab58-b064db75457a": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792142309229,
+      "endedAt": 1792142309413,
+      "files": {
+        "boards/stills/redo/contact-sheet.jpg": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/d3/d3a954afd545b4c881ead4b99e0bcdb1e408f07900572bf37860b4dcf4227cb8"
+        },
+        "boards/stills/redo/frame-00-at-2.4s.png": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/57/574aa22dd5b7b6e83cefdf156222ec28fcada4fbd97cd731c8693e3299a03720"
+        },
+        "boards/stills/redo/frame-01-at-20.8s.png": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/cd/cd195a2e20a793ade15189de6e51e23606986a4f72b4326b4b9e2d6ea237bedc"
+        },
+        "boards/stills/redo/frame-02-at-49.8s.png": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/62/62ec838f510a4ff6f685e0fd35e69c643629e1d8cbbc0f5cf4da2b23eff4be77"
+        },
+        "boards/stills/redo/frame-03-at-66.4s.png": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/f0/f084a9d6a9a7118686e7ca6edc4564b89f75fa79be88dd82cd2af4fcb4d1be3c"
+        },
+        "boards/stills/redo/frame-04-at-82.9s.png": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/a7/a786249803a13b3100e4ee6158f51532f2cb4f72348e2faf7ed4dbab6fa790d3"
+        },
+        "boards/stills/redo/frame-05-at-91.7s.png": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/f6/f6f618cc12d64893dc0ffeaf5d65a4deb8ad4cca103de9dff335f977d798fe8c"
+        },
+        "compositions/frames/08-gefaesse.html": {
+          "before": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/61/612cc75e315d81e13c2f245b4474c302ba9dad5ad656f3fe7891654283ec058e",
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/b9/b9f8e463f17512e9409472e6d190a3f6d9f9bb38533349187671494af82e56a9"
+        },
+        "tools/sketch_frames.py": {
+          "before": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/bb/bbc1535d0777966a86e5664ec8d4aea7f0c1c4debe3bfdbddb31e9221b6ac9dd",
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/59/59209dafdcdf42dbf576f4230ec589a10ac0d4ec10085435eac4a72781968475"
+        }
+      }
+    },
+    "70f45507-e846-4d89-8dba-d527b6b23b50": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792142353573,
+      "endedAt": 1792142353736,
+      "files": {
+        "boards/stills/contact-sheet-1.jpg": {
+          "before": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/17/179dd50a8ed01eb555487578856c77357a408bd32540548443fc4b869ab9b0e0",
+          "after": null
+        },
+        "boards/stills/contact-sheet-2.jpg": {
+          "before": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/cf/cf58c69fe17da0a518c6b9a0076c03c669e070c27430316971850adff885cc02",
+          "after": null
+        },
+        "boards/stills/frame-00-at-2.4s.png": {
+          "before": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/b6/b6f31fb6fa1664f8224a1d3688d4a720d38e3b509d26808d58e592145114279d",
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/57/574aa22dd5b7b6e83cefdf156222ec28fcada4fbd97cd731c8693e3299a03720"
+        },
+        "boards/stills/frame-03-at-20.8s.png": {
+          "before": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/23/235452bbe4bf40860a60c539995fb75c4d622adb43a7a81488afb9cb79607de7",
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/cd/cd195a2e20a793ade15189de6e51e23606986a4f72b4326b4b9e2d6ea237bedc"
+        },
+        "boards/stills/frame-07-at-49.8s.png": {
+          "before": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/b7/b77cf5f12ded18abe65e5ca81f93e9ee6e3ca76e3d24bc3d4397c1d0e1a1a056",
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/81/81ce52a276de96630e7bb221bacf4ca11e5d8f73872f2a354a2edafa9c3248b3"
+        },
+        "boards/stills/frame-09-at-66.4s.png": {
+          "before": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/9d/9dad49c9e0a97c99c6aa7940dcb29b1583fcf7e4b1c40a3c1558da3a951ab8de",
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/f0/f084a9d6a9a7118686e7ca6edc4564b89f75fa79be88dd82cd2af4fcb4d1be3c"
+        },
+        "boards/stills/frame-11-at-82.9s.png": {
+          "before": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/90/90d8e947ca6260f7d1fbb1dcedf37da31cfc9ad43ece44ab4697674ecb9b5dce",
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/a7/a786249803a13b3100e4ee6158f51532f2cb4f72348e2faf7ed4dbab6fa790d3"
+        },
+        "boards/stills/frame-12-at-91.7s.png": {
+          "before": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/b8/b8baec40250e7473a79fe65350a529d61ad9fe3377dede8e02807b0df09152a3",
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/f6/f6f618cc12d64893dc0ffeaf5d65a4deb8ad4cca103de9dff335f977d798fe8c"
+        },
+        "boards/stills/redo/contact-sheet.jpg": {
+          "before": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/d3/d3a954afd545b4c881ead4b99e0bcdb1e408f07900572bf37860b4dcf4227cb8",
+          "after": null
+        },
+        "boards/stills/redo/frame-00-at-2.4s.png": {
+          "before": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/57/574aa22dd5b7b6e83cefdf156222ec28fcada4fbd97cd731c8693e3299a03720",
+          "after": null
+        },
+        "boards/stills/redo/frame-01-at-20.8s.png": {
+          "before": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/cd/cd195a2e20a793ade15189de6e51e23606986a4f72b4326b4b9e2d6ea237bedc",
+          "after": null
+        },
+        "boards/stills/redo/frame-02-at-49.8s.png": {
+          "before": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/62/62ec838f510a4ff6f685e0fd35e69c643629e1d8cbbc0f5cf4da2b23eff4be77",
+          "after": null
+        },
+        "boards/stills/redo/frame-03-at-66.4s.png": {
+          "before": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/f0/f084a9d6a9a7118686e7ca6edc4564b89f75fa79be88dd82cd2af4fcb4d1be3c",
+          "after": null
+        },
+        "boards/stills/redo/frame-04-at-82.9s.png": {
+          "before": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/a7/a786249803a13b3100e4ee6158f51532f2cb4f72348e2faf7ed4dbab6fa790d3",
+          "after": null
+        },
+        "boards/stills/redo/frame-05-at-91.7s.png": {
+          "before": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/f6/f6f618cc12d64893dc0ffeaf5d65a4deb8ad4cca103de9dff335f977d798fe8c",
+          "after": null
+        },
+        "compositions/frames/01-hook.html": {
+          "before": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/5d/5d6bcc707b87b94ed07f4f68d8b5f45719e65bf63bb93c99054666498ad4224b",
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/d6/d6dd31daf19228f4187706d560e0b6391c5e80a4ff9709b8746ce18d5dbfd6c8"
+        },
+        "compositions/frames/02-title.html": {
+          "before": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/17/176d973ada20d444c82e55debe23b94792d8843ce400e63aa29505a55f2e199c",
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/40/4010ee19e1c884d125690af2ec858dfd550cac0c78edb68a121876f012b8f7c7"
+        },
+        "compositions/frames/03-risiko.html": {
+          "before": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/5e/5e5da00ee9d2fbb57020143cb78ad8d6aada1c7902d5373542bd38da11ce721e",
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/3e/3efa39526ac184e0ed050c60575131da629ac05d6aceaca1390861609fd39e07"
+        },
+        "compositions/frames/04-atherosklerose.html": {
+          "before": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/23/2371273710f1a70139a3d5047a9ddd514f85199a3fbb5d20ea8073efb4f94155",
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/66/664cb68c97c9717714cec18d8c3cff61c5f74b73398c515de4d599b6dccc50aa"
+        },
+        "compositions/frames/05-plaque.html": {
+          "before": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/22/2269103db95740d0fe1c1068de952b5b790e9246f0d04811be45e3d6e8293bf2",
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/e0/e0d8f9ffef733a9169ae95ed56e1e569cc9e9bb87a69f004f6d5e76323682fb1"
+        },
+        "compositions/frames/06-ruptur.html": {
+          "before": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/62/623a57835dc8daccc24835aa376e0d590fff1502091b6eba6481a86b06ee5b37",
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/9b/9bd213e5da09f2635c174785237a81a9cfd8057b1dd5c66f9708a2ba521a4446"
+        },
+        "compositions/frames/07-nekrose.html": {
+          "before": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/78/78f60b53f6faa9ff42eb65f216ae8432bf79a889f93b43fe0d7383182b3cb96b",
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/c2/c21368fb54f058243013604bb7bccec47b9195b4ad7035adeb954763c2c662c5"
+        },
+        "compositions/frames/08-gefaesse.html": {
+          "before": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/b9/b9f8e463f17512e9409472e6d190a3f6d9f9bb38533349187671494af82e56a9",
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/94/94174fec0158cd4ea507f850036f5b31a7f550b5c9b0d25ef295078c499fc116"
+        },
+        "compositions/frames/09-symptome.html": {
+          "before": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/45/4531a9fe7b4a8f2481b97ebbdfe086432e1527b2aac3f29d4a93df2c66d09f94",
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/58/58c88ce56edbae4a5bd1f4d0aea958e5bfcefc551e271ddd415f890b41d28ff9"
+        },
+        "compositions/frames/10-ekg.html": {
+          "before": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/a4/a493c49a6a822aa753e39f75c749cbd28b48db9d2b4d3c3ccfaac7f3951a7a82",
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/5a/5aa735bf4ab819cf724a8981c65a56ff5918c8570bdcce13cbe98af5006a263d"
+        },
+        "compositions/frames/11-troponin.html": {
+          "before": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/67/674fdb7ec9528dcd2dc70c9494a11e38265b92ca655aadc19ca2e9b16ae6bfae",
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/ee/ee751cb33a72e9650c73fdd9c801fded3add4f628e1cca2e6745cfc1abe4a8c8"
+        },
+        "compositions/frames/12-therapie.html": {
+          "before": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/b0/b050309dc686a05a54e0fd49a5ce1d901274023d9f685fa77b122fce3b16790f",
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/70/7088c2ed696b3293f79c86eebdbd73c18c6f368c3dd8f37bbbc8d9ee89c51779"
+        },
+        "compositions/frames/13-merke.html": {
+          "before": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/b0/b045e11013e379f2389231c0818255f87f087dd63bbf911a2dd4e283bc6c788f",
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/6c/6cb169167867a297970e3f16d115fc7fde1d1305d5fc6b97bc9807e9d94d27e7"
+        },
+        "tools/sketch_frames.py": {
+          "before": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/59/59209dafdcdf42dbf576f4230ec589a10ac0d4ec10085435eac4a72781968475",
+          "after": "/root/.cache/hyperframes/history/216c1f17-6102-4010-8f0f-960699ef41cd/blobs/53/536c3a23450c42759d420a010c2b8997453ff3c18528f2dbdf8be29a78dcc280"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": {
+      "revision": null,
+      "id": "060c0fe0-0443-421a-ad47-407cc9502da7-12"
+    },
+    "revisions": {},
+    "unversioned": [
+      {
+        "scope": "full",
+        "id": "060c0fe0-0443-421a-ad47-407cc9502da7-0",
+        "image": "/home/user/Pwg-motion-vids/videos/herzinfarkt-erklaert/boards/stills/frame-00-at-2.4s.png",
+        "time": 2.4,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [
+            "Render readiness timed out"
+          ],
+          "partial": true
+        },
+        "createdAt": 1792142510942,
+        "contentHash": "574aa22dd5b7b6e83cefdf156222ec28fcada4fbd97cd731c8693e3299a03720",
+        "revision": null,
+        "inputFingerprint": "95575e590cf947be1f3e5e37c895b03895ae5603262a21099dc0d9a472d432e8",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "060c0fe0-0443-421a-ad47-407cc9502da7-1",
+        "image": "/home/user/Pwg-motion-vids/videos/herzinfarkt-erklaert/boards/stills/frame-01-at-7.3s.png",
+        "time": 7.3,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [
+            "Render readiness timed out"
+          ],
+          "partial": true
+        },
+        "createdAt": 1792142510942,
+        "contentHash": "52581c47e7c49749b6b9b5cd1db4517de3c62bfe1536abe3ee9e2454f77a5dcc",
+        "revision": null,
+        "inputFingerprint": "95575e590cf947be1f3e5e37c895b03895ae5603262a21099dc0d9a472d432e8",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "060c0fe0-0443-421a-ad47-407cc9502da7-2",
+        "image": "/home/user/Pwg-motion-vids/videos/herzinfarkt-erklaert/boards/stills/frame-02-at-13.4s.png",
+        "time": 13.4,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [
+            "Render readiness timed out"
+          ],
+          "partial": true
+        },
+        "createdAt": 1792142510942,
+        "contentHash": "14333706e6bd17380d5e641b9294d74fb6c884747e33bcc9b30e8a920f4ee573",
+        "revision": null,
+        "inputFingerprint": "95575e590cf947be1f3e5e37c895b03895ae5603262a21099dc0d9a472d432e8",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "060c0fe0-0443-421a-ad47-407cc9502da7-3",
+        "image": "/home/user/Pwg-motion-vids/videos/herzinfarkt-erklaert/boards/stills/frame-03-at-20.8s.png",
+        "time": 20.8,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [
+            "Render readiness timed out"
+          ],
+          "partial": true
+        },
+        "createdAt": 1792142510942,
+        "contentHash": "cd195a2e20a793ade15189de6e51e23606986a4f72b4326b4b9e2d6ea237bedc",
+        "revision": null,
+        "inputFingerprint": "95575e590cf947be1f3e5e37c895b03895ae5603262a21099dc0d9a472d432e8",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "060c0fe0-0443-421a-ad47-407cc9502da7-4",
+        "image": "/home/user/Pwg-motion-vids/videos/herzinfarkt-erklaert/boards/stills/frame-04-at-27.3s.png",
+        "time": 27.3,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [
+            "Render readiness timed out"
+          ],
+          "partial": true
+        },
+        "createdAt": 1792142510942,
+        "contentHash": "85e34b32a8c7ecdd1faf2d68ef717ad590c91e56b7041e764c3eb953186479a5",
+        "revision": null,
+        "inputFingerprint": "95575e590cf947be1f3e5e37c895b03895ae5603262a21099dc0d9a472d432e8",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "060c0fe0-0443-421a-ad47-407cc9502da7-5",
+        "image": "/home/user/Pwg-motion-vids/videos/herzinfarkt-erklaert/boards/stills/frame-05-at-33.7s.png",
+        "time": 33.7,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [
+            "Render readiness timed out"
+          ],
+          "partial": true
+        },
+        "createdAt": 1792142510942,
+        "contentHash": "6a7aa87f28fc9df6ce12099b81bf495ea2eb584790d56296affd0030f90a7c19",
+        "revision": null,
+        "inputFingerprint": "95575e590cf947be1f3e5e37c895b03895ae5603262a21099dc0d9a472d432e8",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "060c0fe0-0443-421a-ad47-407cc9502da7-6",
+        "image": "/home/user/Pwg-motion-vids/videos/herzinfarkt-erklaert/boards/stills/frame-06-at-41.6s.png",
+        "time": 41.6,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [
+            "Render readiness timed out"
+          ],
+          "partial": true
+        },
+        "createdAt": 1792142510942,
+        "contentHash": "941bc1deb1cf126c13f48a9c5df21ef3389604601dd1ecd70e0de3e26ee0b091",
+        "revision": null,
+        "inputFingerprint": "95575e590cf947be1f3e5e37c895b03895ae5603262a21099dc0d9a472d432e8",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "060c0fe0-0443-421a-ad47-407cc9502da7-7",
+        "image": "/home/user/Pwg-motion-vids/videos/herzinfarkt-erklaert/boards/stills/frame-07-at-49.8s.png",
+        "time": 49.8,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [
+            "Render readiness timed out"
+          ],
+          "partial": true
+        },
+        "createdAt": 1792142510942,
+        "contentHash": "40272954310199861a37143b1b547cdf5bfd50a092377c115c7d19631a633608",
+        "revision": null,
+        "inputFingerprint": "95575e590cf947be1f3e5e37c895b03895ae5603262a21099dc0d9a472d432e8",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "060c0fe0-0443-421a-ad47-407cc9502da7-8",
+        "image": "/home/user/Pwg-motion-vids/videos/herzinfarkt-erklaert/boards/stills/frame-08-at-58.7s.png",
+        "time": 58.7,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [
+            "Render readiness timed out"
+          ],
+          "partial": true
+        },
+        "createdAt": 1792142510942,
+        "contentHash": "868377de498123e88e25349e3142304bcc3df046f6810577d3f65a0334de6f27",
+        "revision": null,
+        "inputFingerprint": "95575e590cf947be1f3e5e37c895b03895ae5603262a21099dc0d9a472d432e8",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "060c0fe0-0443-421a-ad47-407cc9502da7-9",
+        "image": "/home/user/Pwg-motion-vids/videos/herzinfarkt-erklaert/boards/stills/frame-09-at-66.4s.png",
+        "time": 66.4,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [
+            "Render readiness timed out"
+          ],
+          "partial": true
+        },
+        "createdAt": 1792142510942,
+        "contentHash": "f084a9d6a9a7118686e7ca6edc4564b89f75fa79be88dd82cd2af4fcb4d1be3c",
+        "revision": null,
+        "inputFingerprint": "95575e590cf947be1f3e5e37c895b03895ae5603262a21099dc0d9a472d432e8",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "060c0fe0-0443-421a-ad47-407cc9502da7-10",
+        "image": "/home/user/Pwg-motion-vids/videos/herzinfarkt-erklaert/boards/stills/frame-10-at-73.2s.png",
+        "time": 73.2,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [
+            "Render readiness timed out"
+          ],
+          "partial": true
+        },
+        "createdAt": 1792142510942,
+        "contentHash": "b946280e6f08e113027c4f75054246bde74516ad18c47817fefde6f75b21d45a",
+        "revision": null,
+        "inputFingerprint": "95575e590cf947be1f3e5e37c895b03895ae5603262a21099dc0d9a472d432e8",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "060c0fe0-0443-421a-ad47-407cc9502da7-11",
+        "image": "/home/user/Pwg-motion-vids/videos/herzinfarkt-erklaert/boards/stills/frame-11-at-82.9s.png",
+        "time": 82.9,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [
+            "Render readiness timed out"
+          ],
+          "partial": true
+        },
+        "createdAt": 1792142510942,
+        "contentHash": "a786249803a13b3100e4ee6158f51532f2cb4f72348e2faf7ed4dbab6fa790d3",
+        "revision": null,
+        "inputFingerprint": "95575e590cf947be1f3e5e37c895b03895ae5603262a21099dc0d9a472d432e8",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "060c0fe0-0443-421a-ad47-407cc9502da7-12",
+        "image": "/home/user/Pwg-motion-vids/videos/herzinfarkt-erklaert/boards/stills/frame-12-at-91.7s.png",
+        "time": 91.7,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [
+            "Render readiness timed out"
+          ],
+          "partial": true
+        },
+        "createdAt": 1792142510942,
+        "contentHash": "f6f618cc12d64893dc0ffeaf5d65a4deb8ad4cca103de9dff335f977d798fe8c",
+        "revision": null,
+        "inputFingerprint": "95575e590cf947be1f3e5e37c895b03895ae5603262a21099dc0d9a472d432e8",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      }
+    ]
+  }
+}

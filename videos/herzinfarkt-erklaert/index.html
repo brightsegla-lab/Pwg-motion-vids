@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=1920, height=1080" />
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <meta name="viewport" content="width=1080, height=1920" />
+    <script src="assets/vendor/gsap.min.js"></script>
     <style>
       * {
         margin: 0;
@@ -12,25 +12,23 @@
       }
       html,
       body {
-        margin: 0;
-        width: 1920px;
-        height: 1080px;
+        width: 1080px;
+        height: 1920px;
         overflow: hidden;
-        background: #0a0a0a;
+        background: #000;
       }
       #root {
+        position: relative;
+        width: 1080px;
+        height: 1920px;
+        overflow: hidden;
+        background: #0A0A10;
+      }
+      .scene {
+        position: absolute;
+        inset: 0;
         width: 100%;
         height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: Inter, ui-sans-serif, system-ui, sans-serif;
-      }
-      #title {
-        color: #f4f4f5;
-        font-size: 72px;
-        font-weight: 600;
-        letter-spacing: -0.03em;
       }
     </style>
   </head>
@@ -39,17 +37,145 @@
       id="root"
       data-composition-id="main"
       data-start="0"
-      data-duration="10"
-      data-width="1920"
-      data-height="1080"
+      data-duration="94.5"
+      data-width="1080"
+      data-height="1920"
     >
-      <h1 id="title" class="clip" data-start="0" data-duration="10" data-track-index="0">Title</h1>
+      <div
+        id="el-01-hook"
+        class="scene"
+        data-composition-id="01-hook"
+        data-composition-src="compositions/frames/01-hook.html"
+        data-start="0"
+        data-duration="4"
+        data-track-index="1"
+      ></div>
+
+      <div
+        id="el-02-title"
+        class="scene"
+        data-composition-id="02-title"
+        data-composition-src="compositions/frames/02-title.html"
+        data-start="4"
+        data-duration="5.5"
+        data-track-index="1"
+      ></div>
+
+      <div
+        id="el-03-risiko"
+        class="scene"
+        data-composition-id="03-risiko"
+        data-composition-src="compositions/frames/03-risiko.html"
+        data-start="9.5"
+        data-duration="6.5"
+        data-track-index="1"
+      ></div>
+
+      <div
+        id="el-04-atherosklerose"
+        class="scene"
+        data-composition-id="04-atherosklerose"
+        data-composition-src="compositions/frames/04-atherosklerose.html"
+        data-start="16"
+        data-duration="8"
+        data-track-index="1"
+      ></div>
+
+      <div
+        id="el-05-plaque"
+        class="scene"
+        data-composition-id="05-plaque"
+        data-composition-src="compositions/frames/05-plaque.html"
+        data-start="24"
+        data-duration="5.5"
+        data-track-index="1"
+      ></div>
+
+      <div
+        id="el-06-ruptur"
+        class="scene"
+        data-composition-id="06-ruptur"
+        data-composition-src="compositions/frames/06-ruptur.html"
+        data-start="29.5"
+        data-duration="7"
+        data-track-index="1"
+      ></div>
+
+      <div
+        id="el-07-nekrose"
+        class="scene"
+        data-composition-id="07-nekrose"
+        data-composition-src="compositions/frames/07-nekrose.html"
+        data-start="36.5"
+        data-duration="8.5"
+        data-track-index="1"
+      ></div>
+
+      <div
+        id="el-08-gefaesse"
+        class="scene"
+        data-composition-id="08-gefaesse"
+        data-composition-src="compositions/frames/08-gefaesse.html"
+        data-start="45"
+        data-duration="8"
+        data-track-index="1"
+      ></div>
+
+      <div
+        id="el-09-symptome"
+        class="scene"
+        data-composition-id="09-symptome"
+        data-composition-src="compositions/frames/09-symptome.html"
+        data-start="53"
+        data-duration="9.5"
+        data-track-index="1"
+      ></div>
+
+      <div
+        id="el-10-ekg"
+        class="scene"
+        data-composition-id="10-ekg"
+        data-composition-src="compositions/frames/10-ekg.html"
+        data-start="62.5"
+        data-duration="6.5"
+        data-track-index="1"
+      ></div>
+
+      <div
+        id="el-11-troponin"
+        class="scene"
+        data-composition-id="11-troponin"
+        data-composition-src="compositions/frames/11-troponin.html"
+        data-start="69"
+        data-duration="7"
+        data-track-index="1"
+      ></div>
+
+      <div
+        id="el-12-therapie"
+        class="scene"
+        data-composition-id="12-therapie"
+        data-composition-src="compositions/frames/12-therapie.html"
+        data-start="76"
+        data-duration="11.5"
+        data-track-index="1"
+      ></div>
+
+      <div
+        id="el-13-merke"
+        class="scene"
+        data-composition-id="13-merke"
+        data-composition-src="compositions/frames/13-merke.html"
+        data-start="87.5"
+        data-duration="7"
+        data-track-index="1"
+      ></div>
+
     </div>
+
     <script>
-      const tl = gsap.timeline({ paused: true });
-      // Example: tl.fromTo("#title", { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.6 }, 0);
-      window.__timelines["main"] = tl;
-      tl.seek(0);
+      window.__timelines = window.__timelines || {};
+      window.__timelines["main"] = gsap.timeline({ paused: true });
     </script>
   </body>
 </html>

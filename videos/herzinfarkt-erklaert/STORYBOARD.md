@@ -15,7 +15,7 @@ language: de
 - voiceover: "Druck auf der Brust. Seit zwanzig Minuten."
 - duration: 4s
 - transition_in: cut
-- status: outline
+- status: built
 - src: compositions/frames/01-hook.html
 - type: hook
 - persuasion: Imagine / scenario + visceral detail
@@ -32,7 +32,7 @@ keyMessage: Chest pressure lasting more than 20 minutes is an alarm signal.
 - voiceover: "Das ist ein Herzinfarkt: Herzmuskel stirbt, weil ihm Sauerstoff fehlt."
 - duration: 5.5s
 - transition_in: zoom-through
-- status: outline
+- status: built
 - src: compositions/frames/02-title.html
 - type: product_intro
 - persuasion: Concept announcement + frame-then-fill
@@ -48,7 +48,7 @@ keyMessage: A myocardial infarction is the death of heart muscle from lack of ox
 - voiceover: "Am Anfang stehen Risikofaktoren: Rauchen, Bluthochdruck, Diabetes, hohes LDL."
 - duration: 6.5s
 - transition_in: push-slide UP
-- status: outline
+- status: built
 - src: compositions/frames/03-risiko.html
 - type: feature_showcase
 - persuasion: Numbered enumeration + signposting
@@ -64,7 +64,7 @@ keyMessage: Smoking, hypertension, diabetes, high LDL and family history damage 
 - voiceover: "Schritt eins: Das Endothel wird geschädigt. LDL dringt in die Gefäßwand, Makrophagen fressen es – und werden zu Schaumzellen."
 - duration: 8s
 - transition_in: push-slide UP
-- status: outline
+- status: built
 - src: compositions/frames/04-atherosklerose.html
 - type: feature_showcase
 - persuasion: Progressive disclosure + causal chain (A → B → C)
@@ -80,7 +80,7 @@ keyMessage: Damaged endothelium lets LDL in; macrophages engulf it and become fo
 - voiceover: "Schritt zwei: Ein Plaque wächst – weicher Lipidkern, dünne Kappe. Instabil."
 - duration: 5.5s
 - transition_in: push-slide UP
-- status: outline
+- status: built
 - src: compositions/frames/05-plaque.html
 - type: feature_showcase
 - persuasion: Analogy (time bomb) + concretization
@@ -96,7 +96,7 @@ keyMessage: The dangerous plaque is the unstable one: a soft core under a thin c
 - voiceover: "Schritt drei: Die Kappe reißt. Thrombozyten lagern sich an – ein Thrombus verschließt das Gefäß."
 - duration: 7s
 - transition_in: push-slide UP
-- status: outline
+- status: built
 - src: compositions/frames/06-ruptur.html
 - type: feature_showcase
 - persuasion: Demonstration (show the mechanism running) + causal chain
@@ -113,7 +113,7 @@ keyMessage: Plaque rupture triggers a thrombus that occludes the coronary artery
 - voiceover: "Schritt vier: Ohne Sauerstoff sterben nach zwanzig bis dreißig Minuten die ersten Zellen – von innen nach außen. Zeit ist Muskel."
 - duration: 8.5s
 - transition_in: zoom-through
-- status: outline
+- status: built
 - src: compositions/frames/07-nekrose.html
 - type: benefit_highlight
 - persuasion: Causal chain + coined term ("Zeit ist Muskel")
@@ -129,7 +129,7 @@ keyMessage: After 20–30 minutes of ischaemia cells die, from the inside out, s
 - voiceover: "Welche Wand betroffen ist, verrät das Gefäß: RIVA – Vorderwand. RCX – Seitenwand. RCA – Hinterwand."
 - duration: 8s
 - transition_in: crossfade
-- status: outline
+- status: built
 - src: compositions/frames/08-gefaesse.html
 - type: social_proof
 - persuasion: Rule of three + anchoring (vessel ↔ wall ↔ leads)
@@ -145,7 +145,7 @@ keyMessage: RIVA = anterior wall, RCX = lateral wall, RCA = inferior/posterior w
 - voiceover: "Typisch: Brustschmerz, ausstrahlend in Arm, Kiefer oder Oberbauch. Kaltschweiß, Todesangst. Achtung: Frauen und Diabetiker oft atypisch."
 - duration: 9.5s
 - transition_in: crossfade
-- status: outline
+- status: built
 - src: compositions/frames/09-symptome.html
 - type: feature_showcase
 - persuasion: Callback (the hook's chest pressure) + counterexample (atypical presentation)
@@ -161,7 +161,7 @@ keyMessage: Typical: >20 min chest pain with radiation and vegetative signs. Wom
 - voiceover: "Diagnose: EKG in zehn Minuten. ST-Hebung in zwei benachbarten Ableitungen – STEMI."
 - duration: 6.5s
 - transition_in: push-slide LEFT
-- status: outline
+- status: built
 - src: compositions/frames/10-ekg.html
 - type: feature_showcase
 - persuasion: Demonstration + question→answer pairing
@@ -178,7 +178,7 @@ keyMessage: 12-lead ECG within 10 min. ST elevation in ≥2 contiguous leads = S
 - voiceover: "Keine Hebung? Dann entscheidet das Troponin: erhöht – NSTEMI. Normal – instabile Angina."
 - duration: 7s
 - transition_in: push-slide LEFT
-- status: outline
+- status: built
 - src: compositions/frames/11-troponin.html
 - type: social_proof
 - persuasion: Comparison of two options + worked example (0h/1h algorithm)
@@ -194,7 +194,7 @@ keyMessage: Troponin up = NSTEMI. Troponin normal = unstable angina.
 - voiceover: "Therapie: Notruf, ASS, Heparin, Nitro, wenn der Blutdruck reicht. Sauerstoff nur bei einer Sättigung unter neunzig Prozent. Beim STEMI: Herzkatheter, innerhalb von zwei Stunden."
 - duration: 11.5s
 - transition_in: push-slide LEFT
-- status: outline
+- status: built
 - src: compositions/frames/12-therapie.html
 - type: feature_showcase
 - persuasion: Signposting (first… then… finally) + numbered enumeration
@@ -211,7 +211,7 @@ keyMessage: 112, ASS + heparin, nitro if BP allows, analgesia, O₂ only if SpO�
 - voiceover: "Merke: Plaque reißt, Thrombus verschließt, Muskel stirbt. Folge med2be."
 - duration: 7s
 - transition_in: zoom-through
-- status: outline
+- status: built
 - src: compositions/frames/13-merke.html
 - type: cta
 - persuasion: Distillation + callback (Zeit ist Muskel)
