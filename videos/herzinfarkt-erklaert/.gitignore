@@ -1,2 +1,5 @@
 refs/*.gif
 renders/
+.hyperframes/artifacts/
+.hyperframes/tts/
+tools/__pycache__/

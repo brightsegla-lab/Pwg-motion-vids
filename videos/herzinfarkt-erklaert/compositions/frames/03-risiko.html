@@ -20,15 +20,15 @@
 .f03-chip .f03-lab{color:#3D5AFE;}
 .f03-mark{position:absolute;font-weight:900;font-size:5.2cqw;letter-spacing:-.03em;line-height:1;}
 .f03-mark i{font-style:normal;color:#3D5AFE;}
-
+.f03-draw{stroke-dasharray:1;stroke-dashoffset:0;}
   </style>
-  <div id="root" data-composition-id="03-risiko" data-width="1080" data-height="1920" data-duration="6.5">
+  <div id="root" data-composition-id="03-risiko" data-width="1080" data-height="1920" data-duration="6.14">
 
-<div class="clip f03-layer" id="f03-ground" data-start="0" data-duration="6.5" data-track-index="0" style="background:radial-gradient(120% 80% at 50% 45%, #0A0A10 0%, #050508 100%);">
+<div class="clip f03-layer" id="f03-ground" data-start="0" data-duration="6.14" data-track-index="0" style="background:radial-gradient(120% 80% at 50% 45%, #0A0A10 0%, #050508 100%);">
   <svg class="f03-art" viewBox="0 0 1080 1920">
 <defs>
   <filter id="f03-grain" x="0" y="0" width="100%" height="100%">
-    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="11" stitchTiles="stitch"/>
+    <feTurbulence id="f03-turb" type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="11" stitchTiles="stitch"/>
     <feColorMatrix type="saturate" values="0"/>
   </filter>
   <filter id="f03-stip" x="-10%" y="-10%" width="120%" height="120%">
@@ -54,22 +54,46 @@
     <stop offset="0" stop-color="#8A8A92"/><stop offset="1" stop-color="#3A3A42"/>
   </radialGradient>
 </defs>
-    <circle cx="540" cy="1300" r="460" fill="#3D5AFE" opacity="0.25" filter="url(#f03-blur)"/>
+    <g id="f03-bloom"><circle cx="540" cy="1300" r="460" fill="#3D5AFE" opacity="0.25" filter="url(#f03-blur)"/></g>
   </svg>
-</div><div class="clip f03-layer" id="f03-stage" data-start="0" data-duration="6.5" data-track-index="1"><svg class="f03-art" viewBox="0 0 1080 1920"><rect x="92" y="520" width="132" height="132" rx="30" fill="rgba(240,236,229,.04)" stroke="#F0ECE5" stroke-width="1.6" opacity=".9"/><rect x="116" y="594" width="84" height="18" rx="4" fill="none" stroke="#F0ECE5" stroke-width="3"/><line x1="180" y1="594" x2="180" y2="612" stroke="#F28A2E" stroke-width="3"/><path d="M138 582 C 124 568, 152 560, 138 544" fill="none" stroke="#F0ECE5" stroke-width="3" stroke-linecap="round"/><path d="M158 582 C 144 568, 172 560, 158 544" fill="none" stroke="#F0ECE5" stroke-width="3" stroke-linecap="round" opacity=".6"/><rect x="92" y="700" width="132" height="132" rx="30" fill="rgba(240,236,229,.04)" stroke="#F0ECE5" stroke-width="1.6" opacity=".9"/><path d="M118 786 A 44 44 0 1 1 198 786" fill="none" stroke="#F0ECE5" stroke-width="3"/><line x1="158" y1="780" x2="186" y2="746" stroke="#E5483A" stroke-width="4" stroke-linecap="round"/><circle cx="158" cy="780" r="6" fill="#F0ECE5"/><rect x="92" y="880" width="132" height="132" rx="30" fill="rgba(240,236,229,.04)" stroke="#F0ECE5" stroke-width="1.6" opacity=".9"/><path d="M158 900 C 188 936, 196 954, 196 964 A 38 38 0 0 1 120 964 C 120 954, 128 936, 158 900 Z" fill="none" stroke="#F0ECE5" stroke-width="3"/><rect x="146" y="952" width="24" height="24" fill="none" stroke="#3D5AFE" stroke-width="3"/><rect x="92" y="1060" width="132" height="132" rx="30" fill="rgba(240,236,229,.04)" stroke="#F0ECE5" stroke-width="1.6" opacity=".9"/><circle cx="158" cy="1126" r="34" fill="none" stroke="#F0ECE5" stroke-width="3"/><circle cx="158" cy="1126" r="14" fill="#F2D28A" opacity=".85"/><circle cx="192.0" cy="1126.0" r="7" fill="#E838C8"/><circle cx="175.0" cy="1155.4" r="7" fill="#E838C8"/><circle cx="141.0" cy="1155.4" r="7" fill="#E838C8"/><circle cx="124.0" cy="1126.0" r="7" fill="#E838C8"/><circle cx="141.0" cy="1096.6" r="7" fill="#E838C8"/><circle cx="175.0" cy="1096.6" r="7" fill="#E838C8"/><path d="M224 586 C 700 586, 760 1330, 860 1330" fill="none" stroke="#3D5AFE" stroke-width="2" opacity=".55" stroke-dasharray="6 10"/><path d="M224 766 C 700 766, 760 1330, 860 1330" fill="none" stroke="#3D5AFE" stroke-width="2" opacity=".55" stroke-dasharray="6 10"/><path d="M224 946 C 700 946, 760 1330, 860 1330" fill="none" stroke="#3D5AFE" stroke-width="2" opacity=".55" stroke-dasharray="6 10"/><path d="M224 1126 C 700 1126, 760 1330, 860 1330" fill="none" stroke="#3D5AFE" stroke-width="2" opacity=".55" stroke-dasharray="6 10"/><rect x="-20" y="1300" width="1120" height="64" rx="32" fill="#3D5AFE" opacity=".9" filter="url(#f03-stip)"/><rect x="-20" y="1300" width="1120" height="64" rx="32" fill="none" stroke="#F0ECE5" stroke-width="1.5" opacity=".5"/><circle cx="150" cy="1332" r="9" fill="#F0ECE5" opacity=".8"/><circle cx="330" cy="1332" r="9" fill="#F0ECE5" opacity=".8"/><circle cx="520" cy="1332" r="9" fill="#F0ECE5" opacity=".8"/><circle cx="700" cy="1332" r="9" fill="#F0ECE5" opacity=".8"/><circle cx="890" cy="1332" r="9" fill="#F0ECE5" opacity=".8"/><rect x="70" y="1270" width="940" height="124" rx="0" fill="none" stroke="#F0ECE5" stroke-width="1.5" opacity=".75" stroke-dasharray="8 8"/><rect x="62.0" y="1262.0" width="16" height="16" fill="#0A0A10" stroke="#F0ECE5" stroke-width="1.6"/><rect x="1002.0" y="1262.0" width="16" height="16" fill="#0A0A10" stroke="#F0ECE5" stroke-width="1.6"/><rect x="62.0" y="1386.0" width="16" height="16" fill="#0A0A10" stroke="#F0ECE5" stroke-width="1.6"/><rect x="1002.0" y="1386.0" width="16" height="16" fill="#0A0A10" stroke="#F0ECE5" stroke-width="1.6"/></svg><div class="f03-h3" style="position:absolute;left:262px;top:550px">rauchen</div><div class="f03-h3" style="position:absolute;left:262px;top:730px">bluthochdruck</div><div class="f03-h3" style="position:absolute;left:262px;top:910px">diabetes</div><div class="f03-h3" style="position:absolute;left:262px;top:1090px">hohes ldl</div>
-  <div class="f03-kicker" style="left:76px;top:262px">am anfang</div>
-  <div class="f03-h2" style="left:72px;top:312px">risikofaktoren</div>
-  <div class="f03-chip" style="left:76px;top:1440px"><span class="f03-lab">+ familie · alter · bewegungsmangel</span></div>
-</div>
+</div><div class="clip f03-layer" id="f03-stage" data-start="0" data-duration="6.14" data-track-index="1"><div class="f03-layer" id="f03-cam"><svg class="f03-art" id="f03-art" viewBox="0 0 1080 1920"><g id="f03-ic0" ><rect x="92" y="520" width="132" height="132" rx="30" fill="rgba(240,236,229,.04)" stroke="#F0ECE5" stroke-width="1.6" opacity=".9"/><rect x="116" y="594" width="84" height="18" rx="4" fill="none" stroke="#F0ECE5" stroke-width="3"/><line x1="180" y1="594" x2="180" y2="612" stroke="#F28A2E" stroke-width="3"/><path d="M138 582 C 124 568, 152 560, 138 544" fill="none" stroke="#F0ECE5" stroke-width="3" stroke-linecap="round"/><path d="M158 582 C 144 568, 172 560, 158 544" fill="none" stroke="#F0ECE5" stroke-width="3" stroke-linecap="round" opacity=".6"/></g><g id="f03-ic1" ><rect x="92" y="700" width="132" height="132" rx="30" fill="rgba(240,236,229,.04)" stroke="#F0ECE5" stroke-width="1.6" opacity=".9"/><path d="M118 786 A 44 44 0 1 1 198 786" fill="none" stroke="#F0ECE5" stroke-width="3"/><line x1="158" y1="780" x2="186" y2="746" stroke="#E5483A" stroke-width="4" stroke-linecap="round"/><circle cx="158" cy="780" r="6" fill="#F0ECE5"/></g><g id="f03-ic2" ><rect x="92" y="880" width="132" height="132" rx="30" fill="rgba(240,236,229,.04)" stroke="#F0ECE5" stroke-width="1.6" opacity=".9"/><path d="M158 900 C 188 936, 196 954, 196 964 A 38 38 0 0 1 120 964 C 120 954, 128 936, 158 900 Z" fill="none" stroke="#F0ECE5" stroke-width="3"/><rect x="146" y="952" width="24" height="24" fill="none" stroke="#3D5AFE" stroke-width="3"/></g><g id="f03-ic3" ><rect x="92" y="1060" width="132" height="132" rx="30" fill="rgba(240,236,229,.04)" stroke="#F0ECE5" stroke-width="1.6" opacity=".9"/><circle cx="158" cy="1126" r="34" fill="none" stroke="#F0ECE5" stroke-width="3"/><circle cx="158" cy="1126" r="14" fill="#F2D28A" opacity=".85"/><circle cx="192.0" cy="1126.0" r="7" fill="#E838C8"/><circle cx="175.0" cy="1155.4" r="7" fill="#E838C8"/><circle cx="141.0" cy="1155.4" r="7" fill="#E838C8"/><circle cx="124.0" cy="1126.0" r="7" fill="#E838C8"/><circle cx="141.0" cy="1096.6" r="7" fill="#E838C8"/><circle cx="175.0" cy="1096.6" r="7" fill="#E838C8"/></g><g id="f03-ln0" ><path d="M224 586 C 700 586, 760 1330, 860 1330" fill="none" stroke="#3D5AFE" stroke-width="2" opacity=".55" stroke-dasharray="6 10"/></g><g id="f03-ln1" ><path d="M224 766 C 700 766, 760 1330, 860 1330" fill="none" stroke="#3D5AFE" stroke-width="2" opacity=".55" stroke-dasharray="6 10"/></g><g id="f03-ln2" ><path d="M224 946 C 700 946, 760 1330, 860 1330" fill="none" stroke="#3D5AFE" stroke-width="2" opacity=".55" stroke-dasharray="6 10"/></g><g id="f03-ln3" ><path d="M224 1126 C 700 1126, 760 1330, 860 1330" fill="none" stroke="#3D5AFE" stroke-width="2" opacity=".55" stroke-dasharray="6 10"/></g><g id="f03-vessel" ><rect x="-20" y="1300" width="1120" height="64" rx="32" fill="#3D5AFE" opacity=".9" filter="url(#f03-stip)"/><rect x="-20" y="1300" width="1120" height="64" rx="32" fill="none" stroke="#F0ECE5" stroke-width="1.5" opacity=".5"/><g id="f03-flow" ><circle cx="150" cy="1332" r="9" fill="#F0ECE5" opacity=".8"/><circle cx="330" cy="1332" r="9" fill="#F0ECE5" opacity=".8"/><circle cx="520" cy="1332" r="9" fill="#F0ECE5" opacity=".8"/><circle cx="700" cy="1332" r="9" fill="#F0ECE5" opacity=".8"/><circle cx="890" cy="1332" r="9" fill="#F0ECE5" opacity=".8"/><circle cx="1070" cy="1332" r="9" fill="#F0ECE5" opacity=".8"/></g></g><g id="f03-sel" ><rect x="70" y="1270" width="940" height="124" rx="0" fill="none" stroke="#F0ECE5" stroke-width="1.5" opacity=".75" stroke-dasharray="8 8"/><rect x="62.0" y="1262.0" width="16" height="16" fill="#0A0A10" stroke="#F0ECE5" stroke-width="1.6"/><rect x="1002.0" y="1262.0" width="16" height="16" fill="#0A0A10" stroke="#F0ECE5" stroke-width="1.6"/><rect x="62.0" y="1386.0" width="16" height="16" fill="#0A0A10" stroke="#F0ECE5" stroke-width="1.6"/><rect x="1002.0" y="1386.0" width="16" height="16" fill="#0A0A10" stroke="#F0ECE5" stroke-width="1.6"/></g><rect class="f03-pt" x="973" y="553" width="14" height="14" fill="#2EC4B6" opacity="0.9"/><rect class="f03-pt" x="953" y="1173" width="14" height="14" fill="#F28A2E" opacity="0.55"/><rect class="f03-pt" x="123" y="1233" width="14" height="14" fill="#3D5AFE" opacity="0.9"/></svg><div class="f03-h3" id="f03-lb0" style="position:absolute;left:262px;top:550px">rauchen</div><div class="f03-h3" id="f03-lb1" style="position:absolute;left:262px;top:730px">bluthochdruck</div><div class="f03-h3" id="f03-lb2" style="position:absolute;left:262px;top:910px">diabetes</div><div class="f03-h3" id="f03-lb3" style="position:absolute;left:262px;top:1090px">hohes ldl</div>
+  <div class="f03-kicker" id="f03-kick" style="left:76px;top:262px">am anfang</div>
+  <div class="f03-h2" id="f03-h2" style="left:72px;top:312px;">risikofaktoren</div>
+  <div class="f03-chip" id="f03-more" style="left:76px;top:1440px"><span class="f03-lab">+ familie · alter · bewegungsmangel</span></div>
+</div></div>
 
-<div class="clip f03-layer" id="f03-grainlayer" data-start="0" data-duration="6.5" data-track-index="9" style="mix-blend-mode:overlay;opacity:.22;pointer-events:none;">
+<div class="clip f03-layer" id="f03-grainlayer" data-start="0" data-duration="6.14" data-track-index="9" style="mix-blend-mode:overlay;opacity:.22;pointer-events:none;">
   <svg class="f03-art" viewBox="0 0 1080 1920"><rect width="1080" height="1920" filter="url(#f03-grain)"/></svg>
 </div>
   </div>
   <script src="assets/vendor/gsap.min.js"></script>
   <script>
-    // Sketch pass: static pose. Motion arrives in the build pass.
     const tl = gsap.timeline({ paused: true });
+
+    const pop = (s, at, o = {}) => tl.fromTo(s, { opacity: 0, scale: o.s ?? 0.6, transformOrigin: o.origin ?? "50% 50%" }, { opacity: 1, scale: 1, duration: o.d ?? 0.5, ease: o.e ?? "back.out(2.2)", stagger: o.st ?? 0 }, at);
+    const rise = (s, at, o = {}) => tl.fromTo(s, { opacity: 0, y: o.y ?? 46 }, { opacity: 1, y: 0, duration: o.d ?? 0.55, ease: o.e ?? "power3.out", stagger: o.st ?? 0 }, at);
+    const slide = (s, at, o = {}) => tl.fromTo(s, { opacity: 0, x: o.x ?? -60 }, { opacity: 1, x: 0, duration: o.d ?? 0.5, ease: o.e ?? "power3.out", stagger: o.st ?? 0 }, at);
+    const fade = (s, at, o = {}) => tl.fromTo(s, { opacity: 0 }, { opacity: o.to ?? 1, duration: o.d ?? 0.4, ease: "power1.out", stagger: o.st ?? 0 }, at);
+    const slam = (s, at, o = {}) => tl.fromTo(s, { opacity: 0, scale: o.s ?? 1.7, filter: "blur(14px)", transformOrigin: o.origin ?? "0% 50%" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: o.d ?? 0.45, ease: "expo.out" }, at);
+    const draw = (s, at, d = 0.8, e = "power2.inOut") => tl.fromTo(s, { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: d, ease: e }, at);
+    const beat = (s, at, k = 1.08) => { tl.to(s, { scale: k, transformOrigin: "50% 50%", duration: 0.11, ease: "power2.out" }, at); tl.to(s, { scale: 1, duration: 0.32, ease: "power2.inOut" }, at + 0.11); };
+
+    tl.to("#f03-turb", { attr: { seed: 85 }, duration: 6.14, ease: "steps(74)" }, 0);
+    tl.fromTo("#f03-cam", { scale: 1.0, transformOrigin: "50% 45%" }, { scale: 1.035, duration: 6.14, ease: "none" }, 0);
+    tl.fromTo(".f03-pt", { opacity: 0, y: 30 }, { opacity: 1, y: -50, duration: 6.14, ease: "power1.out", stagger: 0.12 }, 0.05);
+    tl.fromTo("#f03-bloom", { opacity: 0.6, scale: 0.9, transformOrigin: "50% 50%" }, { opacity: 1, scale: 1.05, duration: 6.14, ease: "sine.inOut" }, 0);
+
+    fade("#f03-kick", 0.1);
+    rise("#f03-h2", 0.3);
+    tl.fromTo("#f03-vessel", { opacity: 0, x: -300 }, { opacity: 1, x: 0, duration: 0.8, ease: "power3.out" }, 1.153);
+    tl.fromTo("#f03-flow", { x: -180 }, { x: 0, duration: 6.14, ease: "none" }, 0);
+    pop("#f03-sel", 1.653, { s: 1.05, d: 0.4, e: "power3.out" });
+    pop("#f03-ic0", 2.276, { s: 0.4 }); slide("#f03-lb0", 2.356, { x: -40 }); fade("#f03-ln0", 2.526, { d: 0.5 });
+    pop("#f03-ic1", 2.857, { s: 0.4 }); slide("#f03-lb1", 2.9370000000000003, { x: -40 }); fade("#f03-ln1", 3.107, { d: 0.5 });
+    pop("#f03-ic2", 3.639, { s: 0.4 }); slide("#f03-lb2", 3.719, { x: -40 }); fade("#f03-ln2", 3.889, { d: 0.5 });
+    pop("#f03-ic3", 4.821, { s: 0.4 }); slide("#f03-lb3", 4.901, { x: -40 }); fade("#f03-ln3", 5.071, { d: 0.5 });
+    rise("#f03-more", 5.3709999999999996);
+
     window.__timelines["03-risiko"] = tl;
   </script>
 </template>

@@ -20,15 +20,15 @@
 .f08-chip .f08-lab{color:#3D5AFE;}
 .f08-mark{position:absolute;font-weight:900;font-size:5.2cqw;letter-spacing:-.03em;line-height:1;}
 .f08-mark i{font-style:normal;color:#3D5AFE;}
-
+.f08-draw{stroke-dasharray:1;stroke-dashoffset:0;}
   </style>
-  <div id="root" data-composition-id="08-gefaesse" data-width="1080" data-height="1920" data-duration="8">
+  <div id="root" data-composition-id="08-gefaesse" data-width="1080" data-height="1920" data-duration="7.6">
 
-<div class="clip f08-layer" id="f08-ground" data-start="0" data-duration="8" data-track-index="0" style="background:radial-gradient(120% 80% at 50% 45%, #0A0A10 0%, #050508 100%);">
+<div class="clip f08-layer" id="f08-ground" data-start="0" data-duration="7.6" data-track-index="0" style="background:radial-gradient(120% 80% at 50% 45%, #0A0A10 0%, #050508 100%);">
   <svg class="f08-art" viewBox="0 0 1080 1920">
 <defs>
   <filter id="f08-grain" x="0" y="0" width="100%" height="100%">
-    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="11" stitchTiles="stitch"/>
+    <feTurbulence id="f08-turb" type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="11" stitchTiles="stitch"/>
     <feColorMatrix type="saturate" values="0"/>
   </filter>
   <filter id="f08-stip" x="-10%" y="-10%" width="120%" height="120%">
@@ -54,23 +54,44 @@
     <stop offset="0" stop-color="#8A8A92"/><stop offset="1" stop-color="#3A3A42"/>
   </radialGradient>
 </defs>
-    <circle cx="540" cy="760" r="460" fill="#3D5AFE" opacity="0.22" filter="url(#f08-blur)"/>
+    <g id="f08-bloom"><circle cx="540" cy="760" r="460" fill="#3D5AFE" opacity="0.22" filter="url(#f08-blur)"/></g>
   </svg>
-</div><div class="clip f08-layer" id="f08-stage" data-start="0" data-duration="8" data-track-index="1"><svg class="f08-art" viewBox="0 0 1080 1920"><g opacity=".9"><g transform="translate(61.5 250) scale(1.45)"><path d="M232 270 L 226 118" stroke="#F0ECE5" stroke-width="1.38" fill="none"/><path d="M285 245 C 272 150, 305 92, 362 92 C 420 92, 452 132, 452 196" stroke="#F0ECE5" stroke-width="1.38" fill="none"/><path d="M262 240 C 255 140, 300 66, 362 66 C 438 66, 478 118, 478 196" stroke="#F0ECE5" stroke-width="1.38" fill="none"/><path d="M335 252 C 342 205, 382 178, 425 188" stroke="#F0ECE5" stroke-width="1.38" fill="none"/><path d="M210 230 C 300 170, 430 190, 480 280 C 530 370, 500 500, 430 600 C 410 630, 385 650, 360 640 C 260 600, 160 520, 140 420 C 125 340, 150 270, 210 230 Z" fill="none"  stroke="#F0ECE5" stroke-width="1.38"/><path d="M290 262 C 232 292, 192 342, 186 420 C 182 482, 212 542, 262 584" stroke="#E838C8" stroke-width="4.827586206896552" fill="none" stroke-linecap="round" opacity="0.85"/><path d="M322 266 C 342 362, 352 482, 366 632" stroke="#3D5AFE" stroke-width="6.206896551724138" fill="none" stroke-linecap="round" opacity="1"/><path d="M328 262 C 384 250, 442 272, 478 324 C 498 356, 504 392, 500 430" stroke="#2EC4B6" stroke-width="4.827586206896552" fill="none" stroke-linecap="round" opacity="0.85"/></g></g><g transform="translate(61.5 250) scale(1.45)" filter="url(#f08-glow)"><path d="M322 266 C 342 362, 352 482, 366 632" stroke="#3D5AFE" stroke-width="9" fill="none" stroke-linecap="round"/></g><line x1="531" y1="956" x2="611" y2="940" stroke="#3D5AFE" stroke-width="1.4" opacity=".7"/><rect x="525.0" y="950.0" width="12" height="12" fill="#3D5AFE" stroke="#3D5AFE" stroke-width="1.6"/><rect x="605.0" y="934.0" width="12" height="12" fill="#3D5AFE" stroke="#3D5AFE" stroke-width="1.6"/><g transform="translate(571 948) rotate(45)"><rect x="-9.0" y="-9.0" width="18" height="18" fill="#0A0A10" stroke="#3D5AFE" stroke-width="1.6"/></g><circle cx="571" cy="948" r="4.0" fill="none" stroke="#3D5AFE" stroke-width="1.4"/><rect x="133" y="1093" width="14" height="14" fill="#3D5AFE" opacity="0.9"/><rect x="953" y="553" width="14" height="14" fill="#2EC4B6" opacity="0.9"/><rect x="973" y="1053" width="14" height="14" fill="#F28A2E" opacity="0.55"/></svg>
-  <div class="f08-kicker" style="left:76px;top:200px">versorgungsgebiete <b>· ekg</b></div>
-  <div class="f08-chip" style="left:66px;top:1230px;width:948px;justify-content:flex-start"><span class="f08-lab" style="color:#3D5AFE;width:120px;font-size:3.2cqw">riva</span><svg width="44" height="28" viewBox="0 0 56 34" style="display:inline-block;vertical-align:middle;margin:0 14px"><path d="M4 17 H48 M34 5 L50 17 L34 29" fill="none" stroke="#F0ECE5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="f08-h3" style="font-size:5.2cqw;flex:1">vorderwand</span><span class="f08-lab" style="color:#8E8E98">V1–V4</span></div>
-  <div class="f08-chip" style="left:66px;top:1360px;width:948px;justify-content:flex-start"><span class="f08-lab" style="color:#2EC4B6;width:120px;font-size:3.2cqw">rcx</span><svg width="44" height="28" viewBox="0 0 56 34" style="display:inline-block;vertical-align:middle;margin:0 14px"><path d="M4 17 H48 M34 5 L50 17 L34 29" fill="none" stroke="#F0ECE5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="f08-h3" style="font-size:5.2cqw;flex:1">seitenwand</span><span class="f08-lab" style="color:#8E8E98">I · aVL · V5–V6</span></div>
-  <div class="f08-chip" style="left:66px;top:1490px;width:948px;justify-content:flex-start"><span class="f08-lab" style="color:#E838C8;width:120px;font-size:3.2cqw">rca</span><svg width="44" height="28" viewBox="0 0 56 34" style="display:inline-block;vertical-align:middle;margin:0 14px"><path d="M4 17 H48 M34 5 L50 17 L34 29" fill="none" stroke="#F0ECE5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="f08-h3" style="font-size:5.2cqw;flex:1">hinterwand</span><span class="f08-lab" style="color:#8E8E98">II · III · aVF</span></div>
-</div>
+</div><div class="clip f08-layer" id="f08-stage" data-start="0" data-duration="7.6" data-track-index="1"><div class="f08-layer" id="f08-cam"><svg class="f08-art" id="f08-art" viewBox="0 0 1080 1920"><g transform="translate(61.5 250) scale(1.45)"><g id="f08-out" ><path class="f08-draw" pathLength="1" d="M232 270 L 226 118" stroke="#F0ECE5" stroke-width="1.38" fill="none"/><path class="f08-draw" pathLength="1" d="M285 245 C 272 150, 305 92, 362 92 C 420 92, 452 132, 452 196" stroke="#F0ECE5" stroke-width="1.38" fill="none"/><path class="f08-draw" pathLength="1" d="M262 240 C 255 140, 300 66, 362 66 C 438 66, 478 118, 478 196" stroke="#F0ECE5" stroke-width="1.38" fill="none"/><path class="f08-draw" pathLength="1" d="M335 252 C 342 205, 382 178, 425 188" stroke="#F0ECE5" stroke-width="1.38" fill="none"/><path class="f08-draw" pathLength="1" d="M210 230 C 300 170, 430 190, 480 280 C 530 370, 500 500, 430 600 C 410 630, 385 650, 360 640 C 260 600, 160 520, 140 420 C 125 340, 150 270, 210 230 Z" stroke="#F0ECE5" stroke-width="1.38" fill="none"/></g><g id="f08-lad" ><path class="f08-draw" pathLength="1" d="M322 266 C 342 362, 352 482, 366 632" stroke="#3D5AFE" stroke-width="9" fill="none" stroke-linecap="round" filter="url(#f08-glow)"/></g><g id="f08-rcx" ><path class="f08-draw" pathLength="1" d="M328 262 C 384 250, 442 272, 478 324 C 498 356, 504 392, 500 430" stroke="#2EC4B6" stroke-width="7" fill="none" stroke-linecap="round" filter="url(#f08-glow)"/></g><g id="f08-rca" ><path class="f08-draw" pathLength="1" d="M290 262 C 232 292, 192 342, 186 420 C 182 482, 212 542, 262 584" stroke="#E838C8" stroke-width="7" fill="none" stroke-linecap="round" filter="url(#f08-glow)"/></g></g><g id="f08-tan" ><line x1="531" y1="956" x2="611" y2="940" stroke="#3D5AFE" stroke-width="1.4" opacity=".7"/><rect x="525.0" y="950.0" width="12" height="12" fill="#3D5AFE" stroke="#3D5AFE" stroke-width="1.6"/><rect x="605.0" y="934.0" width="12" height="12" fill="#3D5AFE" stroke="#3D5AFE" stroke-width="1.6"/><g transform="translate(571 948) rotate(45)"><rect x="-9.0" y="-9.0" width="18" height="18" fill="#0A0A10" stroke="#3D5AFE" stroke-width="1.6"/></g><circle cx="571" cy="948" r="4.0" fill="none" stroke="#3D5AFE" stroke-width="1.4"/></g><rect class="f08-pt" x="133" y="1093" width="14" height="14" fill="#3D5AFE" opacity="0.9"/><rect class="f08-pt" x="953" y="553" width="14" height="14" fill="#2EC4B6" opacity="0.9"/><rect class="f08-pt" x="973" y="1053" width="14" height="14" fill="#F28A2E" opacity="0.55"/></svg>
+  <div class="f08-kicker" id="f08-kick" style="left:76px;top:200px">versorgungsgebiete <b>· ekg</b></div>
+  <div class="f08-chip" id="f08-row0" style="left:66px;top:1230px;width:948px;justify-content:flex-start"><span class="f08-lab" style="color:#3D5AFE;width:120px;font-size:3.2cqw">riva</span><svg width="44" height="28" viewBox="0 0 56 34" style="display:inline-block;vertical-align:middle;margin:0 14px"><path d="M4 17 H48 M34 5 L50 17 L34 29" fill="none" stroke="#F0ECE5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="f08-h3" style="font-size:5.2cqw;flex:1">vorderwand</span><span class="f08-lab" style="color:#8E8E98">V1–V4</span></div>
+  <div class="f08-chip" id="f08-row1" style="left:66px;top:1360px;width:948px;justify-content:flex-start"><span class="f08-lab" style="color:#2EC4B6;width:120px;font-size:3.2cqw">rcx</span><svg width="44" height="28" viewBox="0 0 56 34" style="display:inline-block;vertical-align:middle;margin:0 14px"><path d="M4 17 H48 M34 5 L50 17 L34 29" fill="none" stroke="#F0ECE5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="f08-h3" style="font-size:5.2cqw;flex:1">seitenwand</span><span class="f08-lab" style="color:#8E8E98">I · aVL · V5–V6</span></div>
+  <div class="f08-chip" id="f08-row2" style="left:66px;top:1490px;width:948px;justify-content:flex-start"><span class="f08-lab" style="color:#E838C8;width:120px;font-size:3.2cqw">rca</span><svg width="44" height="28" viewBox="0 0 56 34" style="display:inline-block;vertical-align:middle;margin:0 14px"><path d="M4 17 H48 M34 5 L50 17 L34 29" fill="none" stroke="#F0ECE5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="f08-h3" style="font-size:5.2cqw;flex:1">hinterwand</span><span class="f08-lab" style="color:#8E8E98">II · III · aVF</span></div>
+</div></div>
 
-<div class="clip f08-layer" id="f08-grainlayer" data-start="0" data-duration="8" data-track-index="9" style="mix-blend-mode:overlay;opacity:.22;pointer-events:none;">
+<div class="clip f08-layer" id="f08-grainlayer" data-start="0" data-duration="7.6" data-track-index="9" style="mix-blend-mode:overlay;opacity:.22;pointer-events:none;">
   <svg class="f08-art" viewBox="0 0 1080 1920"><rect width="1080" height="1920" filter="url(#f08-grain)"/></svg>
 </div>
   </div>
   <script src="assets/vendor/gsap.min.js"></script>
   <script>
-    // Sketch pass: static pose. Motion arrives in the build pass.
     const tl = gsap.timeline({ paused: true });
+
+    const pop = (s, at, o = {}) => tl.fromTo(s, { opacity: 0, scale: o.s ?? 0.6, transformOrigin: o.origin ?? "50% 50%" }, { opacity: 1, scale: 1, duration: o.d ?? 0.5, ease: o.e ?? "back.out(2.2)", stagger: o.st ?? 0 }, at);
+    const rise = (s, at, o = {}) => tl.fromTo(s, { opacity: 0, y: o.y ?? 46 }, { opacity: 1, y: 0, duration: o.d ?? 0.55, ease: o.e ?? "power3.out", stagger: o.st ?? 0 }, at);
+    const slide = (s, at, o = {}) => tl.fromTo(s, { opacity: 0, x: o.x ?? -60 }, { opacity: 1, x: 0, duration: o.d ?? 0.5, ease: o.e ?? "power3.out", stagger: o.st ?? 0 }, at);
+    const fade = (s, at, o = {}) => tl.fromTo(s, { opacity: 0 }, { opacity: o.to ?? 1, duration: o.d ?? 0.4, ease: "power1.out", stagger: o.st ?? 0 }, at);
+    const slam = (s, at, o = {}) => tl.fromTo(s, { opacity: 0, scale: o.s ?? 1.7, filter: "blur(14px)", transformOrigin: o.origin ?? "0% 50%" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: o.d ?? 0.45, ease: "expo.out" }, at);
+    const draw = (s, at, d = 0.8, e = "power2.inOut") => tl.fromTo(s, { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: d, ease: e }, at);
+    const beat = (s, at, k = 1.08) => { tl.to(s, { scale: k, transformOrigin: "50% 50%", duration: 0.11, ease: "power2.out" }, at); tl.to(s, { scale: 1, duration: 0.32, ease: "power2.inOut" }, at + 0.11); };
+
+    tl.to("#f08-turb", { attr: { seed: 102 }, duration: 7.6, ease: "steps(91)" }, 0);
+    tl.fromTo("#f08-cam", { scale: 1.0, transformOrigin: "50% 45%" }, { scale: 1.035, duration: 7.6, ease: "none" }, 0);
+    tl.fromTo(".f08-pt", { opacity: 0, y: 30 }, { opacity: 1, y: -50, duration: 7.6, ease: "power1.out", stagger: 0.12 }, 0.05);
+    tl.fromTo("#f08-bloom", { opacity: 0.6, scale: 0.9, transformOrigin: "50% 50%" }, { opacity: 1, scale: 1.05, duration: 7.6, ease: "sine.inOut" }, 0);
+
+    fade("#f08-kick", 0.05);
+    draw("#f08-out path", 0.0, 1.6, "power2.out");
+    draw("#f08-lad path", 2.399, 0.7); slide("#f08-row0", 2.599); pop("#f08-tan", 2.999, { s: 0.4 });
+    draw("#f08-rcx path", 3.666, 0.7); slide("#f08-row1", 3.866);
+    draw("#f08-rca path", 5.335, 0.8); slide("#f08-row2", 5.535);
+    tl.to("#f08-lad", { opacity: 0.45, duration: 0.3 }, 3.866); tl.to("#f08-rcx", { opacity: 0.45, duration: 0.3 }, 5.535);
+    tl.to(["#f08-lad", "#f08-rcx"], { opacity: 1, duration: 0.4 }, 6.635);
+
     window.__timelines["08-gefaesse"] = tl;
   </script>
 </template>

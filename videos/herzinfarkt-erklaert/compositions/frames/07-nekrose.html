@@ -20,15 +20,15 @@
 .f07-chip .f07-lab{color:#3D5AFE;}
 .f07-mark{position:absolute;font-weight:900;font-size:5.2cqw;letter-spacing:-.03em;line-height:1;}
 .f07-mark i{font-style:normal;color:#3D5AFE;}
-
+.f07-draw{stroke-dasharray:1;stroke-dashoffset:0;}
   </style>
-  <div id="root" data-composition-id="07-nekrose" data-width="1080" data-height="1920" data-duration="8.5">
+  <div id="root" data-composition-id="07-nekrose" data-width="1080" data-height="1920" data-duration="7.57">
 
-<div class="clip f07-layer" id="f07-ground" data-start="0" data-duration="8.5" data-track-index="0" style="background:radial-gradient(120% 80% at 50% 45%, #0A0A10 0%, #050508 100%);">
+<div class="clip f07-layer" id="f07-ground" data-start="0" data-duration="7.57" data-track-index="0" style="background:radial-gradient(120% 80% at 50% 45%, #0A0A10 0%, #050508 100%);">
   <svg class="f07-art" viewBox="0 0 1080 1920">
 <defs>
   <filter id="f07-grain" x="0" y="0" width="100%" height="100%">
-    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="11" stitchTiles="stitch"/>
+    <feTurbulence id="f07-turb" type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="11" stitchTiles="stitch"/>
     <feColorMatrix type="saturate" values="0"/>
   </filter>
   <filter id="f07-stip" x="-10%" y="-10%" width="120%" height="120%">
@@ -54,26 +54,49 @@
     <stop offset="0" stop-color="#8A8A92"/><stop offset="1" stop-color="#3A3A42"/>
   </radialGradient>
 </defs>
-    <circle cx="540" cy="1000" r="460" fill="#E5483A" opacity="0.3" filter="url(#f07-blur)"/>
+    <g id="f07-bloom"><circle cx="540" cy="1000" r="460" fill="#E5483A" opacity="0.3" filter="url(#f07-blur)"/></g>
   </svg>
-</div><div class="clip f07-layer" id="f07-stage" data-start="0" data-duration="8.5" data-track-index="1"><svg class="f07-art" viewBox="0 0 1080 1920"><clipPath id="f07-slab"><rect x="110" y="620" width="860" height="560" rx="40"/></clipPath><g clip-path="url(#f07-slab)"><rect x="110" y="620" width="860" height="560" fill="url(#f07-mus)" filter="url(#f07-stip)"/><path d="M110 660 C 310 630, 530 710, 730 660 S 930 640, 970 670" fill="none" stroke="#F0ECE5" stroke-width="1.4" opacity=".28"/><path d="M110 708 C 310 678, 530 758, 730 708 S 930 688, 970 718" fill="none" stroke="#F0ECE5" stroke-width="1.4" opacity=".28"/><path d="M110 756 C 310 726, 530 806, 730 756 S 930 736, 970 766" fill="none" stroke="#F0ECE5" stroke-width="1.4" opacity=".28"/><path d="M110 804 C 310 774, 530 854, 730 804 S 930 784, 970 814" fill="none" stroke="#F0ECE5" stroke-width="1.4" opacity=".28"/><path d="M110 852 C 310 822, 530 902, 730 852 S 930 832, 970 862" fill="none" stroke="#F0ECE5" stroke-width="1.4" opacity=".28"/><path d="M110 900 C 310 870, 530 950, 730 900 S 930 880, 970 910" fill="none" stroke="#F0ECE5" stroke-width="1.4" opacity=".28"/><path d="M110 948 C 310 918, 530 998, 730 948 S 930 928, 970 958" fill="none" stroke="#F0ECE5" stroke-width="1.4" opacity=".28"/><path d="M110 996 C 310 966, 530 1046, 730 996 S 930 976, 970 1006" fill="none" stroke="#F0ECE5" stroke-width="1.4" opacity=".28"/><path d="M110 1044 C 310 1014, 530 1094, 730 1044 S 930 1024, 970 1054" fill="none" stroke="#F0ECE5" stroke-width="1.4" opacity=".28"/><path d="M110 1092 C 310 1062, 530 1142, 730 1092 S 930 1072, 970 1102" fill="none" stroke="#F0ECE5" stroke-width="1.4" opacity=".28"/><path d="M110 1140 C 310 1110, 530 1190, 730 1140 S 930 1120, 970 1150" fill="none" stroke="#F0ECE5" stroke-width="1.4" opacity=".28"/><path d="M110 1180 L 110 930 C 240 880, 330 960, 470 905 C 600 850, 700 940, 820 890 C 880 870, 930 900, 970 880 L 970 1180 Z" fill="#E5483A" opacity=".9" filter="url(#f07-stip)"/><path d="M110 930 C 240 880, 330 960, 470 905 C 600 850, 700 940, 820 890 C 880 870, 930 900, 970 880" fill="none" stroke="#FF9A8A" stroke-width="4" filter="url(#f07-glow)"/></g><rect x="110" y="620" width="860" height="560" rx="40" fill="none" stroke="#F0ECE5" stroke-width="1.5" opacity=".6"/><line x1="1015" y1="1150" x2="1015" y2="860" stroke="#E5483A" stroke-width="3" stroke-linecap="round"/><polyline points="1022.8,876.2 1015,860 1007.2,876.2" fill="none" stroke="#E5483A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><rect x="110" y="620" width="860" height="560" rx="0" fill="none" stroke="#F0ECE5" stroke-width="1.5" opacity=".75" stroke-dasharray="8 8"/><rect x="102.0" y="612.0" width="16" height="16" fill="#0A0A10" stroke="#F0ECE5" stroke-width="1.6"/><rect x="962.0" y="612.0" width="16" height="16" fill="#0A0A10" stroke="#F0ECE5" stroke-width="1.6"/><rect x="102.0" y="1172.0" width="16" height="16" fill="#0A0A10" stroke="#F0ECE5" stroke-width="1.6"/><rect x="962.0" y="1172.0" width="16" height="16" fill="#0A0A10" stroke="#F0ECE5" stroke-width="1.6"/><rect x="153" y="1283" width="14" height="14" fill="#3D5AFE" opacity="0.9"/><rect x="953" y="513" width="14" height="14" fill="#2EC4B6" opacity="0.9"/><rect x="893" y="1293" width="14" height="14" fill="#F28A2E" opacity="0.55"/></svg>
-  <div class="f07-kicker" style="left:76px;top:262px">schritt 04 <b>· ischämie <svg width="40" height="24" viewBox="0 0 56 34" style="display:inline-block;vertical-align:middle;margin:0 14px"><path d="M4 17 H48 M34 5 L50 17 L34 29" fill="none" stroke="#F0ECE5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg> nekrose</b></div>
-  <div style="position:absolute;left:72px;top:318px;font-weight:900;font-size:14cqw;line-height:.95;letter-spacing:-.04em;">20–30<span style="font-size:7cqw;color:#8E8E98"> min</span></div>
-  <div class="f07-lab" style="position:absolute;left:150px;top:648px;color:#F0ECE5">epikard</div>
-  <div class="f07-lab" style="position:absolute;left:150px;top:1112px;color:#0A0A10">endokard</div>
-  <div class="f07-lab" style="position:absolute;left:600px;top:1210px;color:#E5483A">von innen nach außen</div>
-  <div class="f07-h1" style="left:72px;top:1330px">zeit ist</div>
-  <div class="f07-h1" style="left:72px;top:1450px;color:#E5483A">muskel.</div>
-</div>
+</div><div class="clip f07-layer" id="f07-stage" data-start="0" data-duration="7.57" data-track-index="1"><div class="f07-layer" id="f07-cam"><svg class="f07-art" id="f07-art" viewBox="0 0 1080 1920"><clipPath id="f07-slab"><rect x="110" y="620" width="860" height="560" rx="40"/></clipPath><g id="f07-slabg" ><g clip-path="url(#f07-slab)"><rect x="110" y="620" width="860" height="560" fill="url(#f07-mus)" filter="url(#f07-stip)"/><path d="M110 660 C 310 630, 530 710, 730 660 S 930 640, 970 670" fill="none" stroke="#F0ECE5" stroke-width="1.4" opacity=".28"/><path d="M110 708 C 310 678, 530 758, 730 708 S 930 688, 970 718" fill="none" stroke="#F0ECE5" stroke-width="1.4" opacity=".28"/><path d="M110 756 C 310 726, 530 806, 730 756 S 930 736, 970 766" fill="none" stroke="#F0ECE5" stroke-width="1.4" opacity=".28"/><path d="M110 804 C 310 774, 530 854, 730 804 S 930 784, 970 814" fill="none" stroke="#F0ECE5" stroke-width="1.4" opacity=".28"/><path d="M110 852 C 310 822, 530 902, 730 852 S 930 832, 970 862" fill="none" stroke="#F0ECE5" stroke-width="1.4" opacity=".28"/><path d="M110 900 C 310 870, 530 950, 730 900 S 930 880, 970 910" fill="none" stroke="#F0ECE5" stroke-width="1.4" opacity=".28"/><path d="M110 948 C 310 918, 530 998, 730 948 S 930 928, 970 958" fill="none" stroke="#F0ECE5" stroke-width="1.4" opacity=".28"/><path d="M110 996 C 310 966, 530 1046, 730 996 S 930 976, 970 1006" fill="none" stroke="#F0ECE5" stroke-width="1.4" opacity=".28"/><path d="M110 1044 C 310 1014, 530 1094, 730 1044 S 930 1024, 970 1054" fill="none" stroke="#F0ECE5" stroke-width="1.4" opacity=".28"/><path d="M110 1092 C 310 1062, 530 1142, 730 1092 S 930 1072, 970 1102" fill="none" stroke="#F0ECE5" stroke-width="1.4" opacity=".28"/><path d="M110 1140 C 310 1110, 530 1190, 730 1140 S 930 1120, 970 1150" fill="none" stroke="#F0ECE5" stroke-width="1.4" opacity=".28"/><g id="f07-nec" ><path d="M110 1220 L 110 930 C 240 880, 330 960, 470 905 C 600 850, 700 940, 820 890 C 880 870, 930 900, 970 880 L 970 1220 Z" fill="#E5483A" opacity=".9" filter="url(#f07-stip)"/><path d="M110 930 C 240 880, 330 960, 470 905 C 600 850, 700 940, 820 890 C 880 870, 930 900, 970 880" fill="none" stroke="#FF9A8A" stroke-width="4" filter="url(#f07-glow)"/></g></g><rect x="110" y="620" width="860" height="560" rx="40" fill="none" stroke="#F0ECE5" stroke-width="1.5" opacity=".6"/></g><g id="f07-arr" ><line x1="1015" y1="1150" x2="1015" y2="860" stroke="#E5483A" stroke-width="3" stroke-linecap="round"/><polyline points="1022.8,876.2 1015,860 1007.2,876.2" fill="none" stroke="#E5483A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g><g id="f07-sel" ><rect x="110" y="620" width="860" height="560" rx="0" fill="none" stroke="#F0ECE5" stroke-width="1.5" opacity=".75" stroke-dasharray="8 8"/><rect x="102.0" y="612.0" width="16" height="16" fill="#0A0A10" stroke="#F0ECE5" stroke-width="1.6"/><rect x="962.0" y="612.0" width="16" height="16" fill="#0A0A10" stroke="#F0ECE5" stroke-width="1.6"/><rect x="102.0" y="1172.0" width="16" height="16" fill="#0A0A10" stroke="#F0ECE5" stroke-width="1.6"/><rect x="962.0" y="1172.0" width="16" height="16" fill="#0A0A10" stroke="#F0ECE5" stroke-width="1.6"/></g><rect class="f07-pt" x="153" y="1283" width="14" height="14" fill="#3D5AFE" opacity="0.9"/><rect class="f07-pt" x="953" y="513" width="14" height="14" fill="#2EC4B6" opacity="0.9"/><rect class="f07-pt" x="893" y="1293" width="14" height="14" fill="#F28A2E" opacity="0.55"/></svg>
+  <div class="f07-kicker" id="f07-kick" style="left:76px;top:262px">schritt 04 <b>· ischämie <svg width="40" height="24" viewBox="0 0 56 34" style="display:inline-block;vertical-align:middle;margin:0 14px"><path d="M4 17 H48 M34 5 L50 17 L34 29" fill="none" stroke="#F0ECE5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg> nekrose</b></div>
+  <div id="f07-time" style="position:absolute;left:72px;top:318px;font-weight:900;font-size:14cqw;line-height:.95;letter-spacing:-.04em;">20–30<span style="font-size:7cqw;color:#8E8E98"> min</span></div>
+  <div class="f07-lab" id="f07-epi" style="position:absolute;left:150px;top:648px;color:#F0ECE5">epikard</div>
+  <div class="f07-lab" id="f07-endo" style="position:absolute;left:150px;top:1112px;color:#F0ECE5;text-shadow:0 2px 10px rgba(0,0,0,.6)">endokard</div>
+  <div class="f07-lab" id="f07-dir" style="position:absolute;left:600px;top:1210px;color:#E5483A">von innen nach außen</div>
+  <div class="f07-h1" id="f07-z1" style="left:72px;top:1330px">zeit ist</div>
+  <div class="f07-h1" id="f07-z2" style="left:72px;top:1450px;color:#E5483A">muskel.</div>
+</div></div>
 
-<div class="clip f07-layer" id="f07-grainlayer" data-start="0" data-duration="8.5" data-track-index="9" style="mix-blend-mode:overlay;opacity:.22;pointer-events:none;">
+<div class="clip f07-layer" id="f07-grainlayer" data-start="0" data-duration="7.57" data-track-index="9" style="mix-blend-mode:overlay;opacity:.22;pointer-events:none;">
   <svg class="f07-art" viewBox="0 0 1080 1920"><rect width="1080" height="1920" filter="url(#f07-grain)"/></svg>
 </div>
   </div>
   <script src="assets/vendor/gsap.min.js"></script>
   <script>
-    // Sketch pass: static pose. Motion arrives in the build pass.
     const tl = gsap.timeline({ paused: true });
+
+    const pop = (s, at, o = {}) => tl.fromTo(s, { opacity: 0, scale: o.s ?? 0.6, transformOrigin: o.origin ?? "50% 50%" }, { opacity: 1, scale: 1, duration: o.d ?? 0.5, ease: o.e ?? "back.out(2.2)", stagger: o.st ?? 0 }, at);
+    const rise = (s, at, o = {}) => tl.fromTo(s, { opacity: 0, y: o.y ?? 46 }, { opacity: 1, y: 0, duration: o.d ?? 0.55, ease: o.e ?? "power3.out", stagger: o.st ?? 0 }, at);
+    const slide = (s, at, o = {}) => tl.fromTo(s, { opacity: 0, x: o.x ?? -60 }, { opacity: 1, x: 0, duration: o.d ?? 0.5, ease: o.e ?? "power3.out", stagger: o.st ?? 0 }, at);
+    const fade = (s, at, o = {}) => tl.fromTo(s, { opacity: 0 }, { opacity: o.to ?? 1, duration: o.d ?? 0.4, ease: "power1.out", stagger: o.st ?? 0 }, at);
+    const slam = (s, at, o = {}) => tl.fromTo(s, { opacity: 0, scale: o.s ?? 1.7, filter: "blur(14px)", transformOrigin: o.origin ?? "0% 50%" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: o.d ?? 0.45, ease: "expo.out" }, at);
+    const draw = (s, at, d = 0.8, e = "power2.inOut") => tl.fromTo(s, { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: d, ease: e }, at);
+    const beat = (s, at, k = 1.08) => { tl.to(s, { scale: k, transformOrigin: "50% 50%", duration: 0.11, ease: "power2.out" }, at); tl.to(s, { scale: 1, duration: 0.32, ease: "power2.inOut" }, at + 0.11); };
+
+    tl.to("#f07-turb", { attr: { seed: 102 }, duration: 7.57, ease: "steps(91)" }, 0);
+    tl.fromTo("#f07-cam", { scale: 1.0, transformOrigin: "50% 45%" }, { scale: 1.035, duration: 7.57, ease: "none" }, 0);
+    tl.fromTo(".f07-pt", { opacity: 0, y: 30 }, { opacity: 1, y: -50, duration: 7.57, ease: "power1.out", stagger: 0.12 }, 0.05);
+    tl.fromTo("#f07-bloom", { opacity: 0.6, scale: 0.9, transformOrigin: "50% 50%" }, { opacity: 1, scale: 1.05, duration: 7.57, ease: "sine.inOut" }, 0);
+
+    fade("#f07-kick", 0.05);
+    pop("#f07-slabg", 0, { s: 0.9, d: 0.7, e: "expo.out" }); fade("#f07-epi", 0.4); fade("#f07-endo", 0.4);
+    tl.fromTo("#f07-nec", { y: 330 }, { y: 300, duration: 0.6, ease: "power1.out" }, 1.092);
+    tl.to("#f07-nec", { y: 0, duration: 4.09, ease: "power1.inOut" }, 1.789);
+    slam("#f07-time", 2.261);
+    pop("#f07-sel", 2.711, { s: 1.04, d: 0.4, e: "power3.out" });
+    tl.fromTo("#f07-arr", { opacity: 0, scaleY: 0, transformOrigin: "50% 100%" }, { opacity: 1, scaleY: 1, duration: 0.6, ease: "power3.out" }, 4.88);
+    rise("#f07-dir", 5.08);
+    rise("#f07-z1", 6.061, { y: 60 }); slam("#f07-z2", 6.49);
+
     window.__timelines["07-nekrose"] = tl;
   </script>
 </template>
