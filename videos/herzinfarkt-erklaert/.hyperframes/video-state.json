@@ -1960,5 +1960,16 @@
         "attribution": "inputs-changed"
       }
     ]
-  }
+  },
+  "renders": {
+    "latest": {
+      "id": "b72cd323-f4c3-4b8e-a9cb-5dd377c8e91b",
+      "completedAt": 1792146753596,
+      "output": "/home/user/Pwg-motion-vids/videos/herzinfarkt-erklaert/renders/video.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
 }
