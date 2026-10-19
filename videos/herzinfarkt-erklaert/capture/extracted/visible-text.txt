@@ -1,0 +1,26 @@
+User request (verbatim):
+"we are about to make a test i wannna see your capacity, based on the links in my prompt i want you to generate an advanced motion graphic video for my upcuming social media pages named med2be the claim of this page is to provide useful video to med students here in Germany on medecin topics, and for this first video we i want to go about about kranheitslehre beziehungsweise herzinfark detailliert erklärt schritt für schritt, whenever you have question for more context you cann ask me. Givve your max"
+
+Confirmed scope: Pathophysiologie + Diagnostik + Therapie, ~90 s, 9:16, deutsche Stimme.
+
+Fachinhalt (Quelle der Information, nicht der Story-Reihenfolge):
+
+Definition: Myokardinfarkt = ischämische Nekrose von Herzmuskelgewebe, meist durch Ruptur oder Erosion eines atherosklerotischen Plaques in einer Koronararterie mit nachfolgender Thrombose (Typ-1-Infarkt).
+
+Risikofaktoren: Rauchen, arterielle Hypertonie, Diabetes mellitus, Hypercholesterinämie (hohes LDL), positive Familienanamnese, Alter, männliches Geschlecht, Adipositas, Bewegungsmangel.
+
+Atherosklerose: Endotheliale Dysfunktion → LDL dringt in die Intima ein und wird oxidiert → Monozyten wandern ein, werden zu Makrophagen → nehmen oxLDL auf → Schaumzellen → Fettstreifen → Plaque mit Lipidkern und fibröser Kappe. Vulnerabler Plaque: großer, weicher Lipidkern, dünne fibröse Kappe, Entzündung.
+
+Plaqueruptur: Die fibröse Kappe reißt → thrombogenes Material (Tissue Factor, Kollagen) liegt frei → Thrombozytenadhäsion, -aktivierung und -aggregation → plasmatische Gerinnung → Thrombus → (sub)totaler Verschluss.
+
+Ischämie → Nekrose: Nach ca. 20–30 min Ischämie beginnen irreversible Schäden. Die Nekrose breitet sich als „Wavefront“ von subendokardial nach subepikardial aus, transmural nach ca. 3–6 h. „Time is muscle“ – Zeit ist Muskel.
+
+Versorgungsgebiete: RIVA/LAD → Vorderwand (V1–V4); RCX → Seiten-/Lateralwand (I, aVL, V5–V6); RCA → Hinter-/Inferiorwand (II, III, aVF).
+
+Symptome: Retrosternaler Druck/Schmerz > 20 min, Ausstrahlung in linken Arm, Hals/Kiefer, Rücken, Oberbauch; nitroresistent; Dyspnoe, Kaltschweißigkeit, Übelkeit, Blässe, Todesangst. Atypisch/stumm v. a. bei Frauen, Diabetikern, älteren Menschen.
+
+Diagnostik: 12-Kanal-EKG innerhalb von 10 min. STEMI: neue ST-Hebung in ≥ 2 benachbarten Ableitungen (≥ 1 mm; V2–V3 geschlechts-/altersabhängig höher). Keine ST-Hebung → NSTE-ACS: NSTEMI (Troponin ↑) oder instabile Angina pectoris (Troponin normal). hs-Troponin mit 0h/1h-Algorithmus.
+
+Therapie (ESC-Leitlinie ACS 2023): Notruf 112, Monitoring, Defi-Bereitschaft. ASS (Loading), Antikoagulation (z. B. unfraktioniertes Heparin), Nitrate bei RR syst. > 90 mmHg (KI: RV-Infarkt, PDE-5-Hemmer), Schmerztherapie (Morphin titriert), O₂ nur bei SpO₂ < 90 %. P2Y12-Inhibitor (Prasugrel/Ticagrelor). STEMI: primäre PCI innerhalb von 120 min nach Diagnose; falls nicht möglich: Fibrinolyse. NSTEMI: invasive Abklärung je nach Risiko (sofort bis < 24 h).
+
+Komplikationen (früh): Kammerflimmern/Rhythmusstörungen (häufigste frühe Todesursache), akute Herzinsuffizienz, kardiogener Schock.

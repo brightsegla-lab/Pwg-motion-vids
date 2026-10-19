@@ -1,0 +1,1876 @@
+{
+  "total_duration_s": 88.79,
+  "width": 1080,
+  "height": 1920,
+  "groups": [
+    {
+      "id": "caption-group-0",
+      "frame": 1,
+      "start": 0.35,
+      "end": 0.732,
+      "text": "Druck auf",
+      "words": [
+        {
+          "id": "caption-word-0-0",
+          "text": "Druck",
+          "start": 0.35,
+          "end": 0.526
+        },
+        {
+          "id": "caption-word-0-1",
+          "text": "auf",
+          "start": 0.541,
+          "end": 0.717
+        }
+      ]
+    },
+    {
+      "id": "caption-group-1",
+      "frame": 1,
+      "start": 0.732,
+      "end": 1.219,
+      "text": "der Brust.",
+      "words": [
+        {
+          "id": "caption-word-1-0",
+          "text": "der",
+          "start": 0.732,
+          "end": 0.908
+        },
+        {
+          "id": "caption-word-1-1",
+          "text": "Brust.",
+          "start": 0.923,
+          "end": 1.099
+        }
+      ]
+    },
+    {
+      "id": "caption-group-2",
+      "frame": 1,
+      "start": 1.274,
+      "end": 2.5,
+      "text": "Seit zwanzig Minuten.",
+      "words": [
+        {
+          "id": "caption-word-2-0",
+          "text": "Seit",
+          "start": 1.274,
+          "end": 1.451
+        },
+        {
+          "id": "caption-word-2-1",
+          "text": "zwanzig",
+          "start": 1.466,
+          "end": 1.82
+        },
+        {
+          "id": "caption-word-2-2",
+          "text": "Minuten.",
+          "start": 1.85,
+          "end": 2.38
+        }
+      ]
+    },
+    {
+      "id": "caption-group-3",
+      "frame": 2,
+      "start": 3.68,
+      "end": 4.042,
+      "text": "Das ist",
+      "words": [
+        {
+          "id": "caption-word-3-0",
+          "text": "Das",
+          "start": 3.68,
+          "end": 3.847
+        },
+        {
+          "id": "caption-word-3-1",
+          "text": "ist",
+          "start": 3.861,
+          "end": 4.028
+        }
+      ]
+    },
+    {
+      "id": "caption-group-4",
+      "frame": 2,
+      "start": 4.042,
+      "end": 4.843,
+      "text": "ein Herzinfarkt:",
+      "words": [
+        {
+          "id": "caption-word-4-0",
+          "text": "ein",
+          "start": 4.042,
+          "end": 4.209
+        },
+        {
+          "id": "caption-word-4-1",
+          "text": "Herzinfarkt:",
+          "start": 4.223,
+          "end": 4.723
+        }
+      ]
+    },
+    {
+      "id": "caption-group-5",
+      "frame": 2,
+      "start": 4.927,
+      "end": 5.998,
+      "text": "Herzmuskel stirbt,",
+      "words": [
+        {
+          "id": "caption-word-5-0",
+          "text": "Herzmuskel",
+          "start": 4.927,
+          "end": 5.53
+        },
+        {
+          "id": "caption-word-5-1",
+          "text": "stirbt,",
+          "start": 5.583,
+          "end": 5.965
+        }
+      ]
+    },
+    {
+      "id": "caption-group-6",
+      "frame": 2,
+      "start": 5.998,
+      "end": 6.435,
+      "text": "weil ihm",
+      "words": [
+        {
+          "id": "caption-word-6-0",
+          "text": "weil",
+          "start": 5.998,
+          "end": 6.199
+        },
+        {
+          "id": "caption-word-6-1",
+          "text": "ihm",
+          "start": 6.217,
+          "end": 6.418
+        }
+      ]
+    },
+    {
+      "id": "caption-group-7",
+      "frame": 2,
+      "start": 6.435,
+      "end": 7.194,
+      "text": "Sauerstoff fehlt.",
+      "words": [
+        {
+          "id": "caption-word-7-0",
+          "text": "Sauerstoff",
+          "start": 6.435,
+          "end": 6.838
+        },
+        {
+          "id": "caption-word-7-1",
+          "text": "fehlt.",
+          "start": 6.873,
+          "end": 7.074
+        }
+      ]
+    },
+    {
+      "id": "caption-group-8",
+      "frame": 3,
+      "start": 8.04,
+      "end": 8.522,
+      "text": "Am Anfang",
+      "words": [
+        {
+          "id": "caption-word-8-0",
+          "text": "Am",
+          "start": 8.04,
+          "end": 8.188
+        },
+        {
+          "id": "caption-word-8-1",
+          "text": "Anfang",
+          "start": 8.201,
+          "end": 8.496
+        }
+      ]
+    },
+    {
+      "id": "caption-group-9",
+      "frame": 3,
+      "start": 8.522,
+      "end": 9.849,
+      "text": "stehen Risikofaktoren:",
+      "words": [
+        {
+          "id": "caption-word-9-0",
+          "text": "stehen",
+          "start": 8.522,
+          "end": 8.817
+        },
+        {
+          "id": "caption-word-9-1",
+          "text": "Risikofaktoren:",
+          "start": 8.843,
+          "end": 9.729
+        }
+      ]
+    },
+    {
+      "id": "caption-group-10",
+      "frame": 3,
+      "start": 9.966,
+      "end": 10.547,
+      "text": "Rauchen,",
+      "words": [
+        {
+          "id": "caption-word-10-0",
+          "text": "Rauchen,",
+          "start": 9.966,
+          "end": 10.501
+        }
+      ]
+    },
+    {
+      "id": "caption-group-11",
+      "frame": 3,
+      "start": 10.547,
+      "end": 11.329,
+      "text": "Bluthochdruck,",
+      "words": [
+        {
+          "id": "caption-word-11-0",
+          "text": "Bluthochdruck,",
+          "start": 10.547,
+          "end": 11.266
+        }
+      ]
+    },
+    {
+      "id": "caption-group-12",
+      "frame": 3,
+      "start": 11.329,
+      "end": 12.11,
+      "text": "Diabetes,",
+      "words": [
+        {
+          "id": "caption-word-12-0",
+          "text": "Diabetes,",
+          "start": 11.329,
+          "end": 12.048
+        }
+      ]
+    },
+    {
+      "id": "caption-group-13",
+      "frame": 3,
+      "start": 12.11,
+      "end": 13.294,
+      "text": "hohes LDL.",
+      "words": [
+        {
+          "id": "caption-word-13-0",
+          "text": "hohes",
+          "start": 12.11,
+          "end": 12.479
+        },
+        {
+          "id": "caption-word-13-1",
+          "text": "LDL.",
+          "start": 12.511,
+          "end": 13.174
+        }
+      ]
+    },
+    {
+      "id": "caption-group-14",
+      "frame": 4,
+      "start": 14.18,
+      "end": 14.831,
+      "text": "Schritt eins:",
+      "words": [
+        {
+          "id": "caption-word-14-0",
+          "text": "Schritt",
+          "start": 14.18,
+          "end": 14.434
+        },
+        {
+          "id": "caption-word-14-1",
+          "text": "eins:",
+          "start": 14.456,
+          "end": 14.711
+        }
+      ]
+    },
+    {
+      "id": "caption-group-15",
+      "frame": 4,
+      "start": 14.893,
+      "end": 15.554,
+      "text": "Das Endothel",
+      "words": [
+        {
+          "id": "caption-word-15-0",
+          "text": "Das",
+          "start": 14.893,
+          "end": 15.045
+        },
+        {
+          "id": "caption-word-15-1",
+          "text": "Endothel",
+          "start": 15.058,
+          "end": 15.515
+        }
+      ]
+    },
+    {
+      "id": "caption-group-16",
+      "frame": 4,
+      "start": 15.554,
+      "end": 16.296,
+      "text": "wird geschädigt.",
+      "words": [
+        {
+          "id": "caption-word-16-0",
+          "text": "wird",
+          "start": 15.554,
+          "end": 15.707
+        },
+        {
+          "id": "caption-word-16-1",
+          "text": "geschädigt.",
+          "start": 15.72,
+          "end": 16.176
+        }
+      ]
+    },
+    {
+      "id": "caption-group-17",
+      "frame": 4,
+      "start": 16.376,
+      "end": 17.184,
+      "text": "LDL dringt",
+      "words": [
+        {
+          "id": "caption-word-17-0",
+          "text": "LDL",
+          "start": 16.376,
+          "end": 16.958
+        },
+        {
+          "id": "caption-word-17-1",
+          "text": "dringt",
+          "start": 17.009,
+          "end": 17.17
+        }
+      ]
+    },
+    {
+      "id": "caption-group-18",
+      "frame": 4,
+      "start": 17.184,
+      "end": 18.221,
+      "text": "in die Gefäßwand,",
+      "words": [
+        {
+          "id": "caption-word-18-0",
+          "text": "in",
+          "start": 17.184,
+          "end": 17.346
+        },
+        {
+          "id": "caption-word-18-1",
+          "text": "die",
+          "start": 17.36,
+          "end": 17.522
+        },
+        {
+          "id": "caption-word-18-2",
+          "text": "Gefäßwand,",
+          "start": 17.536,
+          "end": 18.166
+        }
+      ]
+    },
+    {
+      "id": "caption-group-19",
+      "frame": 4,
+      "start": 18.221,
+      "end": 19.557,
+      "text": "Makrophagen fressen es",
+      "words": [
+        {
+          "id": "caption-word-19-0",
+          "text": "Makrophagen",
+          "start": 18.221,
+          "end": 18.868
+        },
+        {
+          "id": "caption-word-19-1",
+          "text": "fressen",
+          "start": 18.924,
+          "end": 19.247
+        },
+        {
+          "id": "caption-word-19-2",
+          "text": "es",
+          "start": 19.275,
+          "end": 19.437
+        }
+      ]
+    },
+    {
+      "id": "caption-group-20",
+      "frame": 4,
+      "start": 19.785,
+      "end": 20.312,
+      "text": "und werden",
+      "words": [
+        {
+          "id": "caption-word-20-0",
+          "text": "und",
+          "start": 19.785,
+          "end": 19.947
+        },
+        {
+          "id": "caption-word-20-1",
+          "text": "werden",
+          "start": 19.961,
+          "end": 20.284
+        }
+      ]
+    },
+    {
+      "id": "caption-group-21",
+      "frame": 4,
+      "start": 20.312,
+      "end": 21.093,
+      "text": "zu Schaumzellen.",
+      "words": [
+        {
+          "id": "caption-word-21-0",
+          "text": "zu",
+          "start": 20.312,
+          "end": 20.474
+        },
+        {
+          "id": "caption-word-21-1",
+          "text": "Schaumzellen.",
+          "start": 20.488,
+          "end": 20.973
+        }
+      ]
+    },
+    {
+      "id": "caption-group-22",
+      "frame": 5,
+      "start": 21.96,
+      "end": 22.664,
+      "text": "Schritt zwei:",
+      "words": [
+        {
+          "id": "caption-word-22-0",
+          "text": "Schritt",
+          "start": 21.96,
+          "end": 22.24
+        },
+        {
+          "id": "caption-word-22-1",
+          "text": "zwei:",
+          "start": 22.264,
+          "end": 22.544
+        }
+      ]
+    },
+    {
+      "id": "caption-group-23",
+      "frame": 5,
+      "start": 22.728,
+      "end": 23.231,
+      "text": "Ein Plaque",
+      "words": [
+        {
+          "id": "caption-word-23-0",
+          "text": "Ein",
+          "start": 22.728,
+          "end": 22.882
+        },
+        {
+          "id": "caption-word-23-1",
+          "text": "Plaque",
+          "start": 22.896,
+          "end": 23.204
+        }
+      ]
+    },
+    {
+      "id": "caption-group-24",
+      "frame": 5,
+      "start": 23.231,
+      "end": 23.505,
+      "text": "wächst",
+      "words": [
+        {
+          "id": "caption-word-24-0",
+          "text": "wächst",
+          "start": 23.231,
+          "end": 23.385
+        }
+      ]
+    },
+    {
+      "id": "caption-group-25",
+      "frame": 5,
+      "start": 23.717,
+      "end": 24.705,
+      "text": "weicher Lipidkern,",
+      "words": [
+        {
+          "id": "caption-word-25-0",
+          "text": "weicher",
+          "start": 23.717,
+          "end": 24.025
+        },
+        {
+          "id": "caption-word-25-1",
+          "text": "Lipidkern,",
+          "start": 24.052,
+          "end": 24.653
+        }
+      ]
+    },
+    {
+      "id": "caption-group-26",
+      "frame": 5,
+      "start": 24.705,
+      "end": 25.468,
+      "text": "dünne Kappe.",
+      "words": [
+        {
+          "id": "caption-word-26-0",
+          "text": "dünne",
+          "start": 24.705,
+          "end": 25.013
+        },
+        {
+          "id": "caption-word-26-1",
+          "text": "Kappe.",
+          "start": 25.04,
+          "end": 25.348
+        }
+      ]
+    },
+    {
+      "id": "caption-group-27",
+      "frame": 5,
+      "start": 25.535,
+      "end": 26.253,
+      "text": "Instabil.",
+      "words": [
+        {
+          "id": "caption-word-27-0",
+          "text": "Instabil.",
+          "start": 25.535,
+          "end": 26.133
+        }
+      ]
+    },
+    {
+      "id": "caption-group-28",
+      "frame": 6,
+      "start": 27.14,
+      "end": 27.924,
+      "text": "Schritt drei:",
+      "words": [
+        {
+          "id": "caption-word-28-0",
+          "text": "Schritt",
+          "start": 27.14,
+          "end": 27.458
+        },
+        {
+          "id": "caption-word-28-1",
+          "text": "drei:",
+          "start": 27.486,
+          "end": 27.804
+        }
+      ]
+    },
+    {
+      "id": "caption-group-29",
+      "frame": 6,
+      "start": 27.991,
+      "end": 28.5,
+      "text": "Die Kappe",
+      "words": [
+        {
+          "id": "caption-word-29-0",
+          "text": "Die",
+          "start": 27.991,
+          "end": 28.147
+        },
+        {
+          "id": "caption-word-29-1",
+          "text": "Kappe",
+          "start": 28.161,
+          "end": 28.473
+        }
+      ]
+    },
+    {
+      "id": "caption-group-30",
+      "frame": 6,
+      "start": 28.5,
+      "end": 28.776,
+      "text": "reißt.",
+      "words": [
+        {
+          "id": "caption-word-30-0",
+          "text": "reißt.",
+          "start": 28.5,
+          "end": 28.656
+        }
+      ]
+    },
+    {
+      "id": "caption-group-31",
+      "frame": 6,
+      "start": 28.83,
+      "end": 30.378,
+      "text": "Thrombozyten lagern sich an",
+      "words": [
+        {
+          "id": "caption-word-31-0",
+          "text": "Thrombozyten",
+          "start": 28.83,
+          "end": 29.493
+        },
+        {
+          "id": "caption-word-31-1",
+          "text": "lagern",
+          "start": 29.551,
+          "end": 29.883
+        },
+        {
+          "id": "caption-word-31-2",
+          "text": "sich",
+          "start": 29.912,
+          "end": 30.077
+        },
+        {
+          "id": "caption-word-31-3",
+          "text": "an",
+          "start": 30.092,
+          "end": 30.258
+        }
+      ]
+    },
+    {
+      "id": "caption-group-32",
+      "frame": 6,
+      "start": 30.615,
+      "end": 31.156,
+      "text": "ein Thrombus",
+      "words": [
+        {
+          "id": "caption-word-32-0",
+          "text": "ein",
+          "start": 30.615,
+          "end": 30.781
+        },
+        {
+          "id": "caption-word-32-1",
+          "text": "Thrombus",
+          "start": 30.795,
+          "end": 31.127
+        }
+      ]
+    },
+    {
+      "id": "caption-group-33",
+      "frame": 6,
+      "start": 31.156,
+      "end": 32.149,
+      "text": "verschließt das Gefäß.",
+      "words": [
+        {
+          "id": "caption-word-33-0",
+          "text": "verschließt",
+          "start": 31.156,
+          "end": 31.488
+        },
+        {
+          "id": "caption-word-33-1",
+          "text": "das",
+          "start": 31.517,
+          "end": 31.682
+        },
+        {
+          "id": "caption-word-33-2",
+          "text": "Gefäß.",
+          "start": 31.697,
+          "end": 32.029
+        }
+      ]
+    },
+    {
+      "id": "caption-group-34",
+      "frame": 7,
+      "start": 33.01,
+      "end": 33.689,
+      "text": "Schritt vier:",
+      "words": [
+        {
+          "id": "caption-word-34-0",
+          "text": "Schritt",
+          "start": 33.01,
+          "end": 33.278
+        },
+        {
+          "id": "caption-word-34-1",
+          "text": "vier:",
+          "start": 33.301,
+          "end": 33.569
+        }
+      ]
+    },
+    {
+      "id": "caption-group-35",
+      "frame": 7,
+      "start": 33.752,
+      "end": 34.797,
+      "text": "Ohne Sauerstoff sterben",
+      "words": [
+        {
+          "id": "caption-word-35-0",
+          "text": "Ohne",
+          "start": 33.752,
+          "end": 34.072
+        },
+        {
+          "id": "caption-word-35-1",
+          "text": "Sauerstoff",
+          "start": 34.1,
+          "end": 34.421
+        },
+        {
+          "id": "caption-word-35-2",
+          "text": "sterben",
+          "start": 34.449,
+          "end": 34.769
+        }
+      ]
+    },
+    {
+      "id": "caption-group-36",
+      "frame": 7,
+      "start": 34.797,
+      "end": 35.319,
+      "text": "nach zwanzig",
+      "words": [
+        {
+          "id": "caption-word-36-0",
+          "text": "nach",
+          "start": 34.797,
+          "end": 34.957
+        },
+        {
+          "id": "caption-word-36-1",
+          "text": "zwanzig",
+          "start": 34.971,
+          "end": 35.291
+        }
+      ]
+    },
+    {
+      "id": "caption-group-37",
+      "frame": 7,
+      "start": 35.319,
+      "end": 36.364,
+      "text": "bis dreißig Minuten",
+      "words": [
+        {
+          "id": "caption-word-37-0",
+          "text": "bis",
+          "start": 35.319,
+          "end": 35.48
+        },
+        {
+          "id": "caption-word-37-1",
+          "text": "dreißig",
+          "start": 35.493,
+          "end": 35.814
+        },
+        {
+          "id": "caption-word-37-2",
+          "text": "Minuten",
+          "start": 35.842,
+          "end": 36.322
+        }
+      ]
+    },
+    {
+      "id": "caption-group-38",
+      "frame": 7,
+      "start": 36.364,
+      "end": 37.327,
+      "text": "die ersten Zellen",
+      "words": [
+        {
+          "id": "caption-word-38-0",
+          "text": "die",
+          "start": 36.364,
+          "end": 36.524
+        },
+        {
+          "id": "caption-word-38-1",
+          "text": "ersten",
+          "start": 36.538,
+          "end": 36.859
+        },
+        {
+          "id": "caption-word-38-2",
+          "text": "Zellen",
+          "start": 36.887,
+          "end": 37.207
+        }
+      ]
+    },
+    {
+      "id": "caption-group-39",
+      "frame": 7,
+      "start": 37.566,
+      "end": 38.088,
+      "text": "von innen",
+      "words": [
+        {
+          "id": "caption-word-39-0",
+          "text": "von",
+          "start": 37.566,
+          "end": 37.726
+        },
+        {
+          "id": "caption-word-39-1",
+          "text": "innen",
+          "start": 37.74,
+          "end": 38.06
+        }
+      ]
+    },
+    {
+      "id": "caption-group-40",
+      "frame": 7,
+      "start": 38.088,
+      "end": 38.703,
+      "text": "nach außen.",
+      "words": [
+        {
+          "id": "caption-word-40-0",
+          "text": "nach",
+          "start": 38.088,
+          "end": 38.248
+        },
+        {
+          "id": "caption-word-40-1",
+          "text": "außen.",
+          "start": 38.262,
+          "end": 38.583
+        }
+      ]
+    },
+    {
+      "id": "caption-group-41",
+      "frame": 7,
+      "start": 38.771,
+      "end": 39.716,
+      "text": "Zeit ist Muskel.",
+      "words": [
+        {
+          "id": "caption-word-41-0",
+          "text": "Zeit",
+          "start": 38.771,
+          "end": 38.968
+        },
+        {
+          "id": "caption-word-41-1",
+          "text": "ist",
+          "start": 38.986,
+          "end": 39.183
+        },
+        {
+          "id": "caption-word-41-2",
+          "text": "Muskel.",
+          "start": 39.2,
+          "end": 39.596
+        }
+      ]
+    },
+    {
+      "id": "caption-group-42",
+      "frame": 8,
+      "start": 40.58,
+      "end": 41.066,
+      "text": "Welche Wand",
+      "words": [
+        {
+          "id": "caption-word-42-0",
+          "text": "Welche",
+          "start": 40.58,
+          "end": 40.878
+        },
+        {
+          "id": "caption-word-42-1",
+          "text": "Wand",
+          "start": 40.904,
+          "end": 41.053
+        }
+      ]
+    },
+    {
+      "id": "caption-group-43",
+      "frame": 8,
+      "start": 41.066,
+      "end": 41.859,
+      "text": "betroffen ist,",
+      "words": [
+        {
+          "id": "caption-word-43-0",
+          "text": "betroffen",
+          "start": 41.066,
+          "end": 41.513
+        },
+        {
+          "id": "caption-word-43-1",
+          "text": "ist,",
+          "start": 41.552,
+          "end": 41.835
+        }
+      ]
+    },
+    {
+      "id": "caption-group-44",
+      "frame": 8,
+      "start": 41.859,
+      "end": 42.345,
+      "text": "verrät das",
+      "words": [
+        {
+          "id": "caption-word-44-0",
+          "text": "verrät",
+          "start": 41.859,
+          "end": 42.157
+        },
+        {
+          "id": "caption-word-44-1",
+          "text": "das",
+          "start": 42.183,
+          "end": 42.332
+        }
+      ]
+    },
+    {
+      "id": "caption-group-45",
+      "frame": 8,
+      "start": 42.345,
+      "end": 42.763,
+      "text": "Gefäß:",
+      "words": [
+        {
+          "id": "caption-word-45-0",
+          "text": "Gefäß:",
+          "start": 42.345,
+          "end": 42.643
+        }
+      ]
+    },
+    {
+      "id": "caption-group-46",
+      "frame": 8,
+      "start": 42.829,
+      "end": 43.453,
+      "text": "RIVA",
+      "words": [
+        {
+          "id": "caption-word-46-0",
+          "text": "RIVA",
+          "start": 42.829,
+          "end": 43.333
+        }
+      ]
+    },
+    {
+      "id": "caption-group-47",
+      "frame": 8,
+      "start": 43.594,
+      "end": 44.029,
+      "text": "Vorderwand.",
+      "words": [
+        {
+          "id": "caption-word-47-0",
+          "text": "Vorderwand.",
+          "start": 43.594,
+          "end": 43.909
+        }
+      ]
+    },
+    {
+      "id": "caption-group-48",
+      "frame": 8,
+      "start": 44.096,
+      "end": 44.804,
+      "text": "RCX",
+      "words": [
+        {
+          "id": "caption-word-48-0",
+          "text": "RCX",
+          "start": 44.096,
+          "end": 44.684
+        }
+      ]
+    },
+    {
+      "id": "caption-group-49",
+      "frame": 8,
+      "start": 45.073,
+      "end": 45.683,
+      "text": "Seitenwand.",
+      "words": [
+        {
+          "id": "caption-word-49-0",
+          "text": "Seitenwand.",
+          "start": 45.073,
+          "end": 45.563
+        }
+      ]
+    },
+    {
+      "id": "caption-group-50",
+      "frame": 8,
+      "start": 45.765,
+      "end": 46.456,
+      "text": "RCA",
+      "words": [
+        {
+          "id": "caption-word-50-0",
+          "text": "RCA",
+          "start": 45.765,
+          "end": 46.336
+        }
+      ]
+    },
+    {
+      "id": "caption-group-51",
+      "frame": 8,
+      "start": 46.713,
+      "end": 47.308,
+      "text": "Hinterwand.",
+      "words": [
+        {
+          "id": "caption-word-51-0",
+          "text": "Hinterwand.",
+          "start": 46.713,
+          "end": 47.188
+        }
+      ]
+    },
+    {
+      "id": "caption-group-52",
+      "frame": 9,
+      "start": 48.18,
+      "end": 48.713,
+      "text": "Typisch:",
+      "words": [
+        {
+          "id": "caption-word-52-0",
+          "text": "Typisch:",
+          "start": 48.18,
+          "end": 48.593
+        }
+      ]
+    },
+    {
+      "id": "caption-group-53",
+      "frame": 9,
+      "start": 48.789,
+      "end": 49.401,
+      "text": "Brustschmerz,",
+      "words": [
+        {
+          "id": "caption-word-53-0",
+          "text": "Brustschmerz,",
+          "start": 48.789,
+          "end": 49.352
+        }
+      ]
+    },
+    {
+      "id": "caption-group-54",
+      "frame": 9,
+      "start": 49.401,
+      "end": 50.647,
+      "text": "ausstrahlend in Arm,",
+      "words": [
+        {
+          "id": "caption-word-54-0",
+          "text": "ausstrahlend",
+          "start": 49.401,
+          "end": 49.984
+        },
+        {
+          "id": "caption-word-54-1",
+          "text": "in",
+          "start": 50.035,
+          "end": 50.229
+        },
+        {
+          "id": "caption-word-54-2",
+          "text": "Arm,",
+          "start": 50.246,
+          "end": 50.615
+        }
+      ]
+    },
+    {
+      "id": "caption-group-55",
+      "frame": 9,
+      "start": 50.647,
+      "end": 52.194,
+      "text": "Kiefer oder Oberbauch.",
+      "words": [
+        {
+          "id": "caption-word-55-0",
+          "text": "Kiefer",
+          "start": 50.647,
+          "end": 51.036
+        },
+        {
+          "id": "caption-word-55-1",
+          "text": "oder",
+          "start": 51.069,
+          "end": 51.458
+        },
+        {
+          "id": "caption-word-55-2",
+          "text": "Oberbauch.",
+          "start": 51.492,
+          "end": 52.074
+        }
+      ]
+    },
+    {
+      "id": "caption-group-56",
+      "frame": 9,
+      "start": 52.285,
+      "end": 52.865,
+      "text": "Kaltschweiß,",
+      "words": [
+        {
+          "id": "caption-word-56-0",
+          "text": "Kaltschweiß,",
+          "start": 52.285,
+          "end": 52.819
+        }
+      ]
+    },
+    {
+      "id": "caption-group-57",
+      "frame": 9,
+      "start": 52.865,
+      "end": 53.537,
+      "text": "Todesangst.",
+      "words": [
+        {
+          "id": "caption-word-57-0",
+          "text": "Todesangst.",
+          "start": 52.865,
+          "end": 53.417
+        }
+      ]
+    },
+    {
+      "id": "caption-group-58",
+      "frame": 9,
+      "start": 53.625,
+      "end": 54.186,
+      "text": "Achtung:",
+      "words": [
+        {
+          "id": "caption-word-58-0",
+          "text": "Achtung:",
+          "start": 53.625,
+          "end": 54.066
+        }
+      ]
+    },
+    {
+      "id": "caption-group-59",
+      "frame": 9,
+      "start": 54.265,
+      "end": 55.427,
+      "text": "Frauen und Diabetiker",
+      "words": [
+        {
+          "id": "caption-word-59-0",
+          "text": "Frauen",
+          "start": 54.265,
+          "end": 54.443
+        },
+        {
+          "id": "caption-word-59-1",
+          "text": "und",
+          "start": 54.458,
+          "end": 54.637
+        },
+        {
+          "id": "caption-word-59-2",
+          "text": "Diabetiker",
+          "start": 54.652,
+          "end": 55.365
+        }
+      ]
+    },
+    {
+      "id": "caption-group-60",
+      "frame": 9,
+      "start": 55.427,
+      "end": 56.276,
+      "text": "oft atypisch.",
+      "words": [
+        {
+          "id": "caption-word-60-0",
+          "text": "oft",
+          "start": 55.427,
+          "end": 55.606
+        },
+        {
+          "id": "caption-word-60-1",
+          "text": "atypisch.",
+          "start": 55.621,
+          "end": 56.156
+        }
+      ]
+    },
+    {
+      "id": "caption-group-61",
+      "frame": 10,
+      "start": 57.15,
+      "end": 57.798,
+      "text": "Diagnose:",
+      "words": [
+        {
+          "id": "caption-word-61-0",
+          "text": "Diagnose:",
+          "start": 57.15,
+          "end": 57.678
+        }
+      ]
+    },
+    {
+      "id": "caption-group-62",
+      "frame": 10,
+      "start": 57.884,
+      "end": 58.61,
+      "text": "EKG in",
+      "words": [
+        {
+          "id": "caption-word-62-0",
+          "text": "EKG",
+          "start": 57.884,
+          "end": 58.406
+        },
+        {
+          "id": "caption-word-62-1",
+          "text": "in",
+          "start": 58.452,
+          "end": 58.597
+        }
+      ]
+    },
+    {
+      "id": "caption-group-63",
+      "frame": 10,
+      "start": 58.61,
+      "end": 59.323,
+      "text": "zehn Minuten.",
+      "words": [
+        {
+          "id": "caption-word-63-0",
+          "text": "zehn",
+          "start": 58.61,
+          "end": 58.755
+        },
+        {
+          "id": "caption-word-63-1",
+          "text": "Minuten.",
+          "start": 58.767,
+          "end": 59.203
+        }
+      ]
+    },
+    {
+      "id": "caption-group-64",
+      "frame": 10,
+      "start": 59.401,
+      "end": 59.898,
+      "text": "ST-Hebung in",
+      "words": [
+        {
+          "id": "caption-word-64-0",
+          "text": "ST-Hebung",
+          "start": 59.401,
+          "end": 59.705
+        },
+        {
+          "id": "caption-word-64-1",
+          "text": "in",
+          "start": 59.732,
+          "end": 59.884
+        }
+      ]
+    },
+    {
+      "id": "caption-group-65",
+      "frame": 10,
+      "start": 59.898,
+      "end": 61.456,
+      "text": "zwei benachbarten Ableitungen",
+      "words": [
+        {
+          "id": "caption-word-65-0",
+          "text": "zwei",
+          "start": 59.898,
+          "end": 60.05
+        },
+        {
+          "id": "caption-word-65-1",
+          "text": "benachbarten",
+          "start": 60.063,
+          "end": 60.673
+        },
+        {
+          "id": "caption-word-65-2",
+          "text": "Ableitungen",
+          "start": 60.726,
+          "end": 61.336
+        }
+      ]
+    },
+    {
+      "id": "caption-group-66",
+      "frame": 10,
+      "start": 61.704,
+      "end": 62.739,
+      "text": "STEMI.",
+      "words": [
+        {
+          "id": "caption-word-66-0",
+          "text": "STEMI.",
+          "start": 61.704,
+          "end": 62.619
+        }
+      ]
+    },
+    {
+      "id": "caption-group-67",
+      "frame": 11,
+      "start": 63.65,
+      "end": 64.468,
+      "text": "Keine Hebung?",
+      "words": [
+        {
+          "id": "caption-word-67-0",
+          "text": "Keine",
+          "start": 63.65,
+          "end": 63.984
+        },
+        {
+          "id": "caption-word-67-1",
+          "text": "Hebung?",
+          "start": 64.013,
+          "end": 64.348
+        }
+      ]
+    },
+    {
+      "id": "caption-group-68",
+      "frame": 11,
+      "start": 64.537,
+      "end": 65.175,
+      "text": "Dann entscheidet",
+      "words": [
+        {
+          "id": "caption-word-68-0",
+          "text": "Dann",
+          "start": 64.537,
+          "end": 64.684
+        },
+        {
+          "id": "caption-word-68-1",
+          "text": "entscheidet",
+          "start": 64.696,
+          "end": 65.137
+        }
+      ]
+    },
+    {
+      "id": "caption-group-69",
+      "frame": 11,
+      "start": 65.175,
+      "end": 65.895,
+      "text": "das Troponin:",
+      "words": [
+        {
+          "id": "caption-word-69-0",
+          "text": "das",
+          "start": 65.175,
+          "end": 65.322
+        },
+        {
+          "id": "caption-word-69-1",
+          "text": "Troponin:",
+          "start": 65.335,
+          "end": 65.775
+        }
+      ]
+    },
+    {
+      "id": "caption-group-70",
+      "frame": 11,
+      "start": 65.974,
+      "end": 66.304,
+      "text": "erhöht",
+      "words": [
+        {
+          "id": "caption-word-70-0",
+          "text": "erhöht",
+          "start": 65.974,
+          "end": 66.184
+        }
+      ]
+    },
+    {
+      "id": "caption-group-71",
+      "frame": 11,
+      "start": 66.421,
+      "end": 67.3,
+      "text": "NSTEMI.",
+      "words": [
+        {
+          "id": "caption-word-71-0",
+          "text": "NSTEMI.",
+          "start": 66.421,
+          "end": 67.18
+        }
+      ]
+    },
+    {
+      "id": "caption-group-72",
+      "frame": 11,
+      "start": 67.406,
+      "end": 67.828,
+      "text": "Normal",
+      "words": [
+        {
+          "id": "caption-word-72-0",
+          "text": "Normal",
+          "start": 67.406,
+          "end": 67.708
+        }
+      ]
+    },
+    {
+      "id": "caption-group-73",
+      "frame": 11,
+      "start": 68.046,
+      "end": 69.276,
+      "text": "instabile Angina.",
+      "words": [
+        {
+          "id": "caption-word-73-0",
+          "text": "instabile",
+          "start": 68.046,
+          "end": 68.65
+        },
+        {
+          "id": "caption-word-73-1",
+          "text": "Angina.",
+          "start": 68.703,
+          "end": 69.156
+        }
+      ]
+    },
+    {
+      "id": "caption-group-74",
+      "frame": 12,
+      "start": 70.15,
+      "end": 70.817,
+      "text": "Therapie:",
+      "words": [
+        {
+          "id": "caption-word-74-0",
+          "text": "Therapie:",
+          "start": 70.15,
+          "end": 70.697
+        }
+      ]
+    },
+    {
+      "id": "caption-group-75",
+      "frame": 12,
+      "start": 70.904,
+      "end": 71.458,
+      "text": "Notruf,",
+      "words": [
+        {
+          "id": "caption-word-75-0",
+          "text": "Notruf,",
+          "start": 70.904,
+          "end": 71.414
+        }
+      ]
+    },
+    {
+      "id": "caption-group-76",
+      "frame": 12,
+      "start": 71.458,
+      "end": 72.318,
+      "text": "ASS,",
+      "words": [
+        {
+          "id": "caption-word-76-0",
+          "text": "ASS,",
+          "start": 71.458,
+          "end": 72.249
+        }
+      ]
+    },
+    {
+      "id": "caption-group-77",
+      "frame": 12,
+      "start": 72.318,
+      "end": 73.062,
+      "text": "Heparin,",
+      "words": [
+        {
+          "id": "caption-word-77-0",
+          "text": "Heparin,",
+          "start": 72.318,
+          "end": 73.003
+        }
+      ]
+    },
+    {
+      "id": "caption-group-78",
+      "frame": 12,
+      "start": 73.062,
+      "end": 73.616,
+      "text": "Nitro,",
+      "words": [
+        {
+          "id": "caption-word-78-0",
+          "text": "Nitro,",
+          "start": 73.062,
+          "end": 73.572
+        }
+      ]
+    },
+    {
+      "id": "caption-group-79",
+      "frame": 12,
+      "start": 73.616,
+      "end": 73.998,
+      "text": "wenn der",
+      "words": [
+        {
+          "id": "caption-word-79-0",
+          "text": "wenn",
+          "start": 73.616,
+          "end": 73.792
+        },
+        {
+          "id": "caption-word-79-1",
+          "text": "der",
+          "start": 73.807,
+          "end": 73.983
+        }
+      ]
+    },
+    {
+      "id": "caption-group-80",
+      "frame": 12,
+      "start": 73.998,
+      "end": 74.676,
+      "text": "Blutdruck reicht.",
+      "words": [
+        {
+          "id": "caption-word-80-0",
+          "text": "Blutdruck",
+          "start": 73.998,
+          "end": 74.35
+        },
+        {
+          "id": "caption-word-80-1",
+          "text": "reicht.",
+          "start": 74.38,
+          "end": 74.556
+        }
+      ]
+    },
+    {
+      "id": "caption-group-81",
+      "frame": 12,
+      "start": 74.731,
+      "end": 75.274,
+      "text": "Sauerstoff nur",
+      "words": [
+        {
+          "id": "caption-word-81-0",
+          "text": "Sauerstoff",
+          "start": 74.731,
+          "end": 75.064
+        },
+        {
+          "id": "caption-word-81-1",
+          "text": "nur",
+          "start": 75.093,
+          "end": 75.259
+        }
+      ]
+    },
+    {
+      "id": "caption-group-82",
+      "frame": 12,
+      "start": 75.274,
+      "end": 76.358,
+      "text": "bei einer Sättigung",
+      "words": [
+        {
+          "id": "caption-word-82-0",
+          "text": "bei",
+          "start": 75.274,
+          "end": 75.44
+        },
+        {
+          "id": "caption-word-82-1",
+          "text": "einer",
+          "start": 75.454,
+          "end": 75.787
+        },
+        {
+          "id": "caption-word-82-2",
+          "text": "Sättigung",
+          "start": 75.816,
+          "end": 76.315
+        }
+      ]
+    },
+    {
+      "id": "caption-group-83",
+      "frame": 12,
+      "start": 76.358,
+      "end": 77.534,
+      "text": "unter neunzig Prozent.",
+      "words": [
+        {
+          "id": "caption-word-83-0",
+          "text": "unter",
+          "start": 76.358,
+          "end": 76.691
+        },
+        {
+          "id": "caption-word-83-1",
+          "text": "neunzig",
+          "start": 76.72,
+          "end": 77.053
+        },
+        {
+          "id": "caption-word-83-2",
+          "text": "Prozent.",
+          "start": 77.082,
+          "end": 77.414
+        }
+      ]
+    },
+    {
+      "id": "caption-group-84",
+      "frame": 12,
+      "start": 77.603,
+      "end": 78.398,
+      "text": "Beim STEMI:",
+      "words": [
+        {
+          "id": "caption-word-84-0",
+          "text": "Beim",
+          "start": 77.603,
+          "end": 77.698
+        },
+        {
+          "id": "caption-word-84-1",
+          "text": "STEMI:",
+          "start": 77.707,
+          "end": 78.278
+        }
+      ]
+    },
+    {
+      "id": "caption-group-85",
+      "frame": 12,
+      "start": 78.488,
+      "end": 79.43,
+      "text": "Herzkatheter,",
+      "words": [
+        {
+          "id": "caption-word-85-0",
+          "text": "Herzkatheter,",
+          "start": 78.488,
+          "end": 79.354
+        }
+      ]
+    },
+    {
+      "id": "caption-group-86",
+      "frame": 12,
+      "start": 79.43,
+      "end": 80.198,
+      "text": "innerhalb von",
+      "words": [
+        {
+          "id": "caption-word-86-0",
+          "text": "innerhalb",
+          "start": 79.43,
+          "end": 79.96
+        },
+        {
+          "id": "caption-word-86-1",
+          "text": "von",
+          "start": 80.006,
+          "end": 80.183
+        }
+      ]
+    },
+    {
+      "id": "caption-group-87",
+      "frame": 12,
+      "start": 80.198,
+      "end": 80.864,
+      "text": "zwei Stunden.",
+      "words": [
+        {
+          "id": "caption-word-87-0",
+          "text": "zwei",
+          "start": 80.198,
+          "end": 80.375
+        },
+        {
+          "id": "caption-word-87-1",
+          "text": "Stunden.",
+          "start": 80.391,
+          "end": 80.744
+        }
+      ]
+    },
+    {
+      "id": "caption-group-88",
+      "frame": 13,
+      "start": 81.72,
+      "end": 82.283,
+      "text": "Merke:",
+      "words": [
+        {
+          "id": "caption-word-88-0",
+          "text": "Merke:",
+          "start": 81.72,
+          "end": 82.163
+        }
+      ]
+    },
+    {
+      "id": "caption-group-89",
+      "frame": 13,
+      "start": 82.361,
+      "end": 83.266,
+      "text": "Plaque reißt,",
+      "words": [
+        {
+          "id": "caption-word-89-0",
+          "text": "Plaque",
+          "start": 82.361,
+          "end": 82.788
+        },
+        {
+          "id": "caption-word-89-1",
+          "text": "reißt,",
+          "start": 82.825,
+          "end": 83.231
+        }
+      ]
+    },
+    {
+      "id": "caption-group-90",
+      "frame": 13,
+      "start": 83.266,
+      "end": 84.403,
+      "text": "Thrombus verschließt,",
+      "words": [
+        {
+          "id": "caption-word-90-0",
+          "text": "Thrombus",
+          "start": 83.266,
+          "end": 83.693
+        },
+        {
+          "id": "caption-word-90-1",
+          "text": "verschließt,",
+          "start": 83.73,
+          "end": 84.349
+        }
+      ]
+    },
+    {
+      "id": "caption-group-91",
+      "frame": 13,
+      "start": 84.403,
+      "end": 85.2,
+      "text": "Muskel stirbt.",
+      "words": [
+        {
+          "id": "caption-word-91-0",
+          "text": "Muskel",
+          "start": 84.403,
+          "end": 84.83
+        },
+        {
+          "id": "caption-word-91-1",
+          "text": "stirbt.",
+          "start": 84.867,
+          "end": 85.08
+        }
+      ]
+    },
+    {
+      "id": "caption-group-92",
+      "frame": 13,
+      "start": 85.259,
+      "end": 86.269,
+      "text": "Folge med2be.",
+      "words": [
+        {
+          "id": "caption-word-92-0",
+          "text": "Folge",
+          "start": 85.259,
+          "end": 85.685
+        },
+        {
+          "id": "caption-word-92-1",
+          "text": "med2be.",
+          "start": 85.722,
+          "end": 86.149
+        }
+      ]
+    }
+  ]
+}

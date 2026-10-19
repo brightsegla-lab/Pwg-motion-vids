@@ -1,0 +1,1229 @@
+{
+  "bgm": {
+    "path": "assets/bgm/bed.wav",
+    "volume": 0.32,
+    "source": "host",
+    "duration_s": 88.79
+  },
+  "bgm_pending": false,
+  "voices": [
+    {
+      "frame": 1,
+      "path": "assets/voice/01.wav",
+      "duration_s": 3.33,
+      "words": [
+        {
+          "text": "Druck",
+          "start": 0.35,
+          "end": 0.526,
+          "id": "w01-0"
+        },
+        {
+          "text": "auf",
+          "start": 0.541,
+          "end": 0.717,
+          "id": "w01-1"
+        },
+        {
+          "text": "der",
+          "start": 0.732,
+          "end": 0.908,
+          "id": "w01-2"
+        },
+        {
+          "text": "Brust.",
+          "start": 0.923,
+          "end": 1.099,
+          "id": "w01-3"
+        },
+        {
+          "text": "Seit",
+          "start": 1.274,
+          "end": 1.451,
+          "id": "w01-4"
+        },
+        {
+          "text": "zwanzig",
+          "start": 1.466,
+          "end": 1.82,
+          "id": "w01-5"
+        },
+        {
+          "text": "Minuten.",
+          "start": 1.85,
+          "end": 2.38,
+          "id": "w01-6"
+        }
+      ],
+      "source": "host"
+    },
+    {
+      "frame": 2,
+      "path": "assets/voice/02.wav",
+      "duration_s": 4.36,
+      "words": [
+        {
+          "text": "Das",
+          "start": 0.35,
+          "end": 0.517,
+          "id": "w02-0"
+        },
+        {
+          "text": "ist",
+          "start": 0.531,
+          "end": 0.698,
+          "id": "w02-1"
+        },
+        {
+          "text": "ein",
+          "start": 0.712,
+          "end": 0.879,
+          "id": "w02-2"
+        },
+        {
+          "text": "Herzinfarkt:",
+          "start": 0.893,
+          "end": 1.393,
+          "id": "w02-3"
+        },
+        {
+          "text": "Herzmuskel",
+          "start": 1.597,
+          "end": 2.2,
+          "id": "w02-4"
+        },
+        {
+          "text": "stirbt,",
+          "start": 2.253,
+          "end": 2.635,
+          "id": "w02-5"
+        },
+        {
+          "text": "weil",
+          "start": 2.668,
+          "end": 2.869,
+          "id": "w02-6"
+        },
+        {
+          "text": "ihm",
+          "start": 2.887,
+          "end": 3.088,
+          "id": "w02-7"
+        },
+        {
+          "text": "Sauerstoff",
+          "start": 3.105,
+          "end": 3.508,
+          "id": "w02-8"
+        },
+        {
+          "text": "fehlt.",
+          "start": 3.543,
+          "end": 3.744,
+          "id": "w02-9"
+        }
+      ],
+      "source": "host"
+    },
+    {
+      "frame": 3,
+      "path": "assets/voice/03.wav",
+      "duration_s": 6.14,
+      "words": [
+        {
+          "text": "Am",
+          "start": 0.35,
+          "end": 0.498,
+          "id": "w03-0"
+        },
+        {
+          "text": "Anfang",
+          "start": 0.511,
+          "end": 0.806,
+          "id": "w03-1"
+        },
+        {
+          "text": "stehen",
+          "start": 0.832,
+          "end": 1.127,
+          "id": "w03-2"
+        },
+        {
+          "text": "Risikofaktoren:",
+          "start": 1.153,
+          "end": 2.039,
+          "id": "w03-3"
+        },
+        {
+          "text": "Rauchen,",
+          "start": 2.276,
+          "end": 2.811,
+          "id": "w03-4"
+        },
+        {
+          "text": "Bluthochdruck,",
+          "start": 2.857,
+          "end": 3.576,
+          "id": "w03-5"
+        },
+        {
+          "text": "Diabetes,",
+          "start": 3.639,
+          "end": 4.358,
+          "id": "w03-6"
+        },
+        {
+          "text": "hohes",
+          "start": 4.42,
+          "end": 4.789,
+          "id": "w03-7"
+        },
+        {
+          "text": "LDL.",
+          "start": 4.821,
+          "end": 5.484,
+          "id": "w03-8"
+        }
+      ],
+      "source": "host"
+    },
+    {
+      "frame": 4,
+      "path": "assets/voice/04.wav",
+      "duration_s": 7.78,
+      "words": [
+        {
+          "text": "Schritt",
+          "start": 0.35,
+          "end": 0.604,
+          "id": "w04-0"
+        },
+        {
+          "text": "eins:",
+          "start": 0.626,
+          "end": 0.881,
+          "id": "w04-1"
+        },
+        {
+          "text": "Das",
+          "start": 1.063,
+          "end": 1.215,
+          "id": "w04-2"
+        },
+        {
+          "text": "Endothel",
+          "start": 1.228,
+          "end": 1.685,
+          "id": "w04-3"
+        },
+        {
+          "text": "wird",
+          "start": 1.724,
+          "end": 1.877,
+          "id": "w04-4"
+        },
+        {
+          "text": "geschädigt.",
+          "start": 1.89,
+          "end": 2.346,
+          "id": "w04-5"
+        },
+        {
+          "text": "LDL",
+          "start": 2.546,
+          "end": 3.128,
+          "id": "w04-6"
+        },
+        {
+          "text": "dringt",
+          "start": 3.179,
+          "end": 3.34,
+          "id": "w04-7"
+        },
+        {
+          "text": "in",
+          "start": 3.354,
+          "end": 3.516,
+          "id": "w04-8"
+        },
+        {
+          "text": "die",
+          "start": 3.53,
+          "end": 3.692,
+          "id": "w04-9"
+        },
+        {
+          "text": "Gefäßwand,",
+          "start": 3.706,
+          "end": 4.336,
+          "id": "w04-10"
+        },
+        {
+          "text": "Makrophagen",
+          "start": 4.391,
+          "end": 5.038,
+          "id": "w04-11"
+        },
+        {
+          "text": "fressen",
+          "start": 5.094,
+          "end": 5.417,
+          "id": "w04-12"
+        },
+        {
+          "text": "es",
+          "start": 5.445,
+          "end": 5.607,
+          "id": "w04-13"
+        },
+        {
+          "text": "und",
+          "start": 5.955,
+          "end": 6.117,
+          "id": "w04-14"
+        },
+        {
+          "text": "werden",
+          "start": 6.131,
+          "end": 6.454,
+          "id": "w04-15"
+        },
+        {
+          "text": "zu",
+          "start": 6.482,
+          "end": 6.644,
+          "id": "w04-16"
+        },
+        {
+          "text": "Schaumzellen.",
+          "start": 6.658,
+          "end": 7.143,
+          "id": "w04-17"
+        }
+      ],
+      "source": "host"
+    },
+    {
+      "frame": 5,
+      "path": "assets/voice/05.wav",
+      "duration_s": 5.18,
+      "words": [
+        {
+          "text": "Schritt",
+          "start": 0.35,
+          "end": 0.63,
+          "id": "w05-0"
+        },
+        {
+          "text": "zwei:",
+          "start": 0.654,
+          "end": 0.934,
+          "id": "w05-1"
+        },
+        {
+          "text": "Ein",
+          "start": 1.118,
+          "end": 1.272,
+          "id": "w05-2"
+        },
+        {
+          "text": "Plaque",
+          "start": 1.286,
+          "end": 1.594,
+          "id": "w05-3"
+        },
+        {
+          "text": "wächst",
+          "start": 1.621,
+          "end": 1.775,
+          "id": "w05-4"
+        },
+        {
+          "text": "weicher",
+          "start": 2.107,
+          "end": 2.415,
+          "id": "w05-5"
+        },
+        {
+          "text": "Lipidkern,",
+          "start": 2.442,
+          "end": 3.043,
+          "id": "w05-6"
+        },
+        {
+          "text": "dünne",
+          "start": 3.095,
+          "end": 3.403,
+          "id": "w05-7"
+        },
+        {
+          "text": "Kappe.",
+          "start": 3.43,
+          "end": 3.738,
+          "id": "w05-8"
+        },
+        {
+          "text": "Instabil.",
+          "start": 3.925,
+          "end": 4.523,
+          "id": "w05-9"
+        }
+      ],
+      "source": "host"
+    },
+    {
+      "frame": 6,
+      "path": "assets/voice/06.wav",
+      "duration_s": 5.87,
+      "words": [
+        {
+          "text": "Schritt",
+          "start": 0.35,
+          "end": 0.668,
+          "id": "w06-0"
+        },
+        {
+          "text": "drei:",
+          "start": 0.696,
+          "end": 1.014,
+          "id": "w06-1"
+        },
+        {
+          "text": "Die",
+          "start": 1.201,
+          "end": 1.357,
+          "id": "w06-2"
+        },
+        {
+          "text": "Kappe",
+          "start": 1.371,
+          "end": 1.683,
+          "id": "w06-3"
+        },
+        {
+          "text": "reißt.",
+          "start": 1.71,
+          "end": 1.866,
+          "id": "w06-4"
+        },
+        {
+          "text": "Thrombozyten",
+          "start": 2.04,
+          "end": 2.703,
+          "id": "w06-5"
+        },
+        {
+          "text": "lagern",
+          "start": 2.761,
+          "end": 3.093,
+          "id": "w06-6"
+        },
+        {
+          "text": "sich",
+          "start": 3.122,
+          "end": 3.287,
+          "id": "w06-7"
+        },
+        {
+          "text": "an",
+          "start": 3.302,
+          "end": 3.468,
+          "id": "w06-8"
+        },
+        {
+          "text": "ein",
+          "start": 3.825,
+          "end": 3.991,
+          "id": "w06-9"
+        },
+        {
+          "text": "Thrombus",
+          "start": 4.005,
+          "end": 4.337,
+          "id": "w06-10"
+        },
+        {
+          "text": "verschließt",
+          "start": 4.366,
+          "end": 4.698,
+          "id": "w06-11"
+        },
+        {
+          "text": "das",
+          "start": 4.727,
+          "end": 4.892,
+          "id": "w06-12"
+        },
+        {
+          "text": "Gefäß.",
+          "start": 4.907,
+          "end": 5.239,
+          "id": "w06-13"
+        }
+      ],
+      "source": "host"
+    },
+    {
+      "frame": 7,
+      "path": "assets/voice/07.wav",
+      "duration_s": 7.57,
+      "words": [
+        {
+          "text": "Schritt",
+          "start": 0.35,
+          "end": 0.618,
+          "id": "w07-0"
+        },
+        {
+          "text": "vier:",
+          "start": 0.641,
+          "end": 0.909,
+          "id": "w07-1"
+        },
+        {
+          "text": "Ohne",
+          "start": 1.092,
+          "end": 1.412,
+          "id": "w07-2"
+        },
+        {
+          "text": "Sauerstoff",
+          "start": 1.44,
+          "end": 1.761,
+          "id": "w07-3"
+        },
+        {
+          "text": "sterben",
+          "start": 1.789,
+          "end": 2.109,
+          "id": "w07-4"
+        },
+        {
+          "text": "nach",
+          "start": 2.137,
+          "end": 2.297,
+          "id": "w07-5"
+        },
+        {
+          "text": "zwanzig",
+          "start": 2.311,
+          "end": 2.631,
+          "id": "w07-6"
+        },
+        {
+          "text": "bis",
+          "start": 2.659,
+          "end": 2.82,
+          "id": "w07-7"
+        },
+        {
+          "text": "dreißig",
+          "start": 2.833,
+          "end": 3.154,
+          "id": "w07-8"
+        },
+        {
+          "text": "Minuten",
+          "start": 3.182,
+          "end": 3.662,
+          "id": "w07-9"
+        },
+        {
+          "text": "die",
+          "start": 3.704,
+          "end": 3.864,
+          "id": "w07-10"
+        },
+        {
+          "text": "ersten",
+          "start": 3.878,
+          "end": 4.199,
+          "id": "w07-11"
+        },
+        {
+          "text": "Zellen",
+          "start": 4.227,
+          "end": 4.547,
+          "id": "w07-12"
+        },
+        {
+          "text": "von",
+          "start": 4.906,
+          "end": 5.066,
+          "id": "w07-13"
+        },
+        {
+          "text": "innen",
+          "start": 5.08,
+          "end": 5.4,
+          "id": "w07-14"
+        },
+        {
+          "text": "nach",
+          "start": 5.428,
+          "end": 5.588,
+          "id": "w07-15"
+        },
+        {
+          "text": "außen.",
+          "start": 5.602,
+          "end": 5.923,
+          "id": "w07-16"
+        },
+        {
+          "text": "Zeit",
+          "start": 6.111,
+          "end": 6.308,
+          "id": "w07-17"
+        },
+        {
+          "text": "ist",
+          "start": 6.326,
+          "end": 6.523,
+          "id": "w07-18"
+        },
+        {
+          "text": "Muskel.",
+          "start": 6.54,
+          "end": 6.936,
+          "id": "w07-19"
+        }
+      ],
+      "source": "host"
+    },
+    {
+      "frame": 8,
+      "path": "assets/voice/08.wav",
+      "duration_s": 7.6,
+      "words": [
+        {
+          "text": "Welche",
+          "start": 0.35,
+          "end": 0.648,
+          "id": "w08-0"
+        },
+        {
+          "text": "Wand",
+          "start": 0.674,
+          "end": 0.823,
+          "id": "w08-1"
+        },
+        {
+          "text": "betroffen",
+          "start": 0.836,
+          "end": 1.283,
+          "id": "w08-2"
+        },
+        {
+          "text": "ist,",
+          "start": 1.322,
+          "end": 1.605,
+          "id": "w08-3"
+        },
+        {
+          "text": "verrät",
+          "start": 1.629,
+          "end": 1.927,
+          "id": "w08-4"
+        },
+        {
+          "text": "das",
+          "start": 1.953,
+          "end": 2.102,
+          "id": "w08-5"
+        },
+        {
+          "text": "Gefäß:",
+          "start": 2.115,
+          "end": 2.413,
+          "id": "w08-6"
+        },
+        {
+          "text": "RIVA",
+          "start": 2.599,
+          "end": 3.103,
+          "id": "w08-7"
+        },
+        {
+          "text": "Vorderwand.",
+          "start": 3.364,
+          "end": 3.679,
+          "id": "w08-8"
+        },
+        {
+          "text": "RCX",
+          "start": 3.866,
+          "end": 4.454,
+          "id": "w08-9"
+        },
+        {
+          "text": "Seitenwand.",
+          "start": 4.843,
+          "end": 5.333,
+          "id": "w08-10"
+        },
+        {
+          "text": "RCA",
+          "start": 5.535,
+          "end": 6.106,
+          "id": "w08-11"
+        },
+        {
+          "text": "Hinterwand.",
+          "start": 6.483,
+          "end": 6.958,
+          "id": "w08-12"
+        }
+      ],
+      "source": "host"
+    },
+    {
+      "frame": 9,
+      "path": "assets/voice/09.wav",
+      "duration_s": 8.97,
+      "words": [
+        {
+          "text": "Typisch:",
+          "start": 0.35,
+          "end": 0.763,
+          "id": "w09-0"
+        },
+        {
+          "text": "Brustschmerz,",
+          "start": 0.959,
+          "end": 1.522,
+          "id": "w09-1"
+        },
+        {
+          "text": "ausstrahlend",
+          "start": 1.571,
+          "end": 2.154,
+          "id": "w09-2"
+        },
+        {
+          "text": "in",
+          "start": 2.205,
+          "end": 2.399,
+          "id": "w09-3"
+        },
+        {
+          "text": "Arm,",
+          "start": 2.416,
+          "end": 2.785,
+          "id": "w09-4"
+        },
+        {
+          "text": "Kiefer",
+          "start": 2.817,
+          "end": 3.206,
+          "id": "w09-5"
+        },
+        {
+          "text": "oder",
+          "start": 3.239,
+          "end": 3.628,
+          "id": "w09-6"
+        },
+        {
+          "text": "Oberbauch.",
+          "start": 3.662,
+          "end": 4.244,
+          "id": "w09-7"
+        },
+        {
+          "text": "Kaltschweiß,",
+          "start": 4.455,
+          "end": 4.989,
+          "id": "w09-8"
+        },
+        {
+          "text": "Todesangst.",
+          "start": 5.035,
+          "end": 5.587,
+          "id": "w09-9"
+        },
+        {
+          "text": "Achtung:",
+          "start": 5.795,
+          "end": 6.236,
+          "id": "w09-10"
+        },
+        {
+          "text": "Frauen",
+          "start": 6.435,
+          "end": 6.613,
+          "id": "w09-11"
+        },
+        {
+          "text": "und",
+          "start": 6.628,
+          "end": 6.807,
+          "id": "w09-12"
+        },
+        {
+          "text": "Diabetiker",
+          "start": 6.822,
+          "end": 7.535,
+          "id": "w09-13"
+        },
+        {
+          "text": "oft",
+          "start": 7.597,
+          "end": 7.776,
+          "id": "w09-14"
+        },
+        {
+          "text": "atypisch.",
+          "start": 7.791,
+          "end": 8.326,
+          "id": "w09-15"
+        }
+      ],
+      "source": "host"
+    },
+    {
+      "frame": 10,
+      "path": "assets/voice/10.wav",
+      "duration_s": 6.5,
+      "words": [
+        {
+          "text": "Diagnose:",
+          "start": 0.35,
+          "end": 0.878,
+          "id": "w10-0"
+        },
+        {
+          "text": "EKG",
+          "start": 1.084,
+          "end": 1.606,
+          "id": "w10-1"
+        },
+        {
+          "text": "in",
+          "start": 1.652,
+          "end": 1.797,
+          "id": "w10-2"
+        },
+        {
+          "text": "zehn",
+          "start": 1.81,
+          "end": 1.955,
+          "id": "w10-3"
+        },
+        {
+          "text": "Minuten.",
+          "start": 1.967,
+          "end": 2.403,
+          "id": "w10-4"
+        },
+        {
+          "text": "ST-Hebung",
+          "start": 2.601,
+          "end": 2.905,
+          "id": "w10-5"
+        },
+        {
+          "text": "in",
+          "start": 2.932,
+          "end": 3.084,
+          "id": "w10-6"
+        },
+        {
+          "text": "zwei",
+          "start": 3.098,
+          "end": 3.25,
+          "id": "w10-7"
+        },
+        {
+          "text": "benachbarten",
+          "start": 3.263,
+          "end": 3.873,
+          "id": "w10-8"
+        },
+        {
+          "text": "Ableitungen",
+          "start": 3.926,
+          "end": 4.536,
+          "id": "w10-9"
+        },
+        {
+          "text": "STEMI.",
+          "start": 4.904,
+          "end": 5.819,
+          "id": "w10-10"
+        }
+      ],
+      "source": "host"
+    },
+    {
+      "frame": 11,
+      "path": "assets/voice/11.wav",
+      "duration_s": 6.5,
+      "words": [
+        {
+          "text": "Keine",
+          "start": 0.35,
+          "end": 0.684,
+          "id": "w11-0"
+        },
+        {
+          "text": "Hebung?",
+          "start": 0.713,
+          "end": 1.048,
+          "id": "w11-1"
+        },
+        {
+          "text": "Dann",
+          "start": 1.237,
+          "end": 1.384,
+          "id": "w11-2"
+        },
+        {
+          "text": "entscheidet",
+          "start": 1.396,
+          "end": 1.837,
+          "id": "w11-3"
+        },
+        {
+          "text": "das",
+          "start": 1.875,
+          "end": 2.022,
+          "id": "w11-4"
+        },
+        {
+          "text": "Troponin:",
+          "start": 2.035,
+          "end": 2.475,
+          "id": "w11-5"
+        },
+        {
+          "text": "erhöht",
+          "start": 2.674,
+          "end": 2.884,
+          "id": "w11-6"
+        },
+        {
+          "text": "NSTEMI.",
+          "start": 3.121,
+          "end": 3.88,
+          "id": "w11-7"
+        },
+        {
+          "text": "Normal",
+          "start": 4.106,
+          "end": 4.408,
+          "id": "w11-8"
+        },
+        {
+          "text": "instabile",
+          "start": 4.746,
+          "end": 5.35,
+          "id": "w11-9"
+        },
+        {
+          "text": "Angina.",
+          "start": 5.403,
+          "end": 5.856,
+          "id": "w11-10"
+        }
+      ],
+      "source": "host"
+    },
+    {
+      "frame": 12,
+      "path": "assets/voice/12.wav",
+      "duration_s": 11.57,
+      "words": [
+        {
+          "text": "Therapie:",
+          "start": 0.35,
+          "end": 0.897,
+          "id": "w12-0"
+        },
+        {
+          "text": "Notruf,",
+          "start": 1.104,
+          "end": 1.614,
+          "id": "w12-1"
+        },
+        {
+          "text": "ASS,",
+          "start": 1.658,
+          "end": 2.449,
+          "id": "w12-2"
+        },
+        {
+          "text": "Heparin,",
+          "start": 2.518,
+          "end": 3.203,
+          "id": "w12-3"
+        },
+        {
+          "text": "Nitro,",
+          "start": 3.262,
+          "end": 3.772,
+          "id": "w12-4"
+        },
+        {
+          "text": "wenn",
+          "start": 3.816,
+          "end": 3.992,
+          "id": "w12-5"
+        },
+        {
+          "text": "der",
+          "start": 4.007,
+          "end": 4.183,
+          "id": "w12-6"
+        },
+        {
+          "text": "Blutdruck",
+          "start": 4.198,
+          "end": 4.55,
+          "id": "w12-7"
+        },
+        {
+          "text": "reicht.",
+          "start": 4.58,
+          "end": 4.756,
+          "id": "w12-8"
+        },
+        {
+          "text": "Sauerstoff",
+          "start": 4.931,
+          "end": 5.264,
+          "id": "w12-9"
+        },
+        {
+          "text": "nur",
+          "start": 5.293,
+          "end": 5.459,
+          "id": "w12-10"
+        },
+        {
+          "text": "bei",
+          "start": 5.474,
+          "end": 5.64,
+          "id": "w12-11"
+        },
+        {
+          "text": "einer",
+          "start": 5.654,
+          "end": 5.987,
+          "id": "w12-12"
+        },
+        {
+          "text": "Sättigung",
+          "start": 6.016,
+          "end": 6.515,
+          "id": "w12-13"
+        },
+        {
+          "text": "unter",
+          "start": 6.558,
+          "end": 6.891,
+          "id": "w12-14"
+        },
+        {
+          "text": "neunzig",
+          "start": 6.92,
+          "end": 7.253,
+          "id": "w12-15"
+        },
+        {
+          "text": "Prozent.",
+          "start": 7.282,
+          "end": 7.614,
+          "id": "w12-16"
+        },
+        {
+          "text": "Beim",
+          "start": 7.803,
+          "end": 7.898,
+          "id": "w12-17"
+        },
+        {
+          "text": "STEMI:",
+          "start": 7.907,
+          "end": 8.478,
+          "id": "w12-18"
+        },
+        {
+          "text": "Herzkatheter,",
+          "start": 8.688,
+          "end": 9.554,
+          "id": "w12-19"
+        },
+        {
+          "text": "innerhalb",
+          "start": 9.63,
+          "end": 10.16,
+          "id": "w12-20"
+        },
+        {
+          "text": "von",
+          "start": 10.206,
+          "end": 10.383,
+          "id": "w12-21"
+        },
+        {
+          "text": "zwei",
+          "start": 10.398,
+          "end": 10.575,
+          "id": "w12-22"
+        },
+        {
+          "text": "Stunden.",
+          "start": 10.591,
+          "end": 10.944,
+          "id": "w12-23"
+        }
+      ],
+      "source": "host"
+    },
+    {
+      "frame": 13,
+      "path": "assets/voice/13.wav",
+      "duration_s": 7.42,
+      "words": [
+        {
+          "text": "Merke:",
+          "start": 0.35,
+          "end": 0.793,
+          "id": "w13-0"
+        },
+        {
+          "text": "Plaque",
+          "start": 0.991,
+          "end": 1.418,
+          "id": "w13-1"
+        },
+        {
+          "text": "reißt,",
+          "start": 1.455,
+          "end": 1.861,
+          "id": "w13-2"
+        },
+        {
+          "text": "Thrombus",
+          "start": 1.896,
+          "end": 2.323,
+          "id": "w13-3"
+        },
+        {
+          "text": "verschließt,",
+          "start": 2.36,
+          "end": 2.979,
+          "id": "w13-4"
+        },
+        {
+          "text": "Muskel",
+          "start": 3.033,
+          "end": 3.46,
+          "id": "w13-5"
+        },
+        {
+          "text": "stirbt.",
+          "start": 3.497,
+          "end": 3.71,
+          "id": "w13-6"
+        },
+        {
+          "text": "Folge",
+          "start": 3.889,
+          "end": 4.315,
+          "id": "w13-7"
+        },
+        {
+          "text": "med2be.",
+          "start": 4.352,
+          "end": 4.779,
+          "id": "w13-8"
+        }
+      ],
+      "source": "host"
+    }
+  ],
+  "sfx": [
+    {
+      "frame": 1,
+      "file": "assets/sfx/heartbeat.wav",
+      "offset_s": 0.15,
+      "duration_s": 0.9,
+      "volume": 0.55,
+      "source": "host"
+    },
+    {
+      "frame": 1,
+      "file": "assets/sfx/heartbeat.wav",
+      "offset_s": 1.2,
+      "duration_s": 0.9,
+      "volume": 0.55,
+      "source": "host"
+    },
+    {
+      "frame": 2,
+      "file": "assets/sfx/whoosh.wav",
+      "offset_s": 0.0,
+      "duration_s": 0.7,
+      "volume": 0.35,
+      "source": "host"
+    },
+    {
+      "frame": 7,
+      "file": "assets/sfx/whoosh.wav",
+      "offset_s": 0.0,
+      "duration_s": 0.7,
+      "volume": 0.35,
+      "source": "host"
+    },
+    {
+      "frame": 13,
+      "file": "assets/sfx/whoosh.wav",
+      "offset_s": 0.0,
+      "duration_s": 0.7,
+      "volume": 0.35,
+      "source": "host"
+    },
+    {
+      "frame": 6,
+      "file": "assets/sfx/crack.wav",
+      "offset_s": 1.66,
+      "duration_s": 0.9,
+      "volume": 0.6,
+      "source": "host"
+    },
+    {
+      "frame": 10,
+      "file": "assets/sfx/beep.wav",
+      "offset_s": 0.95,
+      "duration_s": 0.12,
+      "volume": 0.25,
+      "source": "host"
+    },
+    {
+      "frame": 10,
+      "file": "assets/sfx/beep.wav",
+      "offset_s": 2.25,
+      "duration_s": 0.12,
+      "volume": 0.25,
+      "source": "host"
+    },
+    {
+      "frame": 12,
+      "file": "assets/sfx/chime.wav",
+      "offset_s": 8.688,
+      "duration_s": 1.6,
+      "volume": 0.3,
+      "source": "host"
+    },
+    {
+      "frame": 13,
+      "file": "assets/sfx/chime.wav",
+      "offset_s": 3.889,
+      "duration_s": 1.6,
+      "volume": 0.25,
+      "source": "host"
+    }
+  ]
+}
