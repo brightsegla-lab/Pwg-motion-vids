@@ -75,4 +75,26 @@
 
 /* merge chips (Atelektase) */
 .mchip { position: absolute; padding: 18px 30px; border-radius: 999px; font-weight: 800; font-size: 32px; white-space: nowrap; }
-.phase.off { color: rgba(15,26,21,.42); background: rgba(255,255,255,.35); border-color: rgba(15,92,58,.12); }
+.phase.off { color: rgba(15,26,21,.66); background: rgba(255,255,255,.35); border-color: rgba(15,92,58,.12); }
+
+/* +10 % text for mobile readability (manager request) — small/medium sizes only, titles unchanged */
+.lbl { font-size: 23px; }
+.mid { font-size: 42px; }
+.sub { font-size: 33px; }
+.row .t { font-size: 40px; }
+.row .s { font-size: 29px; }
+.check .t { font-size: 35px; }
+.check .s { font-size: 26px; }
+.tag { font-size: 24px; }
+.pill { font-size: 35px; }
+.rf .t { font-size: 37px; }
+.rf .s { font-size: 26px; }
+.tile .t { font-size: 42px; }
+.tile .s { font-size: 29px; }
+.phase { font-size: 29px; padding: 14px 24px; }
+.field .k { font-size: 22px; }
+.field .v { font-size: 35px; }
+.badge { font-size: 30px; }
+.dossier .check .t { font-size: 32px; }
+.dossier .check .s { font-size: 24px; }
+.mchip { font-size: 35px; }

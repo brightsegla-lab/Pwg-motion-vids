@@ -95,7 +95,6 @@
     for (var i = 0; i <= steps; i++) {
       var f = i / steps;
       var tt = t - WINDOW * (1 - f);
-      if (tt < 0) continue; // no history before the episode starts
       var x = g.x0 + w * f;
       var y = g.y - g.h * amp(tt) * v(tt);
       if (!started) { ctx.moveTo(x, y); started = true; } else ctx.lineTo(x, y);

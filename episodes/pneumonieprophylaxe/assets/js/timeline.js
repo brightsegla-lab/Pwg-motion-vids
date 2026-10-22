@@ -67,7 +67,8 @@
   out("#pm", C.b_hoch - 0.2, 0.3);
   check("#b2", C.b_hoch, C.b_hoch + 1.1);
   inn("#ph", C.b_hoch, { fadeOnly: true });
-  tl.fromTo("#ph-back", { rotation: 0 }, { rotation: -32, svgOrigin: "270 200", duration: 1.2, ease: "power2.inOut", immediateRender: false }, C.b_hoch + 0.2);
+  tl.fromTo("#ph-arc", { opacity: 0 }, { opacity: 1, duration: 0.3 }, C.b_hoch + 0.7);
+  tl.fromTo("#ph-back", { rotation: 0 }, { rotation: 32, svgOrigin: "270 200", duration: 0.8, ease: "power2.inOut", immediateRender: false }, C.b_hoch + 0.1);
   out("#ph", C.b_trink - 0.2, 0.3);
   check("#b3", C.b_trink, C.b_trink + 1.0);
   inn("#pt", C.b_trink, { fadeOnly: true });
@@ -123,7 +124,7 @@
   inn("#t-hyper-s", C.d_hyper + 0.6, { fadeOnly: true });
 
   // ---------------------------------------------------------------- 9 · Blubberflasche
-  inn("#bl-card", C.b_pust - 0.3, { x: 30 });
+  inn("#bl-card", C.b_pust - 0.1, { x: 30 });
   inn("#bl1", C.b_pust, { x: -16 });
   inn("#bl2", C.b_wid, { x: -16 });
   inn("#bl3", C.b_entf, { x: -16 });

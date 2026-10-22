@@ -48,7 +48,7 @@ const L = { lobes: [], alv: [] };
     L.lobes.push(lobe);
     // inflammation spots: flat murky patches embedded in the lobe surface, hidden while healthy
     const n = 22;
-    const amat = new THREE.MeshStandardMaterial({ color: 0xb59e63, roughness: 0.9 });
+    const amat = new THREE.MeshStandardMaterial({ color: 0xcbb98f, roughness: 0.95, transparent: true, opacity: 0.82 });
     const inst = new THREE.InstancedMesh(sphere(1, 16, 12), amat, n);
     inst.castShadow = false;
     inst.userData.spots = [];
