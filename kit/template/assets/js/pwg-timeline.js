@@ -9,7 +9,12 @@
   var IO = "power2.inOut";
 
   window.PWG = window.PWG || {};
-  window.PWG.timeline = function () {
+  // opts.transition: "fade" (default) | "breath" — scenes "inhale" out (slight zoom-in + fade)
+  // and "exhale" in (start slightly zoomed, settle to 1). 3D shots that share a set and follow
+  // each other continue without the cream dip (one continuous camera move).
+  window.PWG.timeline = function (opts) {
+    opts = opts || {};
+    var BREATH = opts.transition === "breath";
     var C = window.CUES;
     var SH = window.SHOTS;
     var tl = gsap.timeline({ paused: true });
@@ -41,8 +46,12 @@
         var el = "#s-" + s.id;
         if (!document.querySelector(el)) return;
         if (s.a <= 0) tl.set(el, { autoAlpha: 1 }, 0);
+        else if (BREATH) tl.fromTo(el, { autoAlpha: 0, scale: 1.04 }, { autoAlpha: 1, scale: 1, duration: 0.9, ease: "sine.out" }, s.a - 0.1);
         else tl.fromTo(el, { autoAlpha: 0 }, { autoAlpha: 1, duration: 0.5, ease: IO }, s.a - 0.05);
-        if (s.b < SH.END - 0.01) out(el, s.b - 0.3, 0.45);
+        if (s.b < SH.END - 0.01) {
+          if (BREATH) tl.to(el, { autoAlpha: 0, scale: 1.035, duration: 0.55, ease: "sine.in" }, s.b - 0.45);
+          else out(el, s.b - 0.3, 0.45);
+        }
       });
     }
 
@@ -54,6 +63,7 @@
         if (!s.set) return;
         if (prev && prev.set && runs.length) {
           runs[runs.length - 1].b = s.b;
+          if (prev.set === s.set) return; // same set: continuous, no dip
           tl.fromTo("#dip", { opacity: 0 }, { opacity: 1, duration: 0.22, ease: "power1.in", immediateRender: false }, s.a - 0.22);
           tl.to("#dip", { opacity: 0, duration: 0.35, ease: "power1.out" }, s.a);
         } else runs.push({ a: s.a, b: s.b });

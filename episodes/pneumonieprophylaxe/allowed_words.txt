@@ -1,0 +1,6 @@
+# Pneumonieprophylaxe — on-screen words reviewed against the SRT and accepted (separable verbs / noun forms).
+nimmt          # "der nicht mehr am Gasaustausch teilnimmt" → "nimmt nicht mehr am Gasaustausch teil"
+Entstehung     # "Kann angeboren sein oder eben entstehen durch …" (label for that list)
+anwärmen       # "Man wärmt eine unparfümierte Lotion in den Händen an"
+loslassen      # "Bei der Einatmung lässt man den Druck wieder los"
+ausstreichen   # "Am Ende streicht man noch vom Nacken bis zum Steißbein aus"
