@@ -1,0 +1,498 @@
+<title>Pneumonieprophylaxe Vorschau</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="assets/css/style.css" />
+<link rel="stylesheet" href="assets/css/episode.css" />
+<style>
+  /* Review player around the 1920×1080 composition: dark single-look video chrome. */
+  :root { --ink: #0d1512; --panel: #16211c; --line: #2a3a32; --text: #eef5f1; --muted: #9fb3a9; --mint: #2ecc91; --gold: #f4c430; color-scheme: dark; }
+  html, body { width: auto !important; height: 100% !important; overflow: hidden !important; background: var(--ink) !important; }
+  body { color: var(--text); font-family: Montserrat, system-ui, sans-serif; display: flex; flex-direction: column;
+    padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 12px; gap: 10px; box-sizing: border-box; }
+  #frame { position: relative; flex: 1; min-height: 0; display: flex; align-items: center; justify-content: center; }
+  #box { position: relative; overflow: hidden; border-radius: 14px; box-shadow: 0 10px 40px rgba(0,0,0,.45); }
+  #root { position: absolute !important; left: 0; top: 0; width: 1920px !important; height: 1080px !important; transform-origin: 0 0; }
+  #bar { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+  #play { width: 54px; height: 54px; border-radius: 50%; border: 0; background: var(--mint); color: var(--ink); font-size: 22px; font-weight: 800; cursor: pointer; flex-shrink: 0; }
+  #play:focus-visible, .ch:focus-visible, #seek:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+  #seek { flex: 1; min-width: 160px; accent-color: var(--mint); height: 28px; }
+  #time { font-variant-numeric: tabular-nums; font-weight: 700; font-size: 15px; color: var(--muted); min-width: 104px; text-align: right; }
+  #chapters { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 2px; scrollbar-width: thin; }
+  .ch { flex-shrink: 0; border: 1px solid var(--line); background: var(--panel); color: var(--text); border-radius: 999px; padding: 8px 14px; font: 600 13px Montserrat, system-ui, sans-serif; cursor: pointer; }
+  .ch[aria-current="true"] { background: var(--mint); color: var(--ink); border-color: var(--mint); }
+  .ch span { font-variant-numeric: tabular-nums; opacity: .7; margin-right: 6px; }
+  #hint { font-size: 12px; color: var(--muted); }
+</style>
+<script src="assets/vendor/gsap.min.js"></script>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/shots.js"></script>
+<script>
+  window.__timelines = {};
+  window.__hyperframes = { getVariables: function () { return { quality: "draft" }; } };
+</script>
+<div id="frame"><div id="box">
+
+    
+    <div id="root" data-composition-id="main" data-start="0" data-duration="350.04" data-width="1920" data-height="1080">
+      <div id="bg" class="layer clip" data-start="0" data-duration="350.04" data-track-index="0">
+        <div class="dots"></div>
+        <div class="blob b1"></div>
+        <div class="blob b2"></div>
+        <div class="blob b3"></div>
+        <div class="green"></div>
+      </div>
+
+      <div id="world-clip" class="layer clip" data-start="0" data-duration="350.04" data-track-index="1">
+        <div id="world" class="layer"><canvas id="gl" width="1920" height="1080" data-layout-allow-occlusion></canvas></div>
+      </div>
+
+      <div id="breath-clip" class="layer clip" data-start="0" data-duration="350.04" data-track-index="5">
+        <canvas id="breath" width="1920" height="1080" data-layout-allow-occlusion></canvas>
+      </div>
+
+      <div id="orb-clip" class="layer clip" data-start="0" data-duration="350.04" data-track-index="3">
+        <div id="dock" class="glass frost"></div>
+        <canvas id="orbs" width="1920" height="1080" data-layout-allow-occlusion></canvas>
+      </div>
+
+      <div id="stage" class="layer clip" data-start="0" data-duration="350.04" data-track-index="2">
+        <div id="pulse">
+          
+          <section id="s-intro" class="scene">
+            <div id="i-brand" style="position: absolute; top: 96px; left: 0; right: 0; display: flex; justify-content: center; align-items: center; gap: 22px">
+              <img src="assets/brand/mark-black.png" alt="" style="width: 104px; height: auto; display: block" />
+              <div class="wordmark" style="font-size: 54px">PFLEGE-<span class="wg" style="color: var(--green)">WG</span></div>
+            </div>
+            <div style="position: absolute; top: 250px; left: 0; right: 0; display: flex; flex-direction: column; align-items: center; gap: 26px">
+              <div id="i-reihe" class="chip mint" style="letter-spacing: 0.14em; text-transform: uppercase; font-size: 30px">Prophylaxen-Reihe · Folge 3</div>
+              <div id="i-title" style="font-weight: 900; font-size: 132px; letter-spacing: -0.02em; color: var(--ink)">Pneumonieprophylaxe</div>
+              <div id="i-sub" class="marker" style="font-size: 54px; color: var(--deep); margin-top: -10px">Lungenentzündung vorbeugen</div>
+            </div>
+          </section>
+
+          
+          <section id="s-pneu" class="scene">
+            <div class="hdr">
+              <div class="tag"><i></i>Grundlagen</div>
+              <div class="h1">Pneumonie</div>
+            </div>
+            <div id="p-card" class="glass frost card" style="position: absolute; right: 110px; top: 300px; width: 720px; padding: 40px 44px">
+              <div class="lbl">Pneumonie = Lungenentzündung</div>
+              <div class="big" id="p-def">Entzündung des Lungengewebes</div>
+              <div id="p-cause" style="display: flex; gap: 14px; align-items: center; margin-top: 26px; flex-wrap: wrap">
+                <div class="sub" style="font-weight: 700">meist durch</div>
+                <div class="chip ink" style="font-size: 28px; padding: 12px 24px">Bakterien</div>
+                <div class="sub" style="font-weight: 700">oder</div>
+                <div class="chip ink" style="font-size: 28px; padding: 12px 24px">Viren</div>
+              </div>
+            </div>
+          </section>
+
+          
+          <section id="s-risk" class="scene">
+            <div class="hdr">
+              <div class="tag red"><i></i>Risiko</div>
+              <div class="h1">Besonders gefährdet</div>
+            </div>
+            <div style="position: absolute; left: 120px; top: 250px; display: flex; gap: 18px">
+              <div id="g1" class="pill glass"><svg class="ico" viewBox="0 0 64 64"><path d="M6 46V18M6 38h52v8M58 46V32a6 6 0 0 0-6-6H26v12" /><circle cx="16" cy="31" r="5" /></svg>Bettlägerige</div>
+              <div id="g2" class="pill glass"><svg class="ico" viewBox="0 0 64 64"><circle cx="28" cy="10" r="5" /><path d="M28 16l-4 16 6 8 2 16M24 32l-8 8M30 22l10 8M44 30v28" /></svg>Ältere</div>
+              <div id="g3" class="pill glass"><svg class="ico" viewBox="0 0 64 64"><path d="M32 6l20 8v16c0 14-9 23-20 28C21 53 12 44 12 30V14z" /><path d="M24 32h16" /></svg>Immungeschwächte</div>
+            </div>
+            <div id="rf-lbl" class="lbl" style="position: absolute; left: 124px; top: 372px; font-size: 24px">Risikofaktoren</div>
+            <div class="grid">
+              <div id="rf1" class="glass rf"><svg class="ico" viewBox="0 0 64 64"><path d="M6 46V18M6 38h52v8M58 46V32a6 6 0 0 0-6-6H26v12" /><circle cx="16" cy="31" r="5" /></svg><div class="t">Bettlägerigkeit</div></div>
+              <div id="rf2" class="glass rf"><svg class="ico" viewBox="0 0 64 64"><circle cx="28" cy="10" r="5" /><path d="M28 16l-4 16 6 8 2 16M24 32l-8 8M30 22l10 8M44 30v28" /></svg><div class="t">Hohes Alter</div></div>
+              <div id="rf3" class="glass rf"><svg class="ico" viewBox="0 0 64 64"><path d="M32 6v20M32 26c-4 0-8-4-12-4-6 0-10 10-10 22 0 6 3 10 8 10 8 0 14-6 14-14zM32 26c4 0 8-4 12-4 6 0 10 10 10 22 0 6-3 10-8 10-8 0-14-6-14-14z" /></svg><div class="t">COPD</div></div>
+              <div id="rf4" class="glass rf"><svg class="ico" viewBox="0 0 64 64"><path d="M6 40h38v8H6zM44 40h14v8H44M48 34c0-6-6-6-6-12s6-6 6-12M55 34c0-5-4-6-4-11" /></svg><div class="t">Rauchen</div></div>
+              <div id="rf5" class="glass rf"><svg class="ico" viewBox="0 0 64 64"><path d="M8 8l7 7-7 7 7 7" /><path d="M20 42c5 0 5-3 10-3s5 3 10 3 5-2 10-2 4 2 8 2" /></svg><div class="t">Schmerzen nach OPs</div><div class="s" id="rf5s">→ flache Atmung</div></div>
+              <div id="rf6" class="glass rf"><svg class="ico" viewBox="0 0 64 64"><path d="M20 4c0 12 6 16 6 26v30M44 4c0 12-6 16-6 26v30" /><path d="M32 12v14M27 21l5 5 5-5" /><path d="M26 36l12 10M38 36L26 46" /></svg><div class="t">Schluckstörungen</div></div>
+              <div id="rf7" class="glass rf"><svg class="ico" viewBox="0 0 64 64"><path d="M16 8h32l-4 50H20z" /><path class="fillm" d="M19.6 50h24.8l-.6 8H20.2z" /></svg><div class="t">Zu wenig trinken</div></div>
+            </div>
+          </section>
+
+          
+          <section id="s-atel" class="scene">
+            <div class="hdr">
+              <div class="tag gold"><i></i>Verwandtes Thema</div>
+              <div class="h1">Atelektase</div>
+            </div>
+            <div id="a-card" class="glass frost card" style="position: absolute; right: 110px; top: 270px; width: 720px; padding: 38px 44px">
+              <div class="lbl">Definition</div>
+              <div class="mid" id="a-d1">Luftleerer Lungenbezirk</div>
+              <div class="sub" id="a-d2" style="margin-top: 8px">nimmt nicht mehr am Gasaustausch teil</div>
+              <div class="lbl" id="a-clbl" style="margin-top: 30px">Entstehung</div>
+              <div class="rows" style="gap: 12px">
+                <div class="row" id="a-c1"><div class="dot" style="background: var(--gold)"></div><div class="t" style="font-size: 32px">angeboren</div></div>
+                <div class="row" id="a-c2"><div class="dot"></div><div class="t" style="font-size: 32px">Operationen</div></div>
+                <div class="row" id="a-c3"><div class="dot"></div><div class="t" style="font-size: 32px">Bettlägerigkeit</div></div>
+                <div class="row" id="a-c4"><div class="dot"></div><div class="t" style="font-size: 32px">Schonatmung</div></div>
+              </div>
+            </div>
+            <div id="a-merge" style="position: absolute; right: 110px; top: 330px; width: 720px; height: 420px">
+              <div id="a-m1" class="mchip glass" style="left: 0; right: 0; margin: 0 auto; width: max-content; top: 0">Pneumonieprophylaxe</div>
+              <div id="a-plus" class="mchip" style="left: 0; right: 0; margin: 0 auto; width: max-content; top: 82px; color: var(--green); font-size: 44px">+</div>
+              <div id="a-m2" class="mchip glass" style="left: 0; right: 0; margin: 0 auto; width: max-content; top: 150px">Atelektasenprophylaxe</div>
+              <div id="a-m3" class="glass card" style="position: absolute; left: 60px; right: 60px; top: 250px; text-align: center; border: 3px solid var(--mint)">
+                <div class="lbl">laufen meist zusammen</div>
+                <div class="mid">Die Maßnahmen ähneln sich</div>
+              </div>
+            </div>
+            <div id="a-pin" class="anchor below">
+              <div class="pin grey"></div>
+              <div class="lab glass mid grey" style="font-size: 30px; padding: 14px 24px">luftleer – kein Gasaustausch<div id="a-sleep" class="marker" style="font-size: 40px; color: #7d756e; margin-top: 4px">… schläft ein</div></div>
+            </div>
+          </section>
+
+          
+          <section id="s-ziele" class="scene">
+            <div class="hdr">
+              <div class="tag"><i></i>Ziele</div>
+              <div class="h1">Die Ziele</div>
+            </div>
+            <div class="tiles">
+              <div id="z1" class="glass tile">
+                <svg class="ico big" viewBox="0 0 64 64"><path d="M32 6v20M32 26c-4 0-8-4-12-4-6 0-10 10-10 22 0 6 3 10 8 10 8 0 14-6 14-14zM32 26c4 0 8-4 12-4 6 0 10 10 10 22 0 6-3 10-8 10-8 0-14-6-14-14z" /><path d="M18 38c3-2 5-2 8 0M38 38c3-2 5-2 8 0" /></svg>
+                <div class="t">Lunge gut belüften</div>
+              </div>
+              <div id="z2" class="glass tile">
+                <div class="drops"><div class="drop d1"></div><div class="drop d2"></div><div class="drop d3"></div></div>
+                <div class="t">Sekret lösen und abhusten</div>
+              </div>
+              <div id="z3" class="glass tile">
+                <svg class="ico big" viewBox="0 0 64 64"><path d="M32 6l20 8v16c0 14-9 23-20 28C21 53 12 44 12 30V14z" /><path d="M23 31l7 7 12-13" /></svg>
+                <div class="t">Infektionen vorbeugen</div>
+              </div>
+              <div id="z4" class="glass tile">
+                <svg class="ico big" viewBox="0 0 64 64"><circle cx="32" cy="32" r="24" /><path d="M20 32a6 7 0 1 0 12 0a6 7 0 1 0-12 0M36 38h7l-6 7h7" /></svg>
+                <div class="t">Sauerstoffversorgung sichern</div>
+              </div>
+            </div>
+          </section>
+
+          
+          <section id="s-basics" class="scene">
+            <div class="hdr">
+              <div class="tag"><i></i>Maßnahmen</div>
+              <div class="h1">Die Basics</div>
+            </div>
+            <div id="b-card" class="glass card" style="position: absolute; left: 120px; top: 270px; width: 880px; padding: 22px 40px">
+              <div class="check" id="b1"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 17 L13.5 23 L25 10" /></svg></div><div><div class="t">Regelmäßige Mobilisation</div></div></div>
+              <div class="check" id="b2"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 17 L13.5 23 L25 10" /></svg></div><div><div class="t">Oberkörper hochlagern</div></div></div>
+              <div class="check" id="b3"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 17 L13.5 23 L25 10" /></svg></div><div><div class="t">Ausreichend trinken</div></div></div>
+              <div class="check" id="b4"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 17 L13.5 23 L25 10" /></svg></div><div><div class="t">Mundpflege</div></div></div>
+              <div class="check" id="b5"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 17 L13.5 23 L25 10" /></svg></div><div><div class="t">Zum tiefen Durchatmen und Abhusten anleiten</div></div></div>
+            </div>
+            <div class="pict">
+              
+              <div class="slot" id="pm">
+                <svg class="p" viewBox="0 0 560 300">
+                  <g id="pm1"><path class="soft" d="M14 214h150v-34M14 214v48M164 214v48" /><circle cx="104" cy="108" r="17" /><path d="M104 125v56h36v62M104 140l28 26" /></g>
+                  <path id="pma" class="mint" d="M190 190h40l-12-12m12 12l-12 12" />
+                  <g id="pm2"><circle cx="292" cy="76" r="17" /><path d="M292 93v80M292 173l-14 74M292 173l14 74M292 110l-20 42M292 110l20 42" /></g>
+                  <path id="pmb" class="mint" d="M342 190h40l-12-12m12 12l-12 12" />
+                  <g id="pm3"><circle cx="460" cy="76" r="17" /><path d="M458 93l-4 80M454 173l-28 70M454 173l32 64M456 110l-30 30M456 110l28 36" /></g>
+                </svg>
+              </div>
+              
+              <div class="slot" id="ph">
+                <svg class="p" viewBox="0 0 560 300">
+                  <path d="M60 230h440M80 230v40M480 230v40" />
+                  <path d="M270 200h220" />
+                  <g id="ph-back"><path d="M270 200h-190" /><ellipse cx="110" cy="182" rx="26" ry="11" /></g>
+                  <path id="ph-arc" class="mint" d="M190 200a80 80 0 0 0-11-40" />
+                </svg>
+              </div>
+              
+              <div class="slot" id="pt">
+                <div class="gauge"><div class="lvl" id="pt-lvl"></div><div class="tick" style="top: 25%"></div><div class="tick" style="top: 50%"></div><div class="tick" style="top: 75%"></div></div>
+              </div>
+              
+              <div class="slot" id="pmu">
+                <svg class="p" viewBox="0 0 560 300"><path d="M150 240L360 70" /><path d="M360 70l34-30 50 54-34 30z" /><path d="M386 46l10-18M408 60l16-12M426 82l18-4" class="mint" /></svg>
+              </div>
+              
+              <div class="slot" id="pd">
+                <svg class="p" viewBox="0 0 560 300"><path d="M60 110h260a46 46 0 1 0-46-46" /><path d="M60 170h340a46 46 0 1 1-46 46" class="mint" /><path d="M60 230h150" /></svg>
+              </div>
+            </div>
+            <div id="b-spez" class="chip ink" style="position: absolute; left: 120px; top: 860px; font-size: 30px">Speziellere Techniken, die jeder Azubi kennen sollte</div>
+          </section>
+
+          
+          <section id="s-ase" class="scene">
+            <div class="hdr">
+              <div class="tag"><i></i>Spezielle Technik</div>
+              <div class="h1">Atemstimulierende Einreibung <span style="color: var(--green)">(ASE)</span></div>
+            </div>
+            <div id="e-sub" class="chip mint" style="position: absolute; left: 120px; top: 238px; font-size: 28px; padding: 12px 24px">Einreibung am Rücken</div>
+            <div id="e-card" class="glass card" style="position: absolute; left: 120px; top: 320px; width: 820px; padding: 22px 36px">
+              <div class="check" id="e1"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 17 L13.5 23 L25 10" /></svg></div><div><div class="t">Lotion in den Händen anwärmen</div><div class="s">unparfümiert</div></div></div>
+              <div class="check" id="e2"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 17 L13.5 23 L25 10" /></svg></div><div><div class="t">Patient sitzt möglichst aufrecht</div><div class="s">stützt sich z. B. auf ein Kissen</div></div></div>
+              <div class="check" id="e3"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 17 L13.5 23 L25 10" /></svg></div><div><div class="t">Hände auf die Schultern</div><div class="s">Kreisbewegungen nach unten</div></div></div>
+              <div class="check" id="e4"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 17 L13.5 23 L25 10" /></svg></div><div><div class="t">Im Rhythmus der Atmung</div></div></div>
+            </div>
+            <div id="e-phases" style="position: absolute; left: 120px; top: 752px; width: 820px; display: flex; flex-direction: column; gap: 14px">
+              <div id="e-ex" class="phase ex"><b>Ausatmung</b> · leichter Druck links und rechts der Wirbelsäule, Kreis nach außen</div>
+              <div id="e-in" class="phase in"><b>Einatmung</b> · Druck loslassen, Kreis Richtung Wirbelsäule schließen</div>
+            </div>
+            <div id="back">
+              <svg viewBox="0 0 700 700">
+                <path class="outline" d="M300 96C302 62 306 40 308 18M400 96C398 62 394 40 392 18M140 150C220 108 280 96 350 96S480 108 560 150C602 172 612 204 602 262L562 624C520 664 180 664 138 624L98 262C88 204 98 172 140 150Z" />
+                <path class="spine" d="M350 112V640" />
+                <g id="rings">
+                  <circle class="ring" cx="255" cy="230" r="52" /><circle class="ring" cx="445" cy="230" r="52" />
+                  <circle class="ring" cx="255" cy="335" r="52" /><circle class="ring" cx="445" cy="335" r="52" />
+                  <circle class="ring" cx="255" cy="440" r="52" /><circle class="ring" cx="445" cy="440" r="52" />
+                  <circle class="ring" cx="255" cy="545" r="52" /><circle class="ring" cx="445" cy="545" r="52" />
+                </g>
+                <path id="e-stroke" class="stroke" d="M350 108V646" />
+              </svg>
+              <div id="hand-l" class="hand"></div>
+              <div id="hand-r" class="hand"></div>
+            </div>
+            <div id="e-5x" class="chip ink" style="position: absolute; left: 1000px; top: 896px; font-size: 28px; padding: 12px 24px">5–8 × über den ganzen Rücken</div>
+            <div id="e-end" class="chip mint" style="position: absolute; left: 120px; top: 770px; font-size: 28px; padding: 14px 26px">Am Ende: vom Nacken bis zum Steißbein ausstreichen</div>
+          </section>
+
+          
+          <section id="s-ase2" class="scene">
+            <div class="hdr">
+              <div class="tag"><i></i>ASE</div>
+              <div class="h1">Was bringt das?</div>
+            </div>
+            <div class="tiles" style="top: 290px">
+              <div id="w1" class="glass tile" style="min-height: 250px"><svg class="ico big" viewBox="0 0 64 64"><path d="M6 36c6 0 8-14 14-14s8 28 14 28 8-20 14-20 6 6 10 6" /></svg><div class="t">Vertieft die Atmung</div></div>
+              <div id="w2" class="glass tile" style="min-height: 250px"><svg class="ico big" viewBox="0 0 64 64"><circle cx="32" cy="32" r="24" /><path d="M20 28c3-3 7-3 10 0M34 28c3-3 7-3 10 0M22 40c6 6 14 6 20 0" /></svg><div class="t">Wirkt beruhigend</div></div>
+              <div id="w3" class="glass tile" style="min-height: 250px"><svg class="ico big" viewBox="0 0 64 64"><path d="M14 40V22a4 4 0 0 1 8 0v14M22 34V14a4 4 0 0 1 8 0v20M30 32V16a4 4 0 0 1 8 0v18M38 34V24a4 4 0 0 1 8 0v14c0 12-8 20-18 20-6 0-10-4-14-10" /></svg><div class="t">Fördert die Körperwahrnehmung</div><div class="s" id="w3s">gerade bei verwirrten oder bewusstseinsgestörten Patienten</div></div>
+            </div>
+            <div id="w-note" class="glass card" style="position: absolute; left: 120px; top: 680px; width: 1180px; padding: 26px 34px; display: flex; gap: 24px; align-items: center; border: 2.5px solid rgba(244, 196, 48, 0.7)">
+              <svg class="ico" viewBox="0 0 64 64"><path d="M10 26h10l14-12v36L20 38H10z" /><path d="M44 22c4 6 4 14 0 20M50 16c7 10 7 22 0 32" /></svg>
+              <div><div class="mid" style="font-size: 34px">Auch bei bewusstlosen Patienten: vorher ansagen, was man macht</div><div class="sub" id="w-hoer" style="margin-top: 6px">Hören kann trotzdem noch funktionieren</div></div>
+            </div>
+          </section>
+
+          
+          <section id="s-smi" class="scene">
+            <div class="hdr">
+              <div class="tag"><i></i>Atemtraining</div>
+              <div class="h1">Mit speziellen Geräten</div>
+            </div>
+            <div id="t-smi" class="glass frost card" style="position: absolute; right: 110px; top: 250px; width: 700px; padding: 32px 40px">
+              <div class="lbl">SMI-Trainer</div>
+              <div class="mid" id="t-smi-n" style="font-size: 34px">Sustained Maximal Inspiration</div>
+              <div class="row" id="t-smi-r" style="margin-top: 14px"><div class="dot" style="background: var(--gold)"></div><div class="t" style="font-size: 30px">Tief einatmen → der Ball steigt in der Kammer hoch</div></div>
+            </div>
+            <div id="t-pep" class="glass frost card" style="position: absolute; right: 110px; top: 560px; width: 700px; padding: 32px 40px">
+              <div class="lbl">PEP-Geräte · für die Ausatmung</div>
+              <div class="row" id="t-pep-r"><div class="dot"></div><div class="t" style="font-size: 30px">Eine Kugel erzeugt Widerstand beim Ausatmen</div></div>
+              <div class="row" id="t-pep-s" style="margin-top: 12px; gap: 16px"><div class="drops" style="transform: scale(0.6); transform-origin: 0 50%; width: 76px; height: 60px"><div class="drop d1"></div><div class="drop d2"></div><div class="drop d3"></div></div><div class="t" style="font-size: 30px">hilft, Sekret zu lösen</div></div>
+            </div>
+            <div id="t-dauer" class="glass frost card" style="position: absolute; right: 110px; top: 300px; width: 700px; padding: 36px 42px">
+              <div class="lbl">Dauer</div>
+              <div class="big" style="font-size: 48px">Etwa 10 Minuten</div>
+              <div class="sub" style="font-weight: 700; margin-top: 4px">mit kurzen Pausen</div>
+              <div id="t-hyper" class="badge" style="margin-top: 22px">Sonst droht Hyperventilation</div>
+              <div class="sub" id="t-hyper-s" style="font-size: 26px">wenn der Patient zu schnell atmet</div>
+            </div>
+            <div id="smi-pin" class="anchor"><div class="pin"></div><div class="lab glass" style="font-weight: 800; font-size: 28px; padding: 12px 20px">SMI-Trainer</div></div>
+            <div id="pep-pin" class="anchor"><div class="pin"></div><div class="lab glass" style="font-weight: 800; font-size: 28px; padding: 12px 20px">PEP</div></div>
+          </section>
+
+          
+          <section id="s-blub" class="scene">
+            <div class="hdr">
+              <div class="tag gold"><i></i>Ohne teures Gerät</div>
+              <div class="h1">Blubberflasche</div>
+            </div>
+            <div id="bl-card" class="glass frost card" style="position: absolute; right: 110px; top: 270px; width: 720px; padding: 34px 42px">
+              <div class="rows" style="gap: 20px">
+                <div class="row" id="bl1"><div class="dot"></div><div class="t" style="font-size: 32px">Über einen Schlauch in eine halb gefüllte Wasserflasche pusten</div></div>
+                <div class="row" id="bl2"><div class="dot" style="background: var(--gold)"></div><div class="t" style="font-size: 32px">erhöht den Ausatemwiderstand</div></div>
+                <div class="row" id="bl3"><div class="dot"></div><div class="t" style="font-size: 32px">die Lunge entfaltet sich</div></div>
+              </div>
+            </div>
+            <div id="bl-simpel" class="chip ink" style="position: absolute; right: 110px; top: 700px; font-size: 28px">Simpel – fast überall improvisieren</div>
+          </section>
+
+          
+          <section id="s-extra" class="scene">
+            <div class="hdr">
+              <div class="tag"><i></i>Maßnahmen</div>
+              <div class="h1">Zum Schluss noch</div>
+            </div>
+            <div class="tiles" style="top: 300px">
+              <div id="x1" class="glass tile" style="min-height: 300px"><svg class="ico big red" viewBox="0 0 64 64"><circle cx="32" cy="32" r="26" /><path d="M14 36h28v6H14zM42 36h8v6h-8M14 14l36 36" /></svg><div class="t">Rauchverzicht fördern</div></div>
+              <div id="x2" class="glass tile" style="min-height: 300px; flex: 1.4"><svg class="ico big" viewBox="0 0 64 64"><path d="M30 6c-2 14-12 26-12 34 0 6 6 8 12 8 3 0 4-2 6-2" /><path d="M6 56c12-7 34-7 52 0M34 48c4 0 8 2 10 6" /></svg><div class="t">Bei Sauerstofftherapie auf Nasenpflege achten</div><div class="s" id="x2s">trockene Luft reizt die Schleimhaut</div></div>
+            </div>
+          </section>
+
+          
+          <section id="s-case" class="scene">
+            <div class="hdr">
+              <div class="tag gold"><i></i>Fallbeispiel</div>
+              <div class="h1">Ein Patient nach Bauch-OP</div>
+            </div>
+            <div id="c-card" class="glass frost dossier">
+              <div style="display: flex; align-items: center; gap: 14px; margin-bottom: 6px">
+                <svg class="ico" viewBox="0 0 64 64" style="width: 44px; height: 44px"><rect x="14" y="10" width="36" height="48" rx="5" /><rect x="24" y="6" width="16" height="8" rx="3" /><path d="M22 28h20M22 36h20M22 44h12" /></svg>
+                <div class="lbl" style="margin: 0">Fallbeispiel</div>
+                <div id="c-risk" class="badge" style="margin: 0 0 0 auto; font-size: 24px; padding: 8px 18px">Atelektasen- und Pneumonierisiko</div>
+              </div>
+              <div id="c-facts" style="position: absolute; left: 36px; right: 36px; top: 88px">
+              <div class="field" id="cf1"><div class="k">Situation</div><div class="v">nach Bauch-OP<span id="cf1b"> · hat Schmerzen</span></div></div>
+              <div class="field" id="cf2"><div class="k">Atmung</div><div class="v"><span style="color: var(--red)">ganz flach</span><span id="cf2b" style="font-weight: 600; font-size: 26px; color: var(--ink2)"> – wegen Schmerzen nach OP</span></div></div>
+              <div class="field" id="cf3"><div class="k">Bewegung</div><div class="v">kaum im Bett</div></div>
+              </div>
+              <div id="c-meas" style="position: absolute; left: 36px; right: 36px; top: 88px">
+                <div class="check" id="cm1"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 17 L13.5 23 L25 10" /></svg></div><div><div class="t">Schmerzmanagement sicherstellen</div><div class="s">damit er tiefer atmen kann</div></div></div>
+                <div class="check" id="cm2"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 17 L13.5 23 L25 10" /></svg></div><div><div class="t">Oberkörper hochlagern</div></div></div>
+                <div class="check" id="cm3"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 17 L13.5 23 L25 10" /></svg></div><div><div class="t">Zum Atemtraining anleiten</div><div class="s">vielleicht mit dem SMI-Trainer</div></div></div>
+                <div class="check" id="cm4"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 17 L13.5 23 L25 10" /></svg></div><div><div class="t">Zur Mobilisation ermutigen</div><div class="s">so früh wie möglich</div></div></div>
+                <div class="check" id="cm5"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 17 L13.5 23 L25 10" /></svg></div><div><div class="t">ASE anbieten</div><div class="s">wirkt außerdem beruhigend</div></div></div>
+              </div>
+            </div>
+          </section>
+
+          
+          <section id="s-sum" class="scene">
+            <div class="hdr">
+              <div class="tag"><i></i>Zusammenfassung</div>
+              <div class="h1">Kurz zusammengefasst</div>
+            </div>
+            <div id="z-cards">
+              <div id="zs1" class="glass card" style="position: absolute; left: 120px; top: 270px; width: 760px; padding: 28px 36px">
+                <div class="lbl">Pneumonie</div>
+                <div class="mid">Lungenentzündung</div>
+              </div>
+              <div id="zs2" class="glass card" style="position: absolute; left: 120px; top: 440px; width: 760px; padding: 28px 36px">
+                <div class="lbl">Atelektase</div>
+                <div class="mid">Luftleerer Lungenbezirk</div>
+              </div>
+              <div id="zs-link" class="chip mint" style="position: absolute; left: 120px; top: 620px; font-size: 28px">Beide hängen oft zusammen · Prophylaxe läuft ähnlich</div>
+              <div id="zs3" class="glass card" style="position: absolute; left: 960px; top: 270px; width: 840px; padding: 30px 38px">
+                <div class="lbl">Wichtigste Maßnahmen</div>
+                <div class="rows" style="gap: 12px">
+                  <div class="row" id="zm1"><div class="dot"></div><div class="t" style="font-size: 32px">Mobilisation</div></div>
+                  <div class="row" id="zm2"><div class="dot"></div><div class="t" style="font-size: 32px">Atemübungen</div></div>
+                  <div class="row" id="zm3"><div class="dot"></div><div class="t" style="font-size: 32px">Atemstimulierende Einreibung</div></div>
+                  <div class="row" id="zm4"><div class="dot"></div><div class="t" style="font-size: 32px">Atemtrainer wie SMI oder PEP</div></div>
+                  <div class="row" id="zm5"><div class="dot" style="background: var(--gold)"></div><div><div class="t" style="font-size: 32px">Blubberflasche</div><div class="s">bei Bedarf, als einfache Alternative</div></div></div>
+                </div>
+              </div>
+            </div>
+            <div id="z-quote" class="glass card" style="position: absolute; left: 200px; right: 200px; top: 300px; padding: 60px 70px; border: 3px solid var(--mint); text-align: center">
+              <div class="lbl">Bei allem gilt</div>
+              <div class="marker" style="font-size: 86px; line-height: 1.12; color: var(--deep)">„Auf flache Atmung achten und frühzeitig gegensteuern.“</div>
+            </div>
+          </section>
+
+          
+          <section id="s-outro" class="scene">
+            <div id="o-brand" style="position: absolute; top: 80px; left: 0; right: 0; display: flex; flex-direction: column; align-items: center; gap: 22px">
+              <img src="assets/brand/mark-black.png" alt="" style="width: 150px; height: auto; display: block" />
+              <div class="wordmark" style="font-size: 84px">PFLEGE-<span class="wg">WG</span></div>
+            </div>
+            <div style="position: absolute; top: 730px; left: 0; right: 0; display: flex; justify-content: center; gap: 30px">
+              <div id="o-abo" class="chip ink" style="font-size: 36px; padding: 20px 40px">Abonniert uns gern</div>
+              <div id="o-kom" class="chip" style="font-size: 36px; padding: 20px 40px; background: rgba(255, 255, 255, 0.85); color: var(--ink)">Schreibt's in die Kommentare</div>
+            </div>
+            <div id="o-bye" class="marker" style="position: absolute; left: 0; right: 0; top: 615px; text-align: center; font-size: 60px; color: var(--ink)">Bis zum nächsten Mal bei Pflege-WG</div>
+          </section>
+        </div>
+
+        <div id="wm">
+          <img src="assets/brand/mark-black-small.png" alt="" />
+          <div class="wordmark" style="font-size: 30px">PFLEGE-<span class="wg" style="color: var(--green)">WG</span></div>
+        </div>
+
+        <div id="dip" class="layer" style="background: var(--cream); opacity: 0"></div>
+      </div>
+
+      <audio id="voice" src="assets/audio/pneumonieprophylaxe.mp3" data-start="0" data-duration="350.04" data-track-index="4" data-volume="1"></audio>
+    </div>
+
+    
+</div></div>
+<div id="bar">
+  <button id="play" type="button" aria-label="Abspielen">▶</button>
+  <input id="seek" type="range" min="0" max="1000" value="0" step="1" aria-label="Position">
+  <div id="time">0:00 / 0:00</div>
+</div>
+<nav id="chapters" aria-label="Kapitel"></nav>
+<div id="hint">Entwurf zur Durchsicht · 3D in Vorschauqualität · Ton startet mit ▶</div>
+<script type="importmap">
+      { "imports": { "three": "./assets/vendor/three.module.js" } }
+    </script>
+    <script src="assets/js/breath.js"></script>
+    <script type="module" src="assets/js/world3d.js"></script>
+    <script src="assets/js/orbs.js"></script>
+    <script src="assets/js/ase.js"></script>
+    <script src="assets/js/pwg-timeline.js"></script>
+    <script src="assets/js/timeline.js"></script>
+    <script>
+      window.__timelines["main"] = window.__pwgTimeline;
+    </script>
+  
+<script>
+  (function () {
+    var LABELS = {"intro":"Intro","pneu":"Pneumonie","risk":"Risikofaktoren","atel":"Atelektase","ziele":"Ziele","basics":"Basics","ase":"ASE","ase2":"ASE-Wirkung","smi":"SMI & PEP","blub":"Blubberflasche","extra":"Rauchverzicht & Nase","case":"Fallbeispiel","sum":"Zusammenfassung","outro":"Outro"};
+    var audio = document.getElementById("voice");
+    var root = document.getElementById("root");
+    var box = document.getElementById("box");
+    var frame = document.getElementById("frame");
+    var play = document.getElementById("play");
+    var seek = document.getElementById("seek");
+    var time = document.getElementById("time");
+    var nav = document.getElementById("chapters");
+    var END = window.SHOTS.END;
+    var fmt = function (t) { t = Math.max(0, t); return Math.floor(t / 60) + ":" + String(Math.floor(t % 60)).padStart(2, "0"); };
+    function fit() {
+      var w = frame.clientWidth, h = frame.clientHeight;
+      var s = Math.min(w / 1920, h / 1080);
+      root.style.transform = "scale(" + s + ")";
+      box.style.width = 1920 * s + "px";
+      box.style.height = 1080 * s + "px";
+    }
+    new ResizeObserver(fit).observe(frame);
+    fit();
+    var chips = window.SHOTS.list.map(function (s) {
+      var b = document.createElement("button");
+      b.type = "button";
+      b.className = "ch";
+      b.innerHTML = "<span>" + fmt(s.a) + "</span>" + (LABELS[s.id] || s.id);
+      b.addEventListener("click", function () { go(s.a + 0.05); });
+      nav.appendChild(b);
+      return { el: b, s: s };
+    });
+    var last = -1;
+    function draw(t) {
+      var tl = window.__timelines.main;
+      if (!tl) return;
+      tl.seek(t, false);
+      window.__hfThreeTime = t;
+      window.dispatchEvent(new CustomEvent("hf-seek", { detail: { time: t } }));
+      seek.value = Math.round((t / END) * 1000);
+      time.textContent = fmt(t) + " / " + fmt(END);
+      var cur = window.SHOTS.at(t);
+      if (cur !== last) { chips.forEach(function (c) { c.el.setAttribute("aria-current", c.s === cur ? "true" : "false"); }); last = cur; }
+    }
+    // own clock: the frame follows `cur`; while playing, cur follows the audio
+    var cur = 0;
+    function go(t) {
+      cur = Math.min(END - 0.05, Math.max(0, t));
+      try { audio.currentTime = cur; } catch (e) {}
+      draw(cur);
+    }
+    function loop() { if (!audio.paused) { cur = audio.currentTime; draw(cur); requestAnimationFrame(loop); } }
+    play.addEventListener("click", function () {
+      if (audio.paused) { try { if (Math.abs(audio.currentTime - cur) > 0.3) audio.currentTime = cur; } catch (e) {} audio.play().then(function () { play.textContent = "❚❚"; play.setAttribute("aria-label", "Pause"); loop(); }).catch(function () {}); }
+      else { audio.pause(); }
+    });
+    audio.addEventListener("pause", function () { play.textContent = "▶"; play.setAttribute("aria-label", "Abspielen"); });
+    audio.addEventListener("ended", function () { play.textContent = "▶"; });
+    seek.addEventListener("input", function () { go((seek.value / 1000) * END); });
+    // first frame: the title moment, so the page is complete at rest
+    function start() { if (window.__timelines.main && window.__world) go(24); else setTimeout(start, 120); }
+    start();
+  })();
+</script>

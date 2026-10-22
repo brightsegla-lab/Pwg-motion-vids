@@ -38,7 +38,11 @@ Read the whole transcript. Fill `STORYBOARD.md`: one row per scene with time, 2D
 2. Draft: `bash scripts/render_episode.sh episodes/<slug> draft`, then
    `bash scripts/share_copy.sh episodes/<slug>/renders/<slug>-draft.mp4` and send it with
    the keyframe board (`renders/keyframes-draft.jpg`).
-3. Apply feedback, repeat until "validé".
+3. iPad review page (plays the real composition with its audio, chapters, no render needed):
+   `python3 scripts/build_preview.py episodes/<slug> "<Titel> Vorschau" intro=Intro …` then publish
+   `episodes/<slug>/preview/index.html` as an Artifact with its `assets/…` files (see the
+   Pneumonieprophylaxe publish for the file list). Republish the same path after each fix.
+4. Apply feedback, repeat until "validé".
 
 ## 5 · Final
 
