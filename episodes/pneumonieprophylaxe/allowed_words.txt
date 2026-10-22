@@ -4,3 +4,9 @@ Entstehung     # "Kann angeboren sein oder eben entstehen durch …" (label for 
 anwärmen       # "Man wärmt eine unparfümierte Lotion in den Händen an"
 loslassen      # "Bei der Einatmung lässt man den Druck wieder los"
 ausstreichen   # "Am Ende streicht man noch vom Nacken bis zum Steißbein aus"
+# publishing texts
+geht           # function word
+Schritt        # "Schritt für Schritt": the ASE procedure is explained step by step in the episode
+Ablauf         # "Erzähl mal, wie läuft die ab?"
+Letzte         # "Nach Dekubitus und Sturz heute? Pneumonieprophylaxe."
+Sturzprophylaxe  # previous episode (said: "Sturz")
