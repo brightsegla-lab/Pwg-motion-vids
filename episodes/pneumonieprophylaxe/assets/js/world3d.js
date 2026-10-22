@@ -149,8 +149,9 @@ const D = {};
   add(pep, sphere(0.2, 40, 28), clear(), [0.08, 0, 0], [0, 0, 0], { cast: false });
   add(pep, new THREE.TorusGeometry(0.2, 0.012, 8, 48), clay(0x1b8f5a), [0.08, 0, 0], [0, Math.PI / 2, 0]);
   D.pepBall = add(pep, sphere(0.085, 32, 24), clay(0xffffff), [0.04, -0.06, 0]);
-  add(devScene, cyl(0.04, 0.68, 16), clay(0xcfd9d4), [0.95, 0.38, 0.1]);
-  add(devScene, cyl(0.16, 0.05, 32), clay(0xcfd9d4), [0.95, 0.06, 0.1]);
+  // stand belongs to the PEP group so it appears with the device
+  add(pep, cyl(0.04, 0.68, 16), clay(0xcfd9d4), [0, -0.37, 0]);
+  add(pep, cyl(0.16, 0.05, 32), clay(0xcfd9d4), [0, -0.69, 0]);
   // air particles leaving the PEP slowly
   D.air = new THREE.InstancedMesh(sphere(1, 12, 8), new THREE.MeshStandardMaterial({ color: 0xbfeedd, emissive: 0x2ecc91, emissiveIntensity: 0.4, transparent: true, opacity: 0.8 }), 18);
   devScene.add(D.air);
