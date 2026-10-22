@@ -3,12 +3,15 @@
 The transcript's diarization gives two anonymous voices. Each voice is named by its
 median pitch (Nora = higher voice), and every turn is re-checked by its own pitch so
 a mislabelled turn is flagged instead of silently trusted.
-Usage: python3 scripts/build_speakers.py <episode_dir> <basename>
+Usage: python3 scripts/build_speakers.py <episode_dir> <basename> [--opener Nora|Ben]
+  --opener: name the voice of the first spoken turn (series rule: Nora opens the episode)
+            instead of naming by pitch; the pitch comparison is still reported.
 """
 import json, re, subprocess, sys
 import numpy as np
 
 ep, name = sys.argv[1], sys.argv[2]
+opener = sys.argv[sys.argv.index("--opener") + 1] if "--opener" in sys.argv else None
 d = json.load(open(f"{ep}/assets/transcript/{name}.json"))
 srt = open(f"{ep}/assets/transcript/{name}.srt", encoding="utf-8").read()
 SR = 16000
@@ -53,19 +56,30 @@ for t in turns:
 med = {v: float(np.median(p)) for v, p in voices.items()}
 high = max(med, key=med.get)
 names = {v: ("Nora" if v == high else "Ben") for v in med}
+method = "diarization ids named by median pitch (Nora = higher voice)"
+if opener:
+    first = next(t["voice"] for t in turns if t["text"])
+    other = "Ben" if opener == "Nora" else "Nora"
+    by_pitch = names
+    names = {v: (opener if v == first else other) for v in med}
+    method = f"diarization ids named by who opens the episode ({opener} = {first})"
+    agree = all(by_pitch[v] == names[v] for v in med)
+    print("opener rule:", names, "| pitch rule would give:", by_pitch, "| agree" if agree else "| DISAGREE — check by ear")
 split = sum(med.values()) / 2
+hi_name = names[high]
+lo_name = "Ben" if hi_name == "Nora" else "Nora"
 
 out = []
 for t in turns:
     if not t["text"]:
         continue
     who = names[t["voice"]]
-    by_pitch = None if not t["pitchHz"] else ("Nora" if t["pitchHz"] > split else "Ben")
+    by_pitch = None if not t["pitchHz"] else (hi_name if t["pitchHz"] > split else lo_name)
     ids = [c["id"] for c in cues if c["start"] < t["end"] - 0.05 and c["end"] > t["start"] + 0.05]
     out.append({"start": t["start"], "end": t["end"], "speaker": who, "srt": ids, "text": t["text"],
                 "pitchHz": t["pitchHz"], **({"check": f"pitch suggests {by_pitch}"} if by_pitch and by_pitch != who else {})})
 
-res = {"source": f"assets/transcript/{name}.json + .srt", "method": "diarization ids named by median pitch; each turn re-checked by its own pitch",
+res = {"source": f"assets/transcript/{name}.json + .srt", "method": method + "; each turn re-checked by its own pitch",
        "voices": {names[v]: {"diarizationId": v, "medianPitchHz": round(m, 1)} for v, m in med.items()},
        "turns": out}
 json.dump(res, open(f"{ep}/speakers.json", "w"), ensure_ascii=False, indent=1)

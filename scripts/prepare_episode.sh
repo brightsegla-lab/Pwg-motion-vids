@@ -15,7 +15,7 @@ HERE="$(cd "$(dirname "$0")" && pwd)"
 
 if [[ "${2:-}" != "--skip-audio" || ! -f "$EP/speakers.json" ]]; then
   echo "── speakers"
-  python3 "$HERE/build_speakers.py" "$EP" "$SLUG"
+  python3 "$HERE/build_speakers.py" "$EP" "$SLUG" --opener Nora
   echo "── loudness"
   python3 "$HERE/build_loudness.py" "$EP/assets/audio/$SLUG.mp3" "$EP/loudness.json" 30
 fi

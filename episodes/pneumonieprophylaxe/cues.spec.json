@@ -1,0 +1,510 @@
+{
+ "_doc": "Named sync points. Each entry = [phrase as spoken, search from second]. scripts/build_cues.py finds the phrase in the word-level transcript (first match at/after the given second) and stores its start time; elements appear at spoken - lead. Optional third value nudges one cue in seconds (+0.5 = later). Replace every «…» with the exact words from the SRT.",
+ "lead": 0.2,
+ "cues": {
+  "welcome": [
+   "Willkommen",
+   0
+  ],
+  "folge": [
+   "Folge drei",
+   0
+  ],
+  "title": [
+   "Pneumonieprophylaxe",
+   0
+  ],
+  "lunge": [
+   "Lungenentzündung vorbeugen",
+   0
+  ],
+  "bett": [
+   "bettlägerigen",
+   0
+  ],
+  "pruef": [
+   "prüfungsrelevant",
+   0
+  ],
+  "pneu": [
+   "Fangen wir an",
+   0
+  ],
+  "p_def": [
+   "Eine Pneumonie",
+   30
+  ],
+  "p_entz": [
+   "Entzündung des",
+   30
+  ],
+  "p_bakt": [
+   "Bakterien",
+   30
+  ],
+  "gef": [
+   "Und besonders gefährdet",
+   0
+  ],
+  "g_bett": [
+   "Bettlägerige",
+   40
+  ],
+  "g_alt": [
+   "ältere",
+   40
+  ],
+  "g_imm": [
+   "immungeschwächte",
+   40
+  ],
+  "rf": [
+   "Risikofaktoren",
+   0
+  ],
+  "rf_bett": [
+   "Bettlägerigkeit selbst",
+   0
+  ],
+  "rf_alter": [
+   "hohes Alter",
+   0
+  ],
+  "rf_copd": [
+   "COPD",
+   0
+  ],
+  "rf_rauch": [
+   "Rauchen",
+   0
+  ],
+  "rf_ops": [
+   "Schmerzen nach",
+   0
+  ],
+  "rf_flach": [
+   "flacher Atmung",
+   0
+  ],
+  "rf_schluck": [
+   "Schluckstörungen",
+   0
+  ],
+  "rf_trink": [
+   "zu wenig trinken",
+   0
+  ],
+  "atel": [
+   "Und da gibt's",
+   58
+  ],
+  "a_name": [
+   "Atelektasen",
+   60
+  ],
+  "a_def": [
+   "Eine Atelektase",
+   60
+  ],
+  "a_luft": [
+   "luftleerer",
+   60
+  ],
+  "a_gas": [
+   "Gasaustausch",
+   60
+  ],
+  "a_angeb": [
+   "angeboren",
+   0
+  ],
+  "a_op": [
+   "Operationen",
+   60
+  ],
+  "a_bett": [
+   "Bettlägerigkeit oder",
+   60
+  ],
+  "a_schon": [
+   "Schonatmung",
+   0
+  ],
+  "a_schlaf": [
+   "einschläft",
+   0
+  ],
+  "a_zus": [
+   "laufen Pneumonie",
+   0
+  ],
+  "a_aehn": [
+   "Maßnahmen sich",
+   0
+  ],
+  "ziele": [
+   "Okay, was sind",
+   80
+  ],
+  "z1": [
+   "Lunge gut",
+   0
+  ],
+  "z2": [
+   "Sekret lösen",
+   0
+  ],
+  "z3": [
+   "Infektionen",
+   0
+  ],
+  "z4": [
+   "Sauerstoffversorgung",
+   0
+  ],
+  "basics": [
+   "Und wie erreicht",
+   0
+  ],
+  "b_ben": [
+   "Mobilisation und",
+   95
+  ],
+  "b_mob": [
+   "Regelmäßige",
+   0
+  ],
+  "b_hoch": [
+   "Oberkörper hochlagern",
+   100
+  ],
+  "b_trink": [
+   "ausreichend",
+   0
+  ],
+  "b_mund": [
+   "Mundpflege",
+   0
+  ],
+  "b_atem": [
+   "tiefen Durchatmen",
+   0
+  ],
+  "b_spez": [
+   "speziellere",
+   0
+  ],
+  "ase": [
+   "Zum Beispiel?",
+   115
+  ],
+  "ase_t": [
+   "Die Atemstimulierende",
+   115
+  ],
+  "ase_m": [
+   "Massagetechnik",
+   0
+  ],
+  "ase_how": [
+   "Erzähl mal",
+   0
+  ],
+  "s_lotion": [
+   "unparfümierte",
+   0
+  ],
+  "s_sitz": [
+   "Der Patient sitzt",
+   0
+  ],
+  "s_hands": [
+   "legt man die Hände",
+   0
+  ],
+  "s_kreis": [
+   "Kreisbewegungen",
+   0
+  ],
+  "s_rhythm": [
+   "Rhythmus der Atmung",
+   0
+  ],
+  "s_aus": [
+   "Bei der Ausatmung",
+   140
+  ],
+  "s_ein": [
+   "Bei der Einatmung",
+   140
+  ],
+  "s_follow": [
+   "Also der Druck",
+   0
+  ],
+  "s_5x": [
+   "fünf bis",
+   0
+  ],
+  "s_strich": [
+   "Am Ende streicht",
+   0
+  ],
+  "ase_why": [
+   "Und was bringt",
+   0
+  ],
+  "w_tief": [
+   "vertieft",
+   0
+  ],
+  "w_ruhig": [
+   "wirkt beruhigend",
+   160
+  ],
+  "w_wahr": [
+   "Körperwahrnehmung",
+   0
+  ],
+  "w_verw": [
+   "verwirrten",
+   0
+  ],
+  "w_bewusst": [
+   "Übrigens",
+   0
+  ],
+  "w_hoer": [
+   "Hören kann",
+   0
+  ],
+  "geraete": [
+   "Dann gibt's noch das Atemtraining",
+   180
+  ],
+  "ball": [
+   "Die mit dem kleinen",
+   0
+  ],
+  "smi": [
+   "SMI-Trainer",
+   185
+  ],
+  "smi_name": [
+   "Sustained",
+   0
+  ],
+  "smi_ein": [
+   "atmet tief ein",
+   0
+  ],
+  "pep": [
+   "Es gibt auch Geräte",
+   0
+  ],
+  "pep_name": [
+   "PEP-Geräte",
+   0
+  ],
+  "pep_kugel": [
+   "Kugel",
+   0
+  ],
+  "pep_sekret": [
+   "Sekret zu",
+   200
+  ],
+  "dauer": [
+   "Und das Training",
+   0
+  ],
+  "d_10": [
+   "Etwa zehn",
+   0
+  ],
+  "d_hyper": [
+   "Hyperventilation",
+   0
+  ],
+  "blub": [
+   "Gibt's da auch",
+   0
+  ],
+  "b_name": [
+   "sogenannte Blubberflasche",
+   0
+  ],
+  "b_pust": [
+   "pustet",
+   0
+  ],
+  "b_wid": [
+   "Ausatemwiderstand",
+   0
+  ],
+  "b_entf": [
+   "entfaltet",
+   0
+  ],
+  "b_simpel": [
+   "das ist ja wirklich",
+   0
+  ],
+  "extra": [
+   "zum Schluss noch",
+   230
+  ],
+  "x_rauch": [
+   "Rauchverzicht",
+   0
+  ],
+  "x_o2": [
+   "Sauerstofftherapie",
+   0
+  ],
+  "x_nase": [
+   "Nasenpflege",
+   0
+  ],
+  "x_luft": [
+   "trockene Luft",
+   0
+  ],
+  "fall": [
+   "lass uns das an einem Fall",
+   0
+  ],
+  "c_op": [
+   "Bauch-OP",
+   0
+  ],
+  "c_schmerz": [
+   "hat Schmerzen",
+   0
+  ],
+  "c_flach": [
+   "atmet deshalb",
+   0
+  ],
+  "c_beweg": [
+   "bewegt sich kaum",
+   0
+  ],
+  "c_risk": [
+   "klassischem",
+   0
+  ],
+  "c_frage": [
+   "Was würdest du",
+   0
+  ],
+  "m_schmerz": [
+   "Schmerzmanagement",
+   0
+  ],
+  "m_tiefer": [
+   "tiefer atmen",
+   0
+  ],
+  "m_hoch": [
+   "Dann Oberkörper",
+   0
+  ],
+  "m_atem": [
+   "zum Atemtraining anleiten",
+   0
+  ],
+  "m_smi": [
+   "mit dem SMI-Trainer",
+   0
+  ],
+  "m_mob": [
+   "zur Mobilisation",
+   0
+  ],
+  "m_frueh": [
+   "so früh wie",
+   0
+  ],
+  "m_ase": [
+   "Und die Atemstimulierende",
+   270
+  ],
+  "m_ruhig": [
+   "beruhigend, was",
+   0
+  ],
+  "m_gut": [
+   "guter Zusatz",
+   0
+  ],
+  "summary": [
+   "Fassen wir",
+   0
+  ],
+  "sum_pneu": [
+   "Pneumonie ist eine Lungenentzündung",
+   280
+  ],
+  "sum_atel": [
+   "Atelektase, ein",
+   280
+  ],
+  "sum_beide": [
+   "Beide hängen",
+   0
+  ],
+  "sum_mass": [
+   "Wichtigste Maßnahmen",
+   0
+  ],
+  "sm_mob": [
+   "Mobilisation, Atemübungen",
+   290
+  ],
+  "sm_atem": [
+   "Atemübungen, die",
+   290
+  ],
+  "sm_ase": [
+   "Atemstimulierende Einreibung, Atemtrainer",
+   290
+  ],
+  "sm_trainer": [
+   "Atemtrainer wie",
+   0
+  ],
+  "sm_blub": [
+   "bei Bedarf",
+   0
+  ],
+  "sum_quote": [
+   "Und bei allem gilt",
+   0
+  ],
+  "sum_genau": [
+   "Genau so",
+   300
+  ],
+  "outro": [
+   "So, das war's",
+   0
+  ],
+  "abo": [
+   "abonniert",
+   0
+  ],
+  "kommentare": [
+   "Kommentare",
+   0
+  ],
+  "naechste": [
+   "sogar die nächste",
+   0
+  ],
+  "bis_bald": [
+   "Bis zum nächsten",
+   0
+  ]
+ }
+}

@@ -1,0 +1,697 @@
+{
+ "source": "assets/transcript/pneumonieprophylaxe.json + .srt",
+ "method": "diarization ids named by who opens the episode (Nora = speaker_1); each turn re-checked by its own pitch",
+ "voices": {
+  "Nora": {
+   "diarizationId": "speaker_1",
+   "medianPitchHz": 219.2
+  },
+  "Ben": {
+   "diarizationId": "speaker_2",
+   "medianPitchHz": 131.1
+  }
+ },
+ "turns": [
+  {
+   "start": 13.36,
+   "end": 15.3,
+   "speaker": "Nora",
+   "srt": [
+    2
+   ],
+   "text": "Willkommen zurück bei Pflege WG.",
+   "pitchHz": 178.7
+  },
+  {
+   "start": 15.74,
+   "end": 20.34,
+   "speaker": "Ben",
+   "srt": [
+    3,
+    4
+   ],
+   "text": "Folge drei unserer Prophylaxen-Reihe. Nach Dekubitus und Sturz heute?",
+   "pitchHz": 130.1
+  },
+  {
+   "start": 20.68,
+   "end": 22.0,
+   "speaker": "Nora",
+   "srt": [
+    5
+   ],
+   "text": "Pneumonieprophylaxe.",
+   "pitchHz": 254.0
+  },
+  {
+   "start": 22.32,
+   "end": 28.42,
+   "speaker": "Ben",
+   "srt": [
+    6,
+    7,
+    8
+   ],
+   "text": "Lungenentzündung vorbeugen, ja? Das Thema kommt doch eigentlich ständig vor, oder? Gerade bei bettlägerigen Patienten.",
+   "pitchHz": 113.5
+  },
+  {
+   "start": 28.46,
+   "end": 38.18,
+   "speaker": "Nora",
+   "srt": [
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "text": "Genau. Und deswegen ist es auch so prüfungsrelevant. Fangen wir an. Eine Pneumonie ist eine Entzündung des Lungengewebes, meist durch Bakterien oder Viren.",
+   "pitchHz": 238.8
+  },
+  {
+   "start": 38.44,
+   "end": 41.7,
+   "speaker": "Ben",
+   "srt": [
+    14,
+    15
+   ],
+   "text": "Und besonders gefährdet sind doch die, die eh schon geschwächt sind.",
+   "pitchHz": 142.9
+  },
+  {
+   "start": 41.92,
+   "end": 58.76,
+   "speaker": "Nora",
+   "srt": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+   ],
+   "text": "Richtig. Bettlägerige, ältere oder immungeschwächte Menschen. Risikofaktoren sind zum Beispiel Bettlägerigkeit selbst, hohes Alter, COPD, Rauchen, Schmerzen nach OPs, die zu flacher Atmung führen, Schluckstörungen und zu wenig trinken.",
+   "pitchHz": 225.4
+  },
+  {
+   "start": 58.76,
+   "end": 63.64,
+   "speaker": "Ben",
+   "srt": [
+    23,
+    24,
+    25
+   ],
+   "text": "Und da gibt's ja auch dieses verwandte Thema, Atelektasen. Das wird oft gleich mit genannt.",
+   "pitchHz": 128.0
+  },
+  {
+   "start": 63.64,
+   "end": 75.3,
+   "speaker": "Nora",
+   "srt": [
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+   ],
+   "text": "Stimmt. Eine Atelektase ist ein luftleerer Lungenbezirk, der nicht mehr am Gasaustausch teilnimmt. Kann angeboren sein oder eben entstehen durch Operationen, Bettlägerigkeit oder Schonatmung.",
+   "pitchHz": 227.0
+  },
+  {
+   "start": 75.38,
+   "end": 79.22,
+   "speaker": "Ben",
+   "srt": [
+    32,
+    33
+   ],
+   "text": "Also sozusagen ein Teil der Lunge, der quasi einschläft.",
+   "pitchHz": 129.0
+  },
+  {
+   "start": 79.22,
+   "end": 88.16,
+   "speaker": "Nora",
+   "srt": [
+    34,
+    35,
+    36,
+    37
+   ],
+   "text": "So kann man's sich vorstellen, ja. Und genau deshalb laufen Pneumonie und Atelektasenprophylaxe meistens zusammen, weil die Maßnahmen sich sehr ähneln.",
+   "pitchHz": 207.8
+  },
+  {
+   "start": 88.22,
+   "end": 90.14,
+   "speaker": "Ben",
+   "srt": [
+    38
+   ],
+   "text": "Okay, was sind denn die Ziele dabei?",
+   "pitchHz": 160.0
+  },
+  {
+   "start": 90.46,
+   "end": 97.68,
+   "speaker": "Nora",
+   "srt": [
+    39,
+    40,
+    41
+   ],
+   "text": "Lunge gut belüften, Sekret lösen und abhusten, Infektionen vorbeugen und die Sauerstoffversorgung sichern.",
+   "pitchHz": 213.3
+  },
+  {
+   "start": 97.76,
+   "end": 102.76,
+   "speaker": "Ben",
+   "srt": [
+    42,
+    43
+   ],
+   "text": "Und wie erreicht man das konkret? Ich kenn schon mal Mobilisation und Atemübungen.",
+   "pitchHz": 140.4
+  },
+  {
+   "start": 102.76,
+   "end": 117.72,
+   "speaker": "Nora",
+   "srt": [
+    44,
+    45,
+    46,
+    47,
+    48,
+    49
+   ],
+   "text": "Genau die Basics. Regelmäßige Mobilisation, Oberkörper hochlagern, ausreichend trinken, Mundpflege und zum tiefen Durchatmen und Abhusten anleiten. Aber es gibt auch speziellere Techniken, die wirklich jeder Azubi kennen sollte.",
+   "pitchHz": 225.4
+  },
+  {
+   "start": 117.72,
+   "end": 118.68,
+   "speaker": "Ben",
+   "srt": [
+    50
+   ],
+   "text": "Zum Beispiel?",
+   "pitchHz": 134.8
+  },
+  {
+   "start": 118.68,
+   "end": 125.4,
+   "speaker": "Nora",
+   "srt": [
+    51,
+    52,
+    53
+   ],
+   "text": "Die Atemstimulierende Einreibung, kurz ASE. Das ist eine ganz bestimmte Massagetechnik am Rücken.",
+   "pitchHz": 219.2
+  },
+  {
+   "start": 125.42,
+   "end": 127.04,
+   "speaker": "Ben",
+   "srt": [
+    54
+   ],
+   "text": "Erzähl mal, wie läuft die ab?",
+   "pitchHz": 172.0
+  },
+  {
+   "start": 127.04,
+   "end": 141.14,
+   "speaker": "Nora",
+   "srt": [
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61
+   ],
+   "text": "Man wärmt eine unparfümierte Lotion in den Händen an. Der Patient sitzt dabei möglichst aufrecht, stützt sich zum Beispiel auf ein Kissen. Dann legt man die Hände auf die Schultern und bewegt sie in Kreisbewegungen nach unten, immer im Rhythmus der Atmung.",
+   "pitchHz": 219.2
+  },
+  {
+   "start": 141.14,
+   "end": 142.8,
+   "speaker": "Ben",
+   "srt": [
+    62
+   ],
+   "text": "Wie meinst du, im Rhythmus?",
+   "pitchHz": 104.9
+  },
+  {
+   "start": 142.8,
+   "end": 154.16,
+   "speaker": "Nora",
+   "srt": [
+    63,
+    64,
+    65,
+    66,
+    67,
+    68
+   ],
+   "text": "Bei der Ausatmung übt man links und rechts der Wirbelsäule leichten Druck aus und beginnt die Kreisbewegung nach außen. Bei der Einatmung lässt man den Druck wieder los und schließt den Kreis Richtung Wirbelsäule.",
+   "pitchHz": 214.8
+  },
+  {
+   "start": 154.24,
+   "end": 157.18,
+   "speaker": "Ben",
+   "srt": [
+    69,
+    70
+   ],
+   "text": "Also der Druck folgt quasi dem Atem des Patienten.",
+   "pitchHz": 126.0
+  },
+  {
+   "start": 157.44,
+   "end": 164.78,
+   "speaker": "Nora",
+   "srt": [
+    71,
+    72,
+    73
+   ],
+   "text": "Genau. Und das macht man fünf bis achtmal über den ganzen Rücken. Am Ende streicht man noch vom Nacken bis zum Steißbein aus.",
+   "pitchHz": 225.4
+  },
+  {
+   "start": 164.78,
+   "end": 166.32,
+   "speaker": "Ben",
+   "srt": [
+    74
+   ],
+   "text": "Und was bringt das konkret?",
+   "pitchHz": 129.0
+  },
+  {
+   "start": 166.7,
+   "end": 178.72,
+   "speaker": "Nora",
+   "srt": [
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+   ],
+   "text": "Es vertieft die Atmung, wirkt beruhigend und fördert die Körperwahrnehmung, gerade bei verwirrten oder bewusstseinsgestörten Patienten. Übrigens, auch bei bewusstlosen Patienten sollte man vorher ansagen, was man macht.",
+   "pitchHz": 210.5
+  },
+  {
+   "start": 179.0,
+   "end": 182.68,
+   "speaker": "Ben",
+   "srt": [
+    81,
+    82
+   ],
+   "text": "Stimmt, hab ich auch gelernt. Hören kann ja trotzdem noch funktionieren.",
+   "pitchHz": 131.1
+  },
+  {
+   "start": 182.92,
+   "end": 186.62,
+   "speaker": "Nora",
+   "srt": [
+    83,
+    84
+   ],
+   "text": "Genau. Dann gibt's noch das Atemtraining mit speziellen Geräten.",
+   "pitchHz": 219.2
+  },
+  {
+   "start": 186.9,
+   "end": 188.84,
+   "speaker": "Ben",
+   "srt": [
+    85,
+    86
+   ],
+   "text": "Die mit dem kleinen Ball, der hochsteigt, oder?",
+   "pitchHz": 124.0
+  },
+  {
+   "start": 189.12,
+   "end": 207.64,
+   "speaker": "Nora",
+   "srt": [
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94
+   ],
+   "text": "Genau, das ist der SMI-Trainer, Sustained Maximal Inspiration. Der Patient atmet tief ein und der Ball steigt in der Kammer hoch. Es gibt auch Geräte für die Ausatmung, sogenannte PEP-Geräte. Da erzeugt eine Kugel im Inneren einen Widerstand beim Ausatmen. Das hilft, Sekret zu lösen.",
+   "pitchHz": 216.2
+  },
+  {
+   "start": 207.64,
+   "end": 209.2,
+   "speaker": "Ben",
+   "srt": [
+    95
+   ],
+   "text": "Und das Training dauert wie lange?",
+   "pitchHz": 115.5
+  },
+  {
+   "start": 209.5,
+   "end": 215.2,
+   "speaker": "Nora",
+   "srt": [
+    96,
+    97,
+    98
+   ],
+   "text": "Etwa zehn Minuten mit kurzen Pausen. Sonst droht eine Hyperventilation, wenn der Patient zu schnell atmet.",
+   "pitchHz": 207.8
+  },
+  {
+   "start": 215.46,
+   "end": 218.26,
+   "speaker": "Ben",
+   "srt": [
+    99,
+    100
+   ],
+   "text": "Gibt's da auch was ganz Einfaches ohne teures Gerät?",
+   "pitchHz": 168.4
+  },
+  {
+   "start": 218.56,
+   "end": 228.64,
+   "speaker": "Nora",
+   "srt": [
+    101,
+    102,
+    103,
+    104,
+    105
+   ],
+   "text": "Ja, die sogenannte Blubberflasche. Der Patient pustet einfach über einen Schlauch in eine halb gefüllte Wasserflasche. Das erhöht den Ausatemwiderstand und die Lunge entfaltet sich dabei.",
+   "pitchHz": 228.6
+  },
+  {
+   "start": 228.96,
+   "end": 233.02,
+   "speaker": "Ben",
+   "srt": [
+    106,
+    107
+   ],
+   "text": "Oh, das ist ja wirklich simpel. Das könnte man fast überall improvisieren.",
+   "pitchHz": 110.7
+  },
+  {
+   "start": 233.02,
+   "end": 243.1,
+   "speaker": "Nora",
+   "srt": [
+    108,
+    109,
+    110,
+    111,
+    112,
+    113
+   ],
+   "text": "Genau deswegen wird's auch gerne eingesetzt. Und zum Schluss noch: Rauchverzicht fördern und bei Sauerstofftherapie auf Nasenpflege achten, weil die trockene Luft die Schleimhaut reizt.",
+   "pitchHz": 210.5
+  },
+  {
+   "start": 243.4,
+   "end": 245.84,
+   "speaker": "Ben",
+   "srt": [
+    114,
+    115
+   ],
+   "text": "Okay, lass uns das an einem Fall durchgehen.",
+   "pitchHz": 131.2
+  },
+  {
+   "start": 246.06,
+   "end": 252.8,
+   "speaker": "Nora",
+   "srt": [
+    116,
+    117,
+    118
+   ],
+   "text": "Gerne. Ein Patient nach einer Bauch-OP hat Schmerzen und atmet deshalb ganz flach, bewegt sich kaum im Bett.",
+   "pitchHz": 216.2
+  },
+  {
+   "start": 253.22,
+   "end": 259.98,
+   "speaker": "Ben",
+   "srt": [
+    119,
+    120,
+    121
+   ],
+   "text": "Flache Atmung wegen Schmerzen nach OP. Das klingt nach klassischem Atelektasen- und Pneumonierisiko.",
+   "pitchHz": 131.1
+  },
+  {
+   "start": 260.22,
+   "end": 262.72,
+   "speaker": "Nora",
+   "srt": [
+    122,
+    123
+   ],
+   "text": "Genau. Was würdest du als Maßnahme vorschlagen?",
+   "pitchHz": 192.2
+  },
+  {
+   "start": 263.04,
+   "end": 275.72,
+   "speaker": "Ben",
+   "srt": [
+    124,
+    125,
+    126,
+    127,
+    128,
+    129
+   ],
+   "text": "Erst mal Schmerzmanagement sicherstellen, damit er überhaupt tiefer atmen kann. Dann Oberkörper hochlagern, zum Atemtraining anleiten, vielleicht mit dem SMI-Trainer und zur Mobilisation ermutigen, so früh wie möglich.",
+   "pitchHz": 120.3
+  },
+  {
+   "start": 276.02,
+   "end": 282.98,
+   "speaker": "Nora",
+   "srt": [
+    130,
+    131,
+    132,
+    133
+   ],
+   "text": "Und die Atemstimulierende Einreibung könnte man hier auch anbieten. Die wirkt ja außerdem beruhigend, was nach einer OP auch nicht schadet.",
+   "pitchHz": 222.2
+  },
+  {
+   "start": 283.24,
+   "end": 284.7,
+   "speaker": "Ben",
+   "srt": [
+    134
+   ],
+   "text": "Stimmt, guter Zusatz.",
+   "pitchHz": 168.4
+  },
+  {
+   "start": 285.04,
+   "end": 286.14,
+   "speaker": "Nora",
+   "srt": [
+    135
+   ],
+   "text": "Fassen wir noch mal zusammen.",
+   "pitchHz": 222.2
+  },
+  {
+   "start": 286.38,
+   "end": 294.86,
+   "speaker": "Ben",
+   "srt": [
+    136,
+    137,
+    138,
+    139
+   ],
+   "text": "Pneumonie ist eine Lungenentzündung. Atelektase, ein luftleerer Lungenbezirk. Beide hängen oft zusammen und die Prophylaxe läuft ähnlich.",
+   "pitchHz": 132.2
+  },
+  {
+   "start": 294.86,
+   "end": 307.44,
+   "speaker": "Nora",
+   "srt": [
+    140,
+    141,
+    142,
+    143,
+    144
+   ],
+   "text": "Wichtigste Maßnahmen: Mobilisation, Atemübungen, die Atemstimulierende Einreibung, Atemtrainer wie SMI oder PEP und bei Bedarf die Blubberflasche als einfache Alternative.",
+   "pitchHz": 222.2
+  },
+  {
+   "start": 307.44,
+   "end": 311.98,
+   "speaker": "Ben",
+   "srt": [
+    145,
+    146
+   ],
+   "text": "Und bei allem gilt: Auf flache Atmung achten und frühzeitig gegensteuern.",
+   "pitchHz": 133.9
+  },
+  {
+   "start": 311.98,
+   "end": 313.1,
+   "speaker": "Nora",
+   "srt": [
+    147
+   ],
+   "text": "Genau so.",
+   "pitchHz": 173.9,
+   "check": "pitch suggests Ben"
+  },
+  {
+   "start": 313.1,
+   "end": 315.12,
+   "speaker": "Ben",
+   "srt": [
+    148
+   ],
+   "text": "So, das war's für heute von uns.",
+   "pitchHz": 136.6
+  },
+  {
+   "start": 315.12,
+   "end": 319.1,
+   "speaker": "Nora",
+   "srt": [
+    149,
+    150
+   ],
+   "text": "Falls ihr bis hierhin durchgehalten habt, Respekt, ehrlich.",
+   "pitchHz": 223.8
+  },
+  {
+   "start": 319.1,
+   "end": 323.34,
+   "speaker": "Ben",
+   "srt": [
+    151,
+    152,
+    153
+   ],
+   "text": "Und falls euch das was gebracht hat für die Ausbildung oder ihr einfach Lust auf mehr habt-",
+   "pitchHz": 141.6
+  },
+  {
+   "start": 323.54,
+   "end": 327.54,
+   "speaker": "Nora",
+   "srt": [
+    154,
+    155
+   ],
+   "text": "Dann abonniert uns gern. Kostet nix und ihr verpasst keine Folge mehr.",
+   "pitchHz": 219.2
+  },
+  {
+   "start": 327.54,
+   "end": 333.82,
+   "speaker": "Ben",
+   "srt": [
+    156,
+    157,
+    158,
+    159
+   ],
+   "text": "Und wenn ihr noch Fragen habt zum Thema oder was unklar war oder ihr wollt einfach mal meckern, dass ich wieder zu viel gequatscht hab-",
+   "pitchHz": 125.5
+  },
+  {
+   "start": 333.82,
+   "end": 336.14,
+   "speaker": "Nora",
+   "srt": [
+    160
+   ],
+   "text": "Was regelmäßig vorkommt.",
+   "pitchHz": 182.9
+  },
+  {
+   "start": 336.14,
+   "end": 339.46,
+   "speaker": "Ben",
+   "srt": [
+    161,
+    162
+   ],
+   "text": "Dann schreibt's einfach in die Kommentare. Wir lesen wirklich alles.",
+   "pitchHz": 124.0
+  },
+  {
+   "start": 339.58,
+   "end": 344.42,
+   "speaker": "Nora",
+   "srt": [
+    163,
+    164,
+    165
+   ],
+   "text": "Stimmt. Und manchmal wird aus euren Fragen sogar die nächste Folge. Also scheut euch nicht.",
+   "pitchHz": 225.4
+  },
+  {
+   "start": 344.46,
+   "end": 347.58,
+   "speaker": "Ben",
+   "srt": [
+    166,
+    167
+   ],
+   "text": "Genau. Bis zum nächsten Mal bei Pflege WG.",
+   "pitchHz": 135.6
+  },
+  {
+   "start": 347.58,
+   "end": 349.06,
+   "speaker": "Nora",
+   "srt": [
+    168
+   ],
+   "text": "Macht's gut. Tschüss zusammen.",
+   "pitchHz": 254.0
+  }
+ ]
+}

@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="de" data-composition-variables='[{"id":"quality","type":"string","label":"3D quality (final | draft)","default":"final"}]'>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <title>Pflege-WG · Pneumonieprophylaxe</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/vendor/gsap.min.js"></script>
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/shots.js"></script>
+  </head>
+  <body>
+    <!--
+      Pflege-WG episode composition (kit template). Layer order is fixed:
+        #bg (cream + dot grid) → #world (3D canvas) → #orb-clip (speaker orbs) → #stage (2D scenes) → audio
+      Every on-screen word must come from the episode's script / SRT (see kit/REVIEW.md).
+      Placeholder copy below is marked «…» — replace all of it.
+    -->
+    <div id="root" data-composition-id="main" data-start="0" data-duration="350.04" data-width="1920" data-height="1080">
+      <div id="bg" class="layer clip" data-start="0" data-duration="350.04" data-track-index="0">
+        <div class="dots"></div>
+        <div class="blob b1"></div>
+        <div class="blob b2"></div>
+        <div class="blob b3"></div>
+        <div class="green"></div>
+      </div>
+
+      <div id="world-clip" class="layer clip" data-start="0" data-duration="350.04" data-track-index="1">
+        <div id="world" class="layer"><canvas id="gl" width="1920" height="1080" data-layout-allow-occlusion></canvas></div>
+      </div>
+
+      <div id="orb-clip" class="layer clip" data-start="0" data-duration="350.04" data-track-index="3">
+        <div id="dock" class="glass frost"></div>
+        <canvas id="orbs" width="1920" height="1080" data-layout-allow-occlusion></canvas>
+      </div>
+
+      <div id="stage" class="layer clip" data-start="0" data-duration="350.04" data-track-index="2">
+        <!-- intro (3D studio behind) -->
+        <section id="s-intro" class="scene">
+          <div id="i-brand" style="position: absolute; top: 96px; left: 0; right: 0; display: flex; justify-content: center; align-items: center; gap: 22px">
+            <img src="assets/brand/mark-black.png" alt="" style="width: 104px; height: auto; display: block" />
+            <div class="wordmark" style="font-size: 54px">PFLEGE-<span class="wg" style="color: var(--green)">WG</span></div>
+          </div>
+          <div style="position: absolute; top: 250px; left: 0; right: 0; display: flex; flex-direction: column; align-items: center; gap: 26px">
+            <div id="i-reihe" class="chip mint" style="letter-spacing: 0.14em; text-transform: uppercase; font-size: 30px">Prophylaxen-Reihe · Folge 3</div>
+            <div id="i-title" style="font-weight: 900; font-size: 140px; letter-spacing: -0.02em; color: var(--ink)">Pneumonieprophylaxe</div>
+          </div>
+        </section>
+
+        <!-- s1 · 2D: definition card + list -->
+        <section id="s-s1" class="scene">
+          <div class="hdr">
+            <div class="tag"><i></i>«Kapitel»</div>
+            <div class="h1">«Überschrift»</div>
+          </div>
+          <div id="d-def" class="glass card" style="position: absolute; left: 120px; top: 330px; width: 760px; padding: 44px 48px">
+            <div class="lbl">Definition</div>
+            <div class="big">«Definition aus dem Script»</div>
+          </div>
+          <div id="d-list" class="glass card" style="position: absolute; left: 960px; top: 330px; width: 840px; padding: 40px 46px">
+            <div class="lbl">«Liste»</div>
+            <div class="rows" style="margin-top: 12px; gap: 22px">
+              <div class="row" id="d-l1"><div class="dot"></div><div class="t">«Punkt 1»</div></div>
+              <div class="row" id="d-l2"><div class="dot"></div><div class="t">«Punkt 2»</div></div>
+              <div class="row" id="d-l3"><div class="dot"></div><div class="t">«Punkt 3»</div></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- s2 · 3D object (left) + frosted card (right) -->
+        <section id="s-s2" class="scene">
+          <div class="hdr">
+            <div class="tag gold"><i></i>«Kapitel»</div>
+            <div class="h1">«Überschrift»</div>
+          </div>
+          <div id="o-card" class="glass frost card" style="position: absolute; right: 100px; top: 300px; width: 700px; padding: 34px 40px">
+            <div class="rows" style="gap: 16px">
+              <div class="row" id="o-r1"><div class="dot" style="background: var(--red)"></div><div><div class="t">«Hervorgehoben»</div><div class="s">«Detail»</div></div></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- s3 · 2D: app-like checklist -->
+        <section id="s-s3" class="scene">
+          <div class="hdr">
+            <div class="tag"><i></i>Maßnahmen</div>
+            <div class="h1">«Überschrift»</div>
+          </div>
+          <div id="m-card" class="glass card" style="position: absolute; left: 120px; top: 300px; width: 1100px; padding: 26px 40px">
+            <div class="check" id="m1"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 16.5l6 6L25 10" /></svg></div><div><div class="t">«Maßnahme 1»</div><div class="s">«Detail»</div></div></div>
+            <div class="check" id="m2"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 16.5l6 6L25 10" /></svg></div><div><div class="t">«Maßnahme 2»</div></div></div>
+            <div class="check" id="m3"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 16.5l6 6L25 10" /></svg></div><div><div class="t">«Maßnahme 3»</div></div></div>
+          </div>
+        </section>
+
+        <!-- summary -->
+        <section id="s-sum" class="scene">
+          <div class="hdr">
+            <div class="tag"><i></i>Zusammenfassung</div>
+            <div class="h1">Kurz zusammengefasst</div>
+          </div>
+          <div id="z-cards" style="position: absolute; left: 110px; right: 110px; top: 300px; display: flex; gap: 30px; align-items: flex-start">
+            <div id="z1" class="glass card" style="flex: 1; padding: 32px 36px">
+              <div class="lbl">«Begriff»</div>
+              <div class="mid">«Kernaussage»</div>
+            </div>
+            <div id="z2" class="glass card" style="flex: 1; padding: 32px 36px">
+              <div class="lbl">«Begriff»</div>
+              <div class="mid">«Kernaussage»</div>
+            </div>
+          </div>
+          <div id="z-quote" class="glass card" style="position: absolute; left: 200px; right: 200px; top: 300px; padding: 60px 70px; border: 3px solid var(--mint); text-align: center">
+            <div class="lbl">Merksatz</div>
+            <div class="marker" style="font-size: 92px; line-height: 1.1; color: var(--deep)">„«Merksatz wörtlich»“</div>
+          </div>
+        </section>
+
+        <!-- outro / end card (brand green background) -->
+        <section id="s-outro" class="scene">
+          <div id="o-brand" style="position: absolute; top: 80px; left: 0; right: 0; display: flex; flex-direction: column; align-items: center; gap: 22px">
+            <img src="assets/brand/mark-black.png" alt="" style="width: 150px; height: auto; display: block" />
+            <div class="wordmark" style="font-size: 84px">PFLEGE-<span class="wg">WG</span></div>
+          </div>
+          <div style="position: absolute; top: 730px; left: 0; right: 0; display: flex; justify-content: center; gap: 30px">
+            <div id="o-abo" class="chip ink" style="font-size: 36px; padding: 20px 40px">Abonniert uns gern</div>
+            <div id="o-kom" class="chip" style="font-size: 36px; padding: 20px 40px; background: rgba(255, 255, 255, 0.85); color: var(--ink)">Schreibt's in die Kommentare</div>
+          </div>
+          <div id="o-next" class="glass card" style="position: absolute; left: 0; right: 0; margin: 0 auto; top: 860px; width: 760px; padding: 22px 34px; display: flex; align-items: center; gap: 22px">
+            <div class="lbl" style="margin: 0; color: var(--deep)">Nächste Folge</div>
+            <div class="mid" style="font-size: 38px">«nächste Folge»</div>
+          </div>
+          <div id="o-bye" class="marker" style="position: absolute; left: 0; right: 0; top: 615px; text-align: center; font-size: 60px; color: var(--ink)">Bis zum nächsten Mal bei Pflege-WG</div>
+        </section>
+
+        <div id="wm">
+          <img src="assets/brand/mark-black-small.png" alt="" />
+          <div class="wordmark" style="font-size: 30px">PFLEGE-<span class="wg" style="color: var(--green)">WG</span></div>
+        </div>
+
+        <div id="dip" class="layer" style="background: var(--cream); opacity: 0"></div>
+      </div>
+
+      <audio id="voice" src="assets/audio/pneumonieprophylaxe.mp3" data-start="0" data-duration="350.04" data-track-index="4" data-volume="1"></audio>
+    </div>
+
+    <script type="importmap">
+      { "imports": { "three": "./assets/vendor/three.module.js" } }
+    </script>
+    <script type="module" src="assets/js/world3d.js"></script>
+    <script src="assets/js/orbs.js"></script>
+    <script src="assets/js/pwg-timeline.js"></script>
+    <script src="assets/js/timeline.js"></script>
+    <script>
+      window.__timelines["main"] = window.__pwgTimeline;
+    </script>
+  </body>
+</html>
