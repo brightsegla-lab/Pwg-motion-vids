@@ -1,0 +1,7 @@
+{
+  "_doc": "cue name → what appears on screen (French, for the key-moment list sent to the user). scripts/keymoments.py prints the table.",
+  "title": "Titre de l'épisode",
+  "s1": "Chapitre 1",
+  "summary": "Résumé",
+  "outro": "Carte de fin"
+}

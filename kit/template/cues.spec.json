@@ -1,0 +1,30 @@
+{
+  "_doc": "Named sync points. Each entry = [phrase as spoken, search from second]. scripts/build_cues.py finds the phrase in the word-level transcript (first match at/after the given second) and stores its start time; elements appear at spoken - lead. Optional third value nudges one cue in seconds (+0.5 = later). Replace every «…» with the exact words from the SRT.",
+  "lead": 0.2,
+  "cues": {
+    "welcome": ["Willkommen", 0],
+    "reihe": ["Prophylaxen-Reihe", 0],
+    "title": ["«Titelwort»", 0],
+    "s1": ["«Beginn Kapitel 1»", 0],
+    "s1_a": ["«Definition»", 0],
+    "s1_b": ["«Liste beginnt»", 0],
+    "s1_l1": ["«Punkt 1»", 0],
+    "s1_l2": ["«Punkt 2»", 0],
+    "s1_l3": ["«Punkt 3»", 0],
+    "s2": ["«Beginn Kapitel 2»", 0],
+    "s2_a": ["«Hervorgehoben»", 0],
+    "s3": ["«Beginn Maßnahmen»", 0],
+    "s3_a": ["«Maßnahme 1»", 0],
+    "s3_b": ["«Maßnahme 2»", 0],
+    "s3_c": ["«Maßnahme 3»", 0],
+    "summary": ["«Fassen wir»", 0],
+    "sum_a": ["«Zusammenfassung 1»", 0],
+    "sum_b": ["«Zusammenfassung 2»", 0],
+    "sum_quote": ["«Merksatz»", 0],
+    "outro": ["«das war's»", 0],
+    "abo": ["abonniert", 0],
+    "kommentare": ["Kommentare", 0],
+    "naechste": ["nächste", 0],
+    "bis_bald": ["Bis zum", 0]
+  }
+}

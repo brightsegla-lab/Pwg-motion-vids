@@ -1,0 +1,84 @@
+<!doctype html>
+<!-- Pflege-WG kit — YouTube thumbnail (1920×1080). All per-episode content lives in
+     thumb.config.js (headline, accent, background frames, callout). Background frames are
+     clean 3D stills grabbed from the episode (scripts/grab_world.sh). Render all variants:
+       node scripts/render_thumbnail.mjs episodes/<slug>
+     Rules: ≤ 4 big words, one focal visual, bottom-right corner (video length) unimportant,
+     every word supported by the episode's SRT. -->
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <style>
+      html, body { margin: 0; width: 1920px; height: 1080px; overflow: hidden; background: #0b1622; }
+      #t { position: relative; width: 1920px; height: 1080px; overflow: hidden; font-family: Montserrat, sans-serif; }
+      #room { position: absolute; background-size: cover; }
+      #shade { position: absolute; inset: 0; }
+      #brand { position: absolute; left: 100px; top: 84px; display: flex; align-items: center; gap: 22px; }
+      #brand img { width: 104px; display: block; }
+      .wm { font-weight: 800; font-size: 54px; color: #fff; letter-spacing: 0.01em; }
+      .wm span { color: #f4c430; }
+      #copy { position: absolute; left: 100px; top: 262px; }
+      .chip { display: inline-block; background: #2ecc91; color: #101814; border-radius: 999px; padding: 14px 36px; font-weight: 800; font-size: 40px; letter-spacing: 5px; text-transform: uppercase; }
+      .head { margin-top: 22px; font-weight: 900; font-size: 250px; line-height: 0.9; letter-spacing: -6px; color: #fff; text-shadow: 0 10px 60px rgba(0, 0, 0, 0.5); }
+      .acc { position: relative; display: inline-block; margin: 14px 0 0 8px; }
+      .acc i { position: absolute; left: -18px; right: -26px; top: 40px; bottom: 6px; background: #f4c430; border-radius: 18px; transform: rotate(-2deg); }
+      .acc b { position: relative; display: block; font-family: Kalam, cursive; font-weight: 700; font-size: 156px; line-height: 1; color: #101814; transform: rotate(-3deg); }
+      .sub { margin-top: 38px; font-weight: 700; font-size: 50px; color: #fff; }
+      /* yellow callout pointing at the subject */
+      #warn { position: absolute; display: flex; align-items: center; gap: 18px; background: #f4c430; color: #101814; border-radius: 999px; padding: 16px 38px 16px 22px; font-weight: 900; font-size: 58px; box-shadow: 0 18px 50px rgba(0, 0, 0, 0.45); transform: rotate(-3deg); }
+      #warn svg { width: 64px; height: 64px; }
+      #line { position: absolute; inset: 0; }
+    </style>
+  </head>
+  <body>
+    <div id="t">
+      <div id="room"></div>
+      <div id="shade"></div>
+      <svg id="line" viewBox="0 0 1920 1080"><path id="lp" fill="none" stroke="#f4c430" stroke-width="8" stroke-linecap="round" stroke-dasharray="2 22" /><circle id="lc" r="16" fill="#f4c430" /></svg>
+      <div id="brand"><img src="../assets/brand/mark-white.png" alt="" /><div class="wm">PFLEGE-<span>WG</span></div></div>
+      <div id="copy">
+        <div class="chip" id="chip"></div>
+        <div class="head" id="head"></div>
+        <div class="acc"><i></i><b id="acc"></b></div>
+        <div class="sub" id="sub"></div>
+      </div>
+      <div id="warn">
+        <svg viewBox="0 0 64 64" fill="none" stroke="#101814" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><path d="M32 8L58 54H6Z" /><path d="M32 24V38" /><circle cx="32" cy="46" r="1.5" /></svg>
+        <span id="warn-t"></span>
+      </div>
+    </div>
+    <script src="thumb.config.js"></script>
+    <script>
+      var T = window.THUMB;
+      var v = new URLSearchParams(location.search).get("v") || Object.keys(T.variants)[0];
+      var V = T.variants[v];
+      var $ = function (id) { return document.getElementById(id); };
+      $("chip").textContent = T.chip;
+      $("head").textContent = T.headline;
+      $("head").style.fontSize = (T.headlineSize || 250) + "px";
+      $("acc").textContent = T.accent;
+      $("sub").textContent = T.sub;
+      var r = $("room").style, b = V.bg;
+      r.backgroundImage = "url(" + b.src + ")";
+      r.left = (b.x || 0) + "px"; r.top = (b.y || 0) + "px";
+      r.width = (b.w || 1920) + "px"; r.height = (b.h || 1080) + "px";
+      if (b.scale) { r.transform = "scale(" + b.scale + ")"; r.transformOrigin = b.origin || "50% 50%"; }
+      $("shade").style.background = V.shade || "linear-gradient(90deg, rgba(11,22,34,.96) 0%, rgba(11,22,34,.88) 36%, rgba(11,22,34,.2) 58%, rgba(11,22,34,0) 70%)";
+      document.body.style.background = V.base || "#0b1622";
+      // optional yellow callout with a dotted leader to the subject
+      if (V.callout && T.callout) {
+        $("warn-t").textContent = T.callout;
+        $("warn").style.left = V.callout.box[0] + "px";
+        $("warn").style.top = V.callout.box[1] + "px";
+        var A = V.callout.from, B = V.callout.to;
+        $("lp").setAttribute("d", "M" + A + " Q" + (A[0] - 30) + "," + (B[1] - 60) + " " + B);
+        $("lc").setAttribute("cx", B[0]);
+        $("lc").setAttribute("cy", B[1]);
+      } else {
+        $("warn").style.display = "none";
+        $("line").style.display = "none";
+      }
+    </script>
+  </body>
+</html>

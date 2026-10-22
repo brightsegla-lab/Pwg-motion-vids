@@ -1,0 +1,8 @@
+# Sturzprophylaxe — on-screen words reviewed against the SRT and accepted as faithful paraphrases.
+anrichtet            # "Was ein Sturz anrichtet" — header for the Folgen the speakers list
+einschätzen          # "wie schätzt man ... ein" (separable verb)
+Einschätzung         # same, publishing text
+Skala                # "diese ganzen Skalen"
+anpassen             # "Betthöhe ... so eingestellt ... nicht zu hoch"
+Pneumonieprophylaxe  # next episode title (end card)
+Dekubitusprophylaxe  # "Letztes Mal Dekubitus" (publishing link line)
