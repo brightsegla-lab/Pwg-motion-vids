@@ -46,6 +46,8 @@ dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=d
                            capture_output=True, text=True, check=True).stdout.strip())
 
 shutil.copytree(TEMPLATE, dst)
+for sub in ("audio", "transcript"):  # empty in git, so create them
+    (dst / "assets" / sub).mkdir(parents=True, exist_ok=True)
 audio_dst = dst / "assets" / "audio" / f"{a.slug}.mp3"
 if a.audio.lower().endswith(".mp3"):
     shutil.copy(a.audio, audio_dst)
