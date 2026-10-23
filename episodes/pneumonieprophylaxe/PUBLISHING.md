@@ -99,3 +99,55 @@ Folge Pflege-WG, damit du keine Folge verpasst. Fragen oder Themenwünsche? Schr
 
 Hinweis: Dieser Podcast dient der Ausbildung und ersetzt keine Anleitung durch Praxisanleitung, Pflegefachkräfte oder ärztliche Anordnung. Maßgeblich sind die Standards deiner Einrichtung.
 ```
+
+---
+
+## Shorts (Schnitt aus dem finalen Video)
+
+### Short 1 · Blubberflasche (3:35.4 – 3:55.6)
+
+```
+Atemtraining ohne teures Gerät: die Blubberflasche
+```
+
+```
+Die Blubberflasche: Über einen Schlauch in eine halb gefüllte Wasserflasche pusten – das erhöht den Ausatemwiderstand und die Lunge entfaltet sich. Simpel und fast überall zu improvisieren.
+Ganze Folge Pneumonieprophylaxe: [LINK]
+#Pneumonieprophylaxe #Pflegeausbildung #PflegeAzubi #Shorts
+```
+
+### Short 2 · ASE (2:05.4 – 2:44.6)
+
+```
+Atemstimulierende Einreibung (ASE) im Rhythmus der Atmung
+```
+
+```
+Bei der Ausatmung leichter Druck links und rechts der Wirbelsäule, bei der Einatmung den Druck loslassen. Fünf- bis achtmal über den ganzen Rücken, am Ende vom Nacken bis zum Steißbein ausstreichen.
+Ganze Folge Pneumonieprophylaxe: [LINK]
+#ASE #Pneumonieprophylaxe #Pflegeausbildung #PflegeAzubi #Shorts
+```
+
+### Short 3 · SMI & PEP (3:03.6 – 3:35.2)
+
+```
+SMI-Trainer und PEP-Gerät: Atemtraining mit speziellen Geräten
+```
+
+```
+SMI-Trainer: tief einatmen, der Ball steigt in der Kammer hoch. PEP-Geräte: eine Kugel erzeugt Widerstand beim Ausatmen und hilft, Sekret zu lösen. Etwa zehn Minuten mit kurzen Pausen – sonst droht eine Hyperventilation.
+Ganze Folge Pneumonieprophylaxe: [LINK]
+#Atemtraining #Pneumonieprophylaxe #Pflegeausbildung #PflegeAzubi #Shorts
+```
+
+### Short 4 · Fallbeispiel (4:03.4 – 4:44.7)
+
+```
+Fallbeispiel: Patient nach Bauch-OP atmet ganz flach
+```
+
+```
+Schmerzen nach der Bauch-OP, flache Atmung, kaum Bewegung im Bett: klassisches Atelektasen- und Pneumonierisiko. Was würdest du als Maßnahme vorschlagen? Schmerzmanagement, Oberkörper hochlagern, Atemtraining mit dem SMI-Trainer, Mobilisation so früh wie möglich – und die Atemstimulierende Einreibung.
+Ganze Folge Pneumonieprophylaxe: [LINK]
+#Fallbeispiel #Pneumonieprophylaxe #Pflegeausbildung #PflegeAzubi #Shorts
+```

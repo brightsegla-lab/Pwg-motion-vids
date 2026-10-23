@@ -92,3 +92,4 @@ PflegeAzubi
 
 # --- series formula
 vorbeugen   # = Prophylaxe, used in every thumbnail
+Shorts      # platform hashtag
