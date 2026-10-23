@@ -29,6 +29,11 @@
       #warn { position: absolute; display: flex; align-items: center; gap: 18px; background: #f4c430; color: #101814; border-radius: 999px; padding: 16px 38px 16px 22px; font-weight: 900; font-size: 58px; box-shadow: 0 18px 50px rgba(0, 0, 0, 0.45); transform: rotate(-3deg); }
       #warn svg { width: 64px; height: 64px; }
       #line { position: absolute; inset: 0; }
+      /* theme: "light" — ink type on the cream studio (for light 3D frames) */
+      .light .wm, .light .head { color: #0f1a15; text-shadow: none; }
+      .light .wm span { color: #1b8f5a; }
+      .light .sub { color: #0f5c3a; }
+      .light #warn { box-shadow: 0 14px 36px rgba(15, 92, 58, 0.22); }
     </style>
   </head>
   <body>
@@ -53,6 +58,10 @@
       var T = window.THUMB;
       var v = new URLSearchParams(location.search).get("v") || Object.keys(T.variants)[0];
       var V = T.variants[v];
+      if (T.theme === "light") {
+        document.getElementById("t").classList.add("light");
+        document.querySelector("#brand img").src = "../assets/brand/mark-black.png";
+      }
       var $ = function (id) { return document.getElementById(id); };
       $("chip").textContent = T.chip;
       $("head").textContent = T.headline;
@@ -68,7 +77,7 @@
       document.body.style.background = V.base || "#0b1622";
       // optional yellow callout with a dotted leader to the subject
       if (V.callout && T.callout) {
-        $("warn-t").textContent = T.callout;
+        $("warn-t").textContent = V.calloutText || T.callout;
         $("warn").style.left = V.callout.box[0] + "px";
         $("warn").style.top = V.callout.box[1] + "px";
         var A = V.callout.from, B = V.callout.to;

@@ -10,7 +10,7 @@ TMP="$(mktemp -d)"
 trap 'rm -rf "$TMP"' EXIT
 cp -r "$EP" "$TMP/ep"
 rm -rf "$TMP/ep/renders" "$TMP/ep/release" "$TMP/ep/.hyperframes"
-sed -i 's#</head>#<style>\#stage,\#orb-clip{visibility:hidden !important}</style></head>#' "$TMP/ep/index.html"
-grep -q 'orb-clip{visibility' "$TMP/ep/index.html" || { echo "could not hide the 2D layer" >&2; exit 1; }
+sed -i 's#</head>#<style>\#root > :not(\#bg):not(\#world-clip):not(audio){visibility:hidden !important}</style></head>#' "$TMP/ep/index.html"
+grep -q 'not(#world-clip)' "$TMP/ep/index.html" || { echo "could not hide the 2D layer" >&2; exit 1; }
 (cd "$TMP/ep" && npx --yes hyperframes@0.8.162 snapshot . --at "$AT" --no-end --timeout 30000 --describe false -o "$OUT")
 ls "$OUT"
