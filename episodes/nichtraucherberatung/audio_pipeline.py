@@ -168,7 +168,7 @@ def cmd_assemble(_):
     bad = [r["nr"] for r in cfg["repliken"] if not mp3(r["nr"]).exists() or probe(mp3(r["nr"])) is None]
     if bad:
         sys.exit(f"Fehlend oder nicht abspielbar: {bad}")
-    print("01.mp3–33.mp3 vorhanden und abspielbar (ffprobe).")
+    print(f"01.mp3–{len(cfg['repliken']):02d}.mp3 vorhanden und abspielbar (ffprobe).")
 
     # durations come from decoded sample counts, so the timeline matches dialog.mp3 exactly
     buf, t, prev_phase = bytearray(), 0, None

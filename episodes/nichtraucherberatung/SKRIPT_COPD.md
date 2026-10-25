@@ -7,12 +7,12 @@ damit aufhören soll. Von meinen Skatbrüdern rauchen auch alle und krank ist ke
 letzten Jahr sogar einen Halbmarathon.“
 
 Rollen: **PF** = Takiyat (Pflegefachfrau in Ausbildung, **sitzt** während der Beratung neben dem Bett) ·
-**P** = Herr Meisgeier. Gesprächsführung: 5A (S3-Leitlinie) + Motivierende Gesprächsführung (geringe
+**P** = Sami (Patient mit COPD, Rolle von Herrn Meisgeier aus der Lernsituation). Gesprächsführung: 5A (S3-Leitlinie) + Motivierende Gesprächsführung (geringe
 Änderungsbereitschaft → S3-Empfehlung 4.1.3.3).
 
 | Nr | Spr. | Phase | Text |
 |---|---|---|---|
-| 01 | PF | Einstieg | [freundlich] Guten Morgen, Herr Meisgeier. Darf ich mich kurz zu Ihnen setzen? |
+| 01 | PF | Einstieg | [freundlich] Guten Morgen, Sami. Darf ich mich kurz zu Ihnen setzen? |
 | 02 | P | Einstieg | [etwas kurzatmig] Ja, setzen Sie sich. Sie sind doch die aus der Nachbarschaft, oder? |
 | 03 | PF | Einstieg | [lächelnd] Genau. Ich bin Takiyat, Pflegefachfrau in Ausbildung. Wie geht es Ihnen heute mit der Luft? |
 | 04 | P | Einstieg | [seufzt] Geht so. Ohne den Sauerstoff zwischendurch komme ich nicht weit. |
@@ -46,7 +46,7 @@ Rollen: **PF** = Takiyat (Pflegefachfrau in Ausbildung, **sitzt** während der B
 | 32 | P | Assist | [nach kurzer Pause] Ausprobieren kann ich es ja mal. |
 | 33 | PF | Arrange | [erfreut] Das freut mich. Dann halten wir fest: Ich spreche heute mit der Ärztin über das Pflaster. Sie bekommen das Infoblatt. Und morgen früh setze ich mich wieder zu Ihnen, und wir schauen, wie es Ihnen damit geht. Passt das für Sie? |
 | 34 | P | Arrange | Ja. Und die Zigaretten … die kann meine Frau nachher mitnehmen. |
-| 35 | PF | Arrange | [warm] Das ist ein guter erster Schritt. Sie entscheiden, ich begleite Sie. Bis morgen, Herr Meisgeier. |
+| 35 | PF | Arrange | [warm] Das ist ein guter erster Schritt. Sie entscheiden, ich begleite Sie. Bis morgen, Sami. |
 
 ## Bezug zur S3-Leitlinie (AWMF 076-006, 2021)
 

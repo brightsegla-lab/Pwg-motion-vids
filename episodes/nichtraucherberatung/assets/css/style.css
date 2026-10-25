@@ -85,7 +85,7 @@ html,body{width:1920px;height:1080px;overflow:hidden;background:var(--cream)}
 .qa .a::before{content:"→ ";color:var(--goldd)}
 .result{padding:16px 22px;border-radius:16px;background:var(--ink);color:#fff;font-weight:700;font-size:28px;line-height:1.3;opacity:0}
 .result b{color:var(--mint);font-weight:800}
-.quote{font-family:"Kalam",cursive;font-weight:700;font-size:44px;line-height:1.2;color:var(--deep);opacity:0}
+.quote{font-family:"Kalam",cursive;font-weight:700;font-size:40px;line-height:1.2;color:var(--deep);opacity:0}
 
 .scale{position:relative;height:110px;opacity:0}
 .scale .bar{position:absolute;left:0;right:0;top:44px;height:14px;border-radius:7px;background:linear-gradient(90deg,#E3EAF5,var(--mint))}
@@ -134,3 +134,7 @@ html,body{width:1920px;height:1080px;overflow:hidden;background:var(--cream)}
 #o-cred{position:absolute;left:0;right:0;top:880px;display:flex;flex-direction:column;align-items:center;gap:10px;opacity:0}
 #o-cred .g{font-family:"Kalam",cursive;font-weight:700;font-size:54px;color:#fff}
 #o-cred .v{font-weight:500;font-size:24px;color:rgba(255,255,255,.85)}
+#i-sub{font-weight:700;font-size:52px;color:var(--green);margin-top:-14px}
+.warn{display:flex;flex-direction:column;gap:12px;padding:30px 32px;border-radius:22px;background:#FFF1EC;border:3px solid var(--gold);opacity:0}
+.warn .k{font-weight:800;font-size:24px;letter-spacing:.14em;text-transform:uppercase;color:var(--goldd)}
+.warn .v{font-weight:800;font-size:44px;line-height:1.15}

@@ -63,9 +63,12 @@
   const at = (key, id, from) => show($(id || "c-" + key), cue(key), from);
   at("e-q");
   at("e-perm");
+  at("e-arzt");
   at("ask-1");
   at("ask-2");
   ["adv-1", "adv-2", "adv-3", "adv-4", "adv-5"].forEach((k) => at(k, null, { x: -24 }));
+  hide($("adv-a"), cue("adv-o2") - 0.1, 0.35);
+  tl.fromTo($("c-adv-o2"), { opacity: 0, scale: 0.94 }, { opacity: 1, scale: 1, duration: 0.5, ease: "power2.out" }, cue("adv-o2"));
 
   at("as-q1");
   at("as-a1", null, { x: -16 });
@@ -76,24 +79,22 @@
   hide($("as-a"), cue("as-scale") - 0.1, 0.35);
   at("as-scale");
   show($("c-scale"), cue("as-scale") + 0.3);
-  tl.fromTo($("c-knob"), { opacity: 0, left: "0%" }, { opacity: 1, left: "0%", duration: 0.3 }, cue("as-8") - 0.3);
-  tl.to($("c-knob"), { left: "80%", duration: 0.9, ease: "power2.out" }, cue("as-8"));
-  tl.fromTo($("c-five"), { opacity: 0 }, { opacity: 1, duration: 0.4 }, cue("as-5"));
-  at("as-5");
+  tl.fromTo($("c-knob"), { opacity: 0, left: "0%" }, { opacity: 1, left: "0%", duration: 0.3 }, cue("as-n") - 0.3);
+  tl.to($("c-knob"), { left: "40%", duration: 0.9, ease: "power2.out" }, cue("as-n"));
+  at("as-frau", null, { x: -16 });
+  tl.fromTo($("c-low"), { opacity: 0 }, { opacity: 1, duration: 0.4 }, cue("as-low"));
+  at("as-low");
   at("as-why", null, { x: -16 });
 
   at("ass-net");
-  ["ass-pfl", "ass-kau", "ass-lin", "ass-sch", "ass-ber"].forEach((k) => at(k, null, { x: -24 }));
-  hide($("ass-a"), cue("ass-help") - 0.1, 0.35);
-  at("ass-help");
-  at("ass-sport", null, { x: -24 });
-  tl.fromTo($("c-ass-kaug"), { opacity: 0 }, { opacity: 1, duration: 0.45 }, cue("ass-kaug"));
+  ["ass-pfl", "ass-skat", "ass-kau", "ass-frau"].forEach((k) => at(k, null, { x: -24 }));
+  hide($("ass-a"), cue("ass-tel") - 0.1, 0.35);
   at("ass-tel", null, { x: -24 });
   tl.fromTo($("c-ass-rueck"), { opacity: 0 }, { opacity: 1, duration: 0.45 }, cue("ass-rueck"));
-  at("ass-online", null, { x: -24 });
   at("ass-info", null, { x: -24 });
   tl.fromTo($("prop-info"), { attr: { opacity: 0 } }, { attr: { opacity: 1 }, duration: 0.5 }, cue("ass-info"));
-  tl.fromTo($("c-ass-heute"), { opacity: 0, scale: 0.9 }, { opacity: 1, scale: 1, duration: 0.5, ease: "power2.out" }, cue("ass-heute"));
+  at("ass-step", null, { x: -24 });
+  tl.fromTo($("c-ass-try"), { opacity: 0, scale: 0.9 }, { opacity: 1, scale: 1, duration: 0.5, ease: "power2.out" }, cue("ass-try"));
 
   // checklist: row on its words, tick once the measure has been said in full
   const ticks = [
@@ -152,7 +153,7 @@
       const c = chars[k];
       const talking = sp === k;
       const l = talking ? loud : 0;
-      const breathe = Math.sin(t * 1.7 + (k === "P" ? 1.3 : 0)) * 1.6;
+      const breathe = k === "P" ? Math.sin(t * 2.8 + 1.3) * 2.4 : Math.sin(t * 1.7) * 1.6; // Sami: short of breath (COPD)
       c.head.setAttribute("transform", "translate(0 " + (breathe - l * 4).toFixed(2) + ")");
       c.mouth.setAttribute("ry", (2 + l * 8).toFixed(2));
       c.mouth.setAttribute("rx", (8 + l * 2).toFixed(2));
@@ -167,7 +168,7 @@
   tl.to(clock, { t: window.DURATION, duration: window.DURATION, ease: "none", onUpdate: () => draw(clock.t) }, 0);
 
   // ---------- end card ----------
-  const O = 218.8;
+  const O = END + 0.15;
   hide($("main"), O, 0.6);
   tl.to(document.querySelector("#bg .green"), { opacity: 1, duration: 0.9, ease: "power2.inOut" }, O);
   show($("o-h"), O + 0.6);

@@ -10,12 +10,12 @@
   </head>
   <body>
     <!--
-      Nichtraucherberatung (Schulprojekt): Takiyat (PF) · Sami (P), Kurzberatung nach dem 5A-Modell.
+      Nichtraucherberatung (Schulprojekt): Takiyat (PF) · Sami (P, COPD), Kurzberatung nach dem 5A-Modell.
       Every on-screen word comes from the dialog (repliken.json) or the approved storyboard
       (phase names / S3 step definitions, title, end card). Timing: assets/js/data.js (build_data.py).
     -->
-    <div id="root" data-composition-id="main" data-start="0" data-duration="234.64" data-width="1920" data-height="1080">
-      <div id="bg" class="layer clip" data-start="0" data-duration="234.64" data-track-index="0">
+    <div id="root" data-composition-id="main" data-start="0" data-duration="255.2" data-width="1920" data-height="1080">
+      <div id="bg" class="layer clip" data-start="0" data-duration="255.2" data-track-index="0">
         <div class="dots"></div>
         <div class="b1"></div>
         <div class="b2"></div>
@@ -27,6 +27,7 @@
         <div id="intro" class="layer">
           <div id="i-tag" class="pill"><i></i>Kurzberatung nach dem 5A-Modell · S3-Leitlinie</div>
           <div id="i-title">Nichtraucherberatung</div>
+          <div id="i-sub">bei einem Patienten mit COPD</div>
           <div id="i-people">
             <div id="i-pf" class="person">
               <div class="av" style="background: var(--mint)"></div>
@@ -34,14 +35,14 @@
             </div>
             <div id="i-p" class="person">
               <div class="av" style="background: var(--gold)"></div>
-              <div><div class="n">Sami</div><div class="r">Patient, 24, Asthma</div></div>
+              <div><div class="n">Sami</div><div class="r">Patient mit COPD</div></div>
             </div>
           </div>
         </div>
       </section>
 
       <!-- dialog -->
-      <section id="main-clip" class="layer clip" data-start="9" data-duration="211" data-track-index="2">
+      <section id="main-clip" class="layer clip" data-start="9" data-duration="231.6" data-track-index="2">
         <div id="main" class="layer" style="opacity: 0">
           <div id="topbar">
             <div id="tb-title">Nichtraucher<span>beratung</span></div>
@@ -75,16 +76,22 @@
               <rect x="446" y="186" width="268" height="6" fill="#fff" />
               <rect x="404" y="54" width="34" height="290" rx="10" fill="#F6D3C4" />
               <rect x="722" y="54" width="34" height="290" rx="10" fill="#F6D3C4" />
-              <!-- bedside table + water glass + Infoblatt -->
-              <rect x="372" y="470" width="96" height="124" rx="10" fill="#CAD3E2" />
-              <rect x="366" y="462" width="108" height="16" rx="6" fill="#B6C2D6" />
-              <rect x="384" y="512" width="72" height="6" rx="3" fill="#B6C2D6" />
-              <path d="M392 418 L398 462 L418 462 L424 418 Z" fill="#DDF1F7" stroke="#A9CFDC" stroke-width="2" />
+              <!-- side table (left) + water glass + Infoblatt -->
+              <rect x="24" y="470" width="96" height="124" rx="10" fill="#CAD3E2" />
+              <rect x="18" y="462" width="108" height="16" rx="6" fill="#B6C2D6" />
+              <rect x="36" y="512" width="72" height="6" rx="3" fill="#B6C2D6" />
+              <path d="M44 418 L50 462 L70 462 L76 418 Z" fill="#DDF1F7" stroke="#A9CFDC" stroke-width="2" />
               <g id="prop-info" opacity="0">
-                <rect x="428" y="440" width="44" height="24" rx="3" fill="#fff" stroke="#9DAAC0" stroke-width="1.5" transform="rotate(-8 450 452)" />
-                <rect x="434" y="446" width="26" height="4" rx="2" fill="#3E8EDE" transform="rotate(-8 450 452)" />
-                <rect x="434" y="454" width="30" height="3" rx="1.5" fill="#C9D2E0" transform="rotate(-8 450 452)" />
+                <rect x="78" y="440" width="44" height="24" rx="3" fill="#fff" stroke="#9DAAC0" stroke-width="1.5" transform="rotate(-8 100 452)" />
+                <rect x="84" y="446" width="26" height="4" rx="2" fill="#3E8EDE" transform="rotate(-8 100 452)" />
+                <rect x="84" y="454" width="30" height="3" rx="1.5" fill="#C9D2E0" transform="rotate(-8 100 452)" />
               </g>
+              <!-- oxygen outlet + flowmeter above the bed -->
+              <rect x="852" y="168" width="64" height="40" rx="8" fill="#fff" stroke="#B9C4D6" stroke-width="2" />
+              <circle cx="870" cy="188" r="7" fill="#3E8EDE" />
+              <circle cx="898" cy="188" r="7" fill="#9DAAC0" />
+              <rect x="862" y="208" width="18" height="52" rx="8" fill="#E8F2FA" stroke="#B9C4D6" stroke-width="2" />
+              <circle cx="871" cy="226" r="5" fill="#3FB27F" />
               <!-- bed -->
               <rect x="900" y="300" width="52" height="300" rx="16" fill="#B8C4D8" />
               <line x1="520" y1="590" x2="520" y2="640" stroke="#7D889C" stroke-width="10" stroke-linecap="round" />
@@ -94,133 +101,149 @@
               <rect x="490" y="556" width="430" height="36" rx="12" fill="#9DAAC0" />
               <rect x="480" y="500" width="440" height="66" rx="20" fill="#fff" />
               <path d="M790 400 Q840 370 900 392 L904 500 L800 506 Z" fill="#fff" />
-              <!-- Sami (sits up in bed, faces left) -->
+              <!-- Sami (older, COPD, sits up in bed, faces left) -->
               <g id="sami">
                 <path d="M738 520 L736 410 Q740 372 790 368 Q842 372 846 410 L848 520 Z" fill="#F28C6B" />
+                <path d="M772 372 L790 400 L808 372" stroke="#E07656" stroke-width="5" fill="none" stroke-linejoin="round" />
                 <path d="M744 420 Q712 450 700 500 L722 510 Q736 468 760 444 Z" fill="#E07656" />
                 <circle cx="702" cy="506" r="14" fill="#D9A47F" />
                 <rect x="778" y="340" width="26" height="34" rx="8" fill="#D9A47F" />
                 <g id="sami-head">
                   <circle cx="790" cy="310" r="50" fill="#DDAA85" />
-                  <path d="M742 300 Q744 252 794 252 Q842 254 842 302 Q832 278 800 276 Q768 276 756 296 Z" fill="#3E2A1E" />
+                  <path d="M744 304 Q742 270 772 260 Q794 254 818 262 Q844 274 842 306 Q834 288 812 282 Q792 278 770 284 Q752 290 744 304 Z" fill="#C3C7CD" />
+                  <path d="M830 290 Q846 300 840 330 Q834 318 830 306 Z" fill="#C3C7CD" />
                   <circle cx="838" cy="312" r="10" fill="#D49E7A" />
+                  <path d="M762 278 Q780 274 798 278" stroke="#C99673" stroke-width="2.5" fill="none" stroke-linecap="round" />
                   <ellipse id="sami-eye1" cx="760" cy="306" rx="5" ry="6" fill="#1D1A18" />
                   <ellipse id="sami-eye2" cx="782" cy="306" rx="5" ry="6" fill="#1D1A18" />
-                  <path d="M752 292 Q760 288 768 292" stroke="#3E2A1E" stroke-width="3" fill="none" stroke-linecap="round" />
-                  <ellipse id="sami-mouth" cx="768" cy="334" rx="9" ry="2" fill="#7A3B33" />
+                  <path d="M752 292 Q760 288 768 292" stroke="#9EA3AA" stroke-width="4" fill="none" stroke-linecap="round" />
+                  <path d="M774 292 Q782 288 790 292" stroke="#9EA3AA" stroke-width="4" fill="none" stroke-linecap="round" />
+                  <ellipse id="sami-mouth" cx="768" cy="341" rx="9" ry="2" fill="#7A3B33" />
+                  <path d="M748 330 Q760 322 778 328 Q772 337 762 335 Q752 337 748 330 Z" fill="#A9ADB4" />
                   <g id="sami-waves" opacity="0" stroke="#E07656" stroke-width="5" fill="none" stroke-linecap="round">
                     <path d="M722 318 Q712 334 722 350" />
                     <path d="M706 308 Q690 334 706 360" />
                   </g>
                 </g>
               </g>
+              <!-- nasal cannula from the flowmeter -->
+              <path d="M871 260 Q874 300 846 316 Q824 324 800 320 Q772 316 752 316" stroke="#BFD7EE" stroke-width="4" fill="none" stroke-linecap="round" />
               <path d="M480 520 Q560 470 660 478 Q740 484 760 500 L770 570 L480 570 Z" fill="#D3DEF2" />
               <path d="M540 500 Q600 488 650 494" stroke="#B7C6E4" stroke-width="5" fill="none" stroke-linecap="round" />
               <path d="M600 530 Q660 520 720 528" stroke="#B7C6E4" stroke-width="5" fill="none" stroke-linecap="round" />
-              <!-- Takiyat (stands left, faces right) -->
+              <!-- chair -->
+              <rect x="150" y="380" width="26" height="240" rx="10" fill="#8C98AE" />
+              <line x1="172" y1="556" x2="172" y2="650" stroke="#7D889C" stroke-width="9" stroke-linecap="round" />
+              <line x1="312" y1="556" x2="312" y2="650" stroke="#7D889C" stroke-width="9" stroke-linecap="round" />
+              <rect x="156" y="536" width="176" height="22" rx="9" fill="#9DAAC0" />
+              <!-- Takiyat (sits on the chair, faces right) -->
               <g id="takiyat">
-                <rect x="196" y="470" width="40" height="130" rx="14" fill="#2F75C0" />
-                <rect x="244" y="470" width="40" height="130" rx="14" fill="#2F75C0" />
-                <rect x="188" y="590" width="54" height="20" rx="10" fill="#F2F2F2" />
-                <rect x="240" y="590" width="54" height="20" rx="10" fill="#F2F2F2" />
-                <path d="M176 486 L172 352 Q176 300 240 296 Q304 300 308 352 L304 486 Z" fill="#3E8EDE" />
-                <path d="M222 300 L240 330 L258 300" stroke="#2F75C0" stroke-width="6" fill="none" stroke-linejoin="round" />
-                <rect x="194" y="350" width="34" height="22" rx="4" fill="#fff" />
-                <rect x="198" y="356" width="20" height="4" rx="2" fill="#2563B8" />
-                <path d="M296 330 Q330 362 322 404 L300 410 Q304 380 282 356 Z" fill="#3683D2" />
-                <rect x="296" y="372" width="64" height="84" rx="8" fill="#fff" stroke="#B9C4D6" stroke-width="3" />
-                <rect x="316" y="364" width="24" height="12" rx="4" fill="#8C98AE" />
-                <rect x="308" y="392" width="40" height="4" rx="2" fill="#C9D2E0" />
-                <rect x="308" y="404" width="34" height="4" rx="2" fill="#C9D2E0" />
-                <rect x="308" y="416" width="40" height="4" rx="2" fill="#C9D2E0" />
-                <circle cx="316" cy="420" r="13" fill="#A06A4A" />
-                <!-- hijab: drape over neck and shoulders, wrap around the face -->
-                <path d="M184 236 Q176 298 192 322 L290 322 Q304 292 296 232 Z" fill="#7E5BA6" />
-                <path d="M200 300 Q240 314 282 300" stroke="#6A4A90" stroke-width="4" fill="none" stroke-linecap="round" />
-                <g id="tak-head">
-                  <circle cx="240" cy="228" r="62" fill="#7E5BA6" />
-                  <path d="M196 196 Q214 172 248 170" stroke="#6A4A90" stroke-width="4" fill="none" stroke-linecap="round" />
-                  <ellipse cx="252" cy="238" rx="40" ry="46" fill="#A8714F" />
-                  <ellipse id="tak-eye1" cx="252" cy="230" rx="5" ry="6" fill="#1D1A18" />
-                  <ellipse id="tak-eye2" cx="274" cy="230" rx="5" ry="6" fill="#1D1A18" />
-                  <path d="M266 216 Q274 212 282 216" stroke="#22160F" stroke-width="3" fill="none" stroke-linecap="round" />
-                  <ellipse id="tak-mouth" cx="266" cy="258" rx="9" ry="2" fill="#6E2F2A" />
-                  <g id="tak-waves" opacity="0" stroke="#2F75C0" stroke-width="5" fill="none" stroke-linecap="round">
-                    <path d="M306 240 Q316 256 306 272" />
-                    <path d="M322 230 Q338 256 322 282" />
+                <rect x="232" y="512" width="180" height="40" rx="18" fill="#2F75C0" />
+                <rect x="372" y="530" width="38" height="118" rx="14" fill="#2F75C0" />
+                <rect x="396" y="536" width="36" height="116" rx="14" fill="#2B6BB2" />
+                <rect x="366" y="640" width="56" height="20" rx="10" fill="#F2F2F2" />
+                <rect x="392" y="646" width="56" height="20" rx="10" fill="#E6E6E6" />
+                <g transform="translate(0 70)">
+                  <path d="M176 470 L172 352 Q176 300 240 296 Q304 300 308 352 L304 470 Z" fill="#3E8EDE" />
+                  <path d="M222 300 L240 330 L258 300" stroke="#2F75C0" stroke-width="6" fill="none" stroke-linejoin="round" />
+                  <rect x="194" y="350" width="34" height="22" rx="4" fill="#fff" />
+                  <rect x="198" y="356" width="20" height="4" rx="2" fill="#2563B8" />
+                  <path d="M296 330 Q330 362 330 410 L308 414 Q306 384 282 356 Z" fill="#3683D2" />
+                  <rect x="300" y="392" width="64" height="80" rx="8" fill="#fff" stroke="#B9C4D6" stroke-width="3" transform="rotate(-12 332 432)" />
+                  <rect x="318" y="384" width="24" height="12" rx="4" fill="#8C98AE" transform="rotate(-12 332 432)" />
+                  <rect x="312" y="412" width="40" height="4" rx="2" fill="#C9D2E0" transform="rotate(-12 332 432)" />
+                  <rect x="312" y="424" width="34" height="4" rx="2" fill="#C9D2E0" transform="rotate(-12 332 432)" />
+                  <circle cx="322" cy="418" r="13" fill="#A06A4A" />
+                  <!-- hijab: drape over neck and shoulders, wrap around the face -->
+                  <path d="M184 236 Q176 298 192 322 L290 322 Q304 292 296 232 Z" fill="#7E5BA6" />
+                  <path d="M200 300 Q240 314 282 300" stroke="#6A4A90" stroke-width="4" fill="none" stroke-linecap="round" />
+                  <g id="tak-head">
+                    <circle cx="240" cy="228" r="62" fill="#7E5BA6" />
+                    <path d="M196 196 Q214 172 248 170" stroke="#6A4A90" stroke-width="4" fill="none" stroke-linecap="round" />
+                    <ellipse cx="252" cy="238" rx="40" ry="46" fill="#A8714F" />
+                    <ellipse id="tak-eye1" cx="252" cy="230" rx="5" ry="6" fill="#1D1A18" />
+                    <ellipse id="tak-eye2" cx="274" cy="230" rx="5" ry="6" fill="#1D1A18" />
+                    <path d="M266 216 Q274 212 282 216" stroke="#22160F" stroke-width="3" fill="none" stroke-linecap="round" />
+                    <ellipse id="tak-mouth" cx="266" cy="258" rx="9" ry="2" fill="#6E2F2A" />
+                    <g id="tak-waves" opacity="0" stroke="#2F75C0" stroke-width="5" fill="none" stroke-linecap="round">
+                      <path d="M306 240 Q316 256 306 272" />
+                      <path d="M322 230 Q338 256 322 282" />
+                    </g>
                   </g>
                 </g>
               </g>
             </svg>
             <div class="tagname" id="tag-pf"><div class="hl"></div><i></i>Takiyat <small>Pflegefachfrau in Ausbildung</small></div>
-            <div class="tagname" id="tag-p"><div class="hl"></div><i></i>Sami <small>Patient</small></div>
+            <div class="tagname" id="tag-p"><div class="hl"></div><i></i>Sami <small>Patient mit COPD</small></div>
           </div>
 
           <div id="panel" class="glass">
             <!-- Einstieg -->
             <div class="ph" id="ph-Einstieg">
               <div class="ph-head"><div class="ph-tag"><i></i>Einstieg</div><div class="ph-h">Gesprächseinstieg</div></div>
-              <div class="rows" style="gap: 34px">
-                <div class="quote" id="c-e-q">„Wie geht es Ihnen heute mit der Atmung?“</div>
-                <div class="quote" id="c-e-perm">„Dürfte ich mit Ihnen über ein Thema sprechen, das mit Ihrer Lunge zu tun hat?“</div>
+              <div class="rows" style="gap: 26px">
+                <div class="quote" id="c-e-q">„Darf ich mich kurz zu Ihnen setzen?“</div>
+                <div class="quote" id="c-e-perm">„Ich möchte Ihnen keine Vorwürfe machen. Dürfte ich trotzdem kurz mit Ihnen darüber sprechen?“</div>
+                <div class="quote" id="c-e-arzt" style="color: var(--goldd)">„Mein Arzt erzählt mir schon seit Jahren, dass ich damit aufhören soll.“</div>
               </div>
             </div>
             <!-- Ask -->
             <div class="ph" id="ph-Ask">
               <div class="ph-head"><div class="ph-tag"><i></i>1 · Ask</div><div class="ph-h">Rauchstatus erfragen</div></div>
               <div class="rows">
-                <div class="kv" id="c-ask-1"><div class="k">Wie viel am Tag?</div><div class="v">So zwanzig Stück – am Wochenende auch mal mehr</div></div>
-                <div class="kv" id="c-ask-2"><div class="k">Seit wann?</div><div class="v">Seit sechzehn – also acht Jahre</div></div>
+                <div class="kv" id="c-ask-1"><div class="k">Wie viel am Tag?</div><div class="v">Eine Schachtel – beim Skat am Wochenende auch mehr</div></div>
+                <div class="kv" id="c-ask-2"><div class="k">Seit wann?</div><div class="v">Seit über vierzig Jahren</div></div>
               </div>
             </div>
             <!-- Advise -->
             <div class="ph" id="ph-Advise">
               <div class="ph-head"><div class="ph-tag"><i></i>2 · Advise</div><div class="ph-h">Zum Rauchstopp raten</div></div>
-              <div class="rows">
-                <div class="row" id="c-adv-1"><div class="dot"></div><div class="t">Aufhören ist das Wichtigste für die Lunge</div></div>
-                <div class="row" id="c-adv-2"><div class="dot"></div><div class="t">Bei Asthma löst Rauch Anfälle aus</div></div>
-                <div class="row" id="c-adv-3"><div class="dot"></div><div class="t">Rauch schwächt die Wirkung der Medikamente</div></div>
-                <div class="row" id="c-adv-4"><div class="dot"></div><div class="t">Ohne Rauch: Anfälle seltener</div></div>
-                <div class="row" id="c-adv-5"><div class="dot gold"></div><div><div class="t">Schon zweimal versucht</div><div class="s">einmal drei Wochen, dann kam die Prüfungsphase</div></div></div>
+              <div id="adv-a" class="rows" style="position: absolute; left: 0; right: 0; top: 136px">
+                <div class="row" id="c-adv-1"><div class="dot"></div><div class="t">Aufhören ist das Wichtigste bei COPD</div></div>
+                <div class="row" id="c-adv-2"><div class="dot"></div><div class="t">Der Schaden, der schon da ist, geht nicht mehr weg</div></div>
+                <div class="row" id="c-adv-3"><div class="dot"></div><div class="t">Ohne Rauch schreitet die Krankheit langsamer voran</div></div>
+                <div class="row" id="c-adv-4"><div class="dot gold"></div><div><div class="t">„Meine Skatbrüder rauchen auch – krank ist keiner.“</div></div></div>
+                <div class="row" id="c-adv-5"><div class="dot"></div><div class="t">Jede Lunge reagiert anders</div></div>
+              </div>
+              <div id="adv-b" style="position: absolute; left: 0; right: 0; top: 150px">
+                <div class="warn" id="c-adv-o2"><div class="k">Achtung bei Sauerstoff</div><div class="v">Rauchen in der Nähe von Sauerstoff ist gefährlich – Brandgefahr</div></div>
               </div>
             </div>
             <!-- Assess -->
             <div class="ph" id="ph-Assess">
               <div class="ph-head"><div class="ph-tag"><i></i>3 · Assess</div><div class="ph-h">Abhängigkeit und Motivation einschätzen</div></div>
               <div id="as-a" class="rows" style="position: absolute; left: 0; right: 0; top: 190px; gap: 26px">
-                <div class="qa" id="c-as-q1"><div class="q">Erste Zigarette am Morgen?</div><div class="a" id="c-as-a1">Gleich nach dem Aufstehen</div></div>
-                <div class="qa" id="c-as-q2"><div class="q">Schwer, wo Rauchen verboten ist?</div><div class="a" id="c-as-a2">Hier im Krankenhaus merke ich es schon sehr</div></div>
+                <div class="qa" id="c-as-q1"><div class="q">Erste Zigarette am Morgen?</div><div class="a" id="c-as-a1">Direkt nach dem Aufstehen</div></div>
+                <div class="qa" id="c-as-q2"><div class="q">Schwer, wo Rauchen verboten ist?</div><div class="a" id="c-as-a2">Ehrlich gesagt, ja</div></div>
                 <div class="result" id="c-as-res"><b>Deutliche körperliche Abhängigkeit</b><span id="c-as-will"> – keine Willensschwäche, sondern gut behandelbar</span></div>
               </div>
-              <div id="as-b" class="rows" style="position: absolute; left: 0; right: 0; top: 190px; gap: 22px">
-                <div class="qa" id="c-as-scale"><div class="q">Wie wichtig ist das Aufhören? (0 bis 10)</div></div>
+              <div id="as-b" class="rows" style="position: absolute; left: 0; right: 0; top: 190px; gap: 20px">
+                <div class="qa" id="c-as-scale"><div class="q">Wie wichtig ist es, etwas zu verändern? (0 bis 10)</div></div>
                 <div class="scale" id="c-scale">
                   <div class="bar"></div>
                   <div class="n" style="left: 0%">0</div><div class="n" style="left: 50%">5</div><div class="n" style="left: 100%">10</div>
-                  <div class="five" id="c-five" style="left: 50%"></div>
-                  <div class="knob" id="c-knob">8</div>
+                  <div class="five" id="c-low" style="left: 20%"></div>
+                  <div class="knob" id="c-knob">4</div>
                 </div>
-                <div class="qa" id="c-as-5"><div class="q">Und warum keine Fünf?</div><div class="a" id="c-as-why">Wieder Fußball spielen – ohne nach zehn Minuten keine Luft zu kriegen</div></div>
+                <div class="qa" id="c-as-frau"><div class="a" style="opacity: 1">Wegen meiner Frau – sie macht sich große Sorgen</div></div>
+                <div class="qa" id="c-as-low"><div class="q">Und warum keine Zwei?</div><div class="a" id="c-as-why">Wieder ohne Pause zur Kneipe laufen – zum Skat</div></div>
               </div>
             </div>
             <!-- Assist -->
             <div class="ph" id="ph-Assist">
               <div class="ph-head"><div class="ph-tag"><i></i>4 · Assist</div><div class="ph-h">Beim Rauchstopp unterstützen</div></div>
-              <div id="ass-a" class="rows" style="position: absolute; left: 0; right: 0; top: 190px; gap: 14px">
+              <div id="ass-a" class="rows" style="position: absolute; left: 0; right: 0; top: 190px; gap: 16px">
                 <div class="lbl row" id="c-ass-net">Nikotinersatztherapie</div>
-                <div class="row" id="c-ass-pfl"><div class="dot"></div><div><div class="t">Pflaster</div><div class="s">für den Grundbedarf</div></div></div>
-                <div class="row" id="c-ass-kau"><div class="dot"></div><div><div class="t">Kaugummis</div><div class="s">für starke Momente</div></div></div>
-                <div class="row" id="c-ass-lin"><div class="dot"></div><div class="t">lindert die Entzugserscheinungen</div></div>
-                <div class="row" id="c-ass-sch"><div class="dot"></div><div class="t">ohne die Schadstoffe aus dem Rauch</div></div>
-                <div class="row" id="c-ass-ber"><div class="dot gold"></div><div class="t">Mit Beratung: Erfolgschancen deutlich höher</div></div>
+                <div class="row" id="c-ass-pfl"><div class="dot"></div><div><div class="t">Pflaster</div><div class="s">lindert die Entzugserscheinungen</div></div></div>
+                <div class="row" id="c-ass-skat"><div class="dot gold"></div><div class="t">Schwierige Situation: der Skatabend</div></div>
+                <div class="row" id="c-ass-kau"><div class="dot"></div><div><div class="t">Nikotinkaugummis</div><div class="s">für starke Momente</div></div></div>
+                <div class="row" id="c-ass-frau"><div class="dot"></div><div class="t">Unterstützung durch seine Frau</div></div>
               </div>
               <div id="ass-b" class="rows" style="position: absolute; left: 0; right: 0; top: 190px; gap: 16px">
-                <div class="lbl row" id="c-ass-help">Was hilft?</div>
-                <div class="row" id="c-ass-sport"><div class="dot gold"></div><div class="t">Sport<span id="c-ass-kaug" style="opacity: 0"> · Kaugummi kauen</span></div></div>
-                <div class="row" id="c-ass-tel"><div class="dot"></div><div><div class="t">Kostenlose Telefonberatung</div><div class="s" id="c-ass-rueck" style="opacity: 0">ruft auf Wunsch zurück, begleitet über Wochen</div></div></div>
-                <div class="row" id="c-ass-online"><div class="dot"></div><div><div class="t">Online-Ausstiegsprogramm</div><div class="s">kostenlos · rauchfrei-info.de</div></div></div>
+                <div class="row" id="c-ass-tel"><div class="dot"></div><div><div class="t">Kostenlose Telefonberatung</div><div class="s" id="c-ass-rueck" style="opacity: 0">ruft auf Wunsch zurück – auch nach der Entlassung</div></div></div>
                 <div class="row" id="c-ass-info"><div class="dot"></div><div class="t">Infoblatt mit allen Nummern</div></div>
-                <div class="stamp" id="c-ass-heute"><div class="k">Rauchstopp</div><div class="v">ab heute</div></div>
+                <div class="row" id="c-ass-step"><div class="dot gold"></div><div class="t">Schritt für Schritt</div></div>
+                <div class="stamp" id="c-ass-try"><div class="k">Erster Schritt</div><div class="v">Pflaster ausprobieren</div></div>
               </div>
             </div>
             <!-- Arrange -->
@@ -229,11 +252,11 @@
               <div>
                 <div class="check" id="c-arr-1"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 16.5l6 6L25 10" /></svg></div><div class="t">Heute: mit der Ärztin über das Pflaster sprechen</div></div>
                 <div class="check" id="c-arr-2"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 16.5l6 6L25 10" /></svg></div><div class="t">Sami bekommt das Infoblatt</div></div>
-                <div class="check" id="c-arr-3"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 16.5l6 6L25 10" /></svg></div><div class="t">Morgen früh: nachfragen, wie die Nacht war</div></div>
+                <div class="check" id="c-arr-3"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 16.5l6 6L25 10" /></svg></div><div class="t">Morgen früh: gemeinsam schauen, wie es mit dem Pflaster geht</div></div>
               </div>
               <div style="position: absolute; left: 0; right: 0; bottom: 0; height: 150px">
-                <div class="quote" id="c-arr-ok" style="position: absolute; left: 0; right: 0; bottom: 0; color: var(--goldd)">„Danke, dass Sie mich nicht belehrt haben.“</div>
-                <div class="quote" id="c-arr-q" style="position: absolute; left: 0; right: 0; bottom: 0">„Sie haben die Entscheidung selbst getroffen. Ich begleite Sie nur.“</div>
+                <div class="quote" id="c-arr-ok" style="position: absolute; left: 0; right: 0; bottom: 0; color: var(--goldd)">„Die Zigaretten kann meine Frau nachher mitnehmen.“</div>
+                <div class="quote" id="c-arr-q" style="position: absolute; left: 0; right: 0; bottom: 0">„Sie entscheiden, ich begleite Sie.“</div>
               </div>
             </div>
           </div>
@@ -249,7 +272,7 @@
       </section>
 
       <!-- end card -->
-      <section id="outro-clip" class="layer clip" data-start="218.6" data-duration="16.04" data-track-index="3">
+      <section id="outro-clip" class="layer clip" data-start="239.15" data-duration="16.05" data-track-index="3">
         <div id="outro" class="layer">
           <div id="o-h" style="opacity: 0">Die 5 A der Kurzberatung</div>
           <div id="o-cards">
@@ -270,7 +293,7 @@
         </div>
       </section>
 
-      <audio id="voice" src="audio/dialog.mp3" data-start="10" data-duration="208.64" data-track-index="4" data-volume="1"></audio>
+      <audio id="voice" src="audio/dialog.mp3" data-start="10" data-duration="229.2" data-track-index="4" data-volume="1"></audio>
     </div>
     <script src="assets/js/main.js"></script>
     <script>
