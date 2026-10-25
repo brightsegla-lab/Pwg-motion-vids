@@ -6,8 +6,8 @@
 @font-face{font-family:"Kalam";font-weight:700;src:url("../fonts/kalam-latin-700-normal.woff2") format("woff2")}
 
 :root{
-  --mint:#2ECC91; --green:#1B8F5A; --deep:#0F5C3A; --ink:#0F1A15; --ink2:#36463E;
-  --cream:#F6F2E9; --gold:#F4C430; --goldd:#8A6A00; --line:rgba(15,26,21,.10);
+  --mint:#3E8EDE; --green:#2563B8; --deep:#173E7A; --ink:#14213D; --ink2:#44506A;
+  --cream:#F4F6FA; --gold:#F28C6B; --goldd:#B4482A; --line:rgba(20,33,61,.10);
 }
 *{margin:0;padding:0;box-sizing:border-box}
 html,body{width:1920px;height:1080px;overflow:hidden;background:var(--cream)}
@@ -16,24 +16,24 @@ html,body{width:1920px;height:1080px;overflow:hidden;background:var(--cream)}
 
 /* background */
 #bg{background:var(--cream)}
-#bg .dots{position:absolute;inset:0;background-image:radial-gradient(rgba(27,143,90,.16) 1.7px,transparent 1.9px);background-size:36px 36px}
-#bg .b1{position:absolute;width:900px;height:900px;left:-300px;top:-420px;border-radius:50%;background:radial-gradient(closest-side,rgba(46,204,145,.34),rgba(46,204,145,0))}
-#bg .b2{position:absolute;width:1100px;height:1100px;right:-420px;bottom:-560px;border-radius:50%;background:radial-gradient(closest-side,rgba(27,143,90,.26),rgba(27,143,90,0))}
-#bg .green{position:absolute;inset:0;opacity:0;background:radial-gradient(120% 120% at 20% 10%,#1B8F5A 0%,#14774A 45%,#0F5C3A 100%)}
+#bg .dots{position:absolute;inset:0;background-image:radial-gradient(rgba(37,99,184,.13) 1.7px,transparent 1.9px);background-size:36px 36px}
+#bg .b1{position:absolute;width:900px;height:900px;left:-300px;top:-420px;border-radius:50%;background:radial-gradient(closest-side,rgba(62,142,222,.30),rgba(62,142,222,0))}
+#bg .b2{position:absolute;width:1100px;height:1100px;right:-420px;bottom:-560px;border-radius:50%;background:radial-gradient(closest-side,rgba(242,140,107,.22),rgba(242,140,107,0))}
+#bg .green{position:absolute;inset:0;opacity:0;background:radial-gradient(120% 120% at 20% 10%,#2563B8 0%,#1D4F98 45%,#173E7A 100%)}
 
 .glass{background:rgba(255,255,255,.78);border:1.5px solid rgba(255,255,255,.95);border-radius:26px;
-  box-shadow:0 22px 60px rgba(11,63,40,.14),inset 0 1px 0 rgba(255,255,255,.95)}
+  box-shadow:0 22px 60px rgba(20,40,80,.14),inset 0 1px 0 rgba(255,255,255,.95)}
 .lbl{font-weight:700;font-size:22px;letter-spacing:.16em;text-transform:uppercase;color:var(--green)}
 .marker{font-family:"Kalam",cursive;font-weight:700}
 
 /* intro */
 #intro{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:34px}
 .pill{display:inline-flex;align-items:center;gap:12px;padding:12px 26px;border-radius:999px;font-weight:700;font-size:28px;
-  background:rgba(255,255,255,.8);border:1.5px solid #fff;color:var(--deep);box-shadow:0 8px 24px rgba(11,63,40,.10)}
+  background:rgba(255,255,255,.8);border:1.5px solid #fff;color:var(--deep);box-shadow:0 8px 24px rgba(20,40,80,.10)}
 .pill i{display:block;width:12px;height:12px;border-radius:50%;background:var(--mint)}
 #i-title{font-weight:900;font-size:150px;letter-spacing:-.02em;line-height:1}
 #i-people{display:flex;gap:30px}
-.person{display:flex;align-items:center;gap:18px;padding:18px 30px 18px 18px;border-radius:999px;background:#fff;box-shadow:0 10px 30px rgba(11,63,40,.12)}
+.person{display:flex;align-items:center;gap:18px;padding:18px 30px 18px 18px;border-radius:999px;background:#fff;box-shadow:0 10px 30px rgba(20,40,80,.12)}
 .person .av{width:58px;height:58px;border-radius:50%}
 .person .n{font-weight:800;font-size:34px}
 .person .r{font-weight:500;font-size:26px;color:var(--ink2)}
@@ -44,17 +44,17 @@ html,body{width:1920px;height:1080px;overflow:hidden;background:var(--cream)}
 #tb-title span{color:var(--green)}
 #steps{display:flex;gap:12px}
 .step{display:flex;align-items:center;gap:10px;padding:12px 22px;border-radius:999px;font-weight:700;font-size:25px;
-  background:rgba(255,255,255,.6);border:1.5px solid rgba(15,26,21,.12);color:var(--ink2)}
+  background:rgba(255,255,255,.6);border:1.5px solid rgba(20,33,61,.12);color:var(--ink2)}
 .step b{font-weight:800;color:var(--ink2)}
-.step .on{position:absolute;inset:0;border-radius:999px;background:var(--mint);opacity:0}
+.step .on{position:absolute;inset:0;border-radius:999px;background:var(--green);opacity:0}
 .step{position:relative}
 .step span,.step b{position:relative}
 
 #room{position:absolute;left:60px;top:150px;width:1000px;height:740px;border-radius:30px;overflow:hidden;
-  box-shadow:0 22px 60px rgba(11,63,40,.16)}
+  box-shadow:0 22px 60px rgba(20,40,80,.16)}
 #room svg{position:absolute;inset:0;width:1000px;height:740px;display:block}
 .tagname{position:absolute;bottom:26px;display:flex;align-items:center;gap:12px;padding:12px 22px;border-radius:999px;
-  background:rgba(255,255,255,.9);box-shadow:0 8px 22px rgba(11,63,40,.14);font-weight:800;font-size:26px}
+  background:rgba(255,255,255,.9);box-shadow:0 8px 22px rgba(20,40,80,.14);font-weight:800;font-size:26px}
 .tagname small{font-weight:500;font-size:22px;color:var(--ink2)}
 .tagname i{display:block;width:14px;height:14px;border-radius:50%}
 #tag-pf{left:40px} #tag-p{right:40px}
@@ -76,7 +76,7 @@ html,body{width:1920px;height:1080px;overflow:hidden;background:var(--cream)}
 .dot.gold{background:var(--gold)}
 .row .t{font-weight:700;font-size:33px;line-height:1.22}
 .row .s{font-weight:500;font-size:26px;line-height:1.3;color:var(--ink2);margin-top:4px}
-.kv{display:flex;flex-direction:column;gap:6px;padding:18px 24px;border-radius:18px;background:rgba(46,204,145,.10);opacity:0}
+.kv{display:flex;flex-direction:column;gap:6px;padding:18px 24px;border-radius:18px;background:rgba(62,142,222,.10);opacity:0}
 .kv .k{font-weight:700;font-size:22px;letter-spacing:.12em;text-transform:uppercase;color:var(--green)}
 .kv .v{font-weight:800;font-size:38px;line-height:1.15}
 .qa{display:flex;flex-direction:column;gap:6px;opacity:0}
@@ -88,14 +88,14 @@ html,body{width:1920px;height:1080px;overflow:hidden;background:var(--cream)}
 .quote{font-family:"Kalam",cursive;font-weight:700;font-size:44px;line-height:1.2;color:var(--deep);opacity:0}
 
 .scale{position:relative;height:110px;opacity:0}
-.scale .bar{position:absolute;left:0;right:0;top:44px;height:14px;border-radius:7px;background:linear-gradient(90deg,#dfe9e2,var(--mint))}
+.scale .bar{position:absolute;left:0;right:0;top:44px;height:14px;border-radius:7px;background:linear-gradient(90deg,#E3EAF5,var(--mint))}
 .scale .n{position:absolute;top:70px;width:40px;margin-left:-20px;text-align:center;font-weight:700;font-size:22px;color:var(--ink2)}
 .scale .knob{position:absolute;top:24px;left:0;width:54px;height:54px;margin-left:-27px;border-radius:50%;background:var(--gold);
   border:5px solid #fff;box-shadow:0 6px 16px rgba(0,0,0,.18);display:flex;align-items:center;justify-content:center;font-weight:900;font-size:24px;opacity:0}
 .scale .five{position:absolute;top:30px;width:4px;height:42px;margin-left:-2px;background:var(--ink2);opacity:0}
 
 .check{display:flex;align-items:flex-start;gap:20px;padding:18px 0;border-bottom:1.5px solid var(--line);opacity:0}
-.box{position:relative;width:46px;height:46px;flex-shrink:0;border-radius:12px;border:3px solid rgba(15,26,21,.25)}
+.box{position:relative;width:46px;height:46px;flex-shrink:0;border-radius:12px;border:3px solid rgba(20,33,61,.25)}
 .box .fill{position:absolute;inset:-3px;border-radius:12px;background:var(--mint);opacity:0}
 .box svg{position:absolute;inset:4px;width:32px;height:32px;fill:none;stroke:#fff;stroke-width:4.5;stroke-linecap:round;stroke-linejoin:round}
 .check .t{font-weight:700;font-size:31px;line-height:1.25}
@@ -114,7 +114,7 @@ html,body{width:1920px;height:1080px;overflow:hidden;background:var(--cream)}
 /* subtitles */
 #subs{position:absolute;left:60px;right:60px;top:912px;height:136px;display:flex;align-items:center;justify-content:center}
 .sub{position:absolute;max-width:1640px;display:flex;align-items:center;gap:20px;padding:14px 28px 14px 16px;border-radius:24px;
-  background:rgba(15,26,21,.88);color:#fff;opacity:0}
+  background:rgba(20,33,61,.88);color:#fff;opacity:0}
 .sub .who{flex-shrink:0;padding:8px 16px;border-radius:999px;font-weight:800;font-size:24px;color:var(--ink)}
 .sub.pf .who{background:var(--mint)} .sub.p .who{background:var(--gold)}
 .sub .tx{font-weight:600;font-size:38px;line-height:1.25}

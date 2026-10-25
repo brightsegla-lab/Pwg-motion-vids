@@ -37,6 +37,9 @@
     const b = i + 1 < P.length ? P[i + 1].a - 0.4 : END + 0.3;
     tl.fromTo($("st-" + p.phase).querySelector(".on"), { opacity: 0 }, { opacity: 1, duration: 0.35 }, a);
     tl.to($("st-" + p.phase).querySelector(".on"), { opacity: 0, duration: 0.35 }, b);
+    const label = $("st-" + p.phase).querySelectorAll("span, b");
+    tl.fromTo(label, { color: "#44506A" }, { color: "#ffffff", duration: 0.35 }, a);
+    tl.to(label, { color: "#44506A", duration: 0.35 }, b);
     const ph = $("ph-" + p.phase);
     const head = i === 0 ? a + 0.2 : p.a + 2.2; // after the banner
     tl.fromTo(ph, { opacity: 0 }, { opacity: 1, duration: 0.45 }, head);
