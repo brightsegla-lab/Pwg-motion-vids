@@ -28,6 +28,7 @@ MAX_CHUNK = 96         # subtitle characters per chunk (shown on up to two lines
 # key: (replik nr, phrase as written in the script)
 CUES = {
     "e-q": (1, "Darf ich mich kurz"),
+    "sit": (2, "setzen Sie sich"),
     "e-perm": (5, "Ich möchte Ihnen keine Vorwürfe"),
     "e-arzt": (6, "Mein Arzt erzählt"),
     "ask-1": (8, "Eine Schachtel"),

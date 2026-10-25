@@ -59,6 +59,12 @@
     }
   });
 
+  // ---------- Takiyat sits down once Sami says "setzen Sie sich" ----------
+  const sit = cue("sit") + 0.5;
+  tl.fromTo($("tak-top"), { y: 0 }, { y: 70, duration: 0.7, ease: "power2.inOut" }, sit);
+  tl.fromTo($("tak-stand"), { opacity: 1 }, { opacity: 0, duration: 0.25, ease: "power1.inOut" }, sit + 0.25);
+  tl.fromTo($("tak-sit"), { opacity: 0 }, { opacity: 1, duration: 0.25, ease: "power1.inOut" }, sit + 0.25);
+
   // ---------- panel content ----------
   const at = (key, id, from) => show($(id || "c-" + key), cue(key), from);
   at("e-q");
