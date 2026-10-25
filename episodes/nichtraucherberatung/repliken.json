@@ -1,0 +1,42 @@
+{
+  "voices": {
+    "PF": {"name": "Takiyat", "voice_id": "PejKO5y43ke3aAkmw1iz"},
+    "P": {"name": "Sami", "voice_id": "2i7LhYjvw41fgbcqlf3Z"}
+  },
+  "phases": ["Einstieg", "Ask", "Advise", "Assess", "Assist", "Arrange"],
+  "repliken": [
+    {"nr": 1, "speaker": "PF", "phase": "Einstieg", "text": "[warm, ruhig] Guten Tag! Ich bin Takiyat, Pflegefachfrau in Ausbildung. Sie sind Sami, richtig? Wie geht es Ihnen heute mit der Atmung?"},
+    {"nr": 2, "speaker": "P", "phase": "Einstieg", "text": "[leicht erschöpft] Besser als gestern. Aber die Treppe wäre noch nichts für mich."},
+    {"nr": 3, "speaker": "PF", "phase": "Einstieg", "text": "[verständnisvoll] Das glaube ich Ihnen. Ich hätte ein paar Minuten Zeit. Dürfte ich mit Ihnen über ein Thema sprechen, das mit Ihrer Lunge zu tun hat?"},
+    {"nr": 4, "speaker": "P", "phase": "Einstieg", "text": "[seufzt leicht] Ich ahne schon, was kommt. Aber bitte."},
+    {"nr": 5, "speaker": "PF", "phase": "Ask", "text": "Sie haben bei der Aufnahme angegeben, dass Sie rauchen. Wie viel ist es im Moment am Tag?"},
+    {"nr": 6, "speaker": "P", "phase": "Ask", "text": "So zwanzig Stück. Am Wochenende auch mal mehr."},
+    {"nr": 7, "speaker": "PF", "phase": "Ask", "text": "Und seit wann rauchen Sie?"},
+    {"nr": 8, "speaker": "P", "phase": "Ask", "text": "Seit ich sechzehn bin. Also acht Jahre."},
+    {"nr": 9, "speaker": "PF", "phase": "Advise", "text": "[ruhig, ehrlich] Danke, dass Sie so offen sind. Ich möchte Ihnen ehrlich sagen, was ich denke: Mit dem Rauchen aufzuhören ist das Wichtigste, was Sie für Ihre Lunge tun können. Bei Asthma löst Rauch Anfälle aus und schwächt die Wirkung Ihrer Medikamente. Ohne Rauch werden Anfälle wie dieser seltener."},
+    {"nr": 10, "speaker": "P", "phase": "Advise", "text": "Das sagt mein Hausarzt auch jedes Mal."},
+    {"nr": 11, "speaker": "PF", "phase": "Advise", "text": "[sanft] Und trotzdem ist es schwer, oder?"},
+    {"nr": 12, "speaker": "P", "phase": "Advise", "text": "Ja. Ich hab's zweimal versucht. Einmal drei Wochen, dann kam die Prüfungsphase."},
+    {"nr": 13, "speaker": "PF", "phase": "Assess", "text": "[anerkennend] Drei Wochen sind eine echte Leistung. Da wissen Sie schon, dass Sie es können. Darf ich Ihnen zwei kurze Fragen stellen? Wann rauchen Sie morgens die erste Zigarette?"},
+    {"nr": 14, "speaker": "P", "phase": "Assess", "text": "Gleich nach dem Aufstehen. Noch vor dem Kaffee."},
+    {"nr": 15, "speaker": "PF", "phase": "Assess", "text": "Und fällt es Ihnen schwer, an Orten nicht zu rauchen, wo es verboten ist?"},
+    {"nr": 16, "speaker": "P", "phase": "Assess", "text": "Hier im Krankenhaus merke ich es schon sehr."},
+    {"nr": 17, "speaker": "PF", "phase": "Assess", "text": "[ruhig] Das spricht für eine starke körperliche Abhängigkeit. Das ist keine Willensschwäche, sondern eine Abhängigkeit, die man gut behandeln kann. Auf einer Skala von null bis zehn: Wie wichtig ist Ihnen das Aufhören gerade?"},
+    {"nr": 18, "speaker": "P", "phase": "Assess", "text": "[nachdenklich] Nach dieser Woche? Eine Acht. Ich hatte richtig Angst, keine Luft zu kriegen."},
+    {"nr": 19, "speaker": "PF", "phase": "Assess", "text": "Eine Acht. Und warum keine Fünf?"},
+    {"nr": 20, "speaker": "P", "phase": "Assess", "text": "Weil ich wieder Fußball spielen will, ohne nach zehn Minuten keine Luft zu kriegen."},
+    {"nr": 21, "speaker": "PF", "phase": "Assist", "text": "[warm] Das ist ein starker Grund. Dann schauen wir, was Ihnen helfen kann. Wenn Sie möchten, spreche ich mit der Ärztin über eine Nikotinersatztherapie. Das heißt zum Beispiel ein Pflaster für den Grundbedarf und Kaugummis für starke Momente. Das lindert die Entzugserscheinungen."},
+    {"nr": 22, "speaker": "P", "phase": "Assist", "text": "[skeptisch] Ist das nicht auch Nikotin?"},
+    {"nr": 23, "speaker": "PF", "phase": "Assist", "text": "Ja, aber ohne die Schadstoffe aus dem Rauch. Und Sie reduzieren es nach und nach. Mit Beratung zusammen sind die Erfolgschancen deutlich höher als allein."},
+    {"nr": 24, "speaker": "P", "phase": "Assist", "text": "Und wenn der Stress wieder kommt?"},
+    {"nr": 25, "speaker": "PF", "phase": "Assist", "text": "Genau daran arbeiten wir. Was hat Ihnen beim letzten Mal in den drei Wochen geholfen?"},
+    {"nr": 26, "speaker": "P", "phase": "Assist", "text": "Sport. Und Kaugummi kauen."},
+    {"nr": 27, "speaker": "PF", "phase": "Assist", "text": "Gut, das nehmen wir mit. Dazu gibt es eine kostenlose Telefonberatung zum Rauchstopp. Dort ruft man Sie auf Wunsch auch zurück und begleitet Sie über Wochen. Und es gibt eine kostenlose Rauchfrei-App, die Ihre rauchfreien Tage zählt. Ich gebe Ihnen ein Infoblatt mit allen Nummern."},
+    {"nr": 28, "speaker": "P", "phase": "Assist", "text": "[zuversichtlich] Das klingt machbar."},
+    {"nr": 29, "speaker": "PF", "phase": "Assist", "text": "Möchten Sie sich ein Datum setzen?"},
+    {"nr": 30, "speaker": "P", "phase": "Assist", "text": "[entschlossen] Ich rauche ja gerade sowieso nicht. Dann ab heute."},
+    {"nr": 31, "speaker": "PF", "phase": "Arrange", "text": "[erfreut] Sehr gut. Dann halten wir fest: Ich spreche heute mit der Ärztin über das Pflaster. Sie bekommen das Infoblatt. Und morgen früh frage ich nach, wie die Nacht war. Passt das für Sie?"},
+    {"nr": 32, "speaker": "P", "phase": "Arrange", "text": "[dankbar] Ja. Danke, dass Sie mich nicht belehrt haben."},
+    {"nr": 33, "speaker": "PF", "phase": "Arrange", "text": "[warm] Sie haben die Entscheidung selbst getroffen. Ich begleite Sie nur. Bis morgen, Sami."}
+  ]
+}
