@@ -26,6 +26,7 @@ RATE = 44100
 GAP_REPLIK = 0.4
 GAP_PHASE = 0.8
 TARGET = 4 * 60 + 45
+VOICE_SETTINGS = {"stability": 0.5}  # same as the Flows takes in the history
 
 
 def load():
@@ -129,12 +130,12 @@ def cmd_generate(args):
         path = f"/v1/text-to-speech/{vid}"
         params = {"output_format": "mp3_44100_128"}
         try:
-            audio = request("POST", path, params, {"text": r["text"], "model_id": "eleven_v4"}, raw=True)
+            audio = request("POST", path, params, {"text": r["text"], "model_id": "eleven_v4", "voice_settings": VOICE_SETTINGS}, raw=True)
             model = "eleven_v4"
         except RuntimeError as e:
             print(f"{r['nr']:02d} eleven_v4 abgelehnt ({e}); Fallback eleven_multilingual_v2 ohne Tags")
             text = " ".join(strip_tags(r["text"]).split())
-            audio = request("POST", path, params, {"text": text, "model_id": "eleven_multilingual_v2"}, raw=True)
+            audio = request("POST", path, params, {"text": text, "model_id": "eleven_multilingual_v2", "voice_settings": VOICE_SETTINGS}, raw=True)
             model = "eleven_multilingual_v2"
         mp3(r["nr"]).write_bytes(audio)
         print(f"{r['nr']:02d} generiert ({model})")

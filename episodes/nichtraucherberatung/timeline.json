@@ -1,6 +1,6 @@
 {
   "audio": "audio/dialog.mp3",
-  "duration": 206.96,
+  "duration": 208.64,
   "sample_rate": 44100,
   "gaps": {
     "replik": 0.4,
@@ -37,7 +37,7 @@
     {
       "phase": "Assess",
       "start": 70.56,
-      "end": 119.52,
+      "end": 119.44,
       "repliken": [
         13,
         20
@@ -45,8 +45,8 @@
     },
     {
       "phase": "Assist",
-      "start": 120.32,
-      "end": 185.92,
+      "start": 120.24,
+      "end": 187.6,
       "repliken": [
         21,
         30
@@ -54,8 +54,8 @@
     },
     {
       "phase": "Arrange",
-      "start": 186.72,
-      "end": 206.96,
+      "start": 188.4,
+      "end": 208.64,
       "repliken": [
         31,
         33
@@ -229,9 +229,9 @@
       "speaker": "PF",
       "name": "Takiyat",
       "phase": "Assess",
-      "text": "Das spricht für eine starke körperliche Abhängigkeit. Das ist keine Willensschwäche, sondern eine Abhängigkeit, die man gut behandeln kann. Auf einer Skala von null bis zehn: Wie wichtig ist Ihnen das Aufhören gerade?",
+      "text": "Das spricht für eine deutliche körperliche Abhängigkeit. Das ist keine Willensschwäche, sondern eine Abhängigkeit, die man gut behandeln kann. Auf einer Skala von null bis zehn: Wie wichtig ist Ihnen das Aufhören gerade?",
       "start": 92.32,
-      "end": 105.52
+      "end": 105.44
     },
     {
       "nr": 18,
@@ -240,8 +240,8 @@
       "name": "Sami",
       "phase": "Assess",
       "text": "Nach dieser Woche? Eine Acht. Ich hatte richtig Angst, keine Luft zu kriegen.",
-      "start": 105.92,
-      "end": 111.28
+      "start": 105.84,
+      "end": 111.2
     },
     {
       "nr": 19,
@@ -250,8 +250,8 @@
       "name": "Takiyat",
       "phase": "Assess",
       "text": "Eine Acht. Und warum keine Fünf?",
-      "start": 111.68,
-      "end": 114.4
+      "start": 111.6,
+      "end": 114.32
     },
     {
       "nr": 20,
@@ -260,8 +260,8 @@
       "name": "Sami",
       "phase": "Assess",
       "text": "Weil ich wieder Fußball spielen will, ohne nach zehn Minuten keine Luft zu kriegen.",
-      "start": 114.8,
-      "end": 119.52
+      "start": 114.72,
+      "end": 119.44
     },
     {
       "nr": 21,
@@ -270,8 +270,8 @@
       "name": "Takiyat",
       "phase": "Assist",
       "text": "Das ist ein starker Grund. Dann schauen wir, was Ihnen helfen kann. Wenn Sie möchten, spreche ich mit der Ärztin über eine Nikotinersatztherapie. Das heißt zum Beispiel ein Pflaster für den Grundbedarf und Kaugummis für starke Momente. Das lindert die Entzugserscheinungen.",
-      "start": 120.32,
-      "end": 136.4
+      "start": 120.24,
+      "end": 136.32
     },
     {
       "nr": 22,
@@ -280,8 +280,8 @@
       "name": "Sami",
       "phase": "Assist",
       "text": "Ist das nicht auch Nikotin?",
-      "start": 136.8,
-      "end": 138.88
+      "start": 136.72,
+      "end": 138.8
     },
     {
       "nr": 23,
@@ -290,8 +290,8 @@
       "name": "Takiyat",
       "phase": "Assist",
       "text": "Ja, aber ohne die Schadstoffe aus dem Rauch. Und Sie reduzieren es nach und nach. Mit Beratung zusammen sind die Erfolgschancen deutlich höher als allein.",
-      "start": 139.28,
-      "end": 148.96
+      "start": 139.2,
+      "end": 148.88
     },
     {
       "nr": 24,
@@ -300,8 +300,8 @@
       "name": "Sami",
       "phase": "Assist",
       "text": "Und wenn der Stress wieder kommt?",
-      "start": 149.36,
-      "end": 151.36
+      "start": 149.28,
+      "end": 151.28
     },
     {
       "nr": 25,
@@ -310,8 +310,8 @@
       "name": "Takiyat",
       "phase": "Assist",
       "text": "Genau daran arbeiten wir. Was hat Ihnen beim letzten Mal in den drei Wochen geholfen?",
-      "start": 151.76,
-      "end": 157.04
+      "start": 151.68,
+      "end": 156.96
     },
     {
       "nr": 26,
@@ -320,8 +320,8 @@
       "name": "Sami",
       "phase": "Assist",
       "text": "Sport. Und Kaugummi kauen.",
-      "start": 157.44,
-      "end": 160.48
+      "start": 157.36,
+      "end": 160.4
     },
     {
       "nr": 27,
@@ -329,9 +329,9 @@
       "speaker": "PF",
       "name": "Takiyat",
       "phase": "Assist",
-      "text": "Gut, das nehmen wir mit. Dazu gibt es eine kostenlose Telefonberatung zum Rauchstopp. Dort ruft man Sie auf Wunsch auch zurück und begleitet Sie über Wochen. Und es gibt eine kostenlose Rauchfrei-App, die Ihre rauchfreien Tage zählt. Ich gebe Ihnen ein Infoblatt mit allen Nummern.",
-      "start": 160.88,
-      "end": 177.52
+      "text": "Gut, das nehmen wir mit. Dazu gibt es eine kostenlose Telefonberatung zum Rauchstopp. Dort ruft man Sie auf Wunsch auch zurück und begleitet Sie über Wochen. Und es gibt ein kostenloses Online-Ausstiegsprogramm auf rauchfrei-info.de. Ich gebe Ihnen ein Infoblatt mit allen Nummern.",
+      "start": 160.8,
+      "end": 179.2
     },
     {
       "nr": 28,
@@ -340,8 +340,8 @@
       "name": "Sami",
       "phase": "Assist",
       "text": "Das klingt machbar.",
-      "start": 177.92,
-      "end": 179.52
+      "start": 179.6,
+      "end": 181.2
     },
     {
       "nr": 29,
@@ -350,8 +350,8 @@
       "name": "Takiyat",
       "phase": "Assist",
       "text": "Möchten Sie sich ein Datum setzen?",
-      "start": 179.92,
-      "end": 181.92
+      "start": 181.6,
+      "end": 183.6
     },
     {
       "nr": 30,
@@ -360,8 +360,8 @@
       "name": "Sami",
       "phase": "Assist",
       "text": "Ich rauche ja gerade sowieso nicht. Dann ab heute.",
-      "start": 182.32,
-      "end": 185.92
+      "start": 184.0,
+      "end": 187.6
     },
     {
       "nr": 31,
@@ -370,8 +370,8 @@
       "name": "Takiyat",
       "phase": "Arrange",
       "text": "Sehr gut. Dann halten wir fest: Ich spreche heute mit der Ärztin über das Pflaster. Sie bekommen das Infoblatt. Und morgen früh frage ich nach, wie die Nacht war. Passt das für Sie?",
-      "start": 186.72,
-      "end": 197.76
+      "start": 188.4,
+      "end": 199.44
     },
     {
       "nr": 32,
@@ -380,8 +380,8 @@
       "name": "Sami",
       "phase": "Arrange",
       "text": "Ja. Danke, dass Sie mich nicht belehrt haben.",
-      "start": 198.16,
-      "end": 201.6
+      "start": 199.84,
+      "end": 203.28
     },
     {
       "nr": 33,
@@ -390,8 +390,8 @@
       "name": "Takiyat",
       "phase": "Arrange",
       "text": "Sie haben die Entscheidung selbst getroffen. Ich begleite Sie nur. Bis morgen, Sami.",
-      "start": 202.0,
-      "end": 206.96
+      "start": 203.68,
+      "end": 208.64
     }
   ]
 }
