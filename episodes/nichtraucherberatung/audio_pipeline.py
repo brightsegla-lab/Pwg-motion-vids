@@ -33,7 +33,7 @@ def load():
 
 
 def api_key():
-    key = os.environ.get("ELEVENLABS_API_KEY", "").strip()
+    key = (os.environ.get("ELEVENLABS_API_KEY") or os.environ.get("ELEVENLABS_API_KEYS") or "").strip()
     if not key:
         sys.exit("ELEVENLABS_API_KEY fehlt. Bitte als Umgebungsvariable setzen (nicht in eine Datei).")
     return key
@@ -84,6 +84,16 @@ def history(voice_id):
         after = page.get("last_history_item_id")
 
 
+def entry_lines(h):
+    """(voice_id, normalized text) of a history item; Flows items keep them in `dialogue`, not `text`."""
+    if h.get("text"):
+        return {(h.get("voice_id"), norm(h["text"]))}
+    d = h.get("dialogue") or []
+    if len(d) != 1:
+        return set()
+    return {(d[0].get("voice_id"), norm(d[0].get("text") or ""))}
+
+
 def cmd_fetch(_):
     cfg = load()
     AUDIO.mkdir(exist_ok=True)
@@ -94,7 +104,7 @@ def cmd_fetch(_):
     missing = []
     for r in cfg["repliken"]:
         vid = cfg["voices"][r["speaker"]]["voice_id"]
-        hits = [h for h in by_voice[vid] if h.get("voice_id") == vid and norm(h.get("text", "")) == norm(r["text"])]
+        hits = [h for h in by_voice[vid] if (vid, norm(r["text"])) in entry_lines(h)]
         if not hits:
             missing.append(r["nr"])
             print(f"{r['nr']:02d} fehlt")

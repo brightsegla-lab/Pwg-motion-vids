@@ -1,0 +1,397 @@
+{
+  "audio": "audio/dialog.mp3",
+  "duration": 206.96,
+  "sample_rate": 44100,
+  "gaps": {
+    "replik": 0.4,
+    "phase": 0.8
+  },
+  "phases": [
+    {
+      "phase": "Einstieg",
+      "start": 0.0,
+      "end": 25.2,
+      "repliken": [
+        1,
+        4
+      ]
+    },
+    {
+      "phase": "Ask",
+      "start": 26.0,
+      "end": 41.2,
+      "repliken": [
+        5,
+        8
+      ]
+    },
+    {
+      "phase": "Advise",
+      "start": 42.0,
+      "end": 69.76,
+      "repliken": [
+        9,
+        12
+      ]
+    },
+    {
+      "phase": "Assess",
+      "start": 70.56,
+      "end": 119.52,
+      "repliken": [
+        13,
+        20
+      ]
+    },
+    {
+      "phase": "Assist",
+      "start": 120.32,
+      "end": 185.92,
+      "repliken": [
+        21,
+        30
+      ]
+    },
+    {
+      "phase": "Arrange",
+      "start": 186.72,
+      "end": 206.96,
+      "repliken": [
+        31,
+        33
+      ]
+    }
+  ],
+  "repliken": [
+    {
+      "nr": 1,
+      "file": "audio/01.mp3",
+      "speaker": "PF",
+      "name": "Takiyat",
+      "phase": "Einstieg",
+      "text": "Guten Tag! Ich bin Takiyat, Pflegefachfrau in Ausbildung. Sie sind Sami, richtig? Wie geht es Ihnen heute mit der Atmung?",
+      "start": 0.0,
+      "end": 8.08
+    },
+    {
+      "nr": 2,
+      "file": "audio/02.mp3",
+      "speaker": "P",
+      "name": "Sami",
+      "phase": "Einstieg",
+      "text": "Besser als gestern. Aber die Treppe wäre noch nichts für mich.",
+      "start": 8.48,
+      "end": 12.72
+    },
+    {
+      "nr": 3,
+      "file": "audio/03.mp3",
+      "speaker": "PF",
+      "name": "Takiyat",
+      "phase": "Einstieg",
+      "text": "Das glaube ich Ihnen. Ich hätte ein paar Minuten Zeit. Dürfte ich mit Ihnen über ein Thema sprechen, das mit Ihrer Lunge zu tun hat?",
+      "start": 13.12,
+      "end": 20.8
+    },
+    {
+      "nr": 4,
+      "file": "audio/04.mp3",
+      "speaker": "P",
+      "name": "Sami",
+      "phase": "Einstieg",
+      "text": "Ich ahne schon, was kommt. Aber bitte.",
+      "start": 21.2,
+      "end": 25.2
+    },
+    {
+      "nr": 5,
+      "file": "audio/05.mp3",
+      "speaker": "PF",
+      "name": "Takiyat",
+      "phase": "Ask",
+      "text": "Sie haben bei der Aufnahme angegeben, dass Sie rauchen. Wie viel ist es im Moment am Tag?",
+      "start": 26.0,
+      "end": 31.2
+    },
+    {
+      "nr": 6,
+      "file": "audio/06.mp3",
+      "speaker": "P",
+      "name": "Sami",
+      "phase": "Ask",
+      "text": "So zwanzig Stück. Am Wochenende auch mal mehr.",
+      "start": 31.6,
+      "end": 35.04
+    },
+    {
+      "nr": 7,
+      "file": "audio/07.mp3",
+      "speaker": "PF",
+      "name": "Takiyat",
+      "phase": "Ask",
+      "text": "Und seit wann rauchen Sie?",
+      "start": 35.44,
+      "end": 37.2
+    },
+    {
+      "nr": 8,
+      "file": "audio/08.mp3",
+      "speaker": "P",
+      "name": "Sami",
+      "phase": "Ask",
+      "text": "Seit ich sechzehn bin. Also acht Jahre.",
+      "start": 37.6,
+      "end": 41.2
+    },
+    {
+      "nr": 9,
+      "file": "audio/09.mp3",
+      "speaker": "PF",
+      "name": "Takiyat",
+      "phase": "Advise",
+      "text": "Danke, dass Sie so offen sind. Ich möchte Ihnen ehrlich sagen, was ich denke: Mit dem Rauchen aufzuhören ist das Wichtigste, was Sie für Ihre Lunge tun können. Bei Asthma löst Rauch Anfälle aus und schwächt die Wirkung Ihrer Medikamente. Ohne Rauch werden Anfälle wie dieser seltener.",
+      "start": 42.0,
+      "end": 58.08
+    },
+    {
+      "nr": 10,
+      "file": "audio/10.mp3",
+      "speaker": "P",
+      "name": "Sami",
+      "phase": "Advise",
+      "text": "Das sagt mein Hausarzt auch jedes Mal.",
+      "start": 58.48,
+      "end": 60.96
+    },
+    {
+      "nr": 11,
+      "file": "audio/11.mp3",
+      "speaker": "PF",
+      "name": "Takiyat",
+      "phase": "Advise",
+      "text": "Und trotzdem ist es schwer, oder?",
+      "start": 61.36,
+      "end": 63.84
+    },
+    {
+      "nr": 12,
+      "file": "audio/12.mp3",
+      "speaker": "P",
+      "name": "Sami",
+      "phase": "Advise",
+      "text": "Ja. Ich hab's zweimal versucht. Einmal drei Wochen, dann kam die Prüfungsphase.",
+      "start": 64.24,
+      "end": 69.76
+    },
+    {
+      "nr": 13,
+      "file": "audio/13.mp3",
+      "speaker": "PF",
+      "name": "Takiyat",
+      "phase": "Assess",
+      "text": "Drei Wochen sind eine echte Leistung. Da wissen Sie schon, dass Sie es können. Darf ich Ihnen zwei kurze Fragen stellen? Wann rauchen Sie morgens die erste Zigarette?",
+      "start": 70.56,
+      "end": 80.16
+    },
+    {
+      "nr": 14,
+      "file": "audio/14.mp3",
+      "speaker": "P",
+      "name": "Sami",
+      "phase": "Assess",
+      "text": "Gleich nach dem Aufstehen. Noch vor dem Kaffee.",
+      "start": 80.56,
+      "end": 83.84
+    },
+    {
+      "nr": 15,
+      "file": "audio/15.mp3",
+      "speaker": "PF",
+      "name": "Takiyat",
+      "phase": "Assess",
+      "text": "Und fällt es Ihnen schwer, an Orten nicht zu rauchen, wo es verboten ist?",
+      "start": 84.24,
+      "end": 88.72
+    },
+    {
+      "nr": 16,
+      "file": "audio/16.mp3",
+      "speaker": "P",
+      "name": "Sami",
+      "phase": "Assess",
+      "text": "Hier im Krankenhaus merke ich es schon sehr.",
+      "start": 89.12,
+      "end": 91.92
+    },
+    {
+      "nr": 17,
+      "file": "audio/17.mp3",
+      "speaker": "PF",
+      "name": "Takiyat",
+      "phase": "Assess",
+      "text": "Das spricht für eine starke körperliche Abhängigkeit. Das ist keine Willensschwäche, sondern eine Abhängigkeit, die man gut behandeln kann. Auf einer Skala von null bis zehn: Wie wichtig ist Ihnen das Aufhören gerade?",
+      "start": 92.32,
+      "end": 105.52
+    },
+    {
+      "nr": 18,
+      "file": "audio/18.mp3",
+      "speaker": "P",
+      "name": "Sami",
+      "phase": "Assess",
+      "text": "Nach dieser Woche? Eine Acht. Ich hatte richtig Angst, keine Luft zu kriegen.",
+      "start": 105.92,
+      "end": 111.28
+    },
+    {
+      "nr": 19,
+      "file": "audio/19.mp3",
+      "speaker": "PF",
+      "name": "Takiyat",
+      "phase": "Assess",
+      "text": "Eine Acht. Und warum keine Fünf?",
+      "start": 111.68,
+      "end": 114.4
+    },
+    {
+      "nr": 20,
+      "file": "audio/20.mp3",
+      "speaker": "P",
+      "name": "Sami",
+      "phase": "Assess",
+      "text": "Weil ich wieder Fußball spielen will, ohne nach zehn Minuten keine Luft zu kriegen.",
+      "start": 114.8,
+      "end": 119.52
+    },
+    {
+      "nr": 21,
+      "file": "audio/21.mp3",
+      "speaker": "PF",
+      "name": "Takiyat",
+      "phase": "Assist",
+      "text": "Das ist ein starker Grund. Dann schauen wir, was Ihnen helfen kann. Wenn Sie möchten, spreche ich mit der Ärztin über eine Nikotinersatztherapie. Das heißt zum Beispiel ein Pflaster für den Grundbedarf und Kaugummis für starke Momente. Das lindert die Entzugserscheinungen.",
+      "start": 120.32,
+      "end": 136.4
+    },
+    {
+      "nr": 22,
+      "file": "audio/22.mp3",
+      "speaker": "P",
+      "name": "Sami",
+      "phase": "Assist",
+      "text": "Ist das nicht auch Nikotin?",
+      "start": 136.8,
+      "end": 138.88
+    },
+    {
+      "nr": 23,
+      "file": "audio/23.mp3",
+      "speaker": "PF",
+      "name": "Takiyat",
+      "phase": "Assist",
+      "text": "Ja, aber ohne die Schadstoffe aus dem Rauch. Und Sie reduzieren es nach und nach. Mit Beratung zusammen sind die Erfolgschancen deutlich höher als allein.",
+      "start": 139.28,
+      "end": 148.96
+    },
+    {
+      "nr": 24,
+      "file": "audio/24.mp3",
+      "speaker": "P",
+      "name": "Sami",
+      "phase": "Assist",
+      "text": "Und wenn der Stress wieder kommt?",
+      "start": 149.36,
+      "end": 151.36
+    },
+    {
+      "nr": 25,
+      "file": "audio/25.mp3",
+      "speaker": "PF",
+      "name": "Takiyat",
+      "phase": "Assist",
+      "text": "Genau daran arbeiten wir. Was hat Ihnen beim letzten Mal in den drei Wochen geholfen?",
+      "start": 151.76,
+      "end": 157.04
+    },
+    {
+      "nr": 26,
+      "file": "audio/26.mp3",
+      "speaker": "P",
+      "name": "Sami",
+      "phase": "Assist",
+      "text": "Sport. Und Kaugummi kauen.",
+      "start": 157.44,
+      "end": 160.48
+    },
+    {
+      "nr": 27,
+      "file": "audio/27.mp3",
+      "speaker": "PF",
+      "name": "Takiyat",
+      "phase": "Assist",
+      "text": "Gut, das nehmen wir mit. Dazu gibt es eine kostenlose Telefonberatung zum Rauchstopp. Dort ruft man Sie auf Wunsch auch zurück und begleitet Sie über Wochen. Und es gibt eine kostenlose Rauchfrei-App, die Ihre rauchfreien Tage zählt. Ich gebe Ihnen ein Infoblatt mit allen Nummern.",
+      "start": 160.88,
+      "end": 177.52
+    },
+    {
+      "nr": 28,
+      "file": "audio/28.mp3",
+      "speaker": "P",
+      "name": "Sami",
+      "phase": "Assist",
+      "text": "Das klingt machbar.",
+      "start": 177.92,
+      "end": 179.52
+    },
+    {
+      "nr": 29,
+      "file": "audio/29.mp3",
+      "speaker": "PF",
+      "name": "Takiyat",
+      "phase": "Assist",
+      "text": "Möchten Sie sich ein Datum setzen?",
+      "start": 179.92,
+      "end": 181.92
+    },
+    {
+      "nr": 30,
+      "file": "audio/30.mp3",
+      "speaker": "P",
+      "name": "Sami",
+      "phase": "Assist",
+      "text": "Ich rauche ja gerade sowieso nicht. Dann ab heute.",
+      "start": 182.32,
+      "end": 185.92
+    },
+    {
+      "nr": 31,
+      "file": "audio/31.mp3",
+      "speaker": "PF",
+      "name": "Takiyat",
+      "phase": "Arrange",
+      "text": "Sehr gut. Dann halten wir fest: Ich spreche heute mit der Ärztin über das Pflaster. Sie bekommen das Infoblatt. Und morgen früh frage ich nach, wie die Nacht war. Passt das für Sie?",
+      "start": 186.72,
+      "end": 197.76
+    },
+    {
+      "nr": 32,
+      "file": "audio/32.mp3",
+      "speaker": "P",
+      "name": "Sami",
+      "phase": "Arrange",
+      "text": "Ja. Danke, dass Sie mich nicht belehrt haben.",
+      "start": 198.16,
+      "end": 201.6
+    },
+    {
+      "nr": 33,
+      "file": "audio/33.mp3",
+      "speaker": "PF",
+      "name": "Takiyat",
+      "phase": "Arrange",
+      "text": "Sie haben die Entscheidung selbst getroffen. Ich begleite Sie nur. Bis morgen, Sami.",
+      "start": 202.0,
+      "end": 206.96
+    }
+  ]
+}
