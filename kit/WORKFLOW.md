@@ -55,6 +55,11 @@ python3 scripts/keymoments.py episodes/<slug> > episodes/<slug>/KEYMOMENTS.md
 
 Upload the **master** (`release/`) to YouTube, not the share copy.
 
+Vertical Shorts (9:16): pick 20–45 s segments that stand alone (cut on word boundaries from the
+transcript), describe each as stacked crops of the 16:9 frame in `episodes/<slug>/shorts.json`
+(brand, header, visual, card, orbs), then `python3 scripts/make_shorts.py episodes/<slug>` and
+copy `renders/shorts/*.mp4` to `release/shorts/`. Check one frame of each for cut-off text.
+
 ## 6 · Thumbnail
 
 ```bash
