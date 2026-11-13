@@ -3,3 +3,4 @@ out/
 .DS_Store
 *.log
 episodes/*/audio_video.wav
+.hyperframes/
