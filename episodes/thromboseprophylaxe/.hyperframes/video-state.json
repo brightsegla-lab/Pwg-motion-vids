@@ -1,0 +1,1083 @@
+{
+  "version": 1,
+  "historyId": "76e34565-7bce-4232-9f96-e85c1dc2865d",
+  "currentRevision": "3e93281d-4672-42d0-b101-6280d30d0d79",
+  "pendingChanges": false,
+  "files": {
+    "AGENTS.md": {
+      "hash": "d5783ffb4b504201d732b555d60d3a77169c2148de0edd7a8588e1e4275c3196",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/d5/d5783ffb4b504201d732b555d60d3a77169c2148de0edd7a8588e1e4275c3196"
+    },
+    "BRIEF.md": {
+      "hash": "659b2a630d3369f63ea5fab7611f67fd6f5c7c3517df8deb27185a210a9b7c31",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/65/659b2a630d3369f63ea5fab7611f67fd6f5c7c3517df8deb27185a210a9b7c31"
+    },
+    "CLAUDE.md": {
+      "hash": "d5783ffb4b504201d732b555d60d3a77169c2148de0edd7a8588e1e4275c3196",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/d5/d5783ffb4b504201d732b555d60d3a77169c2148de0edd7a8588e1e4275c3196"
+    },
+    "STORYBOARD.md": {
+      "hash": "04a9823dadab666f0c6826edb8b8338333ed07469b005022d3482829a826a220",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/04/04a9823dadab666f0c6826edb8b8338333ed07469b005022d3482829a826a220"
+    },
+    "assets/brand/logo-black.png": {
+      "hash": "75c156925af12d784cd9e3188a6b32bdf1ab472a1e1244efd9aefa245e26feea",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/75/75c156925af12d784cd9e3188a6b32bdf1ab472a1e1244efd9aefa245e26feea"
+    },
+    "assets/brand/mark-black-small.png": {
+      "hash": "226fc5d3e98aeec6b768f5a846e04bf8cefbe572e588941d89ac09d04eec692a",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/22/226fc5d3e98aeec6b768f5a846e04bf8cefbe572e588941d89ac09d04eec692a"
+    },
+    "assets/brand/mark-black.png": {
+      "hash": "226fc5d3e98aeec6b768f5a846e04bf8cefbe572e588941d89ac09d04eec692a",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/22/226fc5d3e98aeec6b768f5a846e04bf8cefbe572e588941d89ac09d04eec692a"
+    },
+    "assets/brand/mark-white.png": {
+      "hash": "bad0234012086b2524b5a7743e16b707232b039c500b83da0a392cf668d2ff21",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/ba/bad0234012086b2524b5a7743e16b707232b039c500b83da0a392cf668d2ff21"
+    },
+    "assets/css/episode.css": {
+      "hash": "798505ecb3d7f0042c4d921051d5d3b25a712a75db7dd8b02eef1cbc32ee5df7",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/79/798505ecb3d7f0042c4d921051d5d3b25a712a75db7dd8b02eef1cbc32ee5df7"
+    },
+    "assets/css/style.css": {
+      "hash": "f71842bac199383cf7529677b1664bd1c62df2de354a85c8f828137a9397b42a",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/f7/f71842bac199383cf7529677b1664bd1c62df2de354a85c8f828137a9397b42a"
+    },
+    "assets/fonts/caveat-latin-700-normal.woff2": {
+      "hash": "15f9638095ad5ec9816f93d66805ca1a87e71dc5a76b596bfce1c78d4704c405",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/15/15f9638095ad5ec9816f93d66805ca1a87e71dc5a76b596bfce1c78d4704c405"
+    },
+    "assets/fonts/kalam-latin-700-normal.woff2": {
+      "hash": "252063af6ade8b9a744cde4ddad0fc21ea53b8ba711eed121a0c2e8610ea9c93",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/25/252063af6ade8b9a744cde4ddad0fc21ea53b8ba711eed121a0c2e8610ea9c93"
+    },
+    "assets/fonts/montserrat-latin-500-normal.woff2": {
+      "hash": "2b53300fb9471520df2f4905847fb7a209879b2029ae893c05c6ee346b1320cd",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/2b/2b53300fb9471520df2f4905847fb7a209879b2029ae893c05c6ee346b1320cd"
+    },
+    "assets/fonts/montserrat-latin-600-normal.woff2": {
+      "hash": "d857325c360f7128b347ca924c1974967aaa886ba47dad22e4042d6c38b26a83",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/d8/d857325c360f7128b347ca924c1974967aaa886ba47dad22e4042d6c38b26a83"
+    },
+    "assets/fonts/montserrat-latin-700-normal.woff2": {
+      "hash": "f9d9e65b15372cebcafc3acd1e664a564c5c4b23278de4d5760de9a13c530371",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/f9/f9d9e65b15372cebcafc3acd1e664a564c5c4b23278de4d5760de9a13c530371"
+    },
+    "assets/fonts/montserrat-latin-800-normal.woff2": {
+      "hash": "ba826fb84c2e961578adf3a08b5778b87905d4443445d1d56d84f9f157d5ea4b",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/ba/ba826fb84c2e961578adf3a08b5778b87905d4443445d1d56d84f9f157d5ea4b"
+    },
+    "assets/fonts/montserrat-latin-900-normal.woff2": {
+      "hash": "5b6958520638bb8609f9eacb17c4d189563efeae96d5da49f7c2043988697205",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/5b/5b6958520638bb8609f9eacb17c4d189563efeae96d5da49f7c2043988697205"
+    },
+    "assets/js/clay3d.js": {
+      "hash": "83801518f23dd2f168323be103693be31ed440e36530f80e9007ec7c978f5377",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/83/83801518f23dd2f168323be103693be31ed440e36530f80e9007ec7c978f5377"
+    },
+    "assets/js/data.js": {
+      "hash": "c6028f478c2d3a3b334879dd09b72c88fe7cc6555ffd6e90f655314dda6f6a7c",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/c6/c6028f478c2d3a3b334879dd09b72c88fe7cc6555ffd6e90f655314dda6f6a7c"
+    },
+    "assets/js/orbs.js": {
+      "hash": "537404c8ffafca2b499a63869050edbbe250eb4b22668e67e56c0483add74941",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/53/537404c8ffafca2b499a63869050edbbe250eb4b22668e67e56c0483add74941"
+    },
+    "assets/js/pwg-timeline.js": {
+      "hash": "b90cebe30367cc7e499407da47dfd0e9585d3a6362e3d20288299969ba8ab27d",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/b9/b90cebe30367cc7e499407da47dfd0e9585d3a6362e3d20288299969ba8ab27d"
+    },
+    "assets/js/shots.js": {
+      "hash": "141f8291eac9d4ca6e130dd26eabd2e24929a908fca2cf454b51e1da949b9756",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/14/141f8291eac9d4ca6e130dd26eabd2e24929a908fca2cf454b51e1da949b9756"
+    },
+    "assets/js/timeline.js": {
+      "hash": "5155034e81aa6b26b65996566973b06aac119e90c9fea7f07eaed84c7662933f",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/51/5155034e81aa6b26b65996566973b06aac119e90c9fea7f07eaed84c7662933f"
+    },
+    "assets/js/world3d.js": {
+      "hash": "9f4d99e82c9cedbe21c953b185f33ff8ae74853194d6356a6c5a182a9a367cdc",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/9f/9f4d99e82c9cedbe21c953b185f33ff8ae74853194d6356a6c5a182a9a367cdc"
+    },
+    "assets/transcript/thromboseprophylaxe.json": {
+      "hash": "94d6ad7064015bae9f746c1d3a2aeb5665c6b76ea66988be3e0bfc3b6312b6c2",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/94/94d6ad7064015bae9f746c1d3a2aeb5665c6b76ea66988be3e0bfc3b6312b6c2"
+    },
+    "assets/transcript/thromboseprophylaxe.script.txt": {
+      "hash": "3a5aef7982460924c457099f98d10ae602ef7fd7117204970aff8926c4889151",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/3a/3a5aef7982460924c457099f98d10ae602ef7fd7117204970aff8926c4889151"
+    },
+    "assets/transcript/thromboseprophylaxe.srt": {
+      "hash": "87b2952b40d28de77cb41d504a9251c32acb96c8da6b21a07046e209271daf28",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/87/87b2952b40d28de77cb41d504a9251c32acb96c8da6b21a07046e209271daf28"
+    },
+    "assets/vendor/gsap.min.js": {
+      "hash": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/c1/c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+    },
+    "assets/vendor/three.LICENSE": {
+      "hash": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/bf/bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    "assets/vendor/three.module.js": {
+      "hash": "1bb0b770bac5da2b59b21aa5fff4c547eeb864d4e408e4c36fbc6ced1dce0e9e",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/1b/1bb0b770bac5da2b59b21aa5fff4c547eeb864d4e408e4c36fbc6ced1dce0e9e"
+    },
+    "audio_gen/blocks_stt.json": {
+      "hash": "1363e4db0789e70a453ae64189a3bcf5436573e7f5f47afdd9606c51e766f1ac",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/13/1363e4db0789e70a453ae64189a3bcf5436573e7f5f47afdd9606c51e766f1ac"
+    },
+    "audio_gen/cuts.json": {
+      "hash": "c1f52ca1dada18d728940c56421f29aa7b33765f59d0675f9d556d92d5a15299",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/c1/c1f52ca1dada18d728940c56421f29aa7b33765f59d0675f9d556d92d5a15299"
+    },
+    "audio_gen/turns_000-005.json": {
+      "hash": "69058686583624c20c100725071e1be8bd64bbc0f4764478babd804da392c363",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/69/69058686583624c20c100725071e1be8bd64bbc0f4764478babd804da392c363"
+    },
+    "audio_gen/turns_000-005.mp3": {
+      "hash": "36a6ca706832d2633a1ed6999ff6328a14caa8f20856b9c3c9d6df7d9a404117",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/36/36a6ca706832d2633a1ed6999ff6328a14caa8f20856b9c3c9d6df7d9a404117"
+    },
+    "audio_gen/turns_006-022.json": {
+      "hash": "c27d02f4b426322789b090fd88196cfea0204d5b8ec6701d602f28d673a6ab91",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/c2/c27d02f4b426322789b090fd88196cfea0204d5b8ec6701d602f28d673a6ab91"
+    },
+    "audio_gen/turns_023-032.json": {
+      "hash": "e2d130cb3b11b38c76c56e1fb130282e4570651caff7b7f0df0e670453edcfad",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/e2/e2d130cb3b11b38c76c56e1fb130282e4570651caff7b7f0df0e670453edcfad"
+    },
+    "audio_gen/turns_023-032.mp3": {
+      "hash": "838641d42dee235bd5ffe1b0da986c0a4a76203c82ef26d3162a7b8bc25ac41a",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/83/838641d42dee235bd5ffe1b0da986c0a4a76203c82ef26d3162a7b8bc25ac41a"
+    },
+    "audio_gen/turns_033-042.json": {
+      "hash": "1589b64d0899875369e076000ba5dffadde6207bbc396e7a567c65e0a9af1adf",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/15/1589b64d0899875369e076000ba5dffadde6207bbc396e7a567c65e0a9af1adf"
+    },
+    "audio_gen/turns_033-042.mp3": {
+      "hash": "2b1c7a572c923273106b6d672562a7a47595a6c0095ba6e2470a4de89a5d6d06",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/2b/2b1c7a572c923273106b6d672562a7a47595a6c0095ba6e2470a4de89a5d6d06"
+    },
+    "audio_gen/turns_043-054.json": {
+      "hash": "fa5de5d2d249d3531a66731d6e2db2bc156294ec02981e35e21570c577c67117",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/fa/fa5de5d2d249d3531a66731d6e2db2bc156294ec02981e35e21570c577c67117"
+    },
+    "audio_gen/turns_055-066.json": {
+      "hash": "dad3dd6a52d57870c75bbcaee724da4a2d021b6df0417306c84e61641fd1199d",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/da/dad3dd6a52d57870c75bbcaee724da4a2d021b6df0417306c84e61641fd1199d"
+    },
+    "audio_gen/turns_055-066.mp3": {
+      "hash": "d6241e7b20903607ce895edaa71b9951f0744409abc9f75bbaa56c3616212f1e",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/d6/d6241e7b20903607ce895edaa71b9951f0744409abc9f75bbaa56c3616212f1e"
+    },
+    "audio_gen/turns_067-074.json": {
+      "hash": "a03d81bd2bd4eadb49d8a2234bdd4038fdd7e238a1b2ea0642ea5eddf12733f7",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/a0/a03d81bd2bd4eadb49d8a2234bdd4038fdd7e238a1b2ea0642ea5eddf12733f7"
+    },
+    "audio_gen/turns_067-074.mp3": {
+      "hash": "3bb0e31330da5ee725e862002f2e0def90075b629187d2326ffb917c88b8417a",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/3b/3bb0e31330da5ee725e862002f2e0def90075b629187d2326ffb917c88b8417a"
+    },
+    "audio_gen/turns_075-082.json": {
+      "hash": "8ae47b9fd275f753e875b3ebf8bea68e7c17638677102ab397c692e72c95c9f7",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/8a/8ae47b9fd275f753e875b3ebf8bea68e7c17638677102ab397c692e72c95c9f7"
+    },
+    "audio_gen/turns_075-082.mp3": {
+      "hash": "341542be6f06ee5bfb3e772cc5c58bcf94930c1b579467f2ef36ff42db2b88e1",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/34/341542be6f06ee5bfb3e772cc5c58bcf94930c1b579467f2ef36ff42db2b88e1"
+    },
+    "audio_gen/turns_083-092.json": {
+      "hash": "008475dd85272b8f4b5692771419bf47f1bddee28919a37a242acb2ef50b7a46",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/00/008475dd85272b8f4b5692771419bf47f1bddee28919a37a242acb2ef50b7a46"
+    },
+    "audio_gen/turns_083-092.mp3": {
+      "hash": "3d2f046b3dcd550ab9063baf350a882290489a2ac20775e5204c768196709677",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/3d/3d2f046b3dcd550ab9063baf350a882290489a2ac20775e5204c768196709677"
+    },
+    "audio_gen/turns_093-097.json": {
+      "hash": "3fcbf0e69ea58c5cf1be3cb28b87a88401cc19733ddb919442bd9bc429456cbd",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/3f/3fcbf0e69ea58c5cf1be3cb28b87a88401cc19733ddb919442bd9bc429456cbd"
+    },
+    "audio_gen/turns_093-097.mp3": {
+      "hash": "9e3a9e2f173e25c6172089e2dcb20d103ff5cdcc2af342b950f61ca36d4a59b1",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/9e/9e3a9e2f173e25c6172089e2dcb20d103ff5cdcc2af342b950f61ca36d4a59b1"
+    },
+    "audio_gen/turns_098-107.json": {
+      "hash": "c7497b99b0a309913f44afd6249c61e979078e233b521961beeb05ff4e0d2a3c",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/c7/c7497b99b0a309913f44afd6249c61e979078e233b521961beeb05ff4e0d2a3c"
+    },
+    "audio_gen/turns_098-107.mp3": {
+      "hash": "b19327150270aa909fc15543336e0c6a95a1f2330c6c85307282c3aa230fc3ed",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/b1/b19327150270aa909fc15543336e0c6a95a1f2330c6c85307282c3aa230fc3ed"
+    },
+    "cues.spec.json": {
+      "hash": "74a25172287ccfdb18eeceb4211483365a5ed2bdefd54de2c498ec20a384a43b",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/74/74a25172287ccfdb18eeceb4211483365a5ed2bdefd54de2c498ec20a384a43b"
+    },
+    "dialogue.json": {
+      "hash": "bd388e2bde7896d12683dafd8e20404b409b13d4d78315bd80048b304a6132a2",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/bd/bd388e2bde7896d12683dafd8e20404b409b13d4d78315bd80048b304a6132a2"
+    },
+    "hyperframes.json": {
+      "hash": "ad5dadeef78a520800a9e5cdd27a92ff5ac37f11b6a07f611b6b52b9f8c79a17",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/ad/ad5dadeef78a520800a9e5cdd27a92ff5ac37f11b6a07f611b6b52b9f8c79a17"
+    },
+    "index.html": {
+      "hash": "3e6f18c58fe74121d5ee0121a359eb527128a4ff82a49be061a4984d949824cc",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/3e/3e6f18c58fe74121d5ee0121a359eb527128a4ff82a49be061a4984d949824cc"
+    },
+    "keymoments.json": {
+      "hash": "ca99f8031b28594d8419de41ec1887cd301d27a4500090ad6759e945fa780726",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/ca/ca99f8031b28594d8419de41ec1887cd301d27a4500090ad6759e945fa780726"
+    },
+    "loudness.json": {
+      "hash": "5cfdc535c1232dfce954bd7d6fb8c75c917623e3265ba30df2857a3e59c8c9dc",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/5c/5cfdc535c1232dfce954bd7d6fb8c75c917623e3265ba30df2857a3e59c8c9dc"
+    },
+    "meta.json": {
+      "hash": "eccca45454406bbb20d852515e3ee90f0247aa1b4ff93a8f4c69dcffc2d7d8df",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/ec/eccca45454406bbb20d852515e3ee90f0247aa1b4ff93a8f4c69dcffc2d7d8df"
+    },
+    "package.json": {
+      "hash": "cb6636c3d6e8fbcd52860a17b088d03ebb5d8c990834f53b92f6f8b302f171b3",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/cb/cb6636c3d6e8fbcd52860a17b088d03ebb5d8c990834f53b92f6f8b302f171b3"
+    },
+    "script.pdf": {
+      "hash": "9b899a3e4af6b1b7f7ca2ed599957711cac4bfd146c3cf2aa6a15f2f6ee2deb3",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/9b/9b899a3e4af6b1b7f7ca2ed599957711cac4bfd146c3cf2aa6a15f2f6ee2deb3"
+    },
+    "script.txt": {
+      "hash": "3a5aef7982460924c457099f98d10ae602ef7fd7117204970aff8926c4889151",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/3a/3a5aef7982460924c457099f98d10ae602ef7fd7117204970aff8926c4889151"
+    },
+    "sous-titres.srt": {
+      "hash": "87b2952b40d28de77cb41d504a9251c32acb96c8da6b21a07046e209271daf28",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/87/87b2952b40d28de77cb41d504a9251c32acb96c8da6b21a07046e209271daf28"
+    },
+    "speakers.json": {
+      "hash": "1e03838384a6224ecb980d16025f6442a69e129693f47d73e87e5de25c7d84b6",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/1e/1e03838384a6224ecb980d16025f6442a69e129693f47d73e87e5de25c7d84b6"
+    },
+    "thumbnail/thumb.config.js": {
+      "hash": "c78bc957cd17bb2bf5728d2059a08687f0dc38bf55cd8ee1c5417f079d512709",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/c7/c78bc957cd17bb2bf5728d2059a08687f0dc38bf55cd8ee1c5417f079d512709"
+    },
+    "thumbnail/thumbnail.html": {
+      "hash": "52f2c3d340f698cbd6648af7859f93643a7aba7c05db53d41cf5c705d3f997c5",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/52/52f2c3d340f698cbd6648af7859f93643a7aba7c05db53d41cf5c705d3f997c5"
+    },
+    "timing.json": {
+      "hash": "0eeb33d70ede4ce89b9c53e8f0e3fa36c2c1776095f7bef4d0c3bff3f40bebce",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/0e/0eeb33d70ede4ce89b9c53e8f0e3fa36c2c1776095f7bef4d0c3bff3f40bebce"
+    },
+    "words.json": {
+      "hash": "5d90351de5b33dc450a2c596a0c96030c2024431b4d3064506f1741ad9e66790",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/5d/5d90351de5b33dc450a2c596a0c96030c2024431b4d3064506f1741ad9e66790"
+    },
+    "assets/audio/thromboseprophylaxe.mp3": {
+      "hash": "e9fdcb816d73901b9ffe7bf9f0aa30a1d0d7cd5a266212238479b18d4f3f0cca",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/e9/e9fdcb816d73901b9ffe7bf9f0aa30a1d0d7cd5a266212238479b18d4f3f0cca"
+    },
+    "assets/vendor/three.core.js": {
+      "hash": "03fb6e9fa08628385a9096948593251ae473239c7039496d7c280cba73d84631",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/03/03fb6e9fa08628385a9096948593251ae473239c7039496d7c280cba73d84631"
+    },
+    "audio_gen/turns_006-022.mp3": {
+      "hash": "e76ecfe41641ab447323b60d5ab4563e04dddd56ad394fb3c4c85b73dbb51065",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/e7/e76ecfe41641ab447323b60d5ab4563e04dddd56ad394fb3c4c85b73dbb51065"
+    },
+    "audio_gen/turns_043-054.mp3": {
+      "hash": "83af174de06276316f1a5cc34c31203529e316992d7f35e723f296f0358ca794",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/83/83af174de06276316f1a5cc34c31203529e316992d7f35e723f296f0358ca794"
+    },
+    "podcast_spotify.mp3": {
+      "hash": "e9fdcb816d73901b9ffe7bf9f0aa30a1d0d7cd5a266212238479b18d4f3f0cca",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/e9/e9fdcb816d73901b9ffe7bf9f0aa30a1d0d7cd5a266212238479b18d4f3f0cca"
+    },
+    "test_mix.mp3": {
+      "hash": "8be27029b5a360a0c9718fc206637bac96e3ecbf4b5c144809bac5ed12a66438",
+      "content": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/8b/8be27029b5a360a0c9718fc206637bac96e3ecbf4b5c144809bac5ed12a66438"
+    }
+  },
+  "revisions": {
+    "0c81cabb-c8e5-4ef8-b8e9-c817555010f2": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794563951830,
+      "endedAt": 1794563951848,
+      "files": {
+        "assets/css/episode.css": {
+          "before": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/3f/3f6a7ece77610f0555a33ad7127cc6abb714f65f502eea7e0695d342ce343dbe",
+          "after": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/79/798505ecb3d7f0042c4d921051d5d3b25a712a75db7dd8b02eef1cbc32ee5df7"
+        },
+        "assets/js/world3d.js": {
+          "before": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/b1/b1895688118c9b04bb3902d09accdcd8ad7c7793ba5ae5839c1fd9c81fe4bae8",
+          "after": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/9f/9f4d99e82c9cedbe21c953b185f33ff8ae74853194d6356a6c5a182a9a367cdc"
+        },
+        "index.html": {
+          "before": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/1b/1b6ab926d408d0016d1500034cd85b62b3279cd3046e9752b2aa8a0ab97be143",
+          "after": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/3e/3e6f18c58fe74121d5ee0121a359eb527128a4ff82a49be061a4984d949824cc"
+        }
+      }
+    },
+    "3e93281d-4672-42d0-b101-6280d30d0d79": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794563987994,
+      "endedAt": 1794563987995,
+      "files": {
+        "assets/js/clay3d.js": {
+          "before": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/20/208fd3b0e0844748513691285b1fb97b524ce1d902ba22862e029f45d1e21347",
+          "after": "/root/.cache/hyperframes/history/76e34565-7bce-4232-9f96-e85c1dc2865d/blobs/83/83801518f23dd2f168323be103693be31ed440e36530f80e9007ec7c978f5377"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": {
+      "revision": "3e93281d-4672-42d0-b101-6280d30d0d79",
+      "id": "040f6e7a-f496-4f58-9365-f5aea43f9e2f-6"
+    },
+    "revisions": {
+      "0c81cabb-c8e5-4ef8-b8e9-c817555010f2": [
+        {
+          "scope": "full",
+          "id": "d73e5cb1-7baa-4b40-b9f5-f4cfe86906f5-0",
+          "image": "/home/user/Pwg-motion-vids/episodes/thromboseprophylaxe/.hyperframes/artifacts/snapshots/06c7a409-20b3-4649-8326-a05e5624412f/frame-00-at-86s.png",
+          "time": 86,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794563959905,
+          "contentHash": "ebb756918d775508cb61cc7bdcefeb39aeb74ff74df152923e2ee080cfe0ff51",
+          "revision": "0c81cabb-c8e5-4ef8-b8e9-c817555010f2",
+          "inputFingerprint": "e86754b9769c371dca00e5de20ed15644c7301a7ff7c8905bf4d6794ff3d5522",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "d73e5cb1-7baa-4b40-b9f5-f4cfe86906f5-1",
+          "image": "/home/user/Pwg-motion-vids/episodes/thromboseprophylaxe/.hyperframes/artifacts/snapshots/06c7a409-20b3-4649-8326-a05e5624412f/frame-01-at-176s.png",
+          "time": 176,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794563959905,
+          "contentHash": "79fc48ad270f4175c35ffca01235ea87931a395372198ac1a0a19656a950d8ec",
+          "revision": "0c81cabb-c8e5-4ef8-b8e9-c817555010f2",
+          "inputFingerprint": "e86754b9769c371dca00e5de20ed15644c7301a7ff7c8905bf4d6794ff3d5522",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "d73e5cb1-7baa-4b40-b9f5-f4cfe86906f5-2",
+          "image": "/home/user/Pwg-motion-vids/episodes/thromboseprophylaxe/.hyperframes/artifacts/snapshots/06c7a409-20b3-4649-8326-a05e5624412f/frame-02-at-193s.png",
+          "time": 193,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794563959905,
+          "contentHash": "45f8fbfab6099cbb28a07eaaf6db4320bc401f49b8a834b3abd74a74a0174c5a",
+          "revision": "0c81cabb-c8e5-4ef8-b8e9-c817555010f2",
+          "inputFingerprint": "e86754b9769c371dca00e5de20ed15644c7301a7ff7c8905bf4d6794ff3d5522",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "d73e5cb1-7baa-4b40-b9f5-f4cfe86906f5-3",
+          "image": "/home/user/Pwg-motion-vids/episodes/thromboseprophylaxe/.hyperframes/artifacts/snapshots/06c7a409-20b3-4649-8326-a05e5624412f/frame-03-at-272s.png",
+          "time": 272,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794563959905,
+          "contentHash": "9c7fd70b1748636d492301d13847bdf75ef9d50f1b84a188c9decae19a2d5463",
+          "revision": "0c81cabb-c8e5-4ef8-b8e9-c817555010f2",
+          "inputFingerprint": "e86754b9769c371dca00e5de20ed15644c7301a7ff7c8905bf4d6794ff3d5522",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "d73e5cb1-7baa-4b40-b9f5-f4cfe86906f5-4",
+          "image": "/home/user/Pwg-motion-vids/episodes/thromboseprophylaxe/.hyperframes/artifacts/snapshots/06c7a409-20b3-4649-8326-a05e5624412f/frame-04-at-313s.png",
+          "time": 313,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794563959905,
+          "contentHash": "0c6835ebbb9529ee2a1a722b3f3aa196e52c28c1bc6a0130c210243eb115b0e5",
+          "revision": "0c81cabb-c8e5-4ef8-b8e9-c817555010f2",
+          "inputFingerprint": "e86754b9769c371dca00e5de20ed15644c7301a7ff7c8905bf4d6794ff3d5522",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "d73e5cb1-7baa-4b40-b9f5-f4cfe86906f5-5",
+          "image": "/home/user/Pwg-motion-vids/episodes/thromboseprophylaxe/.hyperframes/artifacts/snapshots/06c7a409-20b3-4649-8326-a05e5624412f/frame-05-at-381s.png",
+          "time": 381,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794563959905,
+          "contentHash": "3358123784a5af837fddcfa92bb518f4c9258af4974494fedc1e9eda4fca70e3",
+          "revision": "0c81cabb-c8e5-4ef8-b8e9-c817555010f2",
+          "inputFingerprint": "e86754b9769c371dca00e5de20ed15644c7301a7ff7c8905bf4d6794ff3d5522",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "d73e5cb1-7baa-4b40-b9f5-f4cfe86906f5-6",
+          "image": "/home/user/Pwg-motion-vids/episodes/thromboseprophylaxe/.hyperframes/artifacts/snapshots/06c7a409-20b3-4649-8326-a05e5624412f/frame-06-at-416s.png",
+          "time": 416,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794563959905,
+          "contentHash": "a3f64eeb509d3ee7c971347a86887b209dcbfb8422c521ca4a969c5485f973de",
+          "revision": "0c81cabb-c8e5-4ef8-b8e9-c817555010f2",
+          "inputFingerprint": "e86754b9769c371dca00e5de20ed15644c7301a7ff7c8905bf4d6794ff3d5522",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "d73e5cb1-7baa-4b40-b9f5-f4cfe86906f5-7",
+          "image": "/home/user/Pwg-motion-vids/episodes/thromboseprophylaxe/.hyperframes/artifacts/snapshots/06c7a409-20b3-4649-8326-a05e5624412f/frame-07-at-448s.png",
+          "time": 448,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794563959905,
+          "contentHash": "265b4866c0e6b37c2a2d1f82148d29f2ebab8639f7efda983a09f6991c7647c5",
+          "revision": "0c81cabb-c8e5-4ef8-b8e9-c817555010f2",
+          "inputFingerprint": "e86754b9769c371dca00e5de20ed15644c7301a7ff7c8905bf4d6794ff3d5522",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ],
+      "3e93281d-4672-42d0-b101-6280d30d0d79": [
+        {
+          "scope": "full",
+          "id": "040f6e7a-f496-4f58-9365-f5aea43f9e2f-0",
+          "image": "/home/user/Pwg-motion-vids/episodes/thromboseprophylaxe/.hyperframes/artifacts/snapshots/ddafea4c-dab2-49a7-bf53-fc52a169721e/frame-00-at-112s.png",
+          "time": 112,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794563995729,
+          "contentHash": "20e066c19f24646dc55ce267b5ed89d1779d105a96c4eb611b0cfd5d94428f5d",
+          "revision": "3e93281d-4672-42d0-b101-6280d30d0d79",
+          "inputFingerprint": "3793a3e1c715554abf294a0035aaeeb34465b3fb9d1684b5b2eb6e642ffc3b4f",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "040f6e7a-f496-4f58-9365-f5aea43f9e2f-1",
+          "image": "/home/user/Pwg-motion-vids/episodes/thromboseprophylaxe/.hyperframes/artifacts/snapshots/ddafea4c-dab2-49a7-bf53-fc52a169721e/frame-01-at-176s.png",
+          "time": 176,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794563995729,
+          "contentHash": "d1ff108fb607e0475c46e79a6673c5ad7506efe3b10a98a1ccca0082c6ab71d5",
+          "revision": "3e93281d-4672-42d0-b101-6280d30d0d79",
+          "inputFingerprint": "3793a3e1c715554abf294a0035aaeeb34465b3fb9d1684b5b2eb6e642ffc3b4f",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "040f6e7a-f496-4f58-9365-f5aea43f9e2f-2",
+          "image": "/home/user/Pwg-motion-vids/episodes/thromboseprophylaxe/.hyperframes/artifacts/snapshots/ddafea4c-dab2-49a7-bf53-fc52a169721e/frame-02-at-193s.png",
+          "time": 193,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794563995729,
+          "contentHash": "e4ca3a64653dc6d463312b5087b98591937135bc2b776edbc28fa4e44212390d",
+          "revision": "3e93281d-4672-42d0-b101-6280d30d0d79",
+          "inputFingerprint": "3793a3e1c715554abf294a0035aaeeb34465b3fb9d1684b5b2eb6e642ffc3b4f",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "040f6e7a-f496-4f58-9365-f5aea43f9e2f-3",
+          "image": "/home/user/Pwg-motion-vids/episodes/thromboseprophylaxe/.hyperframes/artifacts/snapshots/ddafea4c-dab2-49a7-bf53-fc52a169721e/frame-03-at-268s.png",
+          "time": 268,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794563995729,
+          "contentHash": "2e1b15046c76fe08a598a0d0888b94739632a73feff70f497e6e9b032b038c26",
+          "revision": "3e93281d-4672-42d0-b101-6280d30d0d79",
+          "inputFingerprint": "3793a3e1c715554abf294a0035aaeeb34465b3fb9d1684b5b2eb6e642ffc3b4f",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "040f6e7a-f496-4f58-9365-f5aea43f9e2f-4",
+          "image": "/home/user/Pwg-motion-vids/episodes/thromboseprophylaxe/.hyperframes/artifacts/snapshots/ddafea4c-dab2-49a7-bf53-fc52a169721e/frame-04-at-310s.png",
+          "time": 310,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794563995729,
+          "contentHash": "ac0e1e0a301be3e6026e12cc8c462d43ccfd354c3ad54fa489329560b31c2924",
+          "revision": "3e93281d-4672-42d0-b101-6280d30d0d79",
+          "inputFingerprint": "3793a3e1c715554abf294a0035aaeeb34465b3fb9d1684b5b2eb6e642ffc3b4f",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "040f6e7a-f496-4f58-9365-f5aea43f9e2f-5",
+          "image": "/home/user/Pwg-motion-vids/episodes/thromboseprophylaxe/.hyperframes/artifacts/snapshots/ddafea4c-dab2-49a7-bf53-fc52a169721e/frame-05-at-381s.png",
+          "time": 381,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794563995730,
+          "contentHash": "25b86c077077a1a08b2b2e52a26313c1f9ae741195c8476be0ed413909c5e68b",
+          "revision": "3e93281d-4672-42d0-b101-6280d30d0d79",
+          "inputFingerprint": "3793a3e1c715554abf294a0035aaeeb34465b3fb9d1684b5b2eb6e642ffc3b4f",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "040f6e7a-f496-4f58-9365-f5aea43f9e2f-6",
+          "image": "/home/user/Pwg-motion-vids/episodes/thromboseprophylaxe/.hyperframes/artifacts/snapshots/ddafea4c-dab2-49a7-bf53-fc52a169721e/frame-06-at-416s.png",
+          "time": 416,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794563995730,
+          "contentHash": "f6150e4b0b4f264f1e1e65117a3d0f02160f349759534f724a78be70977c2242",
+          "revision": "3e93281d-4672-42d0-b101-6280d30d0d79",
+          "inputFingerprint": "3793a3e1c715554abf294a0035aaeeb34465b3fb9d1684b5b2eb6e642ffc3b4f",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ]
+    },
+    "unversioned": [
+      {
+        "scope": "full",
+        "id": "331c077d-14d7-4f78-b9d6-31099c3003f6-0",
+        "image": "/home/user/Pwg-motion-vids/episodes/thromboseprophylaxe/.hyperframes/artifacts/snapshots/df2f11ba-f211-4a5f-b696-0c16f14063e6/frame-00-at-8s.png",
+        "time": 8,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794563874110,
+        "contentHash": "8bcaa1abf685432b459a4c6186aa6d938b67a2fefe25d4ae1dd5e31c573baf9e",
+        "revision": null,
+        "inputFingerprint": "98f38156da186e43dfa3a92e1e22907b2ea950d38374b9de757a2de18612151e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "331c077d-14d7-4f78-b9d6-31099c3003f6-1",
+        "image": "/home/user/Pwg-motion-vids/episodes/thromboseprophylaxe/.hyperframes/artifacts/snapshots/df2f11ba-f211-4a5f-b696-0c16f14063e6/frame-01-at-26s.png",
+        "time": 26,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794563874111,
+        "contentHash": "9acbf61cad570faa074536766139e1d2c87175f2ab6cc7347edf6244306233bb",
+        "revision": null,
+        "inputFingerprint": "98f38156da186e43dfa3a92e1e22907b2ea950d38374b9de757a2de18612151e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "331c077d-14d7-4f78-b9d6-31099c3003f6-2",
+        "image": "/home/user/Pwg-motion-vids/episodes/thromboseprophylaxe/.hyperframes/artifacts/snapshots/df2f11ba-f211-4a5f-b696-0c16f14063e6/frame-02-at-50s.png",
+        "time": 50,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794563874111,
+        "contentHash": "e3b8a7e0cf1f5cca09790f1372a532c32a961c0c1a0bd33189da2a04e02bf8f5",
+        "revision": null,
+        "inputFingerprint": "98f38156da186e43dfa3a92e1e22907b2ea950d38374b9de757a2de18612151e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "331c077d-14d7-4f78-b9d6-31099c3003f6-3",
+        "image": "/home/user/Pwg-motion-vids/episodes/thromboseprophylaxe/.hyperframes/artifacts/snapshots/df2f11ba-f211-4a5f-b696-0c16f14063e6/frame-03-at-64s.png",
+        "time": 64,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794563874111,
+        "contentHash": "0094425a96877c71a4d62b698e075f25a05dd1d01fede5a8ba03bbf75af4a9bd",
+        "revision": null,
+        "inputFingerprint": "98f38156da186e43dfa3a92e1e22907b2ea950d38374b9de757a2de18612151e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "331c077d-14d7-4f78-b9d6-31099c3003f6-4",
+        "image": "/home/user/Pwg-motion-vids/episodes/thromboseprophylaxe/.hyperframes/artifacts/snapshots/df2f11ba-f211-4a5f-b696-0c16f14063e6/frame-04-at-70s.png",
+        "time": 70,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794563874111,
+        "contentHash": "dee3169a0d9f9bfc01cf22cd918b1b94402089b21da86d7a00779e58c70fda14",
+        "revision": null,
+        "inputFingerprint": "98f38156da186e43dfa3a92e1e22907b2ea950d38374b9de757a2de18612151e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "331c077d-14d7-4f78-b9d6-31099c3003f6-5",
+        "image": "/home/user/Pwg-motion-vids/episodes/thromboseprophylaxe/.hyperframes/artifacts/snapshots/df2f11ba-f211-4a5f-b696-0c16f14063e6/frame-05-at-86s.png",
+        "time": 86,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794563874111,
+        "contentHash": "4d9c17742692afecf3e186439d3b24d5282329a6402e124a3e40b1fbfac80ac8",
+        "revision": null,
+        "inputFingerprint": "98f38156da186e43dfa3a92e1e22907b2ea950d38374b9de757a2de18612151e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "331c077d-14d7-4f78-b9d6-31099c3003f6-6",
+        "image": "/home/user/Pwg-motion-vids/episodes/thromboseprophylaxe/.hyperframes/artifacts/snapshots/df2f11ba-f211-4a5f-b696-0c16f14063e6/frame-06-at-112s.png",
+        "time": 112,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794563874111,
+        "contentHash": "fe5eaa79fee27438a2f0815ff4989ea9b29ccbd109437046da3362b1194b462e",
+        "revision": null,
+        "inputFingerprint": "98f38156da186e43dfa3a92e1e22907b2ea950d38374b9de757a2de18612151e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "331c077d-14d7-4f78-b9d6-31099c3003f6-7",
+        "image": "/home/user/Pwg-motion-vids/episodes/thromboseprophylaxe/.hyperframes/artifacts/snapshots/df2f11ba-f211-4a5f-b696-0c16f14063e6/frame-07-at-140s.png",
+        "time": 140,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794563874112,
+        "contentHash": "b795825da0d76489c860ee01292428fb2a6f3d886fcb5ba7e3819bc133cad0bb",
+        "revision": null,
+        "inputFingerprint": "98f38156da186e43dfa3a92e1e22907b2ea950d38374b9de757a2de18612151e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "331c077d-14d7-4f78-b9d6-31099c3003f6-8",
+        "image": "/home/user/Pwg-motion-vids/episodes/thromboseprophylaxe/.hyperframes/artifacts/snapshots/df2f11ba-f211-4a5f-b696-0c16f14063e6/frame-08-at-176s.png",
+        "time": 176,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794563874112,
+        "contentHash": "e0c6bd6d22000db2e46339d10c7aa8a1768e4ccf63452d073dd2205ade8500b9",
+        "revision": null,
+        "inputFingerprint": "98f38156da186e43dfa3a92e1e22907b2ea950d38374b9de757a2de18612151e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "331c077d-14d7-4f78-b9d6-31099c3003f6-9",
+        "image": "/home/user/Pwg-motion-vids/episodes/thromboseprophylaxe/.hyperframes/artifacts/snapshots/df2f11ba-f211-4a5f-b696-0c16f14063e6/frame-09-at-193s.png",
+        "time": 193,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794563874112,
+        "contentHash": "3d8352c6bd633d7bf09aced048c50f591bb31d96c00823b82737c955a7afac7e",
+        "revision": null,
+        "inputFingerprint": "98f38156da186e43dfa3a92e1e22907b2ea950d38374b9de757a2de18612151e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "331c077d-14d7-4f78-b9d6-31099c3003f6-10",
+        "image": "/home/user/Pwg-motion-vids/episodes/thromboseprophylaxe/.hyperframes/artifacts/snapshots/df2f11ba-f211-4a5f-b696-0c16f14063e6/frame-10-at-232s.png",
+        "time": 232,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794563874112,
+        "contentHash": "9adf0bf9c6ba5811d527022a247df1793baf6880fce5d745e523e7b25bb8f684",
+        "revision": null,
+        "inputFingerprint": "98f38156da186e43dfa3a92e1e22907b2ea950d38374b9de757a2de18612151e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "331c077d-14d7-4f78-b9d6-31099c3003f6-11",
+        "image": "/home/user/Pwg-motion-vids/episodes/thromboseprophylaxe/.hyperframes/artifacts/snapshots/df2f11ba-f211-4a5f-b696-0c16f14063e6/frame-11-at-262s.png",
+        "time": 262,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794563874112,
+        "contentHash": "c5b503ae0bdff40bb3234216faf8b4f6f82a5ea9bc472ed024967e8a33e371df",
+        "revision": null,
+        "inputFingerprint": "98f38156da186e43dfa3a92e1e22907b2ea950d38374b9de757a2de18612151e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "331c077d-14d7-4f78-b9d6-31099c3003f6-12",
+        "image": "/home/user/Pwg-motion-vids/episodes/thromboseprophylaxe/.hyperframes/artifacts/snapshots/df2f11ba-f211-4a5f-b696-0c16f14063e6/frame-12-at-299s.png",
+        "time": 299,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794563874112,
+        "contentHash": "dd8bfcf67a695310d8041c740d1b09ab7416a53b64b2c482fb9929b87499db9b",
+        "revision": null,
+        "inputFingerprint": "98f38156da186e43dfa3a92e1e22907b2ea950d38374b9de757a2de18612151e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "331c077d-14d7-4f78-b9d6-31099c3003f6-13",
+        "image": "/home/user/Pwg-motion-vids/episodes/thromboseprophylaxe/.hyperframes/artifacts/snapshots/df2f11ba-f211-4a5f-b696-0c16f14063e6/frame-13-at-313s.png",
+        "time": 313,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794563874112,
+        "contentHash": "4afd62c2d3c418067ec09cd5db4317969d671114ec386d96f3dc372ef8c4ff46",
+        "revision": null,
+        "inputFingerprint": "98f38156da186e43dfa3a92e1e22907b2ea950d38374b9de757a2de18612151e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "331c077d-14d7-4f78-b9d6-31099c3003f6-14",
+        "image": "/home/user/Pwg-motion-vids/episodes/thromboseprophylaxe/.hyperframes/artifacts/snapshots/df2f11ba-f211-4a5f-b696-0c16f14063e6/frame-14-at-326s.png",
+        "time": 326,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794563874112,
+        "contentHash": "e75c1e959926472158933d953749387f94b0367a78b6f32122dcc283eb2b496b",
+        "revision": null,
+        "inputFingerprint": "98f38156da186e43dfa3a92e1e22907b2ea950d38374b9de757a2de18612151e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "331c077d-14d7-4f78-b9d6-31099c3003f6-15",
+        "image": "/home/user/Pwg-motion-vids/episodes/thromboseprophylaxe/.hyperframes/artifacts/snapshots/df2f11ba-f211-4a5f-b696-0c16f14063e6/frame-15-at-356s.png",
+        "time": 356,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794563874112,
+        "contentHash": "025bcecc9176f81515e276ad283f4cbc543293398cd8c05ed7badc7a95c5a4df",
+        "revision": null,
+        "inputFingerprint": "98f38156da186e43dfa3a92e1e22907b2ea950d38374b9de757a2de18612151e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "331c077d-14d7-4f78-b9d6-31099c3003f6-16",
+        "image": "/home/user/Pwg-motion-vids/episodes/thromboseprophylaxe/.hyperframes/artifacts/snapshots/df2f11ba-f211-4a5f-b696-0c16f14063e6/frame-16-at-381s.png",
+        "time": 381,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794563874112,
+        "contentHash": "34f47d796bc3f4636871bb075405e81a6e5a59f72e8d693fec2aaf250115b10a",
+        "revision": null,
+        "inputFingerprint": "98f38156da186e43dfa3a92e1e22907b2ea950d38374b9de757a2de18612151e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "331c077d-14d7-4f78-b9d6-31099c3003f6-17",
+        "image": "/home/user/Pwg-motion-vids/episodes/thromboseprophylaxe/.hyperframes/artifacts/snapshots/df2f11ba-f211-4a5f-b696-0c16f14063e6/frame-17-at-414s.png",
+        "time": 414,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794563874112,
+        "contentHash": "03c8f9540f0307000edf2b9b999741f8a7c41f74919254ed1d0d87fad106c49d",
+        "revision": null,
+        "inputFingerprint": "98f38156da186e43dfa3a92e1e22907b2ea950d38374b9de757a2de18612151e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "331c077d-14d7-4f78-b9d6-31099c3003f6-18",
+        "image": "/home/user/Pwg-motion-vids/episodes/thromboseprophylaxe/.hyperframes/artifacts/snapshots/df2f11ba-f211-4a5f-b696-0c16f14063e6/frame-18-at-448s.png",
+        "time": 448,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794563874112,
+        "contentHash": "2120cad61ad0bf1695c3a96c703e1a503e50384f2a271d7c4e5915fa1d6bf782",
+        "revision": null,
+        "inputFingerprint": "98f38156da186e43dfa3a92e1e22907b2ea950d38374b9de757a2de18612151e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "331c077d-14d7-4f78-b9d6-31099c3003f6-19",
+        "image": "/home/user/Pwg-motion-vids/episodes/thromboseprophylaxe/.hyperframes/artifacts/snapshots/df2f11ba-f211-4a5f-b696-0c16f14063e6/frame-19-at-474s.png",
+        "time": 474,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794563874112,
+        "contentHash": "2066ad5117267f1209416112af430eaa720ea7912312d5c5150709675527b60f",
+        "revision": null,
+        "inputFingerprint": "98f38156da186e43dfa3a92e1e22907b2ea950d38374b9de757a2de18612151e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "331c077d-14d7-4f78-b9d6-31099c3003f6-20",
+        "image": "/home/user/Pwg-motion-vids/episodes/thromboseprophylaxe/.hyperframes/artifacts/snapshots/df2f11ba-f211-4a5f-b696-0c16f14063e6/frame-20-at-500s.png",
+        "time": 500,
+        "metadata": {
+          "width": 1920,
+          "height": 1080,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794563874112,
+        "contentHash": "811a697414b6d7980ad795f8f42313745843c7f06287e3d7ad89a5cced126426",
+        "revision": null,
+        "inputFingerprint": "98f38156da186e43dfa3a92e1e22907b2ea950d38374b9de757a2de18612151e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  }
+}

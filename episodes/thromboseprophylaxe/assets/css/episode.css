@@ -20,14 +20,14 @@
 .ico .fillr { fill: var(--red); stroke: none; }
 
 /* ---------------------------------------------------------------- scoreboard */
-#score { position: absolute; left: 740px; top: 22px; width: 440px; height: 92px; display: flex; align-items: center; justify-content: space-between; padding: 0 26px; box-sizing: border-box; border-radius: 28px; }
+#score { position: absolute; left: 720px; top: 22px; width: 480px; height: 92px; display: flex; align-items: center; justify-content: space-between; padding: 0 26px; box-sizing: border-box; border-radius: 28px; }
 #score .who { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 26px; width: 110px; }
 #score .who.n { justify-content: flex-end; }
 #score .who i { display: block; width: 18px; height: 18px; border-radius: 50%; }
 #score .who.b i { background: var(--gold); box-shadow: 0 0 0 5px rgba(244,196,48,.25); }
 #score .who.n i { background: var(--mint); box-shadow: 0 0 0 5px rgba(46,204,145,.25); }
 #score .nums { display: flex; align-items: center; gap: 12px; font-weight: 900; font-size: 50px; letter-spacing: -.01em; }
-#score .num { position: relative; width: 86px; height: 60px; }
+#score .num { position: relative; width: 108px; height: 60px; }
 #score .num span { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; opacity: 0; }
 #score .num span:first-child { opacity: 1; }
 #score .num.b { color: #B8860B; }
@@ -35,9 +35,9 @@
 #score .colon { color: rgba(15,26,21,.35); }
 #score .glow { position: absolute; inset: -3px; border-radius: 30px; border: 3px solid var(--gold); box-shadow: 0 0 40px rgba(244,196,48,.55); opacity: 0; }
 .plus { position: absolute; top: 120px; font-weight: 900; font-size: 40px; opacity: 0; }
-.plus.b { left: 770px; color: #C9960C; }
-.plus.n { left: 1080px; color: var(--green); }
-#win { position: absolute; left: 740px; top: 124px; width: 440px; display: flex; justify-content: center; }
+.plus.b { left: 760px; color: #C9960C; }
+.plus.n { left: 1100px; color: var(--green); }
+#win { position: absolute; left: 720px; top: 124px; width: 480px; display: flex; justify-content: center; }
 #win .chip { background: var(--gold); color: var(--ink); font-size: 30px; padding: 12px 28px; font-weight: 800; }
 
 /* ---------------------------------------------------------------- game card */
@@ -105,7 +105,7 @@
 
 /* pressure bar (Pütter) */
 .pbar { display: flex; gap: 22px; align-items: stretch; margin: 6px 0 4px; }
-.pbar .bar { width: 34px; height: 170px; border-radius: 17px; background: linear-gradient(180deg, #D8F5E8 0%, #2ECC91 55%, #0F5C3A 100%); transform-origin: 50% 100%; }
+.pbar .bar { width: 30px; height: 110px; border-radius: 17px; background: linear-gradient(180deg, #D8F5E8 0%, #2ECC91 55%, #0F5C3A 100%); transform-origin: 50% 100%; }
 .pbar .lab { display: flex; flex-direction: column; justify-content: space-between; font-weight: 700; font-size: 28px; }
 .pbar .lab .lo { color: var(--ink2); }
 .pbar .lab .hi { color: var(--deep); font-weight: 800; }
@@ -140,7 +140,7 @@
 /* case */
 .dossier { position: absolute; left: 1040px; top: 250px; width: 770px; height: 610px; padding: 30px 36px 26px; box-sizing: border-box; }
 .field { display: flex; align-items: baseline; gap: 18px; padding: 10px 0; border-bottom: 1.5px dashed rgba(15,92,58,.18); }
-.field .k { width: 170px; flex-shrink: 0; font-weight: 700; font-size: 22px; letter-spacing: .14em; text-transform: uppercase; color: var(--green); }
+.field .k { width: 200px; flex-shrink: 0; font-weight: 700; font-size: 21px; letter-spacing: .14em; text-transform: uppercase; color: var(--green); }
 .field .v { font-weight: 700; font-size: 33px; }
 .field.r .v { color: #A3241B; }
 .badge { display: inline-flex; align-items: center; gap: 12px; padding: 10px 22px; border-radius: 999px; background: rgba(217,54,43,.1); border: 2px solid rgba(217,54,43,.45); color: #A3241B; font-weight: 800; font-size: 30px; }

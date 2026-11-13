@@ -113,6 +113,7 @@ export function createWorld({ canvasId = "gl", W = 1920, H = 1080 } = {}) {
   // 3D point → screen px, for HTML labels pinned to objects (.anchor elements).
   const v = new THREE.Vector3();
   function project(p) {
+    camera.updateMatrixWorld(); // applyCam moved the camera this frame; render() would only update it later
     v.set(p[0], p[1], p[2]).project(camera);
     return [(v.x * 0.5 + 0.5) * W, (-v.y * 0.5 + 0.5) * H];
   }
