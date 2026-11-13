@@ -4,3 +4,4 @@ out/
 *.log
 episodes/*/audio_video.wav
 .hyperframes/
+episodes/*/renders/
