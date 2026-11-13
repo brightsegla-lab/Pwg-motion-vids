@@ -56,7 +56,7 @@ const PD = { lines: [] };
 }
 const RED = new THREE.Color(0xd9362b), GREYL = new THREE.Color(0x5f6e66);
 function renderPad(t) {
-  const show = P(t, C.zettel - 1.4, 1.0);
+  const show = P(t, 14.3, 1.1); // after the beat-synced intro (timeline.js B(27))
   PD.g.visible = show > 0.002;
   PD.ped.visible = PD.g.visible;
   PD.ped.scale.setScalar(Math.max(0.001, show));

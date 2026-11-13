@@ -157,3 +157,23 @@
 .scol .row { align-items: flex-start; }
 .scol .row .dot { margin-top: 12px; }
 .scol .row .t { font-size: 33px; }
+
+/* ---------------------------------------------------------------- intro (beat-synced to the jingle, 117.5 BPM) */
+#i-burst { position: absolute; left: 960px; top: 560px; width: 0; height: 0; }
+#i-burst svg { position: absolute; left: -900px; top: -900px; width: 1800px; height: 1800px; }
+#i-burst path { fill: rgba(46,204,145,.07); }
+.iring { position: absolute; left: 960px; top: 560px; width: 300px; height: 300px; margin: -150px 0 0 -150px; border-radius: 50%; border: 6px solid rgba(46,204,145,.55); opacity: 0; }
+#i-deck { position: absolute; left: 0; right: 0; top: 0; bottom: 0; }
+.icard { position: absolute; left: 530px; top: 420px; background: rgba(255,255,255,.97); width: 860px; padding: 34px 120px 38px 44px; box-sizing: border-box; }
+.icard .n { font-weight: 800; font-size: 24px; letter-spacing: .22em; text-transform: uppercase; color: var(--green); }
+.icard .t { margin-top: 8px; font-weight: 800; font-size: 50px; line-height: 1.12; letter-spacing: -.01em; }
+.icard .qm { position: absolute; right: 30px; top: 50%; margin-top: -38px; width: 76px; height: 76px; border-radius: 50%; background: var(--gold); color: var(--ink); font-weight: 900; font-size: 50px; display: flex; align-items: center; justify-content: center; box-shadow: 0 10px 26px rgba(160,120,10,.3); }
+.istamp { transform: rotate(-12deg); font-size: 96px; z-index: 5; }
+.istamp.k { border-color: var(--green); color: var(--green); }
+#i-teaser { position: absolute; left: 50%; top: 740px; transform: translateX(-50%); display: flex; align-items: center; gap: 20px; padding: 20px 44px; border-radius: 30px; font-weight: 800; font-size: 44px; white-space: nowrap; }
+#i-teaser b { font-weight: 900; font-size: 68px; }
+#i-teaser .nb { color: #B8860B; } #i-teaser .nn { color: var(--green); }
+#i-teaser i { font-style: normal; font-weight: 900; font-size: 44px; color: rgba(15,26,21,.35); }
+#i-teaser .d { width: 18px; height: 18px; border-radius: 50%; }
+#i-teaser .d.b { background: var(--gold); box-shadow: 0 0 0 5px rgba(244,196,48,.25); }
+#i-teaser .d.n { background: var(--mint); box-shadow: 0 0 0 5px rgba(46,204,145,.25); }

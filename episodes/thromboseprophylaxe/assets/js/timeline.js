@@ -39,12 +39,57 @@
     tl.to("#score", { scale: 1.07, duration: 0.18, yoyo: true, repeat: 1, ease: "sine.out" }, at + 0.15);
   }
 
-  // ---------------------------------------------------------------- 0 · intro
-  inn("#i-brand", 0.5, { y: -20 });
-  inn("#i-reihe", 1.4);
-  inn("#i-title", 2.2, { fadeOnly: true, scale: 0.94, dur: 0.9, ease: "power3.out" });
-  inn("#i-sub", 3.4, { y: 18 });
-  out("#i-card", C.zettel - 2.2, 0.6); // the notepad takes the stage as the dialogue starts
+  // ---------------------------------------------------------------- 0 · intro — beat-synced to the jingle
+  // Jingle: 117.5 BPM, first beat 0.44 s (onset analysis of the mix). B(k) = time of beat k.
+  var B = function (k) { return 0.44 + k * 0.5108; };
+  // logo pops on the first beat, the series chip on beat 4
+  tl.fromTo("#i-brand", { autoAlpha: 0, scale: 0.6, y: 240 }, { autoAlpha: 1, scale: 1.25, y: 240, duration: 0.45, ease: "back.out(2.4)" }, B(0) - 0.05);
+  tl.to("#i-brand", { scale: 1, y: 0, duration: 0.7, ease: "power3.inOut" }, B(2));
+  inn("#i-reihe", B(4), { y: -16, scale: 0.9, ease: "back.out(2)" });
+  // sunburst + rings pulse on every bar
+  tl.fromTo("#i-burst", { autoAlpha: 0, rotation: 0 }, { autoAlpha: 1, rotation: 40, duration: 14, ease: "none", immediateRender: true }, B(0));
+  for (var k = 0; k < 28; k += 2) {
+    var ring = k % 4 === 0 ? "#i-ring" : "#i-ring2";
+    tl.fromTo(ring, { autoAlpha: 0.7, scale: 0.4 }, { autoAlpha: 0, scale: k % 4 === 0 ? 4.2 : 3.0, duration: 0.95, ease: "power2.out", immediateRender: false }, B(k));
+  }
+  // seven claims slam onto a deck, one per beat
+  var off = [[-40, -6], [50, 4], [-70, -3], [30, 6], [-20, -5], [70, 3], [0, -2]];
+  for (var i = 0; i < 7; i++) {
+    var c = "#ic" + (i + 1), at = B(5 + i);
+    tl.fromTo(c, { autoAlpha: 0, scale: 1.45, x: off[i][0] * 4, y: -80, rotation: off[i][1] * 3 },
+      { autoAlpha: 1, scale: 1, x: off[i][0], y: (i - 3) * 22, rotation: off[i][1], duration: 0.26, ease: "power3.in", immediateRender: true }, at - 0.2);
+    tl.to(c + " .qm", { scale: 1.25, duration: 0.12, yoyo: true, repeat: 1 }, at + 0.06);
+    if (i) tl.to("#ic" + i, { filter: "brightness(0.96)", duration: 0.2 }, at);
+  }
+  tl.to("#i-deck", { x: 6, duration: 0.05, yoyo: true, repeat: 5, ease: "none" }, B(12) - 0.02);
+  // MYTHOS? / FAKT? stamps hit the deck
+  [["#i-stm", 12, -12], ["#i-stf", 13, 8]].forEach(function (d) {
+    tl.fromTo(d[0], { autoAlpha: 0, scale: 2.4, rotation: d[2] * 2.5 }, { autoAlpha: 1, scale: 1, rotation: d[2], duration: 0.24, ease: "power4.in", immediateRender: true }, B(d[1]) - 0.24);
+  });
+  tl.to(["#i-stm", "#i-stf"], { scale: 1.12, duration: 0.12, yoyo: true, repeat: 1 }, B(14));
+  // the deck explodes outward (whoosh), title slams in
+  var fly = [[-1300, -500, -50], [1300, -420, 40], [-1250, 380, -35], [1300, 450, 55], [-600, -900, -20], [700, 950, 30], [0, 1100, 15]];
+  for (i = 0; i < 7; i++) tl.to("#ic" + (i + 1), { x: fly[i][0], y: fly[i][1], rotation: fly[i][2], autoAlpha: 0, duration: 0.55, ease: "power3.in" }, B(15) - 0.3 + i * 0.015);
+  tl.to("#i-stm", { x: -1200, y: 300, rotation: -60, autoAlpha: 0, duration: 0.5, ease: "power3.in" }, B(15) - 0.3);
+  tl.to("#i-stf", { x: 1200, y: -300, rotation: 60, autoAlpha: 0, duration: 0.5, ease: "power3.in" }, B(15) - 0.3);
+  tl.set("#i-card", { autoAlpha: 1 }, 0);
+  tl.fromTo("#i-title", { autoAlpha: 0, scale: 1.9, letterSpacing: "0.12em" }, { autoAlpha: 1, scale: 1, letterSpacing: "-0.02em", duration: 0.32, ease: "power4.in", immediateRender: true }, B(16) - 0.3);
+  tl.to("#i-title", { scale: 1.04, duration: 0.1, yoyo: true, repeat: 1 }, B(16) + 0.02);
+  tl.fromTo("#i-burst", { scale: 1 }, { scale: 1.25, duration: 0.3, yoyo: true, repeat: 1, ease: "sine.out", immediateRender: false }, B(16));
+  inn("#i-sub", B(18) - 0.1, { y: 26, scale: 0.92, ease: "back.out(2)", dur: 0.45 });
+  // game-show lights: MYTHOS / FAKT alternate on the beat
+  [["#i-bm", 19], ["#i-bk", 20], ["#i-bm", 21], ["#i-bk", 22]].forEach(function (d) {
+    tl.to(d[0] + " .f", { opacity: 1, duration: 0.06 }, B(d[1]));
+    tl.to(d[0], { color: "#fff", scale: 1.06, duration: 0.06 }, B(d[1]));
+    tl.to(d[0] + " .f", { opacity: 0, duration: 0.25 }, B(d[1]) + 0.36);
+    tl.to(d[0], { color: d[0] === "#i-bm" ? "#D9362B" : "#1B8F5A", scale: 1, duration: 0.25 }, B(d[1]) + 0.36);
+  });
+  inn("#i-teaser", B(23) - 0.1, { y: 30, scale: 0.85, ease: "back.out(2.2)", dur: 0.45 });
+  // everything clears for the notepad (3D) just before the dialogue starts
+  ["#i-card", "#i-teaser", "#i-reihe-w"].forEach(function (s2, j) {
+    tl.to(s2, { autoAlpha: 0, y: -40, scale: 0.94, duration: 0.45, ease: "power2.in" }, B(26) + j * 0.06);
+  });
+  tl.to("#i-burst", { autoAlpha: 0, duration: 1.0 }, B(26));
   inn("#i-half", C.haelfte, { y: 14 });
 
   // ---------------------------------------------------------------- 1 · Willkommen + rules
