@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="de" data-composition-variables='[{"id":"quality","type":"string","label":"3D quality (final | draft)","default":"final"}]'>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <title>Pflege-WG · Thromboseprophylaxe</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/episode.css" />
+    <script src="assets/vendor/gsap.min.js"></script>
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/shots.js"></script>
+  </head>
+  <body>
+    <!--
+      Pflege-WG · Prophylaxen-Reihe Folge 4 · Thromboseprophylaxe — „Mythos oder Fakt“ (game format)
+      Layers: #bg → #world (3D) → #orb-clip → #stage (2D scenes, scoreboard) → audio
+      Each myth = #s-qN (game card: MYTHOS? / FAKT?, Ben's guess, stamp) + #s-sN (explanation),
+      self-contained so it can be cut into a 9:16 Short. Score is shown Ben : Nora.
+      Every on-screen word comes from the script / SRT (scripts/check_content.py).
+    -->
+    <div id="root" data-composition-id="main" data-start="0" data-duration="528.05" data-width="1920" data-height="1080">
+      <div id="bg" class="layer clip" data-start="0" data-duration="528.05" data-track-index="0">
+        <div class="dots"></div>
+        <div class="blob b1"></div>
+        <div class="blob b2"></div>
+        <div class="blob b3"></div>
+        <div class="green"></div>
+      </div>
+
+      <div id="world-clip" class="layer clip" data-start="0" data-duration="528.05" data-track-index="1">
+        <div id="world" class="layer"><canvas id="gl" width="1920" height="1080" data-layout-allow-occlusion></canvas></div>
+      </div>
+
+      <div id="orb-clip" class="layer clip" data-start="0" data-duration="528.05" data-track-index="3">
+        <div id="dock" class="glass frost"></div>
+        <canvas id="orbs" width="1920" height="1080" data-layout-allow-occlusion></canvas>
+      </div>
+
+      <div id="stage" class="layer clip" data-start="0" data-duration="528.05" data-track-index="2">
+        <div id="scenes">
+          <!-- ============================================================ 0 · intro: jingle title card, then the 3D notepad -->
+          <section id="s-intro" class="scene">
+            <div id="i-brand" style="position: absolute; top: 96px; left: 0; right: 0; display: flex; justify-content: center; align-items: center; gap: 22px">
+              <img src="assets/brand/mark-black.png" alt="" style="width: 104px; height: auto; display: block" />
+              <div class="wordmark" style="font-size: 54px">PFLEGE-<span class="wg" style="color: var(--green)">WG</span></div>
+            </div>
+            <div id="i-card" style="position: absolute; top: 300px; left: 0; right: 0; display: flex; flex-direction: column; align-items: center; gap: 26px">
+              <div id="i-reihe" class="chip mint" style="letter-spacing: 0.14em; text-transform: uppercase; font-size: 33px">Prophylaxen-Reihe · Folge 4</div>
+              <div id="i-title" style="font-weight: 900; font-size: 128px; letter-spacing: -0.02em; color: var(--ink)">Thromboseprophylaxe</div>
+              <div id="i-sub" style="display: flex; gap: 26px; margin-top: 6px">
+                <div class="btn m" style="width: 330px; height: 100px; font-size: 40px"><b>MYTHOS</b></div>
+                <div class="marker" style="font-size: 54px; color: var(--deep); align-self: center">oder</div>
+                <div class="btn k" style="width: 330px; height: 100px; font-size: 40px"><b>FAKT</b></div>
+              </div>
+            </div>
+            <div id="i-half" class="marker" style="position: absolute; left: 0; right: 0; top: 612px; text-align: center; font-size: 56px; color: var(--red)">„Die Hälfte davon stimmt nicht.“</div>
+          </section>
+
+          <!-- ============================================================ 1 · Willkommen + rules -->
+          <section id="s-rules" class="scene">
+            <div id="r-title" style="position: absolute; top: 230px; left: 0; right: 0; display: flex; flex-direction: column; align-items: center; gap: 26px">
+              <div id="r-folge" class="chip mint" style="letter-spacing: 0.14em; text-transform: uppercase; font-size: 33px">Folge 4 · Prophylaxen-Reihe</div>
+              <div id="r-thema" style="font-weight: 900; font-size: 112px; letter-spacing: -0.02em">Thromboseprophylaxe</div>
+              <div id="r-vortrag" style="position: relative; font-weight: 700; font-size: 46px; color: var(--ink2)">Aber nicht als Vortrag<div id="r-strike" style="position: absolute; left: -10px; right: -10px; top: 50%; height: 6px; border-radius: 3px; background: var(--red); transform-origin: 0 50%"></div></div>
+            </div>
+            <div id="r-hdr"><div class="hdr"><div class="tag "><i></i>Als Spiel</div><div class="h1">Mythos oder Fakt</div></div></div>
+            <div class="steps">
+              <div id="r1" class="glass step"><div class="n">1</div><div class="t">Ich lese dir einen Satz vor</div></div>
+              <div id="r2" class="glass step"><div class="n">2</div><div class="t">Du sagst:</div><div class="mini"><span class="m">MYTHOS</span><span class="k">FAKT</span></div></div>
+              <div id="r3" class="glass step"><div class="n">3</div><div class="t">Für jede richtige Antwort: einen Punkt</div></div>
+            </div>
+            <div id="r-stake" class="glass card" style="position: absolute; left: 150px; top: 650px; width: 1180px; padding: 30px 40px; border: 3px solid rgba(244,196,48,.8)">
+              <div class="lbl" style="color: #9A7408">Und wenn ich verliere?</div>
+              <div class="mid">„Dann ziehst du in der nächsten Folge die Kompressionsstrümpfe an.“</div>
+            </div>
+          </section>
+
+          <!-- ============================================================ Satz 1 · game card -->
+          <section id="s-q1" class="scene">
+            
+            <div id="q1-card" class="glass frost qcard">
+              <div class="qnum" id="q1-num">Satz Nummer eins</div>
+              <div class="qtext" id="q1-text">„Thrombose? Das kriegen doch nur alte Leute.“</div>
+              <div class="qbtns" id="q1-btns">
+                <div class="btn m" id="q1-m"><div class="f"></div><b>MYTHOS?</b></div>
+                <div class="btn k" id="q1-k"><div class="f"></div><b>FAKT?</b></div>
+              </div>
+            </div>
+            <div class="guess" id="q1-g" style="top: 740px"><div class="chip"><i></i>Ben: Mythos</div><div class="q">„Ganz klar.“</div></div>
+            <div class="stamp" id="q1-st">MYTHOS ✗</div>
+          </section>
+          <!-- ============================================================ Satz 1 · Virchow-Trias (3D vessel right) -->
+          <section id="s-s1" class="scene">
+            <div class="hdr"><div class="tag red"><i></i>Satz 1 · Mythos</div><div class="h1">Virchow-Trias</div></div>
+            <div id="s1-sub" class="sub" style="position: absolute; left: 120px; top: 232px">Drei Dinge, die eine Thrombose begünstigen</div>
+            <div id="trias">
+              <svg viewBox="0 0 880 600"><path id="tri" d="M440 150 L190 500 L690 500 Z" /></svg>
+              <div class="mid-l" id="tri-l">Virchow-Trias</div>
+              <div id="tc1" class="glass tc"><div class="n">Erstens</div><div class="t">Blut fließt langsamer</div><div class="s">z. B. im Bett, bewegt sich kaum</div></div>
+              <div id="tc2" class="glass tc"><div class="n">Zweitens</div><div class="t">Gefäßwand geschädigt</div><div class="s">z. B. Operation, Entzündung</div></div>
+              <div id="tc3" class="glass tc"><div class="n">Drittens</div><div class="t">Gerinnung verändert</div><div class="s">z. B. Medikamente, Schwangerschaft</div></div>
+            </div>
+            <div id="s1-knie" class="glass card" style="position: absolute; left: 120px; top: 900px; padding: 18px 30px"><div class="mid" style="font-size: 34px">Auch: den Fünfundzwanzigjährigen nach der Knie-OP</div></div>
+            <div id="s1-emb" class="glass frost card" style="position: absolute; left: 120px; top: 300px; width: 760px; padding: 36px 42px">
+              <div class="lbl">Wenn sich ein Gerinnsel löst</div>
+              <div class="big" style="font-size: 46px">… kann es in die Lunge wandern</div>
+              <div id="s1-emb2" class="badge" style="margin-top: 26px; font-size: 40px; padding: 14px 30px">Lungenembolie</div>
+            </div>
+            <div id="clot-pin" class="anchor left"><div class="pin red"></div><div class="lab glass red">Gerinnsel</div></div>
+          </section>
+
+          <!-- ============================================================ Satz 2 · game card -->
+          <section id="s-q2" class="scene">
+            
+            <div id="q2-card" class="glass frost qcard">
+              <div class="qnum" id="q2-num">Satz Nummer zwei</div>
+              <div class="qtext" id="q2-text">„Thrombosestrümpfe zieht man morgens an und abends wieder aus. Nachts braucht die keiner.“</div>
+              <div class="qbtns" id="q2-btns">
+                <div class="btn m" id="q2-m"><div class="f"></div><b>MYTHOS?</b></div>
+                <div class="btn k" id="q2-k"><div class="f"></div><b>FAKT?</b></div>
+              </div>
+            </div>
+            <div class="guess" id="q2-g" style="top: 800px"><div class="chip"><i></i>Ben: Fakt?</div><div class="q">„Klingt logisch.“</div></div>
+            <div class="stamp" id="q2-st">MYTHOS ✗</div>
+          </section>
+          <!-- ============================================================ Satz 2 · MTS rund um die Uhr (2D clock) -->
+          <section id="s-s2" class="scene">
+            <div class="hdr"><div class="tag red"><i></i>Satz 2 · Mythos</div><div class="h1">MTS: rund um die Uhr</div></div>
+            <div id="clock">
+              <svg viewBox="0 0 520 520">
+                <circle class="face" cx="260" cy="260" r="250" />
+                <circle id="ring" class="ring" cx="260" cy="260" r="230" />
+                <circle id="gap1" class="gap" cx="260" cy="260" r="230" style="transform: rotate(-30deg)" />
+                <circle id="gap2" class="gap" cx="260" cy="260" r="230" style="transform: rotate(150deg)" />
+                <text class="h24" x="260" y="262" text-anchor="middle">24 h</text>
+                <text class="hsub" x="260" y="312" text-anchor="middle">AUCH NACHTS</text>
+                <g id="sun"><circle class="sun" cx="260" cy="132" r="26" /></g>
+                <g id="moon"><path class="moon" d="M272 362a30 30 0 1 0 0 52a24 24 0 1 1 0-52z" /></g>
+              </svg>
+            </div>
+            <div id="s2-card" class="glass card" style="position: absolute; left: 780px; top: 270px; width: 1000px; padding: 26px 40px">
+              <div class="lbl">Medizinische Thromboseprophylaxestrümpfe (MTS)</div>
+              <div class="check" id="s2c1"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 17 L13.5 23 L25 10" /></svg></div><div><div class="t">Bleiben rund um die Uhr dran</div><div class="s">auch nachts</div></div></div>
+              <div class="check" id="s2c2"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 17 L13.5 23 L25 10" /></svg></div><div><div class="t">Zweimal am Tag kurz aus</div><div class="s">für die Körperpflege und um die Haut anzuschauen</div></div></div>
+            </div>
+            <div id="s2-tip" class="glass card tip" style="position: absolute; left: 780px; top: 700px; width: 1000px; padding: 24px 36px">
+              <div class="lbl" style="color: #9A7408">Kleiner Tipp</div>
+              <div class="mid">Direkt davor nicht eincremen</div>
+              <div id="s2-tip2" class="sub" style="margin-top: 6px; font-size: 28px">Probier mal, einen engen Strumpf über frisch eingecremte Beine zu ziehen.</div>
+            </div>
+          </section>
+
+          <!-- ============================================================ Satz 3 · game card -->
+          <section id="s-q3" class="scene">
+            
+            <div id="q3-card" class="glass frost qcard">
+              <div class="qnum" id="q3-num">Satz Nummer drei</div>
+              <div class="qtext" id="q3-text">„Strumpfgröße? Egal. Hauptsache, er sitzt schön eng.“</div>
+              <div class="qbtns" id="q3-btns">
+                <div class="btn m" id="q3-m"><div class="f"></div><b>MYTHOS?</b></div>
+                <div class="btn k" id="q3-k"><div class="f"></div><b>FAKT?</b></div>
+              </div>
+            </div>
+            <div class="guess" id="q3-g" style="top: 740px"><div class="chip"><i></i>Ben: Mythos</div><div class="q">„Man misst vorher aus.“</div></div>
+            <div class="stamp" id="q3-st">MYTHOS ✗</div>
+          </section>
+          <!-- ============================================================ Satz 3 · ausmessen (3D leg left) -->
+          <section id="s-s3" class="scene">
+            <div class="hdr"><div class="tag red"><i></i>Satz 3 · Mythos</div><div class="h1">Man misst vorher aus</div></div>
+            <div id="pin-len" class="anchor left"><div class="pin"></div><div class="lab glass">Beinlänge</div></div>
+            <div id="pin-wade" class="anchor"><div class="pin"></div><div class="lab glass">Wadenumfang</div></div>
+            <div id="pin-ober" class="anchor"><div class="pin"></div><div class="lab glass">Oberschenkel</div></div>
+            <div id="pin-passt" class="anchor"><div class="pin red"></div><div class="lab glass red">Strumpf passt nicht mehr</div></div>
+            <div id="s3-card" class="glass frost card" style="position: absolute; left: 1100px; top: 270px; width: 700px; padding: 32px 38px">
+              <div class="lbl" style="color: #9A7408">Bonusfrage</div>
+              <div class="mid">Wann musst du neu messen?</div>
+              <div class="rows" style="gap: 16px; margin-top: 22px">
+                <div class="row" id="s3r1"><div class="dot" style="background: var(--gold)"></div><div><div class="t">Wenn der Patient abgenommen hat</div></div></div>
+                <div class="row" id="s3r2"><div class="dot"></div><div><div class="t">Ganz typisch: Diuretika</div><div class="s">verliert Wasser, die Beine werden schmaler</div></div></div>
+              </div>
+              <div style="margin-top: 14px"><div class="check" id="s3c"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 17 L13.5 23 L25 10" /></svg></div><div><div class="t">Vor jedem Strumpfwechsel neu messen</div></div></div></div>
+            </div>
+          </section>
+
+          <!-- ============================================================ Satz 4 · game card -->
+          <section id="s-q4" class="scene">
+            
+            <div id="q4-card" class="glass frost qcard">
+              <div class="qnum" id="q4-num">Satz Nummer vier</div>
+              <div class="qtext" id="q4-text">„Der Patient hat dicke Ödeme an den Beinen? Dann braucht er die Strümpfe erst recht.“</div>
+              <div class="qbtns" id="q4-btns">
+                <div class="btn m" id="q4-m"><div class="f"></div><b>MYTHOS?</b></div>
+                <div class="btn k" id="q4-k"><div class="f"></div><b>FAKT?</b></div>
+              </div>
+            </div>
+            <div class="guess" id="q4-g" style="top: 800px"><div class="chip"><i></i>Ben: „Das klingt eigentlich sinnvoll.“</div></div>
+            <div class="stamp" id="q4-st">MYTHOS ✗</div>
+          </section>
+          <!-- ============================================================ Satz 4 · Kontraindikationen (2D tiles) -->
+          <section id="s-s4" class="scene">
+            <div class="hdr"><div class="tag red"><i></i>Satz 4 · Mythos</div><div class="h1">Kontraindikationen</div></div>
+            <div class="tiles">
+              <div id="k1" class="glass tile x"><svg class="ico big" viewBox="0 0 64 64"><path d="M24 4v24c0 6-8 10-8 18v8h26c2 0 2-4 0-4h-8v-6c0-8 4-12 4-18V4" /><path class="red" d="M12 34c-4 4-4 12 0 16M48 30c4 4 4 12 0 16" /></svg><div class="t">Ausgeprägte Ödeme</div></div>
+              <div id="k2" class="glass tile x"><svg class="ico big" viewBox="0 0 64 64"><path d="M6 24h18c4 0 6 4 8 4s4-4 8-4h18M6 40h18c4 0 6-4 8-4s4 4 8 4h18" /><path class="red" d="M28 28v8M36 28v8" /></svg><div class="t">Arterielle Verschluss&shy;krankheit</div></div>
+              <div id="k3" class="glass tile x"><svg class="ico big" viewBox="0 0 64 64"><path d="M6 32h10l5-12 8 24 8-24 8 24 5-12h8" /></svg><div class="t">Polyneuropathie</div></div>
+              <div id="k4" class="glass tile x"><svg class="ico big" viewBox="0 0 64 64"><path d="M22 4h18v30c0 6 10 8 10 16v6H26c-6 0-8-6-6-10l2-6z" /><circle class="fillr" cx="30" cy="16" r="2.6" /><circle class="fillr" cx="35" cy="25" r="2.6" /><circle class="fillr" cx="29" cy="32" r="2.6" /></svg><div class="t">Allergie gegen das Strumpfmaterial</div></div>
+            </div>
+            <div class="arzt" id="k-arzt"><div class="chip ink">Nicht einfach Strümpfe an, sondern mit dem Arzt sprechen</div></div>
+          </section>
+
+          <!-- ============================================================ Pütter (3D leg, bandage) -->
+          <section id="s-puetter" class="scene">
+            <div class="hdr"><div class="tag "><i></i>Wenn die Standardgrößen nicht passen</div><div class="h1">Kompressionsverband nach Pütter</div></div>
+            <div id="pu-card" class="glass frost card" style="position: absolute; left: 1100px; top: 280px; width: 700px; padding: 26px 36px">
+              <div id="pu1" class="row" style="padding: 6px 0 14px"><div class="dot"></div><div class="t" style="font-size: 36px">Mit Kurzzugbinden</div></div>
+              <div id="pu2">
+                <div class="lbl">Der Druck nimmt von unten nach oben ab</div>
+                <div class="pbar"><div class="bar" id="pu-bar"></div><div class="lab"><div class="lo">oben lockerer</div><div class="hi">unten am Fuß fester</div></div></div>
+              </div>
+              <div class="check" id="pu3"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 17 L13.5 23 L25 10" /></svg></div><div><div class="t">Nach einer halben Stunde kontrollieren</div><div class="s">sitzt er zu fest?</div></div></div>
+              <div id="pu4" class="alarm"><i>!</i>Alarmsignal: Schmerzen oder blaue Zehen</div>
+              <div style="margin-top: 6px"><div class="check" id="pu5"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 17 L13.5 23 L25 10" /></svg></div><div><div class="t">Neu gewickelt: mindestens zweimal am Tag</div></div></div></div>
+            </div>
+            <div id="pin-zeh" class="anchor left"><div class="pin red"></div><div class="lab glass red">blaue Zehen?</div></div>
+          </section>
+
+          <!-- ============================================================ Satz 5 · game card -->
+          <section id="s-q5" class="scene">
+            <div class="pre" id="q5-pre"><div class="chip ink" style="font-size: 32px">Jetzt wird's heikel</div></div>
+            <div id="q5-card" class="glass frost qcard">
+              <div class="qnum" id="q5-num">Satz Nummer fünf</div>
+              <div class="qtext" id="q5-text">„Bei der Heparinspritze immer erst aspirieren und die Luftblase aus der Fertigspritze drücken.“</div>
+              <div class="qbtns" id="q5-btns">
+                <div class="btn m" id="q5-m"><div class="f"></div><b>MYTHOS?</b></div>
+                <div class="btn k" id="q5-k"><div class="f"></div><b>FAKT?</b></div>
+              </div>
+            </div>
+            <div class="guess" id="q5-g" style="top: 800px"><div class="chip"><i></i>Ben: Fakt</div><div class="q">„Das hab ich in meinem ersten Einsatz genau so gemacht.“</div></div>
+            <div class="stamp" id="q5-st"><small>DOPPELTER</small>MYTHOS ✗✗</div>
+          </section>
+          <!-- ============================================================ Satz 5 · Fertigspritze (3D syringe right) -->
+          <section id="s-s5" class="scene">
+            <div class="hdr"><div class="tag red"><i></i>Satz 5 · Doppelter Mythos</div><div class="h1">Heparin-Fertigspritze</div></div>
+            <div id="s5-card" class="glass frost card" style="position: absolute; left: 120px; top: 280px; width: 820px; padding: 18px 38px">
+              <div class="nrow" id="s5r1"><div class="n">1</div><div><div class="t">Nicht aspirieren</div><div class="s">verursacht kleine Verletzungen im Gewebe, dann gibt's blaue Flecken</div></div></div>
+              <div class="nrow" id="s5r2"><div class="n">2</div><div><div class="t">Die Luftblase bleibt drin</div><div class="s">mit Absicht in der Fertigspritze: damit am Ende wirklich die ganze Dosis im Gewebe landet</div></div></div>
+            </div>
+            <div id="s5-pruef" style="position: absolute; left: 120px; top: 800px"><div class="chip" style="background: var(--gold); color: var(--ink); font-weight: 800">Ein Klassiker für die Prüfung</div></div>
+            <div id="pin-blase" class="anchor"><div class="pin"></div><div class="lab glass">Luftblase</div></div>
+          </section>
+
+          <!-- ============================================================ Satz 5 · subkutan (2D silhouette) -->
+          <section id="s-s5b" class="scene">
+            <div class="hdr"><div class="tag red"><i></i>Satz 5 · Doppelter Mythos</div><div class="h1">Gespritzt wird subkutan</div></div>
+            <div id="body">
+              <svg viewBox="0 0 520 800">
+                <path class="sil" d="M260 20c34 0 56 26 56 60s-22 62-56 62-56-28-56-62 22-60 56-60zM196 156c20-8 44-10 64-10s44 2 64 10c40 14 62 40 66 90l18 190c2 20-26 24-30 4l-24-170-4 120c0 30 6 60 6 92l14 300c2 24-38 28-42 4l-30-290h-16l-30 290c-4 24-44 20-42-4l14-300c0-32 6-62 6-92l-4-120-24 170c-4 20-32 16-30-4l18-190c4-50 26-76 66-90z" />
+                <circle class="nav" cx="260" cy="360" r="6" />
+                <ellipse id="zb1" class="zone" cx="214" cy="410" rx="30" ry="24" />
+                <ellipse id="zb2" class="zone" cx="306" cy="410" rx="30" ry="24" />
+                <ellipse id="zo1" class="zone" cx="164" cy="600" rx="22" ry="54" />
+                <ellipse id="zo2" class="zone" cx="356" cy="600" rx="22" ry="54" />
+              </svg>
+            </div>
+            <div id="zl1" class="glass zl" style="top: 400px"><div class="d"></div><div><div class="lbl" style="margin: 0">Meist</div><div class="t">In die seitliche Bauchdecke unterhalb vom Nabel</div></div></div>
+            <div id="zl2" class="glass zl" style="top: 600px"><div class="d"></div><div><div class="lbl" style="margin: 0">Oder</div><div class="t">Außen in den Oberschenkel</div></div></div>
+          </section>
+
+          <!-- ============================================================ Satz 6 · game card -->
+          <section id="s-q6" class="scene">
+            
+            <div id="q6-card" class="glass frost qcard">
+              <div class="qnum" id="q6-num">Satz Nummer sechs</div>
+              <div class="qtext" id="q6-text">„Nach der Spritze die Stelle schön verreiben, dann verteilt sich das Heparin besser.“</div>
+              <div class="qbtns" id="q6-btns">
+                <div class="btn m" id="q6-m"><div class="f"></div><b>MYTHOS?</b></div>
+                <div class="btn k" id="q6-k"><div class="f"></div><b>FAKT?</b></div>
+              </div>
+            </div>
+            <div class="guess" id="q6-g" style="top: 800px"><div class="chip"><i></i>Ben: Mythos</div><div class="q">„Gleicher Grund: kleine Verletzungen, blaue Flecken.“</div></div>
+            <div class="stamp" id="q6-st">MYTHOS ✗</div>
+          </section>
+          <!-- ============================================================ Satz 6 · nicht verreiben + Nebenwirkungen (2D) -->
+          <section id="s-s6" class="scene">
+            <div class="hdr"><div class="tag red"><i></i>Satz 6 · Mythos</div><div class="h1">Nicht verreiben</div></div>
+            <div id="rub">
+              <svg viewBox="0 0 560 460">
+                <ellipse class="skin" cx="280" cy="250" rx="250" ry="170" />
+                <circle class="pt" cx="280" cy="250" r="9" />
+                <path id="rub-arc" class="arc" d="M200 250a80 50 0 1 0 160 0a80 50 0 1 0-160 0" />
+                <g id="rub-x"><path class="x" d="M150 110L410 390M410 110L150 390" /></g>
+              </svg>
+            </div>
+            <div id="s6-card" class="glass frost card" style="position: absolute; left: 860px; top: 270px; width: 920px; padding: 32px 40px">
+              <div class="lbl">Nebenwirkungen von Heparin im Blick haben</div>
+              <div class="rows" style="gap: 18px; margin-top: 14px">
+                <div class="row" id="s6r1"><div class="dot" style="background: var(--red)"></div><div><div class="t">Blutungen</div></div></div>
+                <div class="row" id="s6r2"><div class="dot" style="background: var(--red)"></div><div><div class="t">Thrombozyten können abfallen</div></div></div>
+                <div class="row" id="s6r3"><div class="dot" style="background: var(--red)"></div><div><div class="t">Allergische Reaktionen</div></div></div>
+                <div class="row" id="s6r4"><div class="dot" style="background: var(--red)"></div><div><div class="t">Rötungen an der Einstichstelle</div></div></div>
+              </div>
+            </div>
+            <div id="s6-halb" style="position: absolute; left: 860px; top: 760px"><div class="chip" style="background: var(--gold); color: var(--ink); font-weight: 800">Einen halben Punkt extra</div></div>
+          </section>
+
+          <!-- ============================================================ Satz 7 · game card -->
+          <section id="s-q7" class="scene">
+            
+            <div id="q7-card" class="glass frost qcard">
+              <div class="qnum" id="q7-num">Letzter Satz</div>
+              <div class="qtext" id="q7-text">„Wer Heparin kriegt, muss sich nicht mehr bewegen. Das Medikament macht ja die Arbeit.“</div>
+              <div class="qbtns" id="q7-btns">
+                <div class="btn m" id="q7-m"><div class="f"></div><b>MYTHOS?</b></div>
+                <div class="btn k" id="q7-k"><div class="f"></div><b>FAKT?</b></div>
+              </div>
+            </div>
+            <div class="guess" id="q7-g" style="top: 800px"><div class="chip"><i></i>Ben: Mythos</div><div class="q">„Bewegung bleibt die Basis.“</div></div>
+            <div class="stamp" id="q7-st">MYTHOS ✗</div>
+          </section>
+          <!-- ============================================================ Satz 7 · Wadenmuskelpumpe (3D leg cutaway) -->
+          <section id="s-s7" class="scene">
+            <div class="hdr"><div class="tag red"><i></i>Satz 7 · Mythos</div><div class="h1">Bewegung bleibt die Basis</div></div>
+            <div id="pin-pumpe" class="anchor left"><div class="pin"></div><div class="lab glass">Wadenmuskelpumpe</div></div>
+            <div id="pin-blut" class="anchor"><div class="pin"></div><div class="lab glass">drückt das Blut nach oben</div></div>
+            <div id="s7-card" class="glass frost card" style="position: absolute; left: 1100px; top: 280px; width: 700px; padding: 22px 36px">
+              <div class="check" id="s7c1"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 17 L13.5 23 L25 10" /></svg></div><div><div class="t">Mobilisieren</div><div class="s">so früh wie möglich</div></div></div>
+              <div class="check" id="s7c2"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 17 L13.5 23 L25 10" /></svg></div><div><div class="t">Fußgymnastik im Bett</div></div></div>
+              <div class="check" id="s7c3"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 17 L13.5 23 L25 10" /></svg></div><div><div class="t">Genug trinken</div></div></div>
+            </div>
+            <div id="s7-ers" class="glass card" style="position: absolute; left: 1100px; top: 720px; width: 700px; padding: 22px 32px; border: 3px solid var(--mint)">
+              <div class="sub" style="font-size: 30px; color: var(--ink); font-weight: 700">Strümpfe und Heparin kommen dazu, aber sie ersetzen die Bewegung nicht.</div>
+            </div>
+          </section>
+
+          <!-- ============================================================ Fallbeispiel (3D legs) -->
+          <section id="s-case" class="scene">
+            <div class="hdr"><div class="tag gold"><i></i>Fallbeispiel · zählt doppelt</div><div class="h1">Herr K.</div></div>
+            <div id="c-card" class="glass frost dossier">
+              <div id="c-facts">
+                <div class="field" id="cf1"><div class="k">Situation</div><div class="v">zweiter Tag nach einer Hüft-OP</div></div>
+                <div class="field" id="cf2"><div class="k">Prophylaxe</div><div class="v">trägt Strümpfe, bekommt Heparin</div></div>
+                <div class="field" id="cf3"><div class="k">Morgens</div><div class="v">Strümpfe aus, Körperpflege</div></div>
+                <div class="field r" id="cf4"><div class="k">Linkes Bein</div><div class="v">deutlich dicker als das rechte</div></div>
+                <div class="field r" id="cf5"><div class="k">Und</div><div class="v">warm, tut an der Wade weh</div></div>
+                <div id="c-badge" class="badge" style="margin-top: 22px">Klingt nach einer Thrombose</div>
+              </div>
+              <div id="c-meas" style="position: absolute; left: 36px; right: 36px; top: 26px">
+                <div class="lbl">Was machst du?</div>
+                <div class="check" id="cm1"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 17 L13.5 23 L25 10" /></svg></div><div><div class="t">Nicht massieren, nichts reiben</div></div></div>
+                <div class="check" id="cm2"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 17 L13.5 23 L25 10" /></svg></div><div><div class="t">Liegen lassen, nicht mobilisieren</div></div></div>
+                <div class="check" id="cm3"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 17 L13.5 23 L25 10" /></svg></div><div><div class="t">Sofort den Arzt informieren</div></div></div>
+                <div class="check" id="cm4"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 17 L13.5 23 L25 10" /></svg></div><div><div class="t">Dokumentieren, was ich gesehen habe</div></div></div>
+                <div class="check" id="cm5"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 17 L13.5 23 L25 10" /></svg></div><div><div class="t">Strümpfe erst wieder nach ärztlicher Anordnung</div></div></div>
+              </div>
+            </div>
+            <div id="c-sehen" style="position: absolute; left: 120px; top: 900px"><div class="chip mint" style="font-size: 31px">Genau dafür die Strümpfe zweimal am Tag aus: um so was zu sehen</div></div>
+            <div id="pin-dick" class="anchor left"><div class="pin red"></div><div class="lab glass red">deutlich dicker</div></div>
+            <div id="pin-warm" class="anchor"><div class="pin red"></div><div class="lab glass red">warm</div></div>
+            <div id="pin-weh" class="anchor"><div class="pin red"></div><div class="lab glass red">tut an der Wade weh</div></div>
+          </section>
+
+          <!-- ============================================================ Zusammenfassung -->
+          <section id="s-sum" class="scene">
+            <div class="hdr"><div class="tag "><i></i>Zusammenfassung</div><div class="h1">Fassen wir kurz zusammen</div></div>
+            <div id="z-cards">
+              <div id="zs1" class="glass card scol" style="left: 120px">
+                <div class="lbl">Virchow-Trias</div>
+                <div class="rows"><div class="row" id="z11"><div class="dot"></div><div><div class="t">Blut fließt langsamer</div></div></div><div class="row" id="z12"><div class="dot"></div><div><div class="t">Gefäßwand geschädigt</div></div></div><div class="row" id="z13"><div class="dot"></div><div><div class="t">Gerinnung verändert</div></div></div></div>
+              </div>
+              <div id="zs2" class="glass card scol" style="left: 690px">
+                <div class="lbl">MTS</div>
+                <div class="rows"><div class="row" id="z21"><div class="dot"></div><div><div class="t">Vorher genau messen</div></div></div><div class="row" id="z22"><div class="dot"></div><div><div class="t">Rund um die Uhr tragen</div></div></div><div class="row" id="z23"><div class="dot"></div><div><div class="t">Kontraindikationen beachten</div></div></div><div class="row" id="z24"><div class="dot" style="background: var(--gold)"></div><div><div class="t">Keine Standardgröße passt: Kompressionsverband nach Pütter</div></div></div></div>
+              </div>
+              <div id="zs3" class="glass card scol" style="left: 1260px">
+                <div class="lbl">Heparin</div>
+                <div class="rows"><div class="row" id="z31"><div class="dot" style="background: var(--red)"></div><div><div class="t">Nicht aspirieren</div></div></div><div class="row" id="z32"><div class="dot" style="background: var(--red)"></div><div><div class="t">Luftblase drin lassen</div></div></div><div class="row" id="z33"><div class="dot" style="background: var(--red)"></div><div><div class="t">Nicht verreiben</div></div></div></div>
+              </div>
+            </div>
+            <div id="z-quote" class="glass card" style="position: absolute; left: 260px; right: 260px; top: 330px; padding: 60px 70px; border: 3px solid var(--mint); text-align: center">
+              <div class="lbl">Und</div>
+              <div class="marker" style="font-size: 92px; line-height: 1.12; color: var(--deep)">„Bewegung bleibt die Basis. Immer.“</div>
+            </div>
+          </section>
+
+          <!-- ============================================================ outro -->
+          <section id="s-outro" class="scene">
+            <div id="o-brand" style="position: absolute; top: 80px; left: 0; right: 0; display: flex; flex-direction: column; align-items: center; gap: 22px">
+              <img src="assets/brand/mark-black.png" alt="" style="width: 150px; height: auto; display: block" />
+              <div class="wordmark" style="font-size: 84px">PFLEGE-<span class="wg">WG</span></div>
+            </div>
+            <div style="position: absolute; top: 730px; left: 0; right: 0; display: flex; justify-content: center; gap: 30px">
+              <div id="o-abo" class="chip ink" style="font-size: 40px; padding: 20px 40px">Abonniert uns gern</div>
+              <div id="o-kom" class="chip" style="font-size: 40px; padding: 20px 40px; background: rgba(255, 255, 255, 0.85); color: var(--ink)">Schreibt's in die Kommentare</div>
+            </div>
+            <div id="o-bye" class="marker" style="position: absolute; left: 0; right: 0; top: 615px; text-align: center; font-size: 60px; color: var(--ink)">Bis zum nächsten Mal bei Pflege-WG</div>
+          </section>
+        </div>
+
+        <!-- persistent game UI: scoreboard (Ben : Nora) -->
+        <div id="scorebox">
+          <div id="score" class="glass frost">
+            <div class="glow" id="score-glow"></div>
+            <div class="who b"><i></i>Ben</div>
+            <div class="nums">
+              <div class="num b" id="nb"><span>0</span><span>1</span><span>3</span><span>4½</span><span>5½</span></div>
+              <div class="colon">:</div>
+              <div class="num n" id="nn"><span>0</span><span>1</span><span>2</span><span>3</span></div>
+            </div>
+            <div class="who n">Nora<i></i></div>
+          </div>
+          <div class="plus b" id="pb1">+1</div>
+          <div class="plus n" id="pn1">+1</div>
+          <div class="plus b" id="pb2">+2</div>
+          <div class="plus n" id="pn2">+1</div>
+          <div class="plus n" id="pn3">+1</div>
+          <div class="plus b" id="pb3">+1½</div>
+          <div class="plus b" id="pb4">+1</div>
+          <div id="win"><div class="chip">Ben hat gewonnen</div></div>
+        </div>
+
+        <div id="wm">
+          <img src="assets/brand/mark-black-small.png" alt="" />
+          <div class="wordmark" style="font-size: 33px">PFLEGE-<span class="wg" style="color: var(--green)">WG</span></div>
+        </div>
+
+        <div id="dip" class="layer" style="background: var(--cream); opacity: 0"></div>
+      </div>
+
+      <audio id="voice" src="assets/audio/thromboseprophylaxe.mp3" data-start="0" data-duration="528.05" data-track-index="4" data-volume="1"></audio>
+    </div>
+
+    <script type="importmap">
+      { "imports": { "three": "./assets/vendor/three.module.js" } }
+    </script>
+    <script type="module" src="assets/js/world3d.js"></script>
+    <script src="assets/js/orbs.js"></script>
+    <script src="assets/js/pwg-timeline.js"></script>
+    <script src="assets/js/timeline.js"></script>
+    <script>
+      window.__timelines["main"] = window.__pwgTimeline;
+    </script>
+  </body>
+</html>

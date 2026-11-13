@@ -1,0 +1,630 @@
+{
+ "_doc": "Named sync points. Each entry = [phrase as spoken, search from second, optional nudge]. Thromboseprophylaxe — Mythos oder Fakt (Folge 4). Score is read Ben : Nora.",
+ "lead": 0.2,
+ "cues": {
+  "welcome": [
+   "Nora was ist das",
+   15.4
+  ],
+  "zettel": [
+   "Zettel",
+   17.0
+  ],
+  "sammlung": [
+   "Das ist meine Sammlung",
+   22.3
+  ],
+  "haelfte": [
+   "Die Hälfte davon",
+   29.3
+  ],
+  "willkommen": [
+   "Willkommen zurück",
+   34.1
+  ],
+  "folge": [
+   "Folge vier",
+   36.1
+  ],
+  "title": [
+   "Thromboseprophylaxe",
+   39.5
+  ],
+  "vortrag": [
+   "Aber nicht als Vortrag",
+   41.4
+  ],
+  "spiel": [
+   "Als Spiel",
+   44.6
+  ],
+  "r_satz": [
+   "Ich lese dir",
+   45.9
+  ],
+  "r_mf": [
+   "du sagst",
+   47.3
+  ],
+  "r_punkt": [
+   "Für jede richtige",
+   49.5
+  ],
+  "verliere": [
+   "Und wenn ich verliere",
+   52.1
+  ],
+  "strumpf": [
+   "Dann ziehst du",
+   53.8
+  ],
+  "los": [
+   "Los",
+   59.2
+  ],
+  "q1": [
+   "Satz Nummer eins",
+   60.5
+  ],
+  "q1_text": [
+   "Thrombose Das kriegen",
+   62.2
+  ],
+  "q1_ben": [
+   "Mythos Ganz klar",
+   65.3
+  ],
+  "q1_why": [
+   "weil auch junge",
+   69.6
+  ],
+  "s1": [
+   "Das ist ein Anfang",
+   74.4
+  ],
+  "s1_vir": [
+   "Virchow-Trias",
+   76.9
+  ],
+  "s1_drei": [
+   "Drei Dinge",
+   78.2
+  ],
+  "s1_a": [
+   "Erstens",
+   81.1
+  ],
+  "s1_a_bsp": [
+   "zum Beispiel weil",
+   83.8
+  ],
+  "s1_b": [
+   "Zweitens",
+   88.4
+  ],
+  "s1_b_bsp": [
+   "zum Beispiel durch",
+   91.1
+  ],
+  "s1_c": [
+   "Und drittens",
+   94.8
+  ],
+  "s1_c_bsp": [
+   "etwa durch",
+   97.4
+  ],
+  "s1_knie": [
+   "Also kann das genauso",
+   101.2
+  ],
+  "s1_loest": [
+   "Gerinnsel löst",
+   106.7
+  ],
+  "s1_lunge": [
+   "in die Lunge",
+   108.1
+  ],
+  "s1_embolie": [
+   "Lungenembolie",
+   109.6
+  ],
+  "s1_theater": [
+   "Genau deshalb machen",
+   111.2
+  ],
+  "s1_punkt": [
+   "Punkt für dich",
+   113.7
+  ],
+  "p_1_0": [
+   "Eins zu null",
+   114.8
+  ],
+  "q2": [
+   "Satz Nummer zwei",
+   116.1
+  ],
+  "q2_ben": [
+   "Hm Klingt logisch",
+   124.2
+  ],
+  "q2_ben_fakt": [
+   "Fakt",
+   127.5
+  ],
+  "q2_mythos": [
+   "Leider Mythos",
+   129.5
+  ],
+  "s2": [
+   "Die medizinischen",
+   132.4
+  ],
+  "s2_uhr": [
+   "rund um die Uhr",
+   137.0
+  ],
+  "s2_nachts": [
+   "Auch nachts",
+   138.4
+  ],
+  "s2_zwei": [
+   "Zweimal am Tag",
+   142.6
+  ],
+  "s2_pflege": [
+   "für die Körperpflege",
+   144.9
+  ],
+  "s2_creme": [
+   "Direkt davor",
+   149.4
+  ],
+  "s2_probier": [
+   "Probier mal",
+   153.4
+  ],
+  "p_1_1": [
+   "Eins zu eins",
+   159.4
+  ],
+  "q3": [
+   "Satz Nummer drei",
+   161.3
+  ],
+  "q3_ben": [
+   "Mythos Den weiß",
+   166.5
+  ],
+  "s3_aus": [
+   "Man misst vorher",
+   168.5
+  ],
+  "s3": [
+   "Was denn genau",
+   170.1
+  ],
+  "s3_laenge": [
+   "Beinlänge",
+   171.3
+  ],
+  "s3_wade": [
+   "Wadenumfang",
+   173.8
+  ],
+  "s3_ober": [
+   "und Oberschenkel",
+   175.6
+  ],
+  "s3_bonus": [
+   "Und jetzt die Bonusfrage",
+   178.3
+  ],
+  "s3_neu": [
+   "Wann musst du",
+   180.0
+  ],
+  "s3_abgen": [
+   "Wenn der Patient abgenommen",
+   181.5
+  ],
+  "s3_diur": [
+   "Diuretika",
+   186.2
+  ],
+  "s3_wasser": [
+   "Der Patient verliert",
+   187.1
+  ],
+  "s3_schmal": [
+   "die Beine werden",
+   188.6
+  ],
+  "s3_passt": [
+   "und der Strumpf passt",
+   190.4
+  ],
+  "s3_wechsel": [
+   "vor jedem Strumpfwechsel",
+   194.2
+  ],
+  "s3_zwei": [
+   "Zwei Punkte für dich",
+   196.5
+  ],
+  "p_3_1": [
+   "Drei zu eins",
+   197.8
+  ],
+  "q4": [
+   "Satz Nummer vier",
+   201.3
+  ],
+  "q4_ben": [
+   "das klingt eigentlich",
+   214.9
+  ],
+  "q4_mythos": [
+   "ist aber ein Mythos",
+   219.6
+  ],
+  "s4": [
+   "Ausgeprägte Ödeme",
+   221.4
+  ],
+  "s4_kontra": [
+   "Kontraindikationen",
+   223.3
+  ],
+  "s4_avk": [
+   "arterielle Verschlusskrankheit",
+   228.0
+  ],
+  "s4_pnp": [
+   "Polyneuropathie",
+   230.2
+  ],
+  "s4_allergie": [
+   "eine Allergie",
+   232.2
+  ],
+  "s4_arzt": [
+   "sondern spricht",
+   237.7
+  ],
+  "p_3_2": [
+   "Drei zu zwei",
+   241.1
+  ],
+  "puetter": [
+   "Und falls die Standardgrößen",
+   242.4
+  ],
+  "pu_verband": [
+   "Dann Verband",
+   244.9
+  ],
+  "pu_kv": [
+   "ein Kompressionsverband",
+   249.4
+  ],
+  "pu_kurz": [
+   "Mit Kurzzug",
+   252.6
+  ],
+  "pu_druck": [
+   "der Druck nimmt",
+   254.2
+  ],
+  "pu_unten": [
+   "Also unten am Fuß",
+   257.6
+  ],
+  "pu_halb": [
+   "Nach einer halben Stunde",
+   262.8
+  ],
+  "pu_alarm": [
+   "Schmerzen oder blaue",
+   266.5
+  ],
+  "pu_neu": [
+   "Und neu gewickelt",
+   270.1
+  ],
+  "q5": [
+   "Jetzt wird's heikel",
+   274.3
+  ],
+  "q5_satz": [
+   "Satz Nummer fünf",
+   275.5
+  ],
+  "q5_erst": [
+   "Das hab ich in meinem",
+   283.8
+  ],
+  "q5_ben": [
+   "ich sag Fakt",
+   292.0
+  ],
+  "q5_mythos": [
+   "Doppelter Mythos",
+   296.7
+  ],
+  "s5": [
+   "Erstens Nicht aspirieren",
+   300.0
+  ],
+  "s5_flecken": [
+   "und dann gibt's",
+   304.9
+  ],
+  "s5_blase": [
+   "Und die Luftblase",
+   306.6
+  ],
+  "s5_drin": [
+   "Bleibt drin",
+   308.2
+  ],
+  "s5_dosis": [
+   "damit am Ende",
+   311.2
+  ],
+  "s5_pruef": [
+   "Das ist echt ein Klassiker",
+   314.7
+  ],
+  "s5b": [
+   "Gespritzt wird",
+   319.1
+  ],
+  "s5b_bauch": [
+   "seitliche Bauchdecke",
+   322.3
+  ],
+  "s5b_ober": [
+   "außen in den Oberschenkel",
+   325.3
+  ],
+  "p_3_3": [
+   "Drei zu drei",
+   328.4
+  ],
+  "q6": [
+   "Satz Nummer sechs",
+   331.1
+  ],
+  "q6_ben": [
+   "Mythos Gleicher Grund",
+   337.8
+  ],
+  "q6_grund": [
+   "Gleicher Grund",
+   338.6
+  ],
+  "q6_richtig": [
+   "Richtig Und welche",
+   342.4
+  ],
+  "s6": [
+   "Und welche Nebenwirkungen",
+   343.7
+  ],
+  "s6_blut": [
+   "Blutung",
+   346.8
+  ],
+  "s6_thrombo": [
+   "Irgendwas mit den",
+   348.7
+  ],
+  "s6_ab": [
+   "die Thrombozyten können",
+   351.7
+  ],
+  "s6_allerg": [
+   "allergische Reaktionen",
+   354.3
+  ],
+  "s6_roet": [
+   "und Rötungen",
+   355.6
+  ],
+  "s6_halb": [
+   "Gibt's dafür",
+   357.7
+  ],
+  "p_45_3": [
+   "Viereinhalb zu drei",
+   361.3
+  ],
+  "q7": [
+   "Letzter Satz",
+   362.5
+  ],
+  "q7_text": [
+   "Wer Heparin kriegt",
+   363.7
+  ],
+  "q7_ben": [
+   "Mythos Bewegung bleibt",
+   368.2
+  ],
+  "s7": [
+   "Warum",
+   371.2
+  ],
+  "s7_pumpe": [
+   "Wadenmuskelpumpe",
+   373.6
+  ],
+  "s7_drueckt": [
+   "drückt sie das Blut",
+   377.3
+  ],
+  "s7_mob": [
+   "also mobilisieren",
+   381.0
+  ],
+  "s7_fuss": [
+   "Fußgymnastik",
+   383.7
+  ],
+  "s7_trink": [
+   "und genug trinken",
+   385.1
+  ],
+  "s7_ersetzen": [
+   "Die Strümpfe und das Heparin",
+   386.5
+  ],
+  "p_55_3": [
+   "Fünfeinhalb zu drei",
+   390.8
+  ],
+  "case": [
+   "Wir reden später",
+   394.8
+  ],
+  "case_doppelt": [
+   "und der zählt doppelt",
+   397.3
+  ],
+  "c_herr": [
+   "Herr K",
+   401.4
+  ],
+  "c_hueft": [
+   "zweiter Tag nach",
+   402.1
+  ],
+  "c_traegt": [
+   "Er trägt Strümpfe",
+   404.0
+  ],
+  "c_morgens": [
+   "Du ziehst ihm morgens",
+   406.6
+  ],
+  "c_links": [
+   "Das linke Bein",
+   410.5
+  ],
+  "c_warm": [
+   "warm und tut",
+   413.5
+  ],
+  "c_wade": [
+   "an der Wade weh",
+   414.4
+  ],
+  "c_thromb": [
+   "das klingt nach einer Thrombose",
+   416.6
+  ],
+  "c_was": [
+   "Was machst du",
+   419.0
+  ],
+  "c_m1": [
+   "Als Erstes",
+   420.2
+  ],
+  "c_m2": [
+   "Er bleibt erst mal",
+   423.6
+  ],
+  "c_m3": [
+   "Und ich informiere",
+   426.5
+  ],
+  "c_m4": [
+   "Ich dokumentiere",
+   430.3
+  ],
+  "c_m5": [
+   "und warte auf die",
+   432.3
+  ],
+  "c_sehen": [
+   "Und genau dafür",
+   438.1
+  ],
+  "gewonnen": [
+   "Das heißt ich hab gewonnen",
+   442.9
+  ],
+  "gewonnen_n": [
+   "Ja du hast gewonnen",
+   445.2
+  ],
+  "summary": [
+   "Untersteh dich",
+   450.2
+  ],
+  "sum_go": [
+   "Fassen wir kurz",
+   451.5
+  ],
+  "sum_vir": [
+   "Virchow-Trias",
+   453.1
+  ],
+  "sum_mts": [
+   "MTS vorher",
+   458.8
+  ],
+  "sm_mess": [
+   "vorher genau messen",
+   459.9
+  ],
+  "sm_uhr": [
+   "rund um die Uhr tragen",
+   461.6
+  ],
+  "sm_kontra": [
+   "Kontraindikationen beachten",
+   463.0
+  ],
+  "sm_puetter": [
+   "Und wenn keine Standardgröße",
+   465.3
+  ],
+  "sum_hep": [
+   "Heparin nicht aspirieren",
+   469.7
+  ],
+  "sh_blase": [
+   "Luftblase drin",
+   472.1
+  ],
+  "sh_reib": [
+   "nicht verreiben",
+   473.6
+  ],
+  "sum_beweg": [
+   "Und Bewegung bleibt",
+   475.4
+  ],
+  "outro": [
+   "So das war's",
+   478.6
+  ],
+  "abo": [
+   "dann abonniert",
+   489.9
+  ],
+  "kommentare": [
+   "dann schreibt's",
+   503.6
+  ],
+  "bis_bald": [
+   "Bis zum nächsten Mal",
+   513.8
+  ]
+ }
+}
