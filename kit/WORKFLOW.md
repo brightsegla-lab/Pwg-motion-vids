@@ -32,6 +32,17 @@ Read the whole transcript. Fill `STORYBOARD.md`: one row per scene with time, 2D
 - Check in ranges while building; snapshot key moments:
   `npx --yes hyperframes@0.8.162 snapshot . --at 12,45,90 --no-end --describe false`.
 
+### Sound effects (video only, since Folge 4)
+
+Short effects are mixed into a video-only audio file; the podcast mix stays clean.
+- Library: `assets/sfx/*.mp3` (ElevenLabs Sound Effects, `python3 scripts/sfx_generate.py <name> <s> "<prompt>"`,
+  cached). Current: `mythos-stamp` (thump + marimba, lands 0.37 s after the verdict cue), `point-ding`,
+  `whoosh`, `title-hit`.
+- Per episode: `sfx.json` lists `[sfx, cue_or_seconds(+offset), gain_db]`; build with
+  `python3 scripts/build_sfx_mix.py episodes/<slug>` → `assets/audio/<slug>-video.mp3`, which the
+  composition's `<audio>` plays. Keep effects under the voices (stamp ≈ −20 LUFS momentary).
+- Rebuild after any cue change.
+
 ## 4 · Review loop
 
 1. `kit/REVIEW.md` sections A–C.
