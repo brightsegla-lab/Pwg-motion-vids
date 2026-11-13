@@ -1,0 +1,6628 @@
+{
+ "language_code": "deu",
+ "segments": [
+  {
+   "text": "Nora, was ist das für ein Zettel? Du hältst den fest, als wär es ein Lottoschein.",
+   "start_time": 16.2,
+   "end_time": 21.5,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Nora,",
+     "start_time": 16.36,
+     "end_time": 16.72
+    },
+    {
+     "text": "was",
+     "start_time": 17.08,
+     "end_time": 17.26
+    },
+    {
+     "text": "ist",
+     "start_time": 17.32,
+     "end_time": 17.44
+    },
+    {
+     "text": "das",
+     "start_time": 17.48,
+     "end_time": 17.64
+    },
+    {
+     "text": "für",
+     "start_time": 17.68,
+     "end_time": 17.8
+    },
+    {
+     "text": "ein",
+     "start_time": 17.82,
+     "end_time": 17.92
+    },
+    {
+     "text": "Zettel?",
+     "start_time": 18.04,
+     "end_time": 18.4
+    },
+    {
+     "text": "Du",
+     "start_time": 19.1,
+     "end_time": 19.18
+    },
+    {
+     "text": "hältst",
+     "start_time": 19.22,
+     "end_time": 19.44
+    },
+    {
+     "text": "den",
+     "start_time": 19.48,
+     "end_time": 19.58
+    },
+    {
+     "text": "fest,",
+     "start_time": 19.7,
+     "end_time": 19.98
+    },
+    {
+     "text": "als",
+     "start_time": 20.1,
+     "end_time": 20.22
+    },
+    {
+     "text": "wär",
+     "start_time": 20.26,
+     "end_time": 20.36
+    },
+    {
+     "text": "es",
+     "start_time": 20.38,
+     "end_time": 20.48
+    },
+    {
+     "text": "ein",
+     "start_time": 20.52,
+     "end_time": 20.66
+    },
+    {
+     "text": "Lottoschein.",
+     "start_time": 20.7,
+     "end_time": 21.36
+    }
+   ]
+  },
+  {
+   "text": "Fast. Das ist meine Sammlung. Alles, was ich in den letzten Wochen auf Station über Thrombose gehört hab.",
+   "start_time": 21.7,
+   "end_time": 28.463,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Fast.",
+     "start_time": 22.58,
+     "end_time": 22.92
+    },
+    {
+     "text": "Das",
+     "start_time": 23.32,
+     "end_time": 23.42
+    },
+    {
+     "text": "ist",
+     "start_time": 23.46,
+     "end_time": 23.56
+    },
+    {
+     "text": "meine",
+     "start_time": 23.58,
+     "end_time": 23.76
+    },
+    {
+     "text": "Sammlung.",
+     "start_time": 23.8,
+     "end_time": 24.24
+    },
+    {
+     "text": "Alles,",
+     "start_time": 24.9,
+     "end_time": 25.1
+    },
+    {
+     "text": "was",
+     "start_time": 25.14,
+     "end_time": 25.26
+    },
+    {
+     "text": "ich",
+     "start_time": 25.32,
+     "end_time": 25.4
+    },
+    {
+     "text": "in",
+     "start_time": 25.42,
+     "end_time": 25.48
+    },
+    {
+     "text": "den",
+     "start_time": 25.5,
+     "end_time": 25.58
+    },
+    {
+     "text": "letzten",
+     "start_time": 25.62,
+     "end_time": 25.92
+    },
+    {
+     "text": "Wochen",
+     "start_time": 25.96,
+     "end_time": 26.22
+    },
+    {
+     "text": "auf",
+     "start_time": 26.26,
+     "end_time": 26.34
+    },
+    {
+     "text": "Station",
+     "start_time": 26.36,
+     "end_time": 26.9
+    },
+    {
+     "text": "über",
+     "start_time": 26.94,
+     "end_time": 27.22
+    },
+    {
+     "text": "Thrombose",
+     "start_time": 27.24,
+     "end_time": 27.72
+    },
+    {
+     "text": "gehört",
+     "start_time": 27.78,
+     "end_time": 28.14
+    },
+    {
+     "text": "hab.",
+     "start_time": 28.16,
+     "end_time": 28.36
+    }
+   ]
+  },
+  {
+   "text": "Und?",
+   "start_time": 28.745,
+   "end_time": 29.485,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Und?",
+     "start_time": 29.18,
+     "end_time": 29.38
+    }
+   ]
+  },
+  {
+   "text": "Die Hälfte davon stimmt nicht.",
+   "start_time": 29.849,
+   "end_time": 31.583,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Die",
+     "start_time": 30.28,
+     "end_time": 30.34
+    },
+    {
+     "text": "Hälfte",
+     "start_time": 30.38,
+     "end_time": 30.6
+    },
+    {
+     "text": "davon",
+     "start_time": 30.64,
+     "end_time": 30.88
+    },
+    {
+     "text": "stimmt",
+     "start_time": 30.92,
+     "end_time": 31.2
+    },
+    {
+     "text": "nicht.",
+     "start_time": 31.24,
+     "end_time": 31.52
+    }
+   ]
+  },
+  {
+   "text": "Okay, jetzt bin ich gespannt.",
+   "start_time": 31.827,
+   "end_time": 34.371,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Okay,",
+     "start_time": 32.24,
+     "end_time": 32.619
+    },
+    {
+     "text": "jetzt",
+     "start_time": 33.18,
+     "end_time": 33.46
+    },
+    {
+     "text": "bin",
+     "start_time": 33.48,
+     "end_time": 33.6
+    },
+    {
+     "text": "ich",
+     "start_time": 33.64,
+     "end_time": 33.74
+    },
+    {
+     "text": "gespannt.",
+     "start_time": 33.76,
+     "end_time": 34.26
+    }
+   ]
+  },
+  {
+   "text": "Willkommen zurück bei Pflege WG. Folge vier unserer Prophylaxen-Reihe. Heute Thromboseprophylaxe. Aber nicht als Vortrag.",
+   "start_time": 34.697,
+   "end_time": 43.817,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Willkommen",
+     "start_time": 35.08,
+     "end_time": 35.48
+    },
+    {
+     "text": "zurück",
+     "start_time": 35.52,
+     "end_time": 35.8
+    },
+    {
+     "text": "bei",
+     "start_time": 35.82,
+     "end_time": 35.92
+    },
+    {
+     "text": "Pflege",
+     "start_time": 35.98,
+     "end_time": 36.3
+    },
+    {
+     "text": "WG.",
+     "start_time": 36.36,
+     "end_time": 36.72
+    },
+    {
+     "text": "Folge",
+     "start_time": 37.08,
+     "end_time": 37.32
+    },
+    {
+     "text": "vier",
+     "start_time": 37.44,
+     "end_time": 37.68
+    },
+    {
+     "text": "unserer",
+     "start_time": 37.74,
+     "end_time": 38.06
+    },
+    {
+     "text": "Prophylaxen-Reihe.",
+     "start_time": 38.08,
+     "end_time": 39.04
+    },
+    {
+     "text": "Heute",
+     "start_time": 39.62,
+     "end_time": 40.04
+    },
+    {
+     "text": "Thromboseprophylaxe.",
+     "start_time": 40.54,
+     "end_time": 41.82
+    },
+    {
+     "text": "Aber",
+     "start_time": 42.38,
+     "end_time": 42.62
+    },
+    {
+     "text": "nicht",
+     "start_time": 42.84,
+     "end_time": 43.04
+    },
+    {
+     "text": "als",
+     "start_time": 43.08,
+     "end_time": 43.22
+    },
+    {
+     "text": "Vortrag.",
+     "start_time": 43.26,
+     "end_time": 43.8
+    }
+   ]
+  },
+  {
+   "text": "Sondern?",
+   "start_time": 44.023,
+   "end_time": 44.703,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Sondern?",
+     "start_time": 44.16,
+     "end_time": 44.58
+    }
+   ]
+  },
+  {
+   "text": "Als Spiel. Ich lese dir einen Satz vor. Du sagst Mythos oder Fakt. Für jede richtige Antwort gibt's einen Punkt.",
+   "start_time": 44.991,
+   "end_time": 52.622,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Als",
+     "start_time": 45.56,
+     "end_time": 45.68
+    },
+    {
+     "text": "Spiel.",
+     "start_time": 45.72,
+     "end_time": 46.08
+    },
+    {
+     "text": "Ich",
+     "start_time": 46.88,
+     "end_time": 46.98
+    },
+    {
+     "text": "lese",
+     "start_time": 47.02,
+     "end_time": 47.2
+    },
+    {
+     "text": "dir",
+     "start_time": 47.24,
+     "end_time": 47.34
+    },
+    {
+     "text": "einen",
+     "start_time": 47.38,
+     "end_time": 47.5
+    },
+    {
+     "text": "Satz",
+     "start_time": 47.54,
+     "end_time": 47.74
+    },
+    {
+     "text": "vor.",
+     "start_time": 47.78,
+     "end_time": 47.98
+    },
+    {
+     "text": "Du",
+     "start_time": 48.34,
+     "end_time": 48.42
+    },
+    {
+     "text": "sagst",
+     "start_time": 48.5,
+     "end_time": 48.84
+    },
+    {
+     "text": "Mythos",
+     "start_time": 49.06,
+     "end_time": 49.46
+    },
+    {
+     "text": "oder",
+     "start_time": 49.5,
+     "end_time": 49.62
+    },
+    {
+     "text": "Fakt.",
+     "start_time": 49.7,
+     "end_time": 49.98
+    },
+    {
+     "text": "Für",
+     "start_time": 50.54,
+     "end_time": 50.64
+    },
+    {
+     "text": "jede",
+     "start_time": 50.7,
+     "end_time": 50.86
+    },
+    {
+     "text": "richtige",
+     "start_time": 50.92,
+     "end_time": 51.24
+    },
+    {
+     "text": "Antwort",
+     "start_time": 51.3,
+     "end_time": 51.68
+    },
+    {
+     "text": "gibt's",
+     "start_time": 51.88,
+     "end_time": 52.04
+    },
+    {
+     "text": "einen",
+     "start_time": 52.1,
+     "end_time": 52.24
+    },
+    {
+     "text": "Punkt.",
+     "start_time": 52.28,
+     "end_time": 52.54
+    }
+   ]
+  },
+  {
+   "text": "Und wenn ich verliere?",
+   "start_time": 52.992,
+   "end_time": 53.992,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Und",
+     "start_time": 53.06,
+     "end_time": 53.14
+    },
+    {
+     "text": "wenn",
+     "start_time": 53.18,
+     "end_time": 53.28
+    },
+    {
+     "text": "ich",
+     "start_time": 53.32,
+     "end_time": 53.4
+    },
+    {
+     "text": "verliere?",
+     "start_time": 53.44,
+     "end_time": 53.86
+    }
+   ]
+  },
+  {
+   "text": "Dann ziehst du in der nächsten Folge die Kompressionsstrümpfe an.",
+   "start_time": 54.242,
+   "end_time": 57.962,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Dann",
+     "start_time": 54.84,
+     "end_time": 55.0
+    },
+    {
+     "text": "ziehst",
+     "start_time": 55.08,
+     "end_time": 55.28
+    },
+    {
+     "text": "du",
+     "start_time": 55.3,
+     "end_time": 55.38
+    },
+    {
+     "text": "in",
+     "start_time": 55.42,
+     "end_time": 55.46
+    },
+    {
+     "text": "der",
+     "start_time": 55.5,
+     "end_time": 55.58
+    },
+    {
+     "text": "nächsten",
+     "start_time": 55.62,
+     "end_time": 55.94
+    },
+    {
+     "text": "Folge",
+     "start_time": 55.98,
+     "end_time": 56.34
+    },
+    {
+     "text": "die",
+     "start_time": 56.54,
+     "end_time": 56.64
+    },
+    {
+     "text": "Kompressionsstrümpfe",
+     "start_time": 56.68,
+     "end_time": 57.68
+    },
+    {
+     "text": "an.",
+     "start_time": 57.76,
+     "end_time": 57.9
+    }
+   ]
+  },
+  {
+   "text": "Ich hab ja keine Wahl. Los.",
+   "start_time": 58.294,
+   "end_time": 60.548,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Ich",
+     "start_time": 58.74,
+     "end_time": 58.8
+    },
+    {
+     "text": "hab",
+     "start_time": 58.82,
+     "end_time": 58.94
+    },
+    {
+     "text": "ja",
+     "start_time": 58.98,
+     "end_time": 59.06
+    },
+    {
+     "text": "keine",
+     "start_time": 59.1,
+     "end_time": 59.32
+    },
+    {
+     "text": "Wahl.",
+     "start_time": 59.38,
+     "end_time": 59.66
+    },
+    {
+     "text": "Los.",
+     "start_time": 60.18,
+     "end_time": 60.44
+    }
+   ]
+  },
+  {
+   "text": "Satz Nummer eins: Thrombose? Das kriegen doch nur alte Leute.",
+   "start_time": 60.76,
+   "end_time": 65.917,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Satz",
+     "start_time": 61.52,
+     "end_time": 61.76
+    },
+    {
+     "text": "Nummer",
+     "start_time": 61.8,
+     "end_time": 62.04
+    },
+    {
+     "text": "eins:",
+     "start_time": 62.1,
+     "end_time": 62.4
+    },
+    {
+     "text": "Thrombose?",
+     "start_time": 63.24,
+     "end_time": 63.9
+    },
+    {
+     "text": "Das",
+     "start_time": 64.4,
+     "end_time": 64.54
+    },
+    {
+     "text": "kriegen",
+     "start_time": 64.58,
+     "end_time": 64.76
+    },
+    {
+     "text": "doch",
+     "start_time": 64.8,
+     "end_time": 64.92
+    },
+    {
+     "text": "nur",
+     "start_time": 64.959,
+     "end_time": 65.06
+    },
+    {
+     "text": "alte",
+     "start_time": 65.14,
+     "end_time": 65.4
+    },
+    {
+     "text": "Leute.",
+     "start_time": 65.44,
+     "end_time": 65.82
+    }
+   ]
+  },
+  {
+   "text": "Mythos, ganz klar.",
+   "start_time": 66.211,
+   "end_time": 67.549,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Mythos,",
+     "start_time": 66.32,
+     "end_time": 66.72
+    },
+    {
+     "text": "ganz",
+     "start_time": 66.98,
+     "end_time": 67.2
+    },
+    {
+     "text": "klar.",
+     "start_time": 67.24,
+     "end_time": 67.44
+    }
+   ]
+  },
+  {
+   "text": "Begründung?",
+   "start_time": 67.925,
+   "end_time": 69.16,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Begründung?",
+     "start_time": 68.58,
+     "end_time": 69.1
+    }
+   ]
+  },
+  {
+   "text": "Äh, weil auch junge Leute im Bett liegen?",
+   "start_time": 69.416,
+   "end_time": 73.751,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Äh,",
+     "start_time": 69.58,
+     "end_time": 69.86
+    },
+    {
+     "text": "weil",
+     "start_time": 70.56,
+     "end_time": 71.08
+    },
+    {
+     "text": "auch",
+     "start_time": 71.84,
+     "end_time": 72.12
+    },
+    {
+     "text": "junge",
+     "start_time": 72.2,
+     "end_time": 72.42
+    },
+    {
+     "text": "Leute",
+     "start_time": 72.48,
+     "end_time": 72.82
+    },
+    {
+     "text": "im",
+     "start_time": 72.86,
+     "end_time": 73.02
+    },
+    {
+     "text": "Bett",
+     "start_time": 73.04,
+     "end_time": 73.26
+    },
+    {
+     "text": "liegen?",
+     "start_time": 73.34,
+     "end_time": 73.64
+    }
+   ]
+  },
+  {
+   "text": "Das ist ein Anfang. Merk dir dafür die Virchow-Trias. Drei Dinge, die eine Thrombose begünstigen. Erstens, das Blut fließt langsamer, zum Beispiel weil jemand im Bett liegt und sich kaum bewegt.",
+   "start_time": 74.089,
+   "end_time": 87.697,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Das",
+     "start_time": 75.38,
+     "end_time": 75.48
+    },
+    {
+     "text": "ist",
+     "start_time": 75.52,
+     "end_time": 75.62
+    },
+    {
+     "text": "ein",
+     "start_time": 75.64,
+     "end_time": 75.76
+    },
+    {
+     "text": "Anfang.",
+     "start_time": 75.8,
+     "end_time": 76.16
+    },
+    {
+     "text": "Merk",
+     "start_time": 76.76,
+     "end_time": 76.92
+    },
+    {
+     "text": "dir",
+     "start_time": 76.96,
+     "end_time": 77.04
+    },
+    {
+     "text": "dafür",
+     "start_time": 77.08,
+     "end_time": 77.6
+    },
+    {
+     "text": "die",
+     "start_time": 77.64,
+     "end_time": 77.82
+    },
+    {
+     "text": "Virchow-Trias.",
+     "start_time": 77.86,
+     "end_time": 78.86
+    },
+    {
+     "text": "Drei",
+     "start_time": 79.16,
+     "end_time": 79.4
+    },
+    {
+     "text": "Dinge,",
+     "start_time": 79.5,
+     "end_time": 79.76
+    },
+    {
+     "text": "die",
+     "start_time": 79.98,
+     "end_time": 80.06
+    },
+    {
+     "text": "eine",
+     "start_time": 80.1,
+     "end_time": 80.26
+    },
+    {
+     "text": "Thrombose",
+     "start_time": 80.3,
+     "end_time": 80.74
+    },
+    {
+     "text": "begünstigen.",
+     "start_time": 80.8,
+     "end_time": 81.42
+    },
+    {
+     "text": "Erstens,",
+     "start_time": 82.1,
+     "end_time": 82.56
+    },
+    {
+     "text": "das",
+     "start_time": 83.06,
+     "end_time": 83.26
+    },
+    {
+     "text": "Blut",
+     "start_time": 83.28,
+     "end_time": 83.52
+    },
+    {
+     "text": "fließt",
+     "start_time": 83.62,
+     "end_time": 83.92
+    },
+    {
+     "text": "langsamer,",
+     "start_time": 83.98,
+     "end_time": 84.52
+    },
+    {
+     "text": "zum",
+     "start_time": 84.82,
+     "end_time": 84.92
+    },
+    {
+     "text": "Beispiel",
+     "start_time": 84.96,
+     "end_time": 85.4
+    },
+    {
+     "text": "weil",
+     "start_time": 85.54,
+     "end_time": 85.66
+    },
+    {
+     "text": "jemand",
+     "start_time": 85.7,
+     "end_time": 85.94
+    },
+    {
+     "text": "im",
+     "start_time": 85.98,
+     "end_time": 86.06
+    },
+    {
+     "text": "Bett",
+     "start_time": 86.08,
+     "end_time": 86.26
+    },
+    {
+     "text": "liegt",
+     "start_time": 86.3,
+     "end_time": 86.56
+    },
+    {
+     "text": "und",
+     "start_time": 86.68,
+     "end_time": 86.74
+    },
+    {
+     "text": "sich",
+     "start_time": 86.78,
+     "end_time": 86.92
+    },
+    {
+     "text": "kaum",
+     "start_time": 86.96,
+     "end_time": 87.14
+    },
+    {
+     "text": "bewegt.",
+     "start_time": 87.16,
+     "end_time": 87.62
+    }
+   ]
+  },
+  {
+   "text": "Okay.",
+   "start_time": 87.915,
+   "end_time": 88.443,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Okay.",
+     "start_time": 87.98,
+     "end_time": 88.34
+    }
+   ]
+  },
+  {
+   "text": "Zweitens, die Gefäßwand ist geschädigt, zum Beispiel durch eine Operation oder eine Entzündung. Und drittens, die Gerinnung ist verändert, etwa durch bestimmte Medikamente oder in der Schwangerschaft.",
+   "start_time": 88.743,
+   "end_time": 101.623,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Zweitens,",
+     "start_time": 89.38,
+     "end_time": 89.92
+    },
+    {
+     "text": "die",
+     "start_time": 90.36,
+     "end_time": 90.44
+    },
+    {
+     "text": "Gefäßwand",
+     "start_time": 90.46,
+     "end_time": 91.1
+    },
+    {
+     "text": "ist",
+     "start_time": 91.16,
+     "end_time": 91.26
+    },
+    {
+     "text": "geschädigt,",
+     "start_time": 91.3,
+     "end_time": 91.88
+    },
+    {
+     "text": "zum",
+     "start_time": 92.12,
+     "end_time": 92.22
+    },
+    {
+     "text": "Beispiel",
+     "start_time": 92.26,
+     "end_time": 92.7
+    },
+    {
+     "text": "durch",
+     "start_time": 92.76,
+     "end_time": 92.94
+    },
+    {
+     "text": "eine",
+     "start_time": 92.98,
+     "end_time": 93.12
+    },
+    {
+     "text": "Operation",
+     "start_time": 93.16,
+     "end_time": 93.86
+    },
+    {
+     "text": "oder",
+     "start_time": 94.1,
+     "end_time": 94.28
+    },
+    {
+     "text": "eine",
+     "start_time": 94.34,
+     "end_time": 94.48
+    },
+    {
+     "text": "Entzündung.",
+     "start_time": 94.5,
+     "end_time": 95.12
+    },
+    {
+     "text": "Und",
+     "start_time": 95.84,
+     "end_time": 95.94
+    },
+    {
+     "text": "drittens,",
+     "start_time": 95.98,
+     "end_time": 96.42
+    },
+    {
+     "text": "die",
+     "start_time": 96.88,
+     "end_time": 96.98
+    },
+    {
+     "text": "Gerinnung",
+     "start_time": 97.0,
+     "end_time": 97.42
+    },
+    {
+     "text": "ist",
+     "start_time": 97.46,
+     "end_time": 97.6
+    },
+    {
+     "text": "verändert,",
+     "start_time": 97.62,
+     "end_time": 98.12
+    },
+    {
+     "text": "etwa",
+     "start_time": 98.4,
+     "end_time": 98.66
+    },
+    {
+     "text": "durch",
+     "start_time": 98.74,
+     "end_time": 98.96
+    },
+    {
+     "text": "bestimmte",
+     "start_time": 98.98,
+     "end_time": 99.36
+    },
+    {
+     "text": "Medikamente",
+     "start_time": 99.4,
+     "end_time": 100.14
+    },
+    {
+     "text": "oder",
+     "start_time": 100.38,
+     "end_time": 100.6
+    },
+    {
+     "text": "in",
+     "start_time": 100.64,
+     "end_time": 100.7
+    },
+    {
+     "text": "der",
+     "start_time": 100.72,
+     "end_time": 100.84
+    },
+    {
+     "text": "Schwangerschaft.",
+     "start_time": 100.86,
+     "end_time": 101.54
+    }
+   ]
+  },
+  {
+   "text": "Also kann das genauso den Fünfundzwanzigjährigen nach der Knie-OP treffen.",
+   "start_time": 102.005,
+   "end_time": 105.84,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Also",
+     "start_time": 102.18,
+     "end_time": 102.36
+    },
+    {
+     "text": "kann",
+     "start_time": 102.4,
+     "end_time": 102.52
+    },
+    {
+     "text": "das",
+     "start_time": 102.56,
+     "end_time": 102.7
+    },
+    {
+     "text": "genauso",
+     "start_time": 102.72,
+     "end_time": 103.16
+    },
+    {
+     "text": "den",
+     "start_time": 103.2,
+     "end_time": 103.38
+    },
+    {
+     "text": "Fünfundzwanzigjährigen",
+     "start_time": 103.42,
+     "end_time": 104.48
+    },
+    {
+     "text": "nach",
+     "start_time": 104.52,
+     "end_time": 104.66
+    },
+    {
+     "text": "der",
+     "start_time": 104.7,
+     "end_time": 104.82
+    },
+    {
+     "text": "Knie-OP",
+     "start_time": 104.84,
+     "end_time": 105.34
+    },
+    {
+     "text": "treffen.",
+     "start_time": 105.38,
+     "end_time": 105.72
+    }
+   ]
+  },
+  {
+   "text": "Genau. Und wenn sich so ein Gerinnsel löst, kann es in die Lunge wandern.",
+   "start_time": 106.102,
+   "end_time": 110.024,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Genau.",
+     "start_time": 106.16,
+     "end_time": 106.48
+    },
+    {
+     "text": "Und",
+     "start_time": 107.02,
+     "end_time": 107.1
+    },
+    {
+     "text": "wenn",
+     "start_time": 107.16,
+     "end_time": 107.26
+    },
+    {
+     "text": "sich",
+     "start_time": 107.3,
+     "end_time": 107.42
+    },
+    {
+     "text": "so",
+     "start_time": 107.46,
+     "end_time": 107.54
+    },
+    {
+     "text": "ein",
+     "start_time": 107.58,
+     "end_time": 107.68
+    },
+    {
+     "text": "Gerinnsel",
+     "start_time": 107.7,
+     "end_time": 108.1
+    },
+    {
+     "text": "löst,",
+     "start_time": 108.16,
+     "end_time": 108.54
+    },
+    {
+     "text": "kann",
+     "start_time": 108.78,
+     "end_time": 108.9
+    },
+    {
+     "text": "es",
+     "start_time": 108.94,
+     "end_time": 109.02
+    },
+    {
+     "text": "in",
+     "start_time": 109.06,
+     "end_time": 109.1
+    },
+    {
+     "text": "die",
+     "start_time": 109.14,
+     "end_time": 109.22
+    },
+    {
+     "text": "Lunge",
+     "start_time": 109.26,
+     "end_time": 109.44
+    },
+    {
+     "text": "wandern.",
+     "start_time": 109.52,
+     "end_time": 109.96
+    }
+   ]
+  },
+  {
+   "text": "Lungenembolie.",
+   "start_time": 110.368,
+   "end_time": 111.378,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Lungenembolie.",
+     "start_time": 110.56,
+     "end_time": 111.26
+    }
+   ]
+  },
+  {
+   "text": "Genau deshalb machen wir das ganze Theater. Punkt für dich.",
+   "start_time": 111.602,
+   "end_time": 115.376,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Genau",
+     "start_time": 112.2,
+     "end_time": 112.6
+    },
+    {
+     "text": "deshalb",
+     "start_time": 112.62,
+     "end_time": 113.02
+    },
+    {
+     "text": "machen",
+     "start_time": 113.06,
+     "end_time": 113.26
+    },
+    {
+     "text": "wir",
+     "start_time": 113.28,
+     "end_time": 113.36
+    },
+    {
+     "text": "das",
+     "start_time": 113.38,
+     "end_time": 113.52
+    },
+    {
+     "text": "ganze",
+     "start_time": 113.56,
+     "end_time": 113.82
+    },
+    {
+     "text": "Theater.",
+     "start_time": 113.84,
+     "end_time": 114.32
+    },
+    {
+     "text": "Punkt",
+     "start_time": 114.72,
+     "end_time": 114.92
+    },
+    {
+     "text": "für",
+     "start_time": 114.94,
+     "end_time": 115.04
+    },
+    {
+     "text": "dich.",
+     "start_time": 115.08,
+     "end_time": 115.3
+    }
+   ]
+  },
+  {
+   "text": "Eins zu null.",
+   "start_time": 115.682,
+   "end_time": 116.552,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Eins",
+     "start_time": 115.78,
+     "end_time": 116.0
+    },
+    {
+     "text": "zu",
+     "start_time": 116.04,
+     "end_time": 116.12
+    },
+    {
+     "text": "null.",
+     "start_time": 116.2,
+     "end_time": 116.4
+    }
+   ]
+  },
+  {
+   "text": "Satz Nummer zwei: Thrombosestrümpfe zieht man morgens an und abends wieder aus. Nachts braucht die keiner. Hm.",
+   "start_time": 116.94,
+   "end_time": 125.8,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Satz",
+     "start_time": 117.1,
+     "end_time": 117.28
+    },
+    {
+     "text": "Nummer",
+     "start_time": 117.32,
+     "end_time": 117.48
+    },
+    {
+     "text": "zwei:",
+     "start_time": 117.58,
+     "end_time": 117.82
+    },
+    {
+     "text": "Thrombosestrümpfe",
+     "start_time": 118.74,
+     "end_time": 119.76
+    },
+    {
+     "text": "zieht",
+     "start_time": 119.88,
+     "end_time": 120.06
+    },
+    {
+     "text": "man",
+     "start_time": 120.1,
+     "end_time": 120.24
+    },
+    {
+     "text": "morgens",
+     "start_time": 120.28,
+     "end_time": 120.64
+    },
+    {
+     "text": "an",
+     "start_time": 120.74,
+     "end_time": 120.9
+    },
+    {
+     "text": "und",
+     "start_time": 121.16,
+     "end_time": 121.28
+    },
+    {
+     "text": "abends",
+     "start_time": 121.36,
+     "end_time": 121.58
+    },
+    {
+     "text": "wieder",
+     "start_time": 121.6,
+     "end_time": 121.8
+    },
+    {
+     "text": "aus.",
+     "start_time": 121.88,
+     "end_time": 122.12
+    },
+    {
+     "text": "Nachts",
+     "start_time": 122.6,
+     "end_time": 123.0
+    },
+    {
+     "text": "braucht",
+     "start_time": 123.22,
+     "end_time": 123.46
+    },
+    {
+     "text": "die",
+     "start_time": 123.48,
+     "end_time": 123.58
+    },
+    {
+     "text": "keiner.",
+     "start_time": 123.62,
+     "end_time": 123.96
+    },
+    {
+     "text": "Hm.",
+     "start_time": 125.2,
+     "end_time": 125.5
+    }
+   ]
+  },
+  {
+   "text": "Klingt logisch. Fakt?",
+   "start_time": 126.068,
+   "end_time": 129.008,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Klingt",
+     "start_time": 126.86,
+     "end_time": 127.14
+    },
+    {
+     "text": "logisch.",
+     "start_time": 127.22,
+     "end_time": 127.66
+    },
+    {
+     "text": "Fakt?",
+     "start_time": 128.52,
+     "end_time": 128.88
+    }
+   ]
+  },
+  {
+   "text": "Leider Mythos.",
+   "start_time": 129.358,
+   "end_time": 131.425,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Leider",
+     "start_time": 130.479,
+     "end_time": 130.74
+    },
+    {
+     "text": "Mythos.",
+     "start_time": 130.8,
+     "end_time": 131.34
+    }
+   ]
+  },
+  {
+   "text": "Nein.",
+   "start_time": 131.655,
+   "end_time": 132.633,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Nein.",
+     "start_time": 132.08,
+     "end_time": 132.52
+    }
+   ]
+  },
+  {
+   "text": "Die medizinischen Thromboseprophylaxestrümpfe, kurz MTS, bleiben rund um die Uhr dran, auch nachts.",
+   "start_time": 132.945,
+   "end_time": 140.065,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Die",
+     "start_time": 133.4,
+     "end_time": 133.62
+    },
+    {
+     "text": "medizinischen",
+     "start_time": 133.66,
+     "end_time": 134.32
+    },
+    {
+     "text": "Thromboseprophylaxestrümpfe,",
+     "start_time": 134.34,
+     "end_time": 136.04
+    },
+    {
+     "text": "kurz",
+     "start_time": 136.28,
+     "end_time": 136.62
+    },
+    {
+     "text": "MTS,",
+     "start_time": 136.76,
+     "end_time": 137.26
+    },
+    {
+     "text": "bleiben",
+     "start_time": 137.6,
+     "end_time": 137.94
+    },
+    {
+     "text": "rund",
+     "start_time": 138.04,
+     "end_time": 138.26
+    },
+    {
+     "text": "um",
+     "start_time": 138.3,
+     "end_time": 138.38
+    },
+    {
+     "text": "die",
+     "start_time": 138.42,
+     "end_time": 138.5
+    },
+    {
+     "text": "Uhr",
+     "start_time": 138.58,
+     "end_time": 138.7
+    },
+    {
+     "text": "dran,",
+     "start_time": 138.76,
+     "end_time": 139.02
+    },
+    {
+     "text": "auch",
+     "start_time": 139.42,
+     "end_time": 139.56
+    },
+    {
+     "text": "nachts.",
+     "start_time": 139.62,
+     "end_time": 139.98
+    }
+   ]
+  },
+  {
+   "text": "Die ganze Zeit?",
+   "start_time": 140.459,
+   "end_time": 141.558,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Die",
+     "start_time": 140.52,
+     "end_time": 140.64
+    },
+    {
+     "text": "ganze",
+     "start_time": 140.68,
+     "end_time": 140.98
+    },
+    {
+     "text": "Zeit?",
+     "start_time": 141.1,
+     "end_time": 141.44
+    }
+   ]
+  },
+  {
+   "text": "Fast. Zweimal am Tag zieht man sie kurz aus, für die Körperpflege und um die Haut anzuschauen. Und kleiner Tipp: Direkt davor nicht eincremen.",
+   "start_time": 141.832,
+   "end_time": 152.504,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Fast.",
+     "start_time": 142.48,
+     "end_time": 142.86
+    },
+    {
+     "text": "Zweimal",
+     "start_time": 143.62,
+     "end_time": 143.98
+    },
+    {
+     "text": "am",
+     "start_time": 144.02,
+     "end_time": 144.12
+    },
+    {
+     "text": "Tag",
+     "start_time": 144.18,
+     "end_time": 144.48
+    },
+    {
+     "text": "zieht",
+     "start_time": 144.56,
+     "end_time": 144.72
+    },
+    {
+     "text": "man",
+     "start_time": 144.76,
+     "end_time": 144.86
+    },
+    {
+     "text": "sie",
+     "start_time": 144.9,
+     "end_time": 145.0
+    },
+    {
+     "text": "kurz",
+     "start_time": 145.04,
+     "end_time": 145.28
+    },
+    {
+     "text": "aus,",
+     "start_time": 145.38,
+     "end_time": 145.62
+    },
+    {
+     "text": "für",
+     "start_time": 145.94,
+     "end_time": 146.04
+    },
+    {
+     "text": "die",
+     "start_time": 146.06,
+     "end_time": 146.16
+    },
+    {
+     "text": "Körperpflege",
+     "start_time": 146.2,
+     "end_time": 146.94
+    },
+    {
+     "text": "und",
+     "start_time": 147.18,
+     "end_time": 147.34
+    },
+    {
+     "text": "um",
+     "start_time": 147.4,
+     "end_time": 147.48
+    },
+    {
+     "text": "die",
+     "start_time": 147.52,
+     "end_time": 147.62
+    },
+    {
+     "text": "Haut",
+     "start_time": 147.66,
+     "end_time": 147.88
+    },
+    {
+     "text": "anzuschauen.",
+     "start_time": 147.92,
+     "end_time": 148.54
+    },
+    {
+     "text": "Und",
+     "start_time": 149.04,
+     "end_time": 149.22
+    },
+    {
+     "text": "kleiner",
+     "start_time": 149.3,
+     "end_time": 149.58
+    },
+    {
+     "text": "Tipp:",
+     "start_time": 149.62,
+     "end_time": 149.84
+    },
+    {
+     "text": "Direkt",
+     "start_time": 150.36,
+     "end_time": 150.7
+    },
+    {
+     "text": "davor",
+     "start_time": 150.74,
+     "end_time": 151.24
+    },
+    {
+     "text": "nicht",
+     "start_time": 151.6,
+     "end_time": 151.84
+    },
+    {
+     "text": "eincremen.",
+     "start_time": 151.9,
+     "end_time": 152.42
+    }
+   ]
+  },
+  {
+   "text": "Warum nicht?",
+   "start_time": 152.86,
+   "end_time": 153.601,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Warum",
+     "start_time": 152.94,
+     "end_time": 153.24
+    },
+    {
+     "text": "nicht?",
+     "start_time": 153.28,
+     "end_time": 153.48
+    }
+   ]
+  },
+  {
+   "text": "Probier mal, einen engen Strumpf über frisch eingecremte Beine zu ziehen.",
+   "start_time": 153.837,
+   "end_time": 158.345,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Probier",
+     "start_time": 154.4,
+     "end_time": 154.72
+    },
+    {
+     "text": "mal,",
+     "start_time": 154.8,
+     "end_time": 155.04
+    },
+    {
+     "text": "einen",
+     "start_time": 155.16,
+     "end_time": 155.44
+    },
+    {
+     "text": "engen",
+     "start_time": 155.48,
+     "end_time": 155.64
+    },
+    {
+     "text": "Strumpf",
+     "start_time": 155.68,
+     "end_time": 156.14
+    },
+    {
+     "text": "über",
+     "start_time": 156.22,
+     "end_time": 156.5
+    },
+    {
+     "text": "frisch",
+     "start_time": 156.54,
+     "end_time": 156.84
+    },
+    {
+     "text": "eingecremte",
+     "start_time": 156.9,
+     "end_time": 157.46
+    },
+    {
+     "text": "Beine",
+     "start_time": 157.5,
+     "end_time": 157.74
+    },
+    {
+     "text": "zu",
+     "start_time": 157.8,
+     "end_time": 157.94
+    },
+    {
+     "text": "ziehen.",
+     "start_time": 158.0,
+     "end_time": 158.28
+    }
+   ]
+  },
+  {
+   "text": "Okay, verstanden. Eins zu eins.",
+   "start_time": 158.663,
+   "end_time": 161.791,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Okay,",
+     "start_time": 159.0,
+     "end_time": 159.3
+    },
+    {
+     "text": "verstanden.",
+     "start_time": 159.52,
+     "end_time": 160.06
+    },
+    {
+     "text": "Eins",
+     "start_time": 160.44,
+     "end_time": 160.62
+    },
+    {
+     "text": "zu",
+     "start_time": 160.7,
+     "end_time": 160.78
+    },
+    {
+     "text": "eins.",
+     "start_time": 160.86,
+     "end_time": 161.16
+    }
+   ]
+  },
+  {
+   "text": "Satz Nummer drei: Strumpfgröße? Egal. Hauptsache, er sitzt schön eng.",
+   "start_time": 162.191,
+   "end_time": 167.014,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Satz",
+     "start_time": 162.28,
+     "end_time": 162.44
+    },
+    {
+     "text": "Nummer",
+     "start_time": 162.48,
+     "end_time": 162.64
+    },
+    {
+     "text": "drei:",
+     "start_time": 162.68,
+     "end_time": 162.92
+    },
+    {
+     "text": "Strumpfgröße?",
+     "start_time": 163.74,
+     "end_time": 164.6
+    },
+    {
+     "text": "Egal.",
+     "start_time": 165.08,
+     "end_time": 165.5
+    },
+    {
+     "text": "Hauptsache,",
+     "start_time": 165.66,
+     "end_time": 166.06
+    },
+    {
+     "text": "er",
+     "start_time": 166.12,
+     "end_time": 166.18
+    },
+    {
+     "text": "sitzt",
+     "start_time": 166.22,
+     "end_time": 166.44
+    },
+    {
+     "text": "schön",
+     "start_time": 166.48,
+     "end_time": 166.66
+    },
+    {
+     "text": "eng.",
+     "start_time": 166.72,
+     "end_time": 166.88
+    }
+   ]
+  },
+  {
+   "text": "Mythos. Den weiß ich. Man misst vorher aus.",
+   "start_time": 167.294,
+   "end_time": 170.642,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Mythos.",
+     "start_time": 167.52,
+     "end_time": 168.0
+    },
+    {
+     "text": "Den",
+     "start_time": 168.4,
+     "end_time": 168.56
+    },
+    {
+     "text": "weiß",
+     "start_time": 168.6,
+     "end_time": 168.84
+    },
+    {
+     "text": "ich.",
+     "start_time": 168.9,
+     "end_time": 169.04
+    },
+    {
+     "text": "Man",
+     "start_time": 169.46,
+     "end_time": 169.6
+    },
+    {
+     "text": "misst",
+     "start_time": 169.66,
+     "end_time": 169.9
+    },
+    {
+     "text": "vorher",
+     "start_time": 169.96,
+     "end_time": 170.22
+    },
+    {
+     "text": "aus.",
+     "start_time": 170.32,
+     "end_time": 170.52
+    }
+   ]
+  },
+  {
+   "text": "Was denn genau?",
+   "start_time": 171.004,
+   "end_time": 171.848,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Was",
+     "start_time": 171.06,
+     "end_time": 171.2
+    },
+    {
+     "text": "denn",
+     "start_time": 171.24,
+     "end_time": 171.36
+    },
+    {
+     "text": "genau?",
+     "start_time": 171.38,
+     "end_time": 171.72
+    }
+   ]
+  },
+  {
+   "text": "Beinlänge, Wadenumfang und Oberschenkel?",
+   "start_time": 172.09,
+   "end_time": 177.873,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Beinlänge,",
+     "start_time": 172.32,
+     "end_time": 172.94
+    },
+    {
+     "text": "Wadenumfang",
+     "start_time": 174.8,
+     "end_time": 175.62
+    },
+    {
+     "text": "und",
+     "start_time": 176.64,
+     "end_time": 176.82
+    },
+    {
+     "text": "Oberschenkel?",
+     "start_time": 177.18,
+     "end_time": 177.74
+    }
+   ]
+  },
+  {
+   "text": "Perfekt. Und jetzt die Bonusfrage: Wann musst du neu messen?",
+   "start_time": 178.197,
+   "end_time": 182.284,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Perfekt.",
+     "start_time": 178.5,
+     "end_time": 178.94
+    },
+    {
+     "text": "Und",
+     "start_time": 179.3,
+     "end_time": 179.38
+    },
+    {
+     "text": "jetzt",
+     "start_time": 179.42,
+     "end_time": 179.58
+    },
+    {
+     "text": "die",
+     "start_time": 179.62,
+     "end_time": 179.7
+    },
+    {
+     "text": "Bonusfrage:",
+     "start_time": 179.72,
+     "end_time": 180.38
+    },
+    {
+     "text": "Wann",
+     "start_time": 181.02,
+     "end_time": 181.32
+    },
+    {
+     "text": "musst",
+     "start_time": 181.36,
+     "end_time": 181.5
+    },
+    {
+     "text": "du",
+     "start_time": 181.54,
+     "end_time": 181.62
+    },
+    {
+     "text": "neu",
+     "start_time": 181.66,
+     "end_time": 181.84
+    },
+    {
+     "text": "messen?",
+     "start_time": 181.88,
+     "end_time": 182.2
+    }
+   ]
+  },
+  {
+   "text": "Wenn der Patient abgenommen hat?",
+   "start_time": 182.488,
+   "end_time": 184.243,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Wenn",
+     "start_time": 182.54,
+     "end_time": 182.64
+    },
+    {
+     "text": "der",
+     "start_time": 182.68,
+     "end_time": 182.8
+    },
+    {
+     "text": "Patient",
+     "start_time": 182.84,
+     "end_time": 183.2
+    },
+    {
+     "text": "abgenommen",
+     "start_time": 183.38,
+     "end_time": 183.88
+    },
+    {
+     "text": "hat?",
+     "start_time": 183.92,
+     "end_time": 184.1
+    }
+   ]
+  },
+  {
+   "text": "Zum Beispiel. Ganz typisch ist es bei Diuretika. Der Patient verliert Wasser, die Beine werden schmaler.",
+   "start_time": 184.529,
+   "end_time": 190.908,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Zum",
+     "start_time": 184.88,
+     "end_time": 184.98
+    },
+    {
+     "text": "Beispiel.",
+     "start_time": 185.02,
+     "end_time": 185.46
+    },
+    {
+     "text": "Ganz",
+     "start_time": 186.08,
+     "end_time": 186.26
+    },
+    {
+     "text": "typisch",
+     "start_time": 186.32,
+     "end_time": 186.68
+    },
+    {
+     "text": "ist",
+     "start_time": 186.74,
+     "end_time": 186.82
+    },
+    {
+     "text": "es",
+     "start_time": 186.86,
+     "end_time": 186.98
+    },
+    {
+     "text": "bei",
+     "start_time": 187.0,
+     "end_time": 187.16
+    },
+    {
+     "text": "Diuretika.",
+     "start_time": 187.2,
+     "end_time": 187.9
+    },
+    {
+     "text": "Der",
+     "start_time": 188.14,
+     "end_time": 188.24
+    },
+    {
+     "text": "Patient",
+     "start_time": 188.26,
+     "end_time": 188.6
+    },
+    {
+     "text": "verliert",
+     "start_time": 188.64,
+     "end_time": 188.9
+    },
+    {
+     "text": "Wasser,",
+     "start_time": 188.94,
+     "end_time": 189.28
+    },
+    {
+     "text": "die",
+     "start_time": 189.64,
+     "end_time": 189.72
+    },
+    {
+     "text": "Beine",
+     "start_time": 189.74,
+     "end_time": 190.0
+    },
+    {
+     "text": "werden",
+     "start_time": 190.04,
+     "end_time": 190.26
+    },
+    {
+     "text": "schmaler.",
+     "start_time": 190.28,
+     "end_time": 190.8
+    }
+   ]
+  },
+  {
+   "text": "Und der Strumpf passt plötzlich nicht mehr.",
+   "start_time": 191.276,
+   "end_time": 193.333,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Und",
+     "start_time": 191.36,
+     "end_time": 191.48
+    },
+    {
+     "text": "der",
+     "start_time": 191.54,
+     "end_time": 191.66
+    },
+    {
+     "text": "Strumpf",
+     "start_time": 191.7,
+     "end_time": 192.06
+    },
+    {
+     "text": "passt",
+     "start_time": 192.2,
+     "end_time": 192.42
+    },
+    {
+     "text": "plötzlich",
+     "start_time": 192.46,
+     "end_time": 192.82
+    },
+    {
+     "text": "nicht",
+     "start_time": 192.86,
+     "end_time": 193.0
+    },
+    {
+     "text": "mehr.",
+     "start_time": 193.04,
+     "end_time": 193.2
+    }
+   ]
+  },
+  {
+   "text": "Genau. Deshalb wird dann vor jedem Strumpfwechsel neu gemessen. Zwei Punkte für dich.",
+   "start_time": 193.581,
+   "end_time": 198.444,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Genau.",
+     "start_time": 193.68,
+     "end_time": 193.96
+    },
+    {
+     "text": "Deshalb",
+     "start_time": 194.44,
+     "end_time": 194.78
+    },
+    {
+     "text": "wird",
+     "start_time": 194.8,
+     "end_time": 194.92
+    },
+    {
+     "text": "dann",
+     "start_time": 194.96,
+     "end_time": 195.12
+    },
+    {
+     "text": "vor",
+     "start_time": 195.16,
+     "end_time": 195.28
+    },
+    {
+     "text": "jedem",
+     "start_time": 195.34,
+     "end_time": 195.54
+    },
+    {
+     "text": "Strumpfwechsel",
+     "start_time": 195.58,
+     "end_time": 196.22
+    },
+    {
+     "text": "neu",
+     "start_time": 196.34,
+     "end_time": 196.5
+    },
+    {
+     "text": "gemessen.",
+     "start_time": 196.56,
+     "end_time": 197.02
+    },
+    {
+     "text": "Zwei",
+     "start_time": 197.52,
+     "end_time": 197.7
+    },
+    {
+     "text": "Punkte",
+     "start_time": 197.72,
+     "end_time": 197.98
+    },
+    {
+     "text": "für",
+     "start_time": 198.02,
+     "end_time": 198.1
+    },
+    {
+     "text": "dich.",
+     "start_time": 198.14,
+     "end_time": 198.36
+    }
+   ]
+  },
+  {
+   "text": "Drei zu eins. Ich spür schon den Sieg.",
+   "start_time": 198.774,
+   "end_time": 201.135,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Drei",
+     "start_time": 198.84,
+     "end_time": 199.04
+    },
+    {
+     "text": "zu",
+     "start_time": 199.16,
+     "end_time": 199.26
+    },
+    {
+     "text": "eins.",
+     "start_time": 199.36,
+     "end_time": 199.66
+    },
+    {
+     "text": "Ich",
+     "start_time": 199.9,
+     "end_time": 200.02
+    },
+    {
+     "text": "spür",
+     "start_time": 200.08,
+     "end_time": 200.4
+    },
+    {
+     "text": "schon",
+     "start_time": 200.44,
+     "end_time": 200.62
+    },
+    {
+     "text": "den",
+     "start_time": 200.66,
+     "end_time": 200.8
+    },
+    {
+     "text": "Sieg.",
+     "start_time": 200.86,
+     "end_time": 201.1
+    }
+   ]
+  },
+  {
+   "text": "Nicht so schnell. Satz Nummer vier: Der Patient hat dicke Ödeme an den Beinen, dann braucht er die Strümpfe erst recht.",
+   "start_time": 201.345,
+   "end_time": 208.878,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Nicht",
+     "start_time": 201.42,
+     "end_time": 201.58
+    },
+    {
+     "text": "so",
+     "start_time": 201.64,
+     "end_time": 201.7
+    },
+    {
+     "text": "schnell.",
+     "start_time": 201.76,
+     "end_time": 202.04
+    },
+    {
+     "text": "Satz",
+     "start_time": 202.34,
+     "end_time": 202.54
+    },
+    {
+     "text": "Nummer",
+     "start_time": 202.58,
+     "end_time": 202.82
+    },
+    {
+     "text": "vier:",
+     "start_time": 202.86,
+     "end_time": 203.06
+    },
+    {
+     "text": "Der",
+     "start_time": 204.02,
+     "end_time": 204.12
+    },
+    {
+     "text": "Patient",
+     "start_time": 204.16,
+     "end_time": 204.52
+    },
+    {
+     "text": "hat",
+     "start_time": 204.56,
+     "end_time": 204.68
+    },
+    {
+     "text": "dicke",
+     "start_time": 204.9,
+     "end_time": 205.18
+    },
+    {
+     "text": "Ödeme",
+     "start_time": 205.24,
+     "end_time": 205.6
+    },
+    {
+     "text": "an",
+     "start_time": 205.66,
+     "end_time": 205.74
+    },
+    {
+     "text": "den",
+     "start_time": 205.78,
+     "end_time": 205.92
+    },
+    {
+     "text": "Beinen,",
+     "start_time": 205.96,
+     "end_time": 206.32
+    },
+    {
+     "text": "dann",
+     "start_time": 206.84,
+     "end_time": 207.02
+    },
+    {
+     "text": "braucht",
+     "start_time": 207.08,
+     "end_time": 207.34
+    },
+    {
+     "text": "er",
+     "start_time": 207.36,
+     "end_time": 207.42
+    },
+    {
+     "text": "die",
+     "start_time": 207.46,
+     "end_time": 207.54
+    },
+    {
+     "text": "Strümpfe",
+     "start_time": 207.56,
+     "end_time": 208.02
+    },
+    {
+     "text": "erst",
+     "start_time": 208.22,
+     "end_time": 208.42
+    },
+    {
+     "text": "recht.",
+     "start_time": 208.46,
+     "end_time": 208.76
+    }
+   ]
+  },
+  {
+   "text": "Puh. Ödeme, Druck von außen. Das klingt eigentlich sinnvoll.",
+   "start_time": 209.17,
+   "end_time": 217.622,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Puh.",
+     "start_time": 209.72,
+     "end_time": 210.16
+    },
+    {
+     "text": "Ödeme,",
+     "start_time": 211.48,
+     "end_time": 212.06
+    },
+    {
+     "text": "Druck",
+     "start_time": 212.94,
+     "end_time": 213.24
+    },
+    {
+     "text": "von",
+     "start_time": 213.38,
+     "end_time": 213.58
+    },
+    {
+     "text": "außen.",
+     "start_time": 213.72,
+     "end_time": 214.28
+    },
+    {
+     "text": "Das",
+     "start_time": 215.9,
+     "end_time": 216.1
+    },
+    {
+     "text": "klingt",
+     "start_time": 216.14,
+     "end_time": 216.42
+    },
+    {
+     "text": "eigentlich",
+     "start_time": 216.56,
+     "end_time": 216.94
+    },
+    {
+     "text": "sinnvoll.",
+     "start_time": 217.0,
+     "end_time": 217.5
+    }
+   ]
+  },
+  {
+   "text": "Klingt sinnvoll, ist aber ein Mythos. Ausgeprägte Ödeme gehören zu den Kontraindikationen.",
+   "start_time": 217.996,
+   "end_time": 225.661,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Klingt",
+     "start_time": 219.42,
+     "end_time": 219.64
+    },
+    {
+     "text": "sinnvoll,",
+     "start_time": 219.68,
+     "end_time": 220.12
+    },
+    {
+     "text": "ist",
+     "start_time": 220.56,
+     "end_time": 220.74
+    },
+    {
+     "text": "aber",
+     "start_time": 220.82,
+     "end_time": 220.96
+    },
+    {
+     "text": "ein",
+     "start_time": 221.0,
+     "end_time": 221.12
+    },
+    {
+     "text": "Mythos.",
+     "start_time": 221.16,
+     "end_time": 221.62
+    },
+    {
+     "text": "Ausgeprägte",
+     "start_time": 222.44,
+     "end_time": 223.08
+    },
+    {
+     "text": "Ödeme",
+     "start_time": 223.12,
+     "end_time": 223.54
+    },
+    {
+     "text": "gehören",
+     "start_time": 223.64,
+     "end_time": 223.98
+    },
+    {
+     "text": "zu",
+     "start_time": 224.02,
+     "end_time": 224.08
+    },
+    {
+     "text": "den",
+     "start_time": 224.12,
+     "end_time": 224.28
+    },
+    {
+     "text": "Kontraindikationen.",
+     "start_time": 224.34,
+     "end_time": 225.56
+    }
+   ]
+  },
+  {
+   "text": "Echt jetzt?",
+   "start_time": 225.915,
+   "end_time": 226.737,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Echt",
+     "start_time": 226.14,
+     "end_time": 226.34
+    },
+    {
+     "text": "jetzt?",
+     "start_time": 226.4,
+     "end_time": 226.64
+    }
+   ]
+  },
+  {
+   "text": "Ja. Genauso wie eine arterielle Verschlusskrankheit, eine Polyneuropathie oder eine Allergie gegen das Strumpfmaterial. In solchen Fällen zieht man nicht einfach Strümpfe an, sondern spricht mit dem Arzt.",
+   "start_time": 227.073,
+   "end_time": 239.973,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Ja.",
+     "start_time": 227.18,
+     "end_time": 227.28
+    },
+    {
+     "text": "Genauso",
+     "start_time": 228.0,
+     "end_time": 228.48
+    },
+    {
+     "text": "wie",
+     "start_time": 228.52,
+     "end_time": 228.66
+    },
+    {
+     "text": "eine",
+     "start_time": 228.72,
+     "end_time": 228.98
+    },
+    {
+     "text": "arterielle",
+     "start_time": 229.04,
+     "end_time": 229.56
+    },
+    {
+     "text": "Verschlusskrankheit,",
+     "start_time": 229.58,
+     "end_time": 230.52
+    },
+    {
+     "text": "eine",
+     "start_time": 230.84,
+     "end_time": 231.12
+    },
+    {
+     "text": "Polyneuropathie",
+     "start_time": 231.18,
+     "end_time": 232.26
+    },
+    {
+     "text": "oder",
+     "start_time": 232.8,
+     "end_time": 233.1
+    },
+    {
+     "text": "eine",
+     "start_time": 233.16,
+     "end_time": 233.34
+    },
+    {
+     "text": "Allergie",
+     "start_time": 233.4,
+     "end_time": 233.88
+    },
+    {
+     "text": "gegen",
+     "start_time": 233.92,
+     "end_time": 234.1
+    },
+    {
+     "text": "das",
+     "start_time": 234.16,
+     "end_time": 234.26
+    },
+    {
+     "text": "Strumpfmaterial.",
+     "start_time": 234.32,
+     "end_time": 235.26
+    },
+    {
+     "text": "In",
+     "start_time": 236.12,
+     "end_time": 236.18
+    },
+    {
+     "text": "solchen",
+     "start_time": 236.24,
+     "end_time": 236.54
+    },
+    {
+     "text": "Fällen",
+     "start_time": 236.58,
+     "end_time": 236.88
+    },
+    {
+     "text": "zieht",
+     "start_time": 236.92,
+     "end_time": 237.1
+    },
+    {
+     "text": "man",
+     "start_time": 237.14,
+     "end_time": 237.28
+    },
+    {
+     "text": "nicht",
+     "start_time": 237.32,
+     "end_time": 237.5
+    },
+    {
+     "text": "einfach",
+     "start_time": 237.54,
+     "end_time": 237.8
+    },
+    {
+     "text": "Strümpfe",
+     "start_time": 237.86,
+     "end_time": 238.26
+    },
+    {
+     "text": "an,",
+     "start_time": 238.32,
+     "end_time": 238.5
+    },
+    {
+     "text": "sondern",
+     "start_time": 238.7,
+     "end_time": 238.94
+    },
+    {
+     "text": "spricht",
+     "start_time": 238.98,
+     "end_time": 239.28
+    },
+    {
+     "text": "mit",
+     "start_time": 239.32,
+     "end_time": 239.38
+    },
+    {
+     "text": "dem",
+     "start_time": 239.42,
+     "end_time": 239.54
+    },
+    {
+     "text": "Arzt.",
+     "start_time": 239.62,
+     "end_time": 239.9
+    }
+   ]
+  },
+  {
+   "text": "Okay, das schreibe ich mir auf. Drei zu zwei.",
+   "start_time": 240.189,
+   "end_time": 242.9,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Okay,",
+     "start_time": 240.36,
+     "end_time": 240.6
+    },
+    {
+     "text": "das",
+     "start_time": 240.92,
+     "end_time": 241.02
+    },
+    {
+     "text": "schreibe",
+     "start_time": 241.04,
+     "end_time": 241.26
+    },
+    {
+     "text": "ich",
+     "start_time": 241.28,
+     "end_time": 241.36
+    },
+    {
+     "text": "mir",
+     "start_time": 241.4,
+     "end_time": 241.48
+    },
+    {
+     "text": "auf.",
+     "start_time": 241.58,
+     "end_time": 241.76
+    },
+    {
+     "text": "Drei",
+     "start_time": 242.06,
+     "end_time": 242.24
+    },
+    {
+     "text": "zu",
+     "start_time": 242.32,
+     "end_time": 242.44
+    },
+    {
+     "text": "zwei.",
+     "start_time": 242.5,
+     "end_time": 242.76
+    }
+   ]
+  },
+  {
+   "text": "Und falls die Standardgrößen gar nicht passen?",
+   "start_time": 243.198,
+   "end_time": 245.441,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Und",
+     "start_time": 243.4,
+     "end_time": 243.58
+    },
+    {
+     "text": "falls",
+     "start_time": 243.64,
+     "end_time": 243.84
+    },
+    {
+     "text": "die",
+     "start_time": 243.86,
+     "end_time": 243.94
+    },
+    {
+     "text": "Standardgrößen",
+     "start_time": 244.0,
+     "end_time": 244.68
+    },
+    {
+     "text": "gar",
+     "start_time": 244.72,
+     "end_time": 244.84
+    },
+    {
+     "text": "nicht",
+     "start_time": 244.86,
+     "end_time": 245.0
+    },
+    {
+     "text": "passen?",
+     "start_time": 245.04,
+     "end_time": 245.36
+    }
+   ]
+  },
+  {
+   "text": "Dann Verband?",
+   "start_time": 245.821,
+   "end_time": 248.249,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Dann",
+     "start_time": 245.94,
+     "end_time": 246.34
+    },
+    {
+     "text": "Verband?",
+     "start_time": 247.68,
+     "end_time": 248.14
+    }
+   ]
+  },
+  {
+   "text": "Genau. Ein Kompressionsverband, zum Beispiel nach Pütter. Mit Kurzzug binden und der Druck nimmt von unten nach oben ab.",
+   "start_time": 248.509,
+   "end_time": 257.509,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Genau.",
+     "start_time": 249.54,
+     "end_time": 249.84
+    },
+    {
+     "text": "Ein",
+     "start_time": 250.4,
+     "end_time": 250.54
+    },
+    {
+     "text": "Kompressionsverband,",
+     "start_time": 250.58,
+     "end_time": 251.6
+    },
+    {
+     "text": "zum",
+     "start_time": 251.84,
+     "end_time": 251.92
+    },
+    {
+     "text": "Beispiel",
+     "start_time": 251.96,
+     "end_time": 252.26
+    },
+    {
+     "text": "nach",
+     "start_time": 252.28,
+     "end_time": 252.42
+    },
+    {
+     "text": "Pütter.",
+     "start_time": 252.48,
+     "end_time": 252.8
+    },
+    {
+     "text": "Mit",
+     "start_time": 253.64,
+     "end_time": 253.78
+    },
+    {
+     "text": "Kurzzug",
+     "start_time": 253.84,
+     "end_time": 254.32
+    },
+    {
+     "text": "binden",
+     "start_time": 254.36,
+     "end_time": 254.96
+    },
+    {
+     "text": "und",
+     "start_time": 255.04,
+     "end_time": 255.14
+    },
+    {
+     "text": "der",
+     "start_time": 255.18,
+     "end_time": 255.32
+    },
+    {
+     "text": "Druck",
+     "start_time": 255.36,
+     "end_time": 255.62
+    },
+    {
+     "text": "nimmt",
+     "start_time": 255.76,
+     "end_time": 255.94
+    },
+    {
+     "text": "von",
+     "start_time": 255.98,
+     "end_time": 256.18
+    },
+    {
+     "text": "unten",
+     "start_time": 256.24,
+     "end_time": 256.62
+    },
+    {
+     "text": "nach",
+     "start_time": 256.66,
+     "end_time": 256.839
+    },
+    {
+     "text": "oben",
+     "start_time": 256.92,
+     "end_time": 257.14
+    },
+    {
+     "text": "ab.",
+     "start_time": 257.24,
+     "end_time": 257.399
+    }
+   ]
+  },
+  {
+   "text": "Also unten am Fuß fester, oben lockerer.",
+   "start_time": 257.851,
+   "end_time": 261.551,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Also",
+     "start_time": 258.64,
+     "end_time": 259.0
+    },
+    {
+     "text": "unten",
+     "start_time": 259.06,
+     "end_time": 259.32
+    },
+    {
+     "text": "am",
+     "start_time": 259.36,
+     "end_time": 259.48
+    },
+    {
+     "text": "Fuß",
+     "start_time": 259.54,
+     "end_time": 259.76
+    },
+    {
+     "text": "fester,",
+     "start_time": 259.82,
+     "end_time": 260.24
+    },
+    {
+     "text": "oben",
+     "start_time": 260.7,
+     "end_time": 260.92
+    },
+    {
+     "text": "lockerer.",
+     "start_time": 260.98,
+     "end_time": 261.44
+    }
+   ]
+  },
+  {
+   "text": "Richtig. Nach einer halben Stunde kontrollierst du, ob er zu fest sitzt. Schmerzen oder blaue Zehen sind ein Alarmsignal. Und neu gewickelt wird mindestens zweimal am Tag.",
+   "start_time": 261.773,
+   "end_time": 273.916,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Richtig.",
+     "start_time": 262.62,
+     "end_time": 263.04
+    },
+    {
+     "text": "Nach",
+     "start_time": 263.82,
+     "end_time": 263.98
+    },
+    {
+     "text": "einer",
+     "start_time": 264.02,
+     "end_time": 264.18
+    },
+    {
+     "text": "halben",
+     "start_time": 264.22,
+     "end_time": 264.44
+    },
+    {
+     "text": "Stunde",
+     "start_time": 264.48,
+     "end_time": 264.9
+    },
+    {
+     "text": "kontrollierst",
+     "start_time": 264.94,
+     "end_time": 265.48
+    },
+    {
+     "text": "du,",
+     "start_time": 265.52,
+     "end_time": 265.66
+    },
+    {
+     "text": "ob",
+     "start_time": 265.8,
+     "end_time": 265.9
+    },
+    {
+     "text": "er",
+     "start_time": 265.92,
+     "end_time": 266.02
+    },
+    {
+     "text": "zu",
+     "start_time": 266.06,
+     "end_time": 266.18
+    },
+    {
+     "text": "fest",
+     "start_time": 266.22,
+     "end_time": 266.48
+    },
+    {
+     "text": "sitzt.",
+     "start_time": 266.54,
+     "end_time": 266.9
+    },
+    {
+     "text": "Schmerzen",
+     "start_time": 267.5,
+     "end_time": 268.14
+    },
+    {
+     "text": "oder",
+     "start_time": 268.2,
+     "end_time": 268.38
+    },
+    {
+     "text": "blaue",
+     "start_time": 268.4,
+     "end_time": 268.68
+    },
+    {
+     "text": "Zehen",
+     "start_time": 268.76,
+     "end_time": 269.04
+    },
+    {
+     "text": "sind",
+     "start_time": 269.26,
+     "end_time": 269.42
+    },
+    {
+     "text": "ein",
+     "start_time": 269.46,
+     "end_time": 269.56
+    },
+    {
+     "text": "Alarmsignal.",
+     "start_time": 269.6,
+     "end_time": 270.38
+    },
+    {
+     "text": "Und",
+     "start_time": 271.14,
+     "end_time": 271.32
+    },
+    {
+     "text": "neu",
+     "start_time": 271.36,
+     "end_time": 271.52
+    },
+    {
+     "text": "gewickelt",
+     "start_time": 271.58,
+     "end_time": 272.04
+    },
+    {
+     "text": "wird",
+     "start_time": 272.08,
+     "end_time": 272.24
+    },
+    {
+     "text": "mindestens",
+     "start_time": 272.3,
+     "end_time": 272.84
+    },
+    {
+     "text": "zweimal",
+     "start_time": 272.9,
+     "end_time": 273.3
+    },
+    {
+     "text": "am",
+     "start_time": 273.34,
+     "end_time": 273.46
+    },
+    {
+     "text": "Tag.",
+     "start_time": 273.52,
+     "end_time": 273.82
+    }
+   ]
+  },
+  {
+   "text": "Notiert.",
+   "start_time": 274.22,
+   "end_time": 274.86,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Notiert.",
+     "start_time": 274.28,
+     "end_time": 274.74
+    }
+   ]
+  },
+  {
+   "text": "Jetzt wird's heikel. Satz Nummer fünf: Bei der Heparin-Spritze immer erst aspirieren und die Luftblase aus der Fertigspritze drücken.",
+   "start_time": 275.246,
+   "end_time": 283.847,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Jetzt",
+     "start_time": 275.32,
+     "end_time": 275.5
+    },
+    {
+     "text": "wird's",
+     "start_time": 275.52,
+     "end_time": 275.68
+    },
+    {
+     "text": "heikel.",
+     "start_time": 275.72,
+     "end_time": 276.12
+    },
+    {
+     "text": "Satz",
+     "start_time": 276.52,
+     "end_time": 276.72
+    },
+    {
+     "text": "Nummer",
+     "start_time": 276.76,
+     "end_time": 276.94
+    },
+    {
+     "text": "fünf:",
+     "start_time": 277.06,
+     "end_time": 277.38
+    },
+    {
+     "text": "Bei",
+     "start_time": 278.28,
+     "end_time": 278.4
+    },
+    {
+     "text": "der",
+     "start_time": 278.44,
+     "end_time": 278.54
+    },
+    {
+     "text": "Heparin-Spritze",
+     "start_time": 278.58,
+     "end_time": 279.52
+    },
+    {
+     "text": "immer",
+     "start_time": 279.72,
+     "end_time": 279.98
+    },
+    {
+     "text": "erst",
+     "start_time": 280.02,
+     "end_time": 280.34
+    },
+    {
+     "text": "aspirieren",
+     "start_time": 280.44,
+     "end_time": 281.14
+    },
+    {
+     "text": "und",
+     "start_time": 281.32,
+     "end_time": 281.44
+    },
+    {
+     "text": "die",
+     "start_time": 281.48,
+     "end_time": 281.58
+    },
+    {
+     "text": "Luftblase",
+     "start_time": 281.62,
+     "end_time": 282.3
+    },
+    {
+     "text": "aus",
+     "start_time": 282.46,
+     "end_time": 282.56
+    },
+    {
+     "text": "der",
+     "start_time": 282.6,
+     "end_time": 282.72
+    },
+    {
+     "text": "Fertigspritze",
+     "start_time": 282.76,
+     "end_time": 283.44
+    },
+    {
+     "text": "drücken.",
+     "start_time": 283.46,
+     "end_time": 283.8
+    }
+   ]
+  },
+  {
+   "text": "Das hab ich in meinem ersten Einsatz genau so gemacht.",
+   "start_time": 284.113,
+   "end_time": 287.677,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Das",
+     "start_time": 284.8,
+     "end_time": 284.92
+    },
+    {
+     "text": "hab",
+     "start_time": 284.96,
+     "end_time": 285.08
+    },
+    {
+     "text": "ich",
+     "start_time": 285.12,
+     "end_time": 285.2
+    },
+    {
+     "text": "in",
+     "start_time": 285.22,
+     "end_time": 285.3
+    },
+    {
+     "text": "meinem",
+     "start_time": 285.34,
+     "end_time": 285.5
+    },
+    {
+     "text": "ersten",
+     "start_time": 285.56,
+     "end_time": 285.88
+    },
+    {
+     "text": "Einsatz",
+     "start_time": 285.92,
+     "end_time": 286.26
+    },
+    {
+     "text": "genau",
+     "start_time": 286.3,
+     "end_time": 286.76
+    },
+    {
+     "text": "so",
+     "start_time": 286.92,
+     "end_time": 287.04
+    },
+    {
+     "text": "gemacht.",
+     "start_time": 287.12,
+     "end_time": 287.56
+    }
+   ]
+  },
+  {
+   "text": "Ich weiß, deshalb steht's auf der Liste.",
+   "start_time": 288.025,
+   "end_time": 290.824,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Ich",
+     "start_time": 288.72,
+     "end_time": 288.82
+    },
+    {
+     "text": "weiß,",
+     "start_time": 288.9,
+     "end_time": 289.16
+    },
+    {
+     "text": "deshalb",
+     "start_time": 289.64,
+     "end_time": 289.9
+    },
+    {
+     "text": "steht's",
+     "start_time": 289.94,
+     "end_time": 290.18
+    },
+    {
+     "text": "auf",
+     "start_time": 290.2,
+     "end_time": 290.3
+    },
+    {
+     "text": "der",
+     "start_time": 290.32,
+     "end_time": 290.4
+    },
+    {
+     "text": "Liste.",
+     "start_time": 290.44,
+     "end_time": 290.76
+    }
+   ]
+  },
+  {
+   "text": "Also ich sag Fakt, sonst hätt ich's ja nicht so gemacht.",
+   "start_time": 291.052,
+   "end_time": 295.732,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Also",
+     "start_time": 291.8,
+     "end_time": 292.26
+    },
+    {
+     "text": "ich",
+     "start_time": 292.98,
+     "end_time": 293.08
+    },
+    {
+     "text": "sag",
+     "start_time": 293.12,
+     "end_time": 293.34
+    },
+    {
+     "text": "Fakt,",
+     "start_time": 293.4,
+     "end_time": 293.72
+    },
+    {
+     "text": "sonst",
+     "start_time": 294.28,
+     "end_time": 294.48
+    },
+    {
+     "text": "hätt",
+     "start_time": 294.5,
+     "end_time": 294.64
+    },
+    {
+     "text": "ich's",
+     "start_time": 294.66,
+     "end_time": 294.78
+    },
+    {
+     "text": "ja",
+     "start_time": 294.82,
+     "end_time": 294.9
+    },
+    {
+     "text": "nicht",
+     "start_time": 294.94,
+     "end_time": 295.06
+    },
+    {
+     "text": "so",
+     "start_time": 295.1,
+     "end_time": 295.18
+    },
+    {
+     "text": "gemacht.",
+     "start_time": 295.24,
+     "end_time": 295.62
+    }
+   ]
+  },
+  {
+   "text": "Doppelter Mythos.",
+   "start_time": 296.042,
+   "end_time": 298.686,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Doppelter",
+     "start_time": 297.72,
+     "end_time": 298.08
+    },
+    {
+     "text": "Mythos.",
+     "start_time": 298.12,
+     "end_time": 298.6
+    }
+   ]
+  },
+  {
+   "text": "Mist.",
+   "start_time": 299.078,
+   "end_time": 300.176,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Mist.",
+     "start_time": 299.72,
+     "end_time": 300.04
+    }
+   ]
+  },
+  {
+   "text": "Erstens, nicht aspirieren. Das verursacht kleine Verletzungen im Gewebe und dann gibt's blaue Flecken.",
+   "start_time": 300.448,
+   "end_time": 307.191,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Erstens,",
+     "start_time": 300.96,
+     "end_time": 301.46
+    },
+    {
+     "text": "nicht",
+     "start_time": 301.94,
+     "end_time": 302.22
+    },
+    {
+     "text": "aspirieren.",
+     "start_time": 302.28,
+     "end_time": 302.96
+    },
+    {
+     "text": "Das",
+     "start_time": 303.48,
+     "end_time": 303.64
+    },
+    {
+     "text": "verursacht",
+     "start_time": 303.68,
+     "end_time": 304.24
+    },
+    {
+     "text": "kleine",
+     "start_time": 304.28,
+     "end_time": 304.58
+    },
+    {
+     "text": "Verletzungen",
+     "start_time": 304.6,
+     "end_time": 305.1
+    },
+    {
+     "text": "im",
+     "start_time": 305.12,
+     "end_time": 305.22
+    },
+    {
+     "text": "Gewebe",
+     "start_time": 305.24,
+     "end_time": 305.66
+    },
+    {
+     "text": "und",
+     "start_time": 305.92,
+     "end_time": 306.02
+    },
+    {
+     "text": "dann",
+     "start_time": 306.06,
+     "end_time": 306.24
+    },
+    {
+     "text": "gibt's",
+     "start_time": 306.28,
+     "end_time": 306.46
+    },
+    {
+     "text": "blaue",
+     "start_time": 306.48,
+     "end_time": 306.72
+    },
+    {
+     "text": "Flecken.",
+     "start_time": 306.76,
+     "end_time": 307.1
+    }
+   ]
+  },
+  {
+   "text": "Und die Luftblase?",
+   "start_time": 307.545,
+   "end_time": 308.581,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Und",
+     "start_time": 307.6,
+     "end_time": 307.7
+    },
+    {
+     "text": "die",
+     "start_time": 307.74,
+     "end_time": 307.82
+    },
+    {
+     "text": "Luftblase?",
+     "start_time": 307.86,
+     "end_time": 308.46
+    }
+   ]
+  },
+  {
+   "text": "Bleibt drin. Sie ist mit Absicht in der Fertigspritze, damit am Ende wirklich die ganze Dosis im Gewebe landet.",
+   "start_time": 308.815,
+   "end_time": 315.293,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Bleibt",
+     "start_time": 309.24,
+     "end_time": 309.5
+    },
+    {
+     "text": "drin.",
+     "start_time": 309.54,
+     "end_time": 309.78
+    },
+    {
+     "text": "Sie",
+     "start_time": 310.22,
+     "end_time": 310.3
+    },
+    {
+     "text": "ist",
+     "start_time": 310.34,
+     "end_time": 310.46
+    },
+    {
+     "text": "mit",
+     "start_time": 310.48,
+     "end_time": 310.62
+    },
+    {
+     "text": "Absicht",
+     "start_time": 310.7,
+     "end_time": 311.04
+    },
+    {
+     "text": "in",
+     "start_time": 311.08,
+     "end_time": 311.12
+    },
+    {
+     "text": "der",
+     "start_time": 311.16,
+     "end_time": 311.26
+    },
+    {
+     "text": "Fertigspritze,",
+     "start_time": 311.28,
+     "end_time": 312.02
+    },
+    {
+     "text": "damit",
+     "start_time": 312.2,
+     "end_time": 312.42
+    },
+    {
+     "text": "am",
+     "start_time": 312.46,
+     "end_time": 312.58
+    },
+    {
+     "text": "Ende",
+     "start_time": 312.64,
+     "end_time": 312.9
+    },
+    {
+     "text": "wirklich",
+     "start_time": 313.02,
+     "end_time": 313.42
+    },
+    {
+     "text": "die",
+     "start_time": 313.44,
+     "end_time": 313.54
+    },
+    {
+     "text": "ganze",
+     "start_time": 313.56,
+     "end_time": 313.84
+    },
+    {
+     "text": "Dosis",
+     "start_time": 313.92,
+     "end_time": 314.3
+    },
+    {
+     "text": "im",
+     "start_time": 314.32,
+     "end_time": 314.42
+    },
+    {
+     "text": "Gewebe",
+     "start_time": 314.44,
+     "end_time": 314.76
+    },
+    {
+     "text": "landet.",
+     "start_time": 314.82,
+     "end_time": 315.22
+    }
+   ]
+  },
+  {
+   "text": "Das ist echt ein Klassiker für die Prüfung, oder?",
+   "start_time": 315.609,
+   "end_time": 318.067,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Das",
+     "start_time": 315.66,
+     "end_time": 315.8
+    },
+    {
+     "text": "ist",
+     "start_time": 315.84,
+     "end_time": 315.98
+    },
+    {
+     "text": "echt",
+     "start_time": 316.04,
+     "end_time": 316.24
+    },
+    {
+     "text": "ein",
+     "start_time": 316.28,
+     "end_time": 316.42
+    },
+    {
+     "text": "Klassiker",
+     "start_time": 316.46,
+     "end_time": 317.02
+    },
+    {
+     "text": "für",
+     "start_time": 317.06,
+     "end_time": 317.14
+    },
+    {
+     "text": "die",
+     "start_time": 317.18,
+     "end_time": 317.28
+    },
+    {
+     "text": "Prüfung,",
+     "start_time": 317.3,
+     "end_time": 317.68
+    },
+    {
+     "text": "oder?",
+     "start_time": 317.76,
+     "end_time": 317.94
+    }
+   ]
+  },
+  {
+   "text": "Absolut. Gespritzt wird übrigens subkutan, meist in die seitliche Bauchdecke unterhalb vom Nabel oder außen in den Oberschenkel.",
+   "start_time": 318.465,
+   "end_time": 327.635,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Absolut.",
+     "start_time": 319.06,
+     "end_time": 319.58
+    },
+    {
+     "text": "Gespritzt",
+     "start_time": 320.1,
+     "end_time": 320.68
+    },
+    {
+     "text": "wird",
+     "start_time": 320.72,
+     "end_time": 320.86
+    },
+    {
+     "text": "übrigens",
+     "start_time": 320.92,
+     "end_time": 321.34
+    },
+    {
+     "text": "subkutan,",
+     "start_time": 321.5,
+     "end_time": 322.2
+    },
+    {
+     "text": "meist",
+     "start_time": 322.7,
+     "end_time": 323.02
+    },
+    {
+     "text": "in",
+     "start_time": 323.08,
+     "end_time": 323.14
+    },
+    {
+     "text": "die",
+     "start_time": 323.16,
+     "end_time": 323.24
+    },
+    {
+     "text": "seitliche",
+     "start_time": 323.28,
+     "end_time": 323.7
+    },
+    {
+     "text": "Bauchdecke",
+     "start_time": 323.74,
+     "end_time": 324.32
+    },
+    {
+     "text": "unterhalb",
+     "start_time": 324.48,
+     "end_time": 324.88
+    },
+    {
+     "text": "vom",
+     "start_time": 324.92,
+     "end_time": 325.08
+    },
+    {
+     "text": "Nabel",
+     "start_time": 325.12,
+     "end_time": 325.5
+    },
+    {
+     "text": "oder",
+     "start_time": 325.94,
+     "end_time": 326.22
+    },
+    {
+     "text": "außen",
+     "start_time": 326.3,
+     "end_time": 326.58
+    },
+    {
+     "text": "in",
+     "start_time": 326.62,
+     "end_time": 326.7
+    },
+    {
+     "text": "den",
+     "start_time": 326.72,
+     "end_time": 326.84
+    },
+    {
+     "text": "Oberschenkel.",
+     "start_time": 326.88,
+     "end_time": 327.54
+    }
+   ]
+  },
+  {
+   "text": "Okay, dein Punkt. Drei zu drei.",
+   "start_time": 327.913,
+   "end_time": 330.284,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Okay,",
+     "start_time": 328.0,
+     "end_time": 328.28
+    },
+    {
+     "text": "dein",
+     "start_time": 328.54,
+     "end_time": 328.8
+    },
+    {
+     "text": "Punkt.",
+     "start_time": 328.84,
+     "end_time": 329.1
+    },
+    {
+     "text": "Drei",
+     "start_time": 329.44,
+     "end_time": 329.66
+    },
+    {
+     "text": "zu",
+     "start_time": 329.8,
+     "end_time": 329.88
+    },
+    {
+     "text": "drei.",
+     "start_time": 329.96,
+     "end_time": 330.24
+    }
+   ]
+  },
+  {
+   "text": "Fair. Satz Nummer sechs direkt hinterher: Nach der Spritze die Stelle schön verreiben, dann verteilt sich das Heparin besser.",
+   "start_time": 330.644,
+   "end_time": 338.454,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Fair.",
+     "start_time": 331.42,
+     "end_time": 331.66
+    },
+    {
+     "text": "Satz",
+     "start_time": 332.14,
+     "end_time": 332.32
+    },
+    {
+     "text": "Nummer",
+     "start_time": 332.36,
+     "end_time": 332.54
+    },
+    {
+     "text": "sechs",
+     "start_time": 332.6,
+     "end_time": 332.88
+    },
+    {
+     "text": "direkt",
+     "start_time": 333.12,
+     "end_time": 333.38
+    },
+    {
+     "text": "hinterher:",
+     "start_time": 333.4,
+     "end_time": 333.82
+    },
+    {
+     "text": "Nach",
+     "start_time": 334.48,
+     "end_time": 334.68
+    },
+    {
+     "text": "der",
+     "start_time": 334.72,
+     "end_time": 334.8
+    },
+    {
+     "text": "Spritze",
+     "start_time": 334.82,
+     "end_time": 335.3
+    },
+    {
+     "text": "die",
+     "start_time": 335.36,
+     "end_time": 335.44
+    },
+    {
+     "text": "Stelle",
+     "start_time": 335.52,
+     "end_time": 335.72
+    },
+    {
+     "text": "schön",
+     "start_time": 335.82,
+     "end_time": 336.06
+    },
+    {
+     "text": "verreiben,",
+     "start_time": 336.1,
+     "end_time": 336.6
+    },
+    {
+     "text": "dann",
+     "start_time": 336.78,
+     "end_time": 336.94
+    },
+    {
+     "text": "verteilt",
+     "start_time": 336.96,
+     "end_time": 337.3
+    },
+    {
+     "text": "sich",
+     "start_time": 337.32,
+     "end_time": 337.42
+    },
+    {
+     "text": "das",
+     "start_time": 337.46,
+     "end_time": 337.56
+    },
+    {
+     "text": "Heparin",
+     "start_time": 337.58,
+     "end_time": 337.98
+    },
+    {
+     "text": "besser.",
+     "start_time": 338.04,
+     "end_time": 338.36
+    }
+   ]
+  },
+  {
+   "text": "Mythos. Gleicher Grund. Kleine Verletzung, blaue Flecken.",
+   "start_time": 338.694,
+   "end_time": 342.732,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Mythos.",
+     "start_time": 338.8,
+     "end_time": 339.22
+    },
+    {
+     "text": "Gleicher",
+     "start_time": 339.6,
+     "end_time": 339.94
+    },
+    {
+     "text": "Grund.",
+     "start_time": 340.02,
+     "end_time": 340.3
+    },
+    {
+     "text": "Kleine",
+     "start_time": 340.88,
+     "end_time": 341.18
+    },
+    {
+     "text": "Verletzung,",
+     "start_time": 341.22,
+     "end_time": 341.72
+    },
+    {
+     "text": "blaue",
+     "start_time": 341.92,
+     "end_time": 342.18
+    },
+    {
+     "text": "Flecken.",
+     "start_time": 342.22,
+     "end_time": 342.6
+    }
+   ]
+  },
+  {
+   "text": "Richtig. Und welche Nebenwirkungen musst du beim Heparin im Blick haben?",
+   "start_time": 343.054,
+   "end_time": 347.534,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Richtig.",
+     "start_time": 343.42,
+     "end_time": 344.06
+    },
+    {
+     "text": "Und",
+     "start_time": 344.66,
+     "end_time": 344.88
+    },
+    {
+     "text": "welche",
+     "start_time": 345.04,
+     "end_time": 345.28
+    },
+    {
+     "text": "Nebenwirkungen",
+     "start_time": 345.32,
+     "end_time": 345.94
+    },
+    {
+     "text": "musst",
+     "start_time": 345.98,
+     "end_time": 346.14
+    },
+    {
+     "text": "du",
+     "start_time": 346.18,
+     "end_time": 346.24
+    },
+    {
+     "text": "beim",
+     "start_time": 346.26,
+     "end_time": 346.38
+    },
+    {
+     "text": "Heparin",
+     "start_time": 346.4,
+     "end_time": 346.76
+    },
+    {
+     "text": "im",
+     "start_time": 346.8,
+     "end_time": 346.86
+    },
+    {
+     "text": "Blick",
+     "start_time": 346.9,
+     "end_time": 347.08
+    },
+    {
+     "text": "haben?",
+     "start_time": 347.1,
+     "end_time": 347.42
+    }
+   ]
+  },
+  {
+   "text": "Blutung.",
+   "start_time": 347.736,
+   "end_time": 348.317,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Blutung.",
+     "start_time": 347.78,
+     "end_time": 348.2
+    }
+   ]
+  },
+  {
+   "text": "Und?",
+   "start_time": 348.601,
+   "end_time": 349.058,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Und?",
+     "start_time": 348.7,
+     "end_time": 348.96
+    }
+   ]
+  },
+  {
+   "text": "Irgendwas mit den Thrombozyten.",
+   "start_time": 349.424,
+   "end_time": 351.858,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Irgendwas",
+     "start_time": 349.66,
+     "end_time": 350.16
+    },
+    {
+     "text": "mit",
+     "start_time": 350.22,
+     "end_time": 350.36
+    },
+    {
+     "text": "den",
+     "start_time": 350.4,
+     "end_time": 350.68
+    },
+    {
+     "text": "Thrombozyten.",
+     "start_time": 350.7,
+     "end_time": 351.68
+    }
+   ]
+  },
+  {
+   "text": "Genau, die Thrombozyten können abfallen. Dazu kommen allergische Reaktionen und Rötungen an der Einstichstelle.",
+   "start_time": 352.104,
+   "end_time": 358.301,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Genau,",
+     "start_time": 352.34,
+     "end_time": 352.66
+    },
+    {
+     "text": "die",
+     "start_time": 352.74,
+     "end_time": 352.82
+    },
+    {
+     "text": "Thrombozyten",
+     "start_time": 352.86,
+     "end_time": 353.44
+    },
+    {
+     "text": "können",
+     "start_time": 353.52,
+     "end_time": 353.72
+    },
+    {
+     "text": "abfallen.",
+     "start_time": 353.8,
+     "end_time": 354.32
+    },
+    {
+     "text": "Dazu",
+     "start_time": 354.74,
+     "end_time": 354.98
+    },
+    {
+     "text": "kommen",
+     "start_time": 355.02,
+     "end_time": 355.28
+    },
+    {
+     "text": "allergische",
+     "start_time": 355.34,
+     "end_time": 355.76
+    },
+    {
+     "text": "Reaktionen",
+     "start_time": 355.8,
+     "end_time": 356.46
+    },
+    {
+     "text": "und",
+     "start_time": 356.56,
+     "end_time": 356.68
+    },
+    {
+     "text": "Rötungen",
+     "start_time": 356.76,
+     "end_time": 357.2
+    },
+    {
+     "text": "an",
+     "start_time": 357.24,
+     "end_time": 357.32
+    },
+    {
+     "text": "der",
+     "start_time": 357.34,
+     "end_time": 357.42
+    },
+    {
+     "text": "Einstichstelle.",
+     "start_time": 357.48,
+     "end_time": 358.18
+    }
+   ]
+  },
+  {
+   "text": "Gibt's dafür 'n halben Punkt extra?",
+   "start_time": 358.629,
+   "end_time": 360.22,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Gibt's",
+     "start_time": 358.66,
+     "end_time": 358.86
+    },
+    {
+     "text": "dafür",
+     "start_time": 358.9,
+     "end_time": 359.16
+    },
+    {
+     "text": "'n",
+     "start_time": 359.16,
+     "end_time": 359.28
+    },
+    {
+     "text": "halben",
+     "start_time": 359.32,
+     "end_time": 359.56
+    },
+    {
+     "text": "Punkt",
+     "start_time": 359.58,
+     "end_time": 359.74
+    },
+    {
+     "text": "extra?",
+     "start_time": 359.82,
+     "end_time": 360.2
+    }
+   ]
+  },
+  {
+   "text": "Na gut. Viereinhalb zu drei. Letzter Satz: Wer Heparin kriegt, muss sich nicht mehr bewegen. Das Medikament macht ja die Arbeit.",
+   "start_time": 360.428,
+   "end_time": 368.819,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Na",
+     "start_time": 361.22,
+     "end_time": 361.3
+    },
+    {
+     "text": "gut.",
+     "start_time": 361.4,
+     "end_time": 361.62
+    },
+    {
+     "text": "Viereinhalb",
+     "start_time": 362.26,
+     "end_time": 362.64
+    },
+    {
+     "text": "zu",
+     "start_time": 362.68,
+     "end_time": 362.78
+    },
+    {
+     "text": "drei.",
+     "start_time": 362.8,
+     "end_time": 363.1
+    },
+    {
+     "text": "Letzter",
+     "start_time": 363.48,
+     "end_time": 363.78
+    },
+    {
+     "text": "Satz:",
+     "start_time": 363.84,
+     "end_time": 364.1
+    },
+    {
+     "text": "Wer",
+     "start_time": 364.72,
+     "end_time": 364.82
+    },
+    {
+     "text": "Heparin",
+     "start_time": 364.84,
+     "end_time": 365.32
+    },
+    {
+     "text": "kriegt,",
+     "start_time": 365.36,
+     "end_time": 365.64
+    },
+    {
+     "text": "muss",
+     "start_time": 365.8,
+     "end_time": 365.92
+    },
+    {
+     "text": "sich",
+     "start_time": 365.96,
+     "end_time": 366.14
+    },
+    {
+     "text": "nicht",
+     "start_time": 366.22,
+     "end_time": 366.42
+    },
+    {
+     "text": "mehr",
+     "start_time": 366.44,
+     "end_time": 366.54
+    },
+    {
+     "text": "bewegen.",
+     "start_time": 366.58,
+     "end_time": 366.98
+    },
+    {
+     "text": "Das",
+     "start_time": 367.14,
+     "end_time": 367.28
+    },
+    {
+     "text": "Medikament",
+     "start_time": 367.3,
+     "end_time": 367.9
+    },
+    {
+     "text": "macht",
+     "start_time": 367.94,
+     "end_time": 368.1
+    },
+    {
+     "text": "ja",
+     "start_time": 368.12,
+     "end_time": 368.2
+    },
+    {
+     "text": "die",
+     "start_time": 368.22,
+     "end_time": 368.32
+    },
+    {
+     "text": "Arbeit.",
+     "start_time": 368.38,
+     "end_time": 368.74
+    }
+   ]
+  },
+  {
+   "text": "Mythos. Bewegung bleibt die Basis.",
+   "start_time": 369.109,
+   "end_time": 371.737,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Mythos.",
+     "start_time": 369.192,
+     "end_time": 369.692
+    },
+    {
+     "text": "Bewegung",
+     "start_time": 370.132,
+     "end_time": 370.632
+    },
+    {
+     "text": "bleibt",
+     "start_time": 370.712,
+     "end_time": 370.972
+    },
+    {
+     "text": "die",
+     "start_time": 371.012,
+     "end_time": 371.112
+    },
+    {
+     "text": "Basis.",
+     "start_time": 371.152,
+     "end_time": 371.612
+    }
+   ]
+  },
+  {
+   "text": "Warum?",
+   "start_time": 372.109,
+   "end_time": 372.615,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Warum?",
+     "start_time": 372.172,
+     "end_time": 372.532
+    }
+   ]
+  },
+  {
+   "text": "Wegen der Wadenmuskelpumpe. Wenn die Wade arbeitet, drückt sie das Blut nach oben.",
+   "start_time": 372.867,
+   "end_time": 379.891,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Wegen",
+     "start_time": 372.972,
+     "end_time": 373.212
+    },
+    {
+     "text": "der",
+     "start_time": 373.272,
+     "end_time": 373.512
+    },
+    {
+     "text": "Wadenmuskelpumpe.",
+     "start_time": 374.632,
+     "end_time": 375.832
+    },
+    {
+     "text": "Wenn",
+     "start_time": 376.692,
+     "end_time": 376.812
+    },
+    {
+     "text": "die",
+     "start_time": 376.852,
+     "end_time": 376.952
+    },
+    {
+     "text": "Wade",
+     "start_time": 377.011,
+     "end_time": 377.272
+    },
+    {
+     "text": "arbeitet,",
+     "start_time": 377.432,
+     "end_time": 377.912
+    },
+    {
+     "text": "drückt",
+     "start_time": 378.272,
+     "end_time": 378.492
+    },
+    {
+     "text": "sie",
+     "start_time": 378.532,
+     "end_time": 378.612
+    },
+    {
+     "text": "das",
+     "start_time": 378.652,
+     "end_time": 378.812
+    },
+    {
+     "text": "Blut",
+     "start_time": 378.852,
+     "end_time": 379.092
+    },
+    {
+     "text": "nach",
+     "start_time": 379.292,
+     "end_time": 379.472
+    },
+    {
+     "text": "oben.",
+     "start_time": 379.552,
+     "end_time": 379.772
+    }
+   ]
+  },
+  {
+   "text": "Wow. Also mobilisieren, so früh wie möglich. Fußgymnastik im Bett und genug trinken. Die Strümpfe und das Heparin kommen dazu, aber sie ersetzen die Bewegung nicht.",
+   "start_time": 380.225,
+   "end_time": 391.453,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Wow.",
+     "start_time": 381.072,
+     "end_time": 381.412
+    },
+    {
+     "text": "Also",
+     "start_time": 381.992,
+     "end_time": 382.272
+    },
+    {
+     "text": "mobilisieren,",
+     "start_time": 382.752,
+     "end_time": 383.372
+    },
+    {
+     "text": "so",
+     "start_time": 383.532,
+     "end_time": 383.652
+    },
+    {
+     "text": "früh",
+     "start_time": 383.672,
+     "end_time": 383.832
+    },
+    {
+     "text": "wie",
+     "start_time": 383.872,
+     "end_time": 383.972
+    },
+    {
+     "text": "möglich.",
+     "start_time": 384.012,
+     "end_time": 384.472
+    },
+    {
+     "text": "Fußgymnastik",
+     "start_time": 384.732,
+     "end_time": 385.452
+    },
+    {
+     "text": "im",
+     "start_time": 385.492,
+     "end_time": 385.592
+    },
+    {
+     "text": "Bett",
+     "start_time": 385.612,
+     "end_time": 385.832
+    },
+    {
+     "text": "und",
+     "start_time": 386.052,
+     "end_time": 386.192
+    },
+    {
+     "text": "genug",
+     "start_time": 386.292,
+     "end_time": 386.552
+    },
+    {
+     "text": "trinken.",
+     "start_time": 386.592,
+     "end_time": 386.992
+    },
+    {
+     "text": "Die",
+     "start_time": 387.472,
+     "end_time": 387.552
+    },
+    {
+     "text": "Strümpfe",
+     "start_time": 387.612,
+     "end_time": 387.992
+    },
+    {
+     "text": "und",
+     "start_time": 388.092,
+     "end_time": 388.172
+    },
+    {
+     "text": "das",
+     "start_time": 388.212,
+     "end_time": 388.312
+    },
+    {
+     "text": "Heparin",
+     "start_time": 388.332,
+     "end_time": 388.752
+    },
+    {
+     "text": "kommen",
+     "start_time": 388.832,
+     "end_time": 388.992
+    },
+    {
+     "text": "dazu,",
+     "start_time": 389.032,
+     "end_time": 389.372
+    },
+    {
+     "text": "aber",
+     "start_time": 389.632,
+     "end_time": 389.952
+    },
+    {
+     "text": "sie",
+     "start_time": 390.012,
+     "end_time": 390.092
+    },
+    {
+     "text": "ersetzen",
+     "start_time": 390.112,
+     "end_time": 390.532
+    },
+    {
+     "text": "die",
+     "start_time": 390.572,
+     "end_time": 390.652
+    },
+    {
+     "text": "Bewegung",
+     "start_time": 390.672,
+     "end_time": 391.052
+    },
+    {
+     "text": "nicht.",
+     "start_time": 391.092,
+     "end_time": 391.372
+    }
+   ]
+  },
+  {
+   "text": "Fünfeinhalb zu drei. Wer zieht jetzt die Strümpfe an?",
+   "start_time": 391.667,
+   "end_time": 395.056,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Fünfeinhalb",
+     "start_time": 391.792,
+     "end_time": 392.372
+    },
+    {
+     "text": "zu",
+     "start_time": 392.432,
+     "end_time": 392.532
+    },
+    {
+     "text": "drei.",
+     "start_time": 392.572,
+     "end_time": 392.872
+    },
+    {
+     "text": "Wer",
+     "start_time": 393.492,
+     "end_time": 393.612
+    },
+    {
+     "text": "zieht",
+     "start_time": 393.752,
+     "end_time": 393.912
+    },
+    {
+     "text": "jetzt",
+     "start_time": 393.972,
+     "end_time": 394.152
+    },
+    {
+     "text": "die",
+     "start_time": 394.192,
+     "end_time": 394.292
+    },
+    {
+     "text": "Strümpfe",
+     "start_time": 394.312,
+     "end_time": 394.752
+    },
+    {
+     "text": "an?",
+     "start_time": 394.812,
+     "end_time": 394.932
+    }
+   ]
+  },
+  {
+   "text": "Wir reden später drüber. Erst kommt noch ein Fall und der zählt doppelt.",
+   "start_time": 395.352,
+   "end_time": 399.529,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Wir",
+     "start_time": 395.752,
+     "end_time": 395.852
+    },
+    {
+     "text": "reden",
+     "start_time": 395.892,
+     "end_time": 396.072
+    },
+    {
+     "text": "später",
+     "start_time": 396.112,
+     "end_time": 396.412
+    },
+    {
+     "text": "drüber.",
+     "start_time": 396.452,
+     "end_time": 396.752
+    },
+    {
+     "text": "Erst",
+     "start_time": 397.092,
+     "end_time": 397.332
+    },
+    {
+     "text": "kommt",
+     "start_time": 397.372,
+     "end_time": 397.512
+    },
+    {
+     "text": "noch",
+     "start_time": 397.552,
+     "end_time": 397.672
+    },
+    {
+     "text": "ein",
+     "start_time": 397.692,
+     "end_time": 397.832
+    },
+    {
+     "text": "Fall",
+     "start_time": 397.872,
+     "end_time": 398.132
+    },
+    {
+     "text": "und",
+     "start_time": 398.272,
+     "end_time": 398.412
+    },
+    {
+     "text": "der",
+     "start_time": 398.452,
+     "end_time": 398.732
+    },
+    {
+     "text": "zählt",
+     "start_time": 398.792,
+     "end_time": 399.032
+    },
+    {
+     "text": "doppelt.",
+     "start_time": 399.072,
+     "end_time": 399.452
+    }
+   ]
+  },
+  {
+   "text": "Natürlich zählt der doppelt.",
+   "start_time": 399.907,
+   "end_time": 402.045,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Natürlich",
+     "start_time": 400.152,
+     "end_time": 400.772
+    },
+    {
+     "text": "zählt",
+     "start_time": 400.812,
+     "end_time": 400.992
+    },
+    {
+     "text": "der",
+     "start_time": 401.012,
+     "end_time": 401.131
+    },
+    {
+     "text": "doppelt.",
+     "start_time": 401.172,
+     "end_time": 401.552
+    }
+   ]
+  },
+  {
+   "text": "Herr K., zweiter Tag nach einer Hüft-OP. Er trägt Strümpfe und bekommt Heparin. Du ziehst ihm morgens die Strümpfe aus für die Körperpflege und merkst, das linke Bein ist deutlich dicker als das rechte, warm und tut ihm an der Wade weh.",
+   "start_time": 402.303,
+   "end_time": 416.227,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Herr",
+     "start_time": 402.352,
+     "end_time": 402.452
+    },
+    {
+     "text": "K.,",
+     "start_time": 402.532,
+     "end_time": 402.712
+    },
+    {
+     "text": "zweiter",
+     "start_time": 403.052,
+     "end_time": 403.432
+    },
+    {
+     "text": "Tag",
+     "start_time": 403.492,
+     "end_time": 403.732
+    },
+    {
+     "text": "nach",
+     "start_time": 403.772,
+     "end_time": 403.872
+    },
+    {
+     "text": "einer",
+     "start_time": 403.912,
+     "end_time": 404.072
+    },
+    {
+     "text": "Hüft-OP.",
+     "start_time": 404.092,
+     "end_time": 404.652
+    },
+    {
+     "text": "Er",
+     "start_time": 404.952,
+     "end_time": 405.032
+    },
+    {
+     "text": "trägt",
+     "start_time": 405.072,
+     "end_time": 405.272
+    },
+    {
+     "text": "Strümpfe",
+     "start_time": 405.352,
+     "end_time": 405.812
+    },
+    {
+     "text": "und",
+     "start_time": 405.952,
+     "end_time": 406.052
+    },
+    {
+     "text": "bekommt",
+     "start_time": 406.072,
+     "end_time": 406.372
+    },
+    {
+     "text": "Heparin.",
+     "start_time": 406.412,
+     "end_time": 406.912
+    },
+    {
+     "text": "Du",
+     "start_time": 407.572,
+     "end_time": 407.632
+    },
+    {
+     "text": "ziehst",
+     "start_time": 407.732,
+     "end_time": 407.972
+    },
+    {
+     "text": "ihm",
+     "start_time": 408.012,
+     "end_time": 408.092
+    },
+    {
+     "text": "morgens",
+     "start_time": 408.132,
+     "end_time": 408.452
+    },
+    {
+     "text": "die",
+     "start_time": 408.492,
+     "end_time": 408.572
+    },
+    {
+     "text": "Strümpfe",
+     "start_time": 408.592,
+     "end_time": 409.032
+    },
+    {
+     "text": "aus",
+     "start_time": 409.112,
+     "end_time": 409.412
+    },
+    {
+     "text": "für",
+     "start_time": 409.452,
+     "end_time": 409.532
+    },
+    {
+     "text": "die",
+     "start_time": 409.572,
+     "end_time": 409.652
+    },
+    {
+     "text": "Körperpflege",
+     "start_time": 409.672,
+     "end_time": 410.412
+    },
+    {
+     "text": "und",
+     "start_time": 410.512,
+     "end_time": 410.632
+    },
+    {
+     "text": "merkst,",
+     "start_time": 410.692,
+     "end_time": 411.052
+    },
+    {
+     "text": "das",
+     "start_time": 411.512,
+     "end_time": 411.692
+    },
+    {
+     "text": "linke",
+     "start_time": 411.752,
+     "end_time": 412.012
+    },
+    {
+     "text": "Bein",
+     "start_time": 412.112,
+     "end_time": 412.432
+    },
+    {
+     "text": "ist",
+     "start_time": 412.492,
+     "end_time": 412.612
+    },
+    {
+     "text": "deutlich",
+     "start_time": 412.652,
+     "end_time": 413.092
+    },
+    {
+     "text": "dicker",
+     "start_time": 413.132,
+     "end_time": 413.392
+    },
+    {
+     "text": "als",
+     "start_time": 413.452,
+     "end_time": 413.572
+    },
+    {
+     "text": "das",
+     "start_time": 413.612,
+     "end_time": 413.772
+    },
+    {
+     "text": "rechte,",
+     "start_time": 413.812,
+     "end_time": 414.192
+    },
+    {
+     "text": "warm",
+     "start_time": 414.512,
+     "end_time": 414.832
+    },
+    {
+     "text": "und",
+     "start_time": 414.872,
+     "end_time": 414.992
+    },
+    {
+     "text": "tut",
+     "start_time": 415.032,
+     "end_time": 415.192
+    },
+    {
+     "text": "ihm",
+     "start_time": 415.212,
+     "end_time": 415.332
+    },
+    {
+     "text": "an",
+     "start_time": 415.372,
+     "end_time": 415.432
+    },
+    {
+     "text": "der",
+     "start_time": 415.452,
+     "end_time": 415.572
+    },
+    {
+     "text": "Wade",
+     "start_time": 415.612,
+     "end_time": 415.852
+    },
+    {
+     "text": "weh.",
+     "start_time": 415.952,
+     "end_time": 416.152
+    }
+   ]
+  },
+  {
+   "text": "Okay, das klingt nach einer Thrombose.",
+   "start_time": 416.567,
+   "end_time": 419.192,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Okay,",
+     "start_time": 416.652,
+     "end_time": 417.072
+    },
+    {
+     "text": "das",
+     "start_time": 417.572,
+     "end_time": 417.772
+    },
+    {
+     "text": "klingt",
+     "start_time": 417.832,
+     "end_time": 418.072
+    },
+    {
+     "text": "nach",
+     "start_time": 418.112,
+     "end_time": 418.252
+    },
+    {
+     "text": "einer",
+     "start_time": 418.292,
+     "end_time": 418.472
+    },
+    {
+     "text": "Thrombose.",
+     "start_time": 418.512,
+     "end_time": 419.072
+    }
+   ]
+  },
+  {
+   "text": "Was machst du?",
+   "start_time": 419.412,
+   "end_time": 420.695,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Was",
+     "start_time": 420.012,
+     "end_time": 420.172
+    },
+    {
+     "text": "machst",
+     "start_time": 420.232,
+     "end_time": 420.432
+    },
+    {
+     "text": "du?",
+     "start_time": 420.472,
+     "end_time": 420.632
+    }
+   ]
+  },
+  {
+   "text": "Als Erstes nicht massieren, nichts reiben. Er bleibt erst mal liegen. Ich mobilisiere ihn nicht und ich informiere sofort den Arzt.",
+   "start_time": 420.997,
+   "end_time": 429.851,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Als",
+     "start_time": 421.152,
+     "end_time": 421.332
+    },
+    {
+     "text": "Erstes",
+     "start_time": 421.372,
+     "end_time": 421.792
+    },
+    {
+     "text": "nicht",
+     "start_time": 422.232,
+     "end_time": 422.532
+    },
+    {
+     "text": "massieren,",
+     "start_time": 422.592,
+     "end_time": 423.052
+    },
+    {
+     "text": "nichts",
+     "start_time": 423.392,
+     "end_time": 423.752
+    },
+    {
+     "text": "reiben.",
+     "start_time": 423.812,
+     "end_time": 424.132
+    },
+    {
+     "text": "Er",
+     "start_time": 424.572,
+     "end_time": 424.652
+    },
+    {
+     "text": "bleibt",
+     "start_time": 424.672,
+     "end_time": 424.912
+    },
+    {
+     "text": "erst",
+     "start_time": 424.952,
+     "end_time": 425.092
+    },
+    {
+     "text": "mal",
+     "start_time": 425.152,
+     "end_time": 425.272
+    },
+    {
+     "text": "liegen.",
+     "start_time": 425.332,
+     "end_time": 425.612
+    },
+    {
+     "text": "Ich",
+     "start_time": 425.752,
+     "end_time": 425.852
+    },
+    {
+     "text": "mobilisiere",
+     "start_time": 425.892,
+     "end_time": 426.512
+    },
+    {
+     "text": "ihn",
+     "start_time": 426.532,
+     "end_time": 426.652
+    },
+    {
+     "text": "nicht",
+     "start_time": 426.712,
+     "end_time": 426.992
+    },
+    {
+     "text": "und",
+     "start_time": 427.512,
+     "end_time": 427.732
+    },
+    {
+     "text": "ich",
+     "start_time": 428.112,
+     "end_time": 428.212
+    },
+    {
+     "text": "informiere",
+     "start_time": 428.252,
+     "end_time": 428.712
+    },
+    {
+     "text": "sofort",
+     "start_time": 428.812,
+     "end_time": 429.212
+    },
+    {
+     "text": "den",
+     "start_time": 429.252,
+     "end_time": 429.372
+    },
+    {
+     "text": "Arzt.",
+     "start_time": 429.472,
+     "end_time": 429.772
+    }
+   ]
+  },
+  {
+   "text": "Und dann?",
+   "start_time": 430.235,
+   "end_time": 430.833,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Und",
+     "start_time": 430.372,
+     "end_time": 430.452
+    },
+    {
+     "text": "dann?",
+     "start_time": 430.492,
+     "end_time": 430.732
+    }
+   ]
+  },
+  {
+   "text": "Ich dokumentiere, was ich gesehen habe und warte auf die ärztliche Anordnung, bevor die Strümpfe wieder drankommen.",
+   "start_time": 431.097,
+   "end_time": 437.229,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Ich",
+     "start_time": 431.312,
+     "end_time": 431.412
+    },
+    {
+     "text": "dokumentiere,",
+     "start_time": 431.452,
+     "end_time": 432.132
+    },
+    {
+     "text": "was",
+     "start_time": 432.212,
+     "end_time": 432.332
+    },
+    {
+     "text": "ich",
+     "start_time": 432.372,
+     "end_time": 432.472
+    },
+    {
+     "text": "gesehen",
+     "start_time": 432.492,
+     "end_time": 432.852
+    },
+    {
+     "text": "habe",
+     "start_time": 432.872,
+     "end_time": 433.172
+    },
+    {
+     "text": "und",
+     "start_time": 433.312,
+     "end_time": 433.431
+    },
+    {
+     "text": "warte",
+     "start_time": 433.472,
+     "end_time": 433.752
+    },
+    {
+     "text": "auf",
+     "start_time": 433.791,
+     "end_time": 433.892
+    },
+    {
+     "text": "die",
+     "start_time": 433.931,
+     "end_time": 434.032
+    },
+    {
+     "text": "ärztliche",
+     "start_time": 434.071,
+     "end_time": 434.532
+    },
+    {
+     "text": "Anordnung,",
+     "start_time": 434.592,
+     "end_time": 435.132
+    },
+    {
+     "text": "bevor",
+     "start_time": 435.412,
+     "end_time": 435.732
+    },
+    {
+     "text": "die",
+     "start_time": 435.752,
+     "end_time": 435.832
+    },
+    {
+     "text": "Strümpfe",
+     "start_time": 435.872,
+     "end_time": 436.332
+    },
+    {
+     "text": "wieder",
+     "start_time": 436.352,
+     "end_time": 436.552
+    },
+    {
+     "text": "drankommen.",
+     "start_time": 436.592,
+     "end_time": 437.112
+    }
+   ]
+  },
+  {
+   "text": "Genau richtig. Und genau dafür ziehst du die Strümpfe zweimal am Tag aus, um so was zu sehen.",
+   "start_time": 437.575,
+   "end_time": 443.617,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Genau",
+     "start_time": 437.992,
+     "end_time": 438.272
+    },
+    {
+     "text": "richtig.",
+     "start_time": 438.312,
+     "end_time": 438.732
+    },
+    {
+     "text": "Und",
+     "start_time": 439.092,
+     "end_time": 439.192
+    },
+    {
+     "text": "genau",
+     "start_time": 439.212,
+     "end_time": 439.492
+    },
+    {
+     "text": "dafür",
+     "start_time": 439.532,
+     "end_time": 440.012
+    },
+    {
+     "text": "ziehst",
+     "start_time": 440.072,
+     "end_time": 440.252
+    },
+    {
+     "text": "du",
+     "start_time": 440.272,
+     "end_time": 440.352
+    },
+    {
+     "text": "die",
+     "start_time": 440.372,
+     "end_time": 440.452
+    },
+    {
+     "text": "Strümpfe",
+     "start_time": 440.512,
+     "end_time": 440.892
+    },
+    {
+     "text": "zweimal",
+     "start_time": 441.052,
+     "end_time": 441.512
+    },
+    {
+     "text": "am",
+     "start_time": 441.552,
+     "end_time": 441.652
+    },
+    {
+     "text": "Tag",
+     "start_time": 441.712,
+     "end_time": 441.952
+    },
+    {
+     "text": "aus,",
+     "start_time": 442.052,
+     "end_time": 442.272
+    },
+    {
+     "text": "um",
+     "start_time": 442.552,
+     "end_time": 442.652
+    },
+    {
+     "text": "so",
+     "start_time": 442.712,
+     "end_time": 442.812
+    },
+    {
+     "text": "was",
+     "start_time": 442.832,
+     "end_time": 443.052
+    },
+    {
+     "text": "zu",
+     "start_time": 443.112,
+     "end_time": 443.192
+    },
+    {
+     "text": "sehen.",
+     "start_time": 443.292,
+     "end_time": 443.572
+    }
+   ]
+  },
+  {
+   "text": "Das heißt, ich hab gewonnen.",
+   "start_time": 443.843,
+   "end_time": 445.396,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Das",
+     "start_time": 443.892,
+     "end_time": 444.012
+    },
+    {
+     "text": "heißt,",
+     "start_time": 444.052,
+     "end_time": 444.412
+    },
+    {
+     "text": "ich",
+     "start_time": 444.592,
+     "end_time": 444.672
+    },
+    {
+     "text": "hab",
+     "start_time": 444.692,
+     "end_time": 444.832
+    },
+    {
+     "text": "gewonnen.",
+     "start_time": 444.852,
+     "end_time": 445.272
+    }
+   ]
+  },
+  {
+   "text": "Ja, du hast gewonnen. Ich zieh nächste Woche die Strümpfe an.",
+   "start_time": 445.704,
+   "end_time": 449.519,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Ja,",
+     "start_time": 446.152,
+     "end_time": 446.332
+    },
+    {
+     "text": "du",
+     "start_time": 446.492,
+     "end_time": 446.572
+    },
+    {
+     "text": "hast",
+     "start_time": 446.592,
+     "end_time": 446.772
+    },
+    {
+     "text": "gewonnen.",
+     "start_time": 446.812,
+     "end_time": 447.212
+    },
+    {
+     "text": "Ich",
+     "start_time": 447.852,
+     "end_time": 447.972
+    },
+    {
+     "text": "zieh",
+     "start_time": 448.012,
+     "end_time": 448.132
+    },
+    {
+     "text": "nächste",
+     "start_time": 448.172,
+     "end_time": 448.452
+    },
+    {
+     "text": "Woche",
+     "start_time": 448.492,
+     "end_time": 448.692
+    },
+    {
+     "text": "die",
+     "start_time": 448.732,
+     "end_time": 448.792
+    },
+    {
+     "text": "Strümpfe",
+     "start_time": 448.812,
+     "end_time": 449.212
+    },
+    {
+     "text": "an.",
+     "start_time": 449.292,
+     "end_time": 449.452
+    }
+   ]
+  },
+  {
+   "text": "Ich mache ein Foto.",
+   "start_time": 449.909,
+   "end_time": 450.793,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Ich",
+     "start_time": 449.992,
+     "end_time": 450.092
+    },
+    {
+     "text": "mache",
+     "start_time": 450.132,
+     "end_time": 450.272
+    },
+    {
+     "text": "ein",
+     "start_time": 450.292,
+     "end_time": 450.412
+    },
+    {
+     "text": "Foto.",
+     "start_time": 450.452,
+     "end_time": 450.772
+    }
+   ]
+  },
+  {
+   "text": "Untersteh dich. Fassen wir kurz zusammen.",
+   "start_time": 451.063,
+   "end_time": 453.616,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Untersteh",
+     "start_time": 451.192,
+     "end_time": 451.612
+    },
+    {
+     "text": "dich.",
+     "start_time": 451.672,
+     "end_time": 451.932
+    },
+    {
+     "text": "Fassen",
+     "start_time": 452.492,
+     "end_time": 452.712
+    },
+    {
+     "text": "wir",
+     "start_time": 452.732,
+     "end_time": 452.832
+    },
+    {
+     "text": "kurz",
+     "start_time": 452.852,
+     "end_time": 453.072
+    },
+    {
+     "text": "zusammen.",
+     "start_time": 453.092,
+     "end_time": 453.532
+    }
+   ]
+  },
+  {
+   "text": "Virchow-Trias: Blut fließt langsamer, Gefäßwand geschädigt, Gerinnung verändert.",
+   "start_time": 453.968,
+   "end_time": 459.373,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Virchow-Trias:",
+     "start_time": 454.052,
+     "end_time": 454.872
+    },
+    {
+     "text": "Blut",
+     "start_time": 455.552,
+     "end_time": 455.792
+    },
+    {
+     "text": "fließt",
+     "start_time": 455.872,
+     "end_time": 456.152
+    },
+    {
+     "text": "langsamer,",
+     "start_time": 456.192,
+     "end_time": 456.672
+    },
+    {
+     "text": "Gefäßwand",
+     "start_time": 456.872,
+     "end_time": 457.432
+    },
+    {
+     "text": "geschädigt,",
+     "start_time": 457.492,
+     "end_time": 458.052
+    },
+    {
+     "text": "Gerinnung",
+     "start_time": 458.272,
+     "end_time": 458.732
+    },
+    {
+     "text": "verändert.",
+     "start_time": 458.772,
+     "end_time": 459.292
+    }
+   ]
+  },
+  {
+   "text": "MTS: vorher genau messen, rund um die Uhr tragen, Kontraindikationen beachten. Und wenn keine Standardgröße passt, ein Kompressionsverband nach Pütter.",
+   "start_time": 459.605,
+   "end_time": 470.335,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "MTS:",
+     "start_time": 459.752,
+     "end_time": 460.292
+    },
+    {
+     "text": "vorher",
+     "start_time": 460.872,
+     "end_time": 461.212
+    },
+    {
+     "text": "genau",
+     "start_time": 461.292,
+     "end_time": 461.612
+    },
+    {
+     "text": "messen,",
+     "start_time": 461.652,
+     "end_time": 462.032
+    },
+    {
+     "text": "rund",
+     "start_time": 462.552,
+     "end_time": 462.732
+    },
+    {
+     "text": "um",
+     "start_time": 462.772,
+     "end_time": 462.852
+    },
+    {
+     "text": "die",
+     "start_time": 462.872,
+     "end_time": 462.972
+    },
+    {
+     "text": "Uhr",
+     "start_time": 463.012,
+     "end_time": 463.112
+    },
+    {
+     "text": "tragen,",
+     "start_time": 463.212,
+     "end_time": 463.612
+    },
+    {
+     "text": "Kontraindikationen",
+     "start_time": 464.012,
+     "end_time": 465.052
+    },
+    {
+     "text": "beachten.",
+     "start_time": 465.092,
+     "end_time": 465.652
+    },
+    {
+     "text": "Und",
+     "start_time": 466.252,
+     "end_time": 466.352
+    },
+    {
+     "text": "wenn",
+     "start_time": 466.392,
+     "end_time": 466.552
+    },
+    {
+     "text": "keine",
+     "start_time": 466.592,
+     "end_time": 466.792
+    },
+    {
+     "text": "Standardgröße",
+     "start_time": 466.832,
+     "end_time": 467.452
+    },
+    {
+     "text": "passt,",
+     "start_time": 467.552,
+     "end_time": 467.892
+    },
+    {
+     "text": "ein",
+     "start_time": 468.372,
+     "end_time": 468.532
+    },
+    {
+     "text": "Kompressionsverband",
+     "start_time": 468.572,
+     "end_time": 469.612
+    },
+    {
+     "text": "nach",
+     "start_time": 469.652,
+     "end_time": 469.832
+    },
+    {
+     "text": "Pütter.",
+     "start_time": 469.852,
+     "end_time": 470.212
+    }
+   ]
+  },
+  {
+   "text": "Heparin: nicht aspirieren, Luftblase drinlassen, nicht verreiben.",
+   "start_time": 470.649,
+   "end_time": 475.561,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Heparin:",
+     "start_time": 470.712,
+     "end_time": 471.252
+    },
+    {
+     "text": "nicht",
+     "start_time": 471.772,
+     "end_time": 472.052
+    },
+    {
+     "text": "aspirieren,",
+     "start_time": 472.112,
+     "end_time": 472.732
+    },
+    {
+     "text": "Luftblase",
+     "start_time": 473.052,
+     "end_time": 473.612
+    },
+    {
+     "text": "drinlassen,",
+     "start_time": 473.692,
+     "end_time": 474.252
+    },
+    {
+     "text": "nicht",
+     "start_time": 474.612,
+     "end_time": 474.912
+    },
+    {
+     "text": "verreiben.",
+     "start_time": 474.972,
+     "end_time": 475.452
+    }
+   ]
+  },
+  {
+   "text": "Und Bewegung bleibt die Basis. Immer.",
+   "start_time": 475.957,
+   "end_time": 479.125,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Und",
+     "start_time": 476.392,
+     "end_time": 476.492
+    },
+    {
+     "text": "Bewegung",
+     "start_time": 476.592,
+     "end_time": 477.132
+    },
+    {
+     "text": "bleibt",
+     "start_time": 477.332,
+     "end_time": 477.532
+    },
+    {
+     "text": "die",
+     "start_time": 477.572,
+     "end_time": 477.652
+    },
+    {
+     "text": "Basis.",
+     "start_time": 477.692,
+     "end_time": 478.232
+    },
+    {
+     "text": "Immer.",
+     "start_time": 478.792,
+     "end_time": 479.092
+    }
+   ]
+  },
+  {
+   "text": "So, das war's für heute von uns.",
+   "start_time": 479.475,
+   "end_time": 481.567,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "So,",
+     "start_time": 479.612,
+     "end_time": 479.772
+    },
+    {
+     "text": "das",
+     "start_time": 480.132,
+     "end_time": 480.312
+    },
+    {
+     "text": "war's",
+     "start_time": 480.352,
+     "end_time": 480.552
+    },
+    {
+     "text": "für",
+     "start_time": 480.592,
+     "end_time": 480.692
+    },
+    {
+     "text": "heute",
+     "start_time": 480.712,
+     "end_time": 481.012
+    },
+    {
+     "text": "von",
+     "start_time": 481.052,
+     "end_time": 481.172
+    },
+    {
+     "text": "uns.",
+     "start_time": 481.212,
+     "end_time": 481.452
+    }
+   ]
+  },
+  {
+   "text": "Falls ihr bis hierhin durchgehalten habt, Respekt, ehrlich.",
+   "start_time": 481.925,
+   "end_time": 485.502,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Falls",
+     "start_time": 482.292,
+     "end_time": 482.472
+    },
+    {
+     "text": "ihr",
+     "start_time": 482.492,
+     "end_time": 482.572
+    },
+    {
+     "text": "bis",
+     "start_time": 482.592,
+     "end_time": 482.732
+    },
+    {
+     "text": "hierhin",
+     "start_time": 482.752,
+     "end_time": 483.012
+    },
+    {
+     "text": "durchgehalten",
+     "start_time": 483.052,
+     "end_time": 483.652
+    },
+    {
+     "text": "habt,",
+     "start_time": 483.692,
+     "end_time": 483.952
+    },
+    {
+     "text": "Respekt,",
+     "start_time": 484.432,
+     "end_time": 484.932
+    },
+    {
+     "text": "ehrlich.",
+     "start_time": 485.072,
+     "end_time": 485.432
+    }
+   ]
+  },
+  {
+   "text": "Und falls euch das was gebracht hat für die Ausbildung oder ihr einfach Lust auf mehr habt-",
+   "start_time": 485.74,
+   "end_time": 490.622,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Und",
+     "start_time": 485.832,
+     "end_time": 486.052
+    },
+    {
+     "text": "falls",
+     "start_time": 486.172,
+     "end_time": 486.392
+    },
+    {
+     "text": "euch",
+     "start_time": 486.432,
+     "end_time": 486.552
+    },
+    {
+     "text": "das",
+     "start_time": 486.592,
+     "end_time": 486.732
+    },
+    {
+     "text": "was",
+     "start_time": 486.772,
+     "end_time": 486.932
+    },
+    {
+     "text": "gebracht",
+     "start_time": 486.952,
+     "end_time": 487.372
+    },
+    {
+     "text": "hat",
+     "start_time": 487.392,
+     "end_time": 487.532
+    },
+    {
+     "text": "für",
+     "start_time": 487.572,
+     "end_time": 487.652
+    },
+    {
+     "text": "die",
+     "start_time": 487.692,
+     "end_time": 487.772
+    },
+    {
+     "text": "Ausbildung",
+     "start_time": 487.852,
+     "end_time": 488.372
+    },
+    {
+     "text": "oder",
+     "start_time": 488.932,
+     "end_time": 489.092
+    },
+    {
+     "text": "ihr",
+     "start_time": 489.132,
+     "end_time": 489.232
+    },
+    {
+     "text": "einfach",
+     "start_time": 489.272,
+     "end_time": 489.572
+    },
+    {
+     "text": "Lust",
+     "start_time": 489.632,
+     "end_time": 489.852
+    },
+    {
+     "text": "auf",
+     "start_time": 489.892,
+     "end_time": 490.012
+    },
+    {
+     "text": "mehr",
+     "start_time": 490.072,
+     "end_time": 490.232
+    },
+    {
+     "text": "habt-",
+     "start_time": 490.272,
+     "end_time": 490.492
+    }
+   ]
+  },
+  {
+   "text": "Dann abonniert uns gern. Kostet nix und ihr verpasst keine Folge mehr.",
+   "start_time": 490.682,
+   "end_time": 494.702,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Dann",
+     "start_time": 490.912,
+     "end_time": 491.112
+    },
+    {
+     "text": "abonniert",
+     "start_time": 491.192,
+     "end_time": 491.492
+    },
+    {
+     "text": "uns",
+     "start_time": 491.532,
+     "end_time": 491.692
+    },
+    {
+     "text": "gern.",
+     "start_time": 491.732,
+     "end_time": 491.992
+    },
+    {
+     "text": "Kostet",
+     "start_time": 492.252,
+     "end_time": 492.572
+    },
+    {
+     "text": "nix",
+     "start_time": 492.612,
+     "end_time": 492.892
+    },
+    {
+     "text": "und",
+     "start_time": 493.012,
+     "end_time": 493.092
+    },
+    {
+     "text": "ihr",
+     "start_time": 493.132,
+     "end_time": 493.212
+    },
+    {
+     "text": "verpasst",
+     "start_time": 493.252,
+     "end_time": 493.652
+    },
+    {
+     "text": "keine",
+     "start_time": 493.712,
+     "end_time": 493.952
+    },
+    {
+     "text": "Folge",
+     "start_time": 494.052,
+     "end_time": 494.332
+    },
+    {
+     "text": "mehr.",
+     "start_time": 494.392,
+     "end_time": 494.572
+    }
+   ]
+  },
+  {
+   "text": "Und wenn ihr noch Fragen habt zum Thema oder was unklar war oder ihr wollt einfach mal meckern, dass ich wieder zu viel gequatscht hab.",
+   "start_time": 494.902,
+   "end_time": 502.402,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Und",
+     "start_time": 495.232,
+     "end_time": 495.332
+    },
+    {
+     "text": "wenn",
+     "start_time": 495.372,
+     "end_time": 495.472
+    },
+    {
+     "text": "ihr",
+     "start_time": 495.512,
+     "end_time": 495.572
+    },
+    {
+     "text": "noch",
+     "start_time": 495.612,
+     "end_time": 495.752
+    },
+    {
+     "text": "Fragen",
+     "start_time": 495.812,
+     "end_time": 496.192
+    },
+    {
+     "text": "habt",
+     "start_time": 496.232,
+     "end_time": 496.412
+    },
+    {
+     "text": "zum",
+     "start_time": 496.452,
+     "end_time": 496.612
+    },
+    {
+     "text": "Thema",
+     "start_time": 496.672,
+     "end_time": 497.032
+    },
+    {
+     "text": "oder",
+     "start_time": 497.292,
+     "end_time": 497.451
+    },
+    {
+     "text": "was",
+     "start_time": 497.511,
+     "end_time": 497.671
+    },
+    {
+     "text": "unklar",
+     "start_time": 497.731,
+     "end_time": 498.132
+    },
+    {
+     "text": "war",
+     "start_time": 498.171,
+     "end_time": 498.332
+    },
+    {
+     "text": "oder",
+     "start_time": 498.992,
+     "end_time": 499.152
+    },
+    {
+     "text": "ihr",
+     "start_time": 499.192,
+     "end_time": 499.292
+    },
+    {
+     "text": "wollt",
+     "start_time": 499.332,
+     "end_time": 499.511
+    },
+    {
+     "text": "einfach",
+     "start_time": 499.552,
+     "end_time": 499.812
+    },
+    {
+     "text": "mal",
+     "start_time": 499.852,
+     "end_time": 499.972
+    },
+    {
+     "text": "meckern,",
+     "start_time": 500.032,
+     "end_time": 500.392
+    },
+    {
+     "text": "dass",
+     "start_time": 500.552,
+     "end_time": 500.672
+    },
+    {
+     "text": "ich",
+     "start_time": 500.712,
+     "end_time": 500.812
+    },
+    {
+     "text": "wieder",
+     "start_time": 500.852,
+     "end_time": 501.092
+    },
+    {
+     "text": "zu",
+     "start_time": 501.172,
+     "end_time": 501.352
+    },
+    {
+     "text": "viel",
+     "start_time": 501.392,
+     "end_time": 501.532
+    },
+    {
+     "text": "gequatscht",
+     "start_time": 501.572,
+     "end_time": 502.052
+    },
+    {
+     "text": "hab.",
+     "start_time": 502.072,
+     "end_time": 502.272
+    }
+   ]
+  },
+  {
+   "text": "Was regelmäßig vorkommt.",
+   "start_time": 502.462,
+   "end_time": 504.426,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Was",
+     "start_time": 503.012,
+     "end_time": 503.192
+    },
+    {
+     "text": "regelmäßig",
+     "start_time": 503.252,
+     "end_time": 503.832
+    },
+    {
+     "text": "vorkommt.",
+     "start_time": 503.872,
+     "end_time": 504.372
+    }
+   ]
+  },
+  {
+   "text": "Dann schreibt's einfach in die Kommentare. Wir lesen wirklich alles.",
+   "start_time": 504.486,
+   "end_time": 508.035,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Dann",
+     "start_time": 504.612,
+     "end_time": 504.752
+    },
+    {
+     "text": "schreibt's",
+     "start_time": 504.812,
+     "end_time": 505.172
+    },
+    {
+     "text": "einfach",
+     "start_time": 505.232,
+     "end_time": 505.592
+    },
+    {
+     "text": "in",
+     "start_time": 505.632,
+     "end_time": 505.692
+    },
+    {
+     "text": "die",
+     "start_time": 505.712,
+     "end_time": 505.812
+    },
+    {
+     "text": "Kommentare.",
+     "start_time": 505.852,
+     "end_time": 506.452
+    },
+    {
+     "text": "Wir",
+     "start_time": 506.752,
+     "end_time": 506.852
+    },
+    {
+     "text": "lesen",
+     "start_time": 506.892,
+     "end_time": 507.152
+    },
+    {
+     "text": "wirklich",
+     "start_time": 507.192,
+     "end_time": 507.572
+    },
+    {
+     "text": "alles.",
+     "start_time": 507.652,
+     "end_time": 507.952
+    }
+   ]
+  },
+  {
+   "text": "Stimmt. Und manchmal wird aus euren Fragen sogar die nächste Folge. Also scheut euch nicht.",
+   "start_time": 508.279,
+   "end_time": 513.745,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Stimmt.",
+     "start_time": 508.652,
+     "end_time": 509.012
+    },
+    {
+     "text": "Und",
+     "start_time": 509.272,
+     "end_time": 509.412
+    },
+    {
+     "text": "manchmal",
+     "start_time": 509.492,
+     "end_time": 510.032
+    },
+    {
+     "text": "wird",
+     "start_time": 510.072,
+     "end_time": 510.192
+    },
+    {
+     "text": "aus",
+     "start_time": 510.232,
+     "end_time": 510.332
+    },
+    {
+     "text": "euren",
+     "start_time": 510.372,
+     "end_time": 510.592
+    },
+    {
+     "text": "Fragen",
+     "start_time": 510.632,
+     "end_time": 510.992
+    },
+    {
+     "text": "sogar",
+     "start_time": 511.032,
+     "end_time": 511.232
+    },
+    {
+     "text": "die",
+     "start_time": 511.272,
+     "end_time": 511.332
+    },
+    {
+     "text": "nächste",
+     "start_time": 511.372,
+     "end_time": 511.612
+    },
+    {
+     "text": "Folge.",
+     "start_time": 511.692,
+     "end_time": 512.092
+    },
+    {
+     "text": "Also",
+     "start_time": 512.432,
+     "end_time": 512.692
+    },
+    {
+     "text": "scheut",
+     "start_time": 512.912,
+     "end_time": 513.152
+    },
+    {
+     "text": "euch",
+     "start_time": 513.192,
+     "end_time": 513.332
+    },
+    {
+     "text": "nicht.",
+     "start_time": 513.392,
+     "end_time": 513.672
+    }
+   ]
+  },
+  {
+   "text": "Genau. Bis zum nächsten Mal bei Pflege-WG.",
+   "start_time": 514.071,
+   "end_time": 517.02,
+   "speaker": {
+    "id": "Ben",
+    "name": "Ben"
+   },
+   "words": [
+    {
+     "text": "Genau.",
+     "start_time": 514.132,
+     "end_time": 514.412
+    },
+    {
+     "text": "Bis",
+     "start_time": 514.792,
+     "end_time": 514.932
+    },
+    {
+     "text": "zum",
+     "start_time": 514.972,
+     "end_time": 515.112
+    },
+    {
+     "text": "nächsten",
+     "start_time": 515.152,
+     "end_time": 515.432
+    },
+    {
+     "text": "Mal",
+     "start_time": 515.472,
+     "end_time": 515.672
+    },
+    {
+     "text": "bei",
+     "start_time": 515.972,
+     "end_time": 516.112
+    },
+    {
+     "text": "Pflege-WG.",
+     "start_time": 516.252,
+     "end_time": 516.912
+    }
+   ]
+  },
+  {
+   "text": "Macht's gut. Tschüss zusammen.",
+   "start_time": 517.226,
+   "end_time": 519.054,
+   "speaker": {
+    "id": "Nora",
+    "name": "Nora"
+   },
+   "words": [
+    {
+     "text": "Macht's",
+     "start_time": 517.572,
+     "end_time": 517.792
+    },
+    {
+     "text": "gut.",
+     "start_time": 517.832,
+     "end_time": 518.072
+    },
+    {
+     "text": "Tschüss",
+     "start_time": 518.292,
+     "end_time": 518.472
+    },
+    {
+     "text": "zusammen.",
+     "start_time": 518.532,
+     "end_time": 518.952
+    }
+   ]
+  }
+ ]
+}

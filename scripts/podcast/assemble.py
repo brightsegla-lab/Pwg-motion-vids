@@ -61,16 +61,29 @@ def trim(x, thr_db=-48, pad=0.03):
     a, b = max(0, idx[0] - int(pad * SR)), min(len(x), idx[-1] + int(pad * SR))
     return x[a:b]
 
-# ---- collect generated turns (in order) from the cached blocks
+# ---- collect generated turns (in order) from the cached blocks.
+# Cut points come from audio_gen/cuts.json (align_blocks.py: real word times found by Speech to Text);
+# each turn starts just after the previous turn's last word (so a leading [laughs]/[sighs] stays with
+# its own turn) and runs until just after its own last word.
 blocks = sorted((ep / "audio_gen").glob("turns_*.json"))
+cuts_path = ep / "audio_gen" / "cuts.json"
+cuts = {int(k): v for k, v in json.load(open(cuts_path)).items()} if cuts_path.exists() else {}
+POST = 0.12
 clips = {}
 for bj in blocks:
     meta = json.load(open(bj))
     audio = load(bj.with_suffix(".mp3"))
-    for seg in meta["voice_segments"]:
-        ti = meta["turns"][seg["dialogue_input_index"]]
-        a, b = int(seg["start_time_seconds"] * SR), int(seg["end_time_seconds"] * SR)
-        clips[ti] = np.concatenate([clips[ti], audio[a:b]]) if ti in clips else audio[a:b]
+    ids = meta["turns"]
+    if all(i in cuts for i in ids):
+        for k, ti in enumerate(ids):
+            a = 0 if k == 0 else cuts[ids[k - 1]]["end"] + POST
+            b = len(audio) / SR if k == len(ids) - 1 else min(cuts[ti]["end"] + POST, cuts[ids[k + 1]]["start"])
+            clips[ti] = audio[int(a * SR): int(b * SR)]
+    else:  # fallback: API voice_segments (less precise)
+        for seg in meta["voice_segments"]:
+            ti = ids[seg["dialogue_input_index"]]
+            a, b = int(seg["start_time_seconds"] * SR), int(seg["end_time_seconds"] * SR)
+            clips[ti] = np.concatenate([clips[ti], audio[a:b]]) if ti in clips else audio[a:b]
 present = sorted(clips)
 if not test:
     missing = [t["i"] for t in turns if t["i"] not in clips]
