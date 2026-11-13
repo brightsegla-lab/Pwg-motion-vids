@@ -1,0 +1,15 @@
+{
+ "_doc": "Video-only sound effects (scripts/build_sfx_mix.py). [sfx, at, gain_db]. Stamp sfx: thump at 0 s, marimba at 0.5 s; the stamp lands 0.37 s after the verdict cue.",
+ "master": "assets/audio/thromboseprophylaxe.mp3",
+ "events": [
+  ["whoosh", 7.9, -10], ["title-hit", 8.5, 2],
+  ["whoosh", "q1-0.1", -9], ["mythos-stamp", "q1_ben+1.37", -11], ["point-ding", "p_1_0+0.15", 4],
+  ["whoosh", "q2-0.1", -9], ["mythos-stamp", "q2_mythos+0.37", -11], ["point-ding", "p_1_1+0.15", 4],
+  ["whoosh", "q3-0.1", -9], ["mythos-stamp", "q3_ben+1.37", -11], ["point-ding", "p_3_1+0.15", 4], ["point-ding", "p_3_1+0.45", 2],
+  ["whoosh", "q4-0.1", -9], ["mythos-stamp", "q4_mythos+0.37", -11], ["point-ding", "p_3_2+0.15", 4],
+  ["whoosh", "q5_satz-0.1", -9], ["mythos-stamp", "q5_mythos+0.37", -11], ["point-ding", "p_3_3+0.15", 4],
+  ["whoosh", "q6-0.1", -9], ["mythos-stamp", "q6_richtig+0.37", -11], ["point-ding", "p_45_3+0.15", 4],
+  ["whoosh", "q7-0.1", -9], ["mythos-stamp", "q7_ben+1.37", -11], ["point-ding", "p_55_3+0.15", 4],
+  ["title-hit", "gewonnen+0.1", -2]
+ ]
+}
