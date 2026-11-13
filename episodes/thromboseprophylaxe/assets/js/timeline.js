@@ -112,10 +112,15 @@
   question(1, { card: C.q1, text: C.q1_text, guess: C.q1_ben, pick: "m", verdict: C.q1_ben + 1.0 });
   inn("#s1-sub", C.s1_drei, { x: -16 });
   tl.to("#tri", { strokeDashoffset: 0, duration: 1.4, ease: "power2.inOut" }, C.s1_drei + 0.3);
-  inn("#tri-l", C.s1_drei + 1.2, { fadeOnly: true });
-  inn("#tc1", C.s1_a, { scale: 0.9, y: 10 });
-  inn("#tc2", C.s1_b, { scale: 0.9, y: 10 });
-  inn("#tc3", C.s1_c, { scale: 0.9, y: 10 });
+  tl.fromTo("#tri-fill", { opacity: 0 }, { opacity: 1, duration: 0.8, immediateRender: true }, C.s1_drei + 1.2);
+  inn("#tri-l", C.s1_drei + 1.4, { fadeOnly: true, scale: 0.9 });
+  // each corner pops on its number, glows while it is explained
+  [["1", C.s1_a, C.s1_b], ["2", C.s1_b, C.s1_c], ["3", C.s1_c, C.s1_knie]].forEach(function (d) {
+    tl.fromTo("#tn" + d[0], { autoAlpha: 0, scale: 0.4 }, { autoAlpha: 1, scale: 1, duration: 0.45, ease: "back.out(2.4)", immediateRender: true }, d[1] - 0.05);
+    inn("#tc" + d[0], d[1] + 0.15, { y: 16 });
+    tl.to("#tn" + d[0], { boxShadow: "0 0 0 14px rgba(46,204,145,.28), 0 16px 40px rgba(11,63,40,.16)", borderColor: "#2ECC91", scale: 1.08, duration: 0.4 }, d[1] + 0.3);
+    tl.to("#tn" + d[0], { boxShadow: "0 16px 40px rgba(11,63,40,.16)", borderColor: "rgba(46,204,145,.55)", scale: 1, duration: 0.4 }, d[2] - 0.2);
+  });
   inn("#s1-knie", C.s1_knie, { y: 16 });
   ["#trias", "#s1-knie", "#s1-sub"].forEach(function (s) { out(s, C.s1_loest - 0.3, 0.4); });
   inn("#s1-emb", C.s1_loest + 0.2, { x: -24 });

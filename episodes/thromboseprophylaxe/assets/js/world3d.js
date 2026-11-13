@@ -80,155 +80,357 @@ function renderPad(t) {
 }
 
 /* ================================================================== VESSEL (Satz 1) */
+// Vertical vein on the right half of the frame (the Virchow triad sits on the left), blood flowing up.
+// Biconcave red blood cells + platelets; damaged wall with exposed collagen; clot = trapped cells in a
+// fibrin mesh; it detaches, travels up into the pulmonary artery and lodges in a branch of the right
+// lung, whose downstream wedge darkens (Lungenembolie).
 const vesScene = W.studioScene(0xf1ebde);
 const V = {};
+const rbcGeo = (() => {
+  const pr = [[0.001, 0.13], [0.3, 0.17], [0.62, 0.3], [0.86, 0.3], [1, 0.12], [1, -0.12], [0.86, -0.3], [0.62, -0.3], [0.3, -0.17], [0.001, -0.13]];
+  const g = new THREE.LatheGeometry(new THREE.SplineCurve(pr.map((p) => new THREE.Vector2(p[0], p[1]))).getPoints(40), 40);
+  g.computeVertexNormals();
+  return g;
+})();
+const rbcMat = new THREE.MeshPhysicalMaterial({ color: 0xb3222d, roughness: 0.42, clearcoat: 0.35, clearcoatRoughness: 0.4, sheen: 0.4, sheenColor: new THREE.Color(0xff8a8a) });
+const fibMat = new THREE.MeshStandardMaterial({ color: 0xf2dfae, roughness: 0.6, emissive: 0x6b5520, emissiveIntensity: 0.08 });
+const pltMat = new THREE.MeshStandardMaterial({ color: 0xf3d58a, roughness: 0.55 });
 {
-  V.curve = new THREE.CatmullRomCurve3([[-3.4, 0.9, 0], [-1.2, 0.9, 0], [1.2, 0.92, 0], [3.0, 1.02, 0], [4.4, 1.4, 0], [5.45, 1.88, 0]].map((p) => new THREE.Vector3(...p)));
-  V.wall = add(vesScene, new THREE.TubeGeometry(V.curve, 200, 0.3, 32, false), new THREE.MeshStandardMaterial({ color: 0xe9a3a0, roughness: 0.5, transparent: true, opacity: 0.32, depthWrite: false, side: THREE.DoubleSide }), [0, 0, 0], [0, 0, 0], { cast: false });
-  add(vesScene, new THREE.TubeGeometry(V.curve, 200, 0.302, 32, false), new THREE.MeshStandardMaterial({ color: 0xd98a86, roughness: 0.6, transparent: true, opacity: 0.12, depthWrite: false, side: THREE.BackSide }), [0, 0, 0], [0, 0, 0], { cast: false });
-  V.N = 90;
-  V.cells = new THREE.InstancedMesh(sphere(1, 20, 12), clay(0xc8323a, { roughness: 0.6 }), V.N);
+  V.path = new THREE.CatmullRomCurve3([[0.05, -0.8, 0], [0.16, 0.4, 0.05], [-0.08, 1.4, 0], [0.1, 2.4, -0.04], [0, 3.4, 0], [0, 4.05, 0]].map((p) => new THREE.Vector3(...p)));
+  const wallGeo = new THREE.TubeGeometry(V.path, 260, 0.3, 48, false);
+  // endothelium: gentle deterministic bumps so the wall reads as tissue, not a plastic pipe
+  const pos = wallGeo.attributes.position, nrm = wallGeo.attributes.normal;
+  for (let i = 0; i < pos.count; i++) {
+    const x = pos.getX(i), y = pos.getY(i), z = pos.getZ(i);
+    const d = 0.012 * (Math.sin(y * 23 + x * 9) * Math.sin(z * 19 + y * 7) + 0.5 * Math.sin(y * 51 + z * 31));
+    pos.setXYZ(i, x + nrm.getX(i) * d, y + nrm.getY(i) * d, z + nrm.getZ(i) * d);
+  }
+  wallGeo.computeVertexNormals();
+  V.wall = add(vesScene, wallGeo, new THREE.MeshPhysicalMaterial({ color: 0xd98782, roughness: 0.35, clearcoat: 0.6, clearcoatRoughness: 0.25, transparent: true, opacity: 0.3, depthWrite: false, side: THREE.DoubleSide }), [0, 0, 0], [0, 0, 0], { cast: false });
+  add(vesScene, new THREE.TubeGeometry(V.path, 260, 0.29, 48, false), new THREE.MeshStandardMaterial({ color: 0x7a1820, roughness: 0.8, transparent: true, opacity: 0.18, depthWrite: false, side: THREE.BackSide }), [0, 0, 0], [0, 0, 0], { cast: false });
+  // flowing cells (in the vein part of the path: u in [0, 0.86])
+  V.N = 150;
+  V.cells = new THREE.InstancedMesh(rbcGeo, rbcMat, V.N);
   V.cells.castShadow = false;
   vesScene.add(V.cells);
-  // damaged wall: rough dark patch on the upper inner wall
+  V.plt = new THREE.InstancedMesh(new THREE.IcosahedronGeometry(1, 1), pltMat, 26);
+  V.plt.castShadow = false;
+  vesScene.add(V.plt);
+  // damaged wall: torn endothelium facing the camera, exposed collagen fibres
   V.U0 = 0.36;
-  const p0 = V.curve.getPointAt(V.U0);
-  V.damage = new THREE.InstancedMesh(sphere(1, 12, 8), clay(0x8e3b3b), 14);
-  V.damage.castShadow = false;
-  vesScene.add(V.damage);
-  V.dmg = [];
-  for (let i = 0; i < 14; i++) {
-    const a = Math.PI * 0.5 + (hash(i + 20) - 0.5) * 1.2;
-    V.dmg.push({ x: p0.x + (hash(i + 30) - 0.5) * 0.45, y: p0.y + Math.sin(a) * 0.29, z: Math.cos(a) * 0.29, s: 0.03 + hash(i + 40) * 0.035 });
-  }
-  // clot: a lumpy dark-red cluster growing on the damaged wall
+  const p0 = V.path.getPointAt(V.U0);
+  V.p0 = p0;
+  V.side = new THREE.Vector3(0.62, 0, 0.78).normalize(); // towards the camera
+  V.dmg = new THREE.InstancedMesh(new THREE.CapsuleGeometry(1, 3, 4, 8), new THREE.MeshStandardMaterial({ color: 0xf0d9a8, roughness: 0.7 }), 22);
+  V.dmgRed = new THREE.InstancedMesh(sphere(1, 12, 8), clay(0x7e2a2e), 18);
+  V.dmg.castShadow = V.dmgRed.castShadow = false;
+  vesScene.add(V.dmg, V.dmgRed);
+  // clot: trapped red cells + platelets inside a fibrin mesh, grown on the damaged wall
   V.clot = new THREE.Group();
   vesScene.add(V.clot);
-  const cm = clay(0x7a1e24, { roughness: 0.85 });
-  [[0, 0, 0, 0.13], [0.11, 0.03, 0.04, 0.1], [-0.1, 0.02, -0.03, 0.1], [0.04, -0.06, 0.06, 0.09], [-0.03, 0.07, 0.05, 0.08]].forEach((d) => add(V.clot, sphere(d[3], 20, 14), cm, [d[0], d[1], d[2]]));
-  // lungs at the end of the path
+  V.clotCells = new THREE.InstancedMesh(rbcGeo, rbcMat, 46);
+  V.clotPlt = new THREE.InstancedMesh(new THREE.IcosahedronGeometry(1, 1), pltMat, 18);
+  V.clot.add(V.clotCells, V.clotPlt);
+  V.clotSeed = [];
+  for (let i = 0; i < 46; i++) {
+    const a = hash(i + 300) * Math.PI * 2, r = Math.sqrt(hash(i + 310)), h = hash(i + 320) * 2 - 1;
+    V.clotSeed.push({ p: new THREE.Vector3(Math.cos(a) * r * 0.11, h * 0.2, Math.sin(a) * r * 0.1), r: [hash(i + 330) * 6, hash(i + 340) * 6, hash(i + 350) * 6], k: hash(i + 360) });
+  }
+  V.fib = [];
+  for (let i = 0; i < 22; i++) {
+    const a = new THREE.Vector3((hash(i + 400) - 0.5) * 0.28, (hash(i + 410) - 0.5) * 0.5, (hash(i + 420) - 0.5) * 0.24);
+    const b = new THREE.Vector3((hash(i + 430) - 0.5) * 0.28, (hash(i + 440) - 0.5) * 0.5, (hash(i + 450) - 0.5) * 0.24);
+    const m = add(V.clot, tube([[a.x, a.y, a.z], [(a.x + b.x) / 2 + 0.03, (a.y + b.y) / 2, (a.z + b.z) / 2 - 0.03], [b.x, b.y, b.z]], 0.0045, false, 16), fibMat, [0, 0, 0], [0, 0, 0], { cast: false });
+    m.userData.k = hash(i + 460);
+    V.fib.push(m);
+  }
+  // lungs: anatomical shape (apex, flat medial side, concave base), translucent over the airway and artery trees
   V.lungs = new THREE.Group();
   vesScene.add(V.lungs);
-  const lm = () => new THREE.MeshStandardMaterial({ color: 0xf0a99c, roughness: 0.78, emissive: 0xf08a7a, emissiveIntensity: 0.06 });
-  V.lungL = add(V.lungs, sphere(1, 48, 32), lm(), [5.85, 2.05, 0]);
-  V.lungL.scale.set(0.5, 0.72, 0.38);
-  V.lungR = add(V.lungs, sphere(1, 48, 32), lm(), [6.95, 2.05, 0]);
-  V.lungR.scale.set(0.52, 0.76, 0.38);
-  add(V.lungs, cyl(0.07, 0.7, 24), clay(0xf3ece0), [6.4, 3.0, 0]);
-  add(V.lungs, tube([[6.4, 2.68, 0], [6.2, 2.5, 0], [6.0, 2.35, 0.05]], 0.045), clay(0xf3ece0));
-  add(V.lungs, tube([[6.4, 2.68, 0], [6.6, 2.5, 0], [6.8, 2.35, 0.05]], 0.045), clay(0xf3ece0));
-  // embolism: blocked area of the lung turns grey-blue
-  V.blocked = add(V.lungs, sphere(1, 32, 24), new THREE.MeshStandardMaterial({ color: 0x8c8fa8, roughness: 0.9, transparent: true, opacity: 0 }), [5.75, 1.82, 0.1], [0, 0, 0], { cast: false });
-  V.blocked.scale.set(0.33, 0.3, 0.3);
-  V.ped = add(vesScene, cyl(1.4, 0.05, 96), clay(0xdfe9e2), [6.4, 0.03, 0]);
+  function lungGeo(side) {
+    const g = new THREE.SphereGeometry(1, 120, 90);
+    const p = g.attributes.position, col = [];
+    for (let i = 0; i < p.count; i++) {
+      let x = p.getX(i), y = p.getY(i), z = p.getZ(i);
+      y *= 1.32;
+      if (y > 0) { const k = 1 - 0.5 * Math.pow(y / 1.32, 2); x *= k; z *= k; }
+      const base = -1.05 + 0.42 * (1 - Math.min(1, x * x + z * z));
+      if (y < base) y = base;
+      const med = side * x;
+      if (med < -0.25) x = side * (-0.25 + (med + 0.25) * 0.3);
+      if (side < 0 && med < 0 && y < 0.1 && y > -0.9) x += side * -0.12 * Math.sin(((y + 0.9) / 1.0) * Math.PI); // cardiac notch (left lung)
+      z *= 0.68;
+      p.setXYZ(i, x, y, z);
+      const n = 0.5 + 0.5 * Math.sin(x * 17 + y * 11) * Math.sin(z * 23 - y * 13);
+      const c = new THREE.Color(0xeea397).lerp(new THREE.Color(0xd77b74), n * 0.45).lerp(new THREE.Color(0xf7c4b8), (1 - n) * 0.25);
+      col.push(c.r, c.g, c.b);
+    }
+    g.setAttribute("color", new THREE.Float32BufferAttribute(col, 3));
+    g.computeVertexNormals();
+    return g;
+  }
+  const lungMat = () => new THREE.MeshPhysicalMaterial({ vertexColors: true, roughness: 0.55, clearcoat: 0.3, clearcoatRoughness: 0.5, sheen: 0.5, sheenColor: new THREE.Color(0xffd0c8), transparent: true, opacity: 0.5, depthWrite: false });
+  const LC = { L: new THREE.Vector3(-0.92, 4.85, 0), R: new THREE.Vector3(0.92, 4.85, 0) };
+  V.LC = LC;
+  V.lungR = add(V.lungs, lungGeo(1), lungMat(), [LC.R.x, LC.R.y, 0], [0, 0, 0], { cast: false }); // viewer's right
+  V.lungR.scale.setScalar(0.82);
+  V.lungL = add(V.lungs, lungGeo(-1), lungMat(), [LC.L.x, LC.L.y, 0], [0, 0, 0], { cast: false });
+  V.lungL.scale.setScalar(0.8);
+  // airway (trachea with rings + bronchial tree) and pulmonary artery tree
+  const cart = clay(0xf4ede1);
+  add(V.lungs, cyl(0.075, 1.0, 32), cart, [0, 6.35, -0.05]);
+  for (let i = 0; i < 7; i++) add(V.lungs, new THREE.TorusGeometry(0.078, 0.013, 8, 32), clay(0xe8dccb), [0, 5.95 + i * 0.12, -0.05], [Math.PI / 2, 0, 0]);
+  const inLung = (v) => {
+    for (const c of [LC.L, LC.R]) {
+      const dx = (v.x - c.x) / 0.62, dy = (v.y - c.y) / 1.0, dz = v.z / 0.45;
+      if (dx * dx + dy * dy + dz * dz < 1) return true;
+    }
+    return false;
+  };
+  function tree(start, dir, len, rad, depth, mat, seed, out, zoff) {
+    let end = start.clone().addScaledVector(dir, len);
+    for (let k = 0; k < 6 && depth < 3 && !inLung(end); k++) end = start.clone().addScaledVector(dir, len * (0.8 - k * 0.12));
+    const mid = start.clone().lerp(end, 0.5).add(new THREE.Vector3(0, 0, zoff));
+    add(V.lungs, new THREE.TubeGeometry(new THREE.CatmullRomCurve3([start, mid, end]), 12, rad, 10, false), mat, [0, 0, 0], [0, 0, 0], { cast: false });
+    out.push({ start, end, dir, depth });
+    if (depth === 0) return;
+    for (let s = -1; s <= 1; s += 2) {
+      const ang = s * (0.42 + 0.28 * hash(seed * 7 + s + depth * 13));
+      const nd = dir.clone().applyAxisAngle(new THREE.Vector3(0, 0, 1), ang).applyAxisAngle(new THREE.Vector3(0, 1, 0), (hash(seed * 3 + s) - 0.5) * 0.9).normalize();
+      tree(end, nd, len * 0.7, rad * 0.68, depth - 1, mat, seed * 2 + (s > 0 ? 1 : 0), out, (hash(seed + depth) - 0.5) * 0.1);
+    }
+  }
+  const airMat = clay(0xf1e8da), artMat = clay(0x5a6fcf, { roughness: 0.6 });
+  const air = [];
+  tree(new THREE.Vector3(0, 5.88, -0.05), new THREE.Vector3(-0.8, -0.6, 0).normalize(), 0.5, 0.05, 4, airMat, 3, air, 0);
+  tree(new THREE.Vector3(0, 5.88, -0.05), new THREE.Vector3(0.8, -0.6, 0).normalize(), 0.5, 0.05, 4, airMat, 5, air, 0);
+  // pulmonary trunk = continuation of the vein path, then left/right arteries
+  add(V.lungs, new THREE.TubeGeometry(new THREE.CatmullRomCurve3([[0, 3.6, 0], [0, 4.05, 0], [0, 4.3, 0.12]].map((p) => new THREE.Vector3(...p))), 16, 0.13, 16, false), artMat, [0, 0, 0], [0, 0, 0], { cast: false });
+  V.art = [];
+  tree(new THREE.Vector3(0, 4.3, 0.12), new THREE.Vector3(-0.85, 0.35, 0).normalize(), 0.55, 0.075, 4, artMat, 11, [], 0.04);
+  tree(new THREE.Vector3(0, 4.3, 0.12), new THREE.Vector3(0.85, 0.35, 0).normalize(), 0.55, 0.075, 4, artMat, 17, V.art, 0.04);
+  // lodging point: end of the second-level branch of the right artery tree, lower lobe
+  const lodge = V.art.filter((b) => b.depth === 2).sort((a, b) => a.end.y - b.end.y)[0];
+  V.lodge = lodge;
+  V.clotPath = new THREE.CatmullRomCurve3([...[0.36, 0.5, 0.65, 0.8, 0.93].map((u) => V.path.getPointAt(u)), new THREE.Vector3(0, 4.3, 0.12), V.art[0].end.clone(), lodge.start.clone(), lodge.end.clone()]);
+  // infarct wedge downstream of the blocked branch
+  const wdir = lodge.dir.clone();
+  // the tissue behind the blocked branch: a dark patch inside the lung, around the branch end
+  V.wedge = add(V.lungs, sphere(1, 40, 30), new THREE.MeshStandardMaterial({ color: 0x5e1a33, emissive: 0x8e1a2a, emissiveIntensity: 0.2, roughness: 0.8, transparent: true, opacity: 0, depthWrite: false }), [0, 0, 0], [0, 0, 0], { cast: false });
+  V.wedge.position.copy(lodge.end).addScaledVector(wdir, 0.06);
+  V.wedge.scale.set(0.24, 0.2, 0.18);
 }
-// flow position: normal speed, then slower from "Erstens: Das Blut fließt langsamer"
-function flowPos(t) {
-  const v0 = 0.05, v1 = 0.016, a = C.s1_a + 0.4;
+function vesFlow(t) {
+  const v0 = 0.045, v1 = 0.014, a = C.s1_a + 0.4;
   if (t < a) return v0 * t;
   const d = t - a;
-  return v0 * a + v0 * d - (v0 - v1) * (d < 1 ? (d * d) / 2 : d - 0.5);
+  return v0 * a + v0 * d - (v0 - v1) * (d < 1.2 ? (d * d) / 2.4 : d - 0.6);
 }
-const CLOT_END = 0.985;
-function clotU(t) {
-  return lerp(V.U0, CLOT_END, P(t, C.s1_loest + 0.2, C.s1_lunge + 1.2 - C.s1_loest));
-}
+const tan = new THREE.Vector3(), nrm = new THREE.Vector3(), bin = new THREE.Vector3(), up = new THREE.Vector3(0, 1, 0);
 function renderVessel(t, shot) {
-  const fp = flowPos(t);
-  const tan = new THREE.Vector3();
+  const fp = vesFlow(t);
   for (let i = 0; i < V.N; i++) {
-    const u = frac(hash(i) + fp * (0.8 + 0.4 * hash(i + 7)));
-    const p = V.curve.getPointAt(u);
-    V.curve.getTangentAt(u, tan);
-    const r = 0.2 * Math.sqrt(hash(i + 3)), a = hash(i + 5) * Math.PI * 2;
-    v3.set(p.x, p.y + Math.cos(a) * r, p.z + Math.sin(a) * r);
-    e3.set(hash(i + 11) * 3 + t * 0.6 * (hash(i + 2) - 0.5), hash(i + 12) * 3, hash(i + 13) * 3);
+    const u = 0.86 * frac(hash(i) + fp * (0.85 + 0.3 * hash(i + 7)));
+    const p = V.path.getPointAt(u);
+    V.path.getTangentAt(u, tan);
+    nrm.set(1, 0, 0).cross(tan).normalize();
+    bin.copy(tan).cross(nrm);
+    const r = 0.21 * Math.sqrt(hash(i + 3)), a = hash(i + 5) * Math.PI * 2;
+    v3.copy(p).addScaledVector(nrm, Math.cos(a) * r).addScaledVector(bin, Math.sin(a) * r);
+    e3.set(hash(i + 11) * 6 + t * 0.7 * (hash(i + 2) - 0.5), hash(i + 12) * 6, hash(i + 13) * 6 + t * 0.4 * (hash(i + 9) - 0.5));
     q.setFromEuler(e3);
-    // cells pile up a little behind the clot while it sits in the vessel
-    const sc = 0.065;
-    V.cells.setMatrixAt(i, mtx.compose(v3, q, s3.set(sc, sc, sc * 0.4)));
+    V.cells.setMatrixAt(i, mtx.compose(v3, q, s3.set(0.075, 0.075, 0.075)));
   }
   V.cells.instanceMatrix.needsUpdate = true;
-  const dmg = P(t, C.s1_b + 0.3, 1.2);
-  V.dmg.forEach((d, i) => {
-    const s = d.s * clamp(dmg * 1.4 - (i / 14) * 0.4);
-    V.damage.setMatrixAt(i, mtx.compose(v3.set(d.x, d.y, d.z), q.identity(), s3.set(s + 1e-4, s * 0.6 + 1e-4, s + 1e-4)));
-  });
-  V.damage.instanceMatrix.needsUpdate = true;
-  // clot grows on the wall ("Gerinnung verändert"), detaches ("Gerinnsel löst") and travels to the lung
-  const grow = P(t, C.s1_c + 0.3, 2.0);
+  for (let i = 0; i < 26; i++) {
+    const u = 0.86 * frac(hash(i + 90) + fp * 0.9);
+    const p = V.path.getPointAt(u);
+    const r = 0.22 * Math.sqrt(hash(i + 93)), a = hash(i + 95) * 6.28;
+    v3.set(p.x + Math.cos(a) * r, p.y, p.z + Math.sin(a) * r);
+    q.setFromEuler(e3.set(t + i, i, 0));
+    V.plt.setMatrixAt(i, mtx.compose(v3, q, s3.set(0.022, 0.012, 0.018)));
+  }
+  V.plt.instanceMatrix.needsUpdate = true;
+  // wall damage ("Gefäßwand geschädigt")
+  const dmg = P(t, C.s1_b + 0.3, 1.4);
+  const p0 = V.p0, sd = V.side;
+  for (let i = 0; i < 22; i++) {
+    const g = clamp(dmg * 1.5 - hash(i + 500) * 0.5);
+    const yy = p0.y + (hash(i + 510) - 0.5) * 0.36, ang = (hash(i + 520) - 0.5) * 1.1;
+    const dir = sd.clone().applyAxisAngle(up, ang);
+    v3.copy(p0).setY(yy).addScaledVector(dir, 0.285);
+    q.setFromEuler(e3.set(0, -Math.atan2(dir.z, dir.x), (hash(i + 530) - 0.5) * 0.9 + Math.PI / 2));
+    const s = 0.012 * g + 1e-4;
+    V.dmg.setMatrixAt(i, mtx.compose(v3, q, s3.set(s, s * (0.8 + hash(i + 540)), s)));
+  }
+  for (let i = 0; i < 18; i++) {
+    const g = clamp(dmg * 1.5 - hash(i + 600) * 0.5);
+    const yy = p0.y + (hash(i + 610) - 0.5) * 0.4, ang = (hash(i + 620) - 0.5) * 1.3;
+    v3.copy(p0).setY(yy).addScaledVector(sd.clone().applyAxisAngle(up, ang), 0.29);
+    const s = (0.02 + 0.02 * hash(i + 630)) * g + 1e-4;
+    V.dmgRed.setMatrixAt(i, mtx.compose(v3, q.identity(), s3.set(s, s * 0.5, s)));
+  }
+  V.dmg.instanceMatrix.needsUpdate = V.dmgRed.instanceMatrix.needsUpdate = true;
+  // clot grows on the damage ("Gerinnung verändert"), detaches and travels to the lung
+  const grow = P(t, C.s1_c + 0.2, 3.0);
   V.clot.visible = grow > 0.01;
-  const u = clotU(t);
-  const cp = V.curve.getPointAt(Math.min(u, 0.999));
-  const onWall = 1 - P(t, C.s1_loest, 0.6);
-  V.clot.position.set(cp.x, cp.y + 0.17 * onWall, cp.z);
-  V.clot.scale.setScalar(Math.max(0.001, grow) * (1 - 0.15 * (1 - onWall)));
-  V.clot.rotation.set(t * 0.4 * (1 - onWall), t * 0.9 * (1 - onWall), 0);
-  // embolism
-  const emb = P(t, C.s1_embolie, 1.0);
-  V.blocked.material.opacity = 0.85 * emb;
-  const pulse = emb * (0.5 + 0.5 * Math.sin((t - C.s1_embolie) * 5));
-  V.lungL.material.emissive.setHex(0xd9362b);
-  V.lungL.material.emissiveIntensity = 0.06 + 0.25 * pulse;
+  V.clotSeed.forEach((c, i) => {
+    const g = clamp(grow * 1.6 - c.k * 0.6);
+    q.setFromEuler(e3.set(c.r[0], c.r[1], c.r[2]));
+    V.clotCells.setMatrixAt(i, mtx.compose(c.p, q, s3.set(0.07 * g + 1e-4, 0.07 * g + 1e-4, 0.07 * g + 1e-4)));
+    if (i < 18) V.clotPlt.setMatrixAt(i, mtx.compose(v3.copy(c.p).multiplyScalar(0.9).add(new THREE.Vector3(0.02, 0.03, 0.02)), q, s3.set(0.022 * g + 1e-4, 0.012 * g + 1e-4, 0.018 * g + 1e-4)));
+  });
+  V.clotCells.instanceMatrix.needsUpdate = V.clotPlt.instanceMatrix.needsUpdate = true;
+  V.fib.forEach((f) => { f.visible = grow * 1.4 - f.userData.k * 0.5 > 0.05; });
+  const go = P(t, C.s1_loest + 0.2, C.s1_lunge + 1.6 - C.s1_loest);
+  const onWall = 1 - P(t, C.s1_loest, 0.7);
+  const cp = go > 0 ? V.clotPath.getPointAt(Math.min(0.999, go)) : V.p0.clone();
+  V.clot.position.copy(cp).addScaledVector(V.side, 0.16 * onWall);
+  V.clot.scale.setScalar(Math.max(0.001, grow) * (1 - 0.4 * go));
+  V.clot.rotation.set(0.6 * go * 3, 1.3 * go * 3, 0);
+  // embolism: the wedge behind the blocked branch darkens and pulses
+  const emb = P(t, C.s1_embolie, 1.2);
+  V.wedge.material.opacity = 0.78 * emb;
+  V.wedge.material.emissiveIntensity = 0.15 + 0.35 * emb * (0.5 + 0.5 * Math.sin((t - C.s1_embolie) * 4.5));
+  // camera: close on the vein, follows the embolus up, then frames the lungs
   const keys = [
-    { t: shot.a, p: [0.4, 1.7, 5.2], l: [0.4, 0.9, 0], o: -380 },
-    { t: C.s1_b, p: [0.9, 1.45, 3.4], l: [0.9, 0.95, 0], o: -380, d: 2.0 },
-    { t: C.s1_knie, p: [0.9, 1.6, 4.4], l: [0.9, 0.95, 0], o: -380, d: 1.6 },
-    { t: C.s1_loest + 0.3, p: [3.6, 2.0, 5.6], l: [3.6, 1.3, 0], o: -380, d: 1.6 },
-    { t: C.s1_lunge + 0.2, p: [6.2, 2.4, 5.4], l: [6.3, 1.95, 0], o: -380, d: 1.8 },
+    { t: shot.a, p: [2.5, 1.85, 3.7], l: [0, 1.35, 0], o: -440 },
+    { t: C.s1_b, p: [1.35, 1.6, 1.9], l: [0.05, 1.38, 0.1], o: -440, d: 2.0 },
+    { t: C.s1_knie, p: [2.5, 1.85, 3.7], l: [0, 1.4, 0], o: -440, d: 1.6 },
+    { t: C.s1_lunge + 0.9, p: [3.4, 5.3, 7.4], l: [0.15, 4.95, 0], o: -440, d: 1.8 },
+    { t: C.s1_embolie + 0.6, p: [2.5, 4.9, 4.6], l: [0.7, 4.55, 0.1], o: -440, d: 1.8 },
   ];
-  W.applyCam(W.camAt(keys, t), t, 0.03);
-  W.pin(el("clot-pin"), [V.clot.position.x - 0.1, V.clot.position.y + 0.12, 0.2]);
+  const cam = W.camAt(keys, t);
+  const w = P(t, C.s1_loest, 0.8) * (1 - P(t, C.s1_lunge + 0.9, 1.6));
+  if (w > 0) {
+    const fol = V.clot.position;
+    for (let j = 0; j < 3; j++) {
+      cam.l[j] = lerp(cam.l[j], [fol.x, fol.y, fol.z][j], w);
+      cam.p[j] = lerp(cam.p[j], [fol.x + 2.0, fol.y + 0.5, fol.z + 3.0][j], w);
+    }
+  }
+  W.applyCam(cam, t, 0.02);
+  W.pin(el("clot-pin"), [V.clot.position.x - 0.12, V.clot.position.y + 0.1, V.clot.position.z]);
   W.renderer.render(vesScene, W.camera);
 }
 
 /* ================================================================== LEG */
 const legScene = W.studioScene(0xf1ebde);
 const LG = {};
-// leg profile: [radius, height]
-const PROF = [[0.001, 0.12], [0.07, 0.13], [0.082, 0.2], [0.1, 0.33], [0.135, 0.5], [0.158, 0.64], [0.15, 0.78], [0.128, 0.93], [0.118, 1.03], [0.126, 1.12], [0.152, 1.3], [0.188, 1.52], [0.218, 1.75], [0.232, 1.95], [0.001, 2.0]];
+// leg profile: [radius, height]; the lathe is then shaped anatomically (deformLeg): calf bulge at the
+// back (medial head larger), flatter shin, kneecap, hollow behind the knee, ankle bones, oval thigh.
+const PROF = [[0.001, 0.1], [0.052, 0.105], [0.062, 0.16], [0.066, 0.24], [0.085, 0.36], [0.118, 0.5], [0.138, 0.63], [0.132, 0.76], [0.115, 0.9], [0.106, 1.0], [0.112, 1.08], [0.13, 1.22], [0.165, 1.45], [0.198, 1.7], [0.218, 1.92], [0.001, 2.0]];
 function profR(y) {
   for (let i = 1; i < PROF.length; i++) if (y <= PROF[i][1]) {
     const a = PROF[i - 1], b = PROF[i];
     return lerp(a[0], b[0], (y - a[1]) / (b[1] - a[1]));
   }
-  return 0.23;
+  return 0.22;
+}
+const bell = (y, c, w) => Math.exp(-((y - c) * (y - c)) / (2 * w * w));
+// side: +1 = medial towards −x (patient's left leg seen from the front), −1 mirrored
+function legShape(x, y, z) {
+  const r = Math.hypot(x, z) || 1e-6, nx = x / r, nz = z / r;
+  let k = 1;
+  const back = Math.max(0, -nz), front = Math.max(0, nz), med = Math.max(0, -nx), lat = Math.max(0, nx);
+  k += 0.3 * bell(y, 0.66, 0.15) * back * (0.75 + 0.35 * med); // gastrocnemius
+  k += 0.08 * bell(y, 0.42, 0.12) * back; // soleus / Achilles taper below
+  k -= 0.1 * bell(y, 0.6, 0.25) * front * (1 - Math.abs(nx)); // shin flatter
+  k += 0.2 * bell(y, 1.07, 0.045) * Math.pow(front, 3); // kneecap
+  k -= 0.08 * bell(y, 1.07, 0.05) * Math.pow(back, 2); // hollow behind the knee
+  k += 0.24 * bell(y, 0.16, 0.028) * Math.pow(lat, 4); // lateral malleolus (lower)
+  k += 0.22 * bell(y, 0.19, 0.03) * Math.pow(med, 4); // medial malleolus
+  k += 0.07 * bell(y, 1.5, 0.3) * (back + front * 0.6) - 0.05 * bell(y, 1.5, 0.3) * Math.abs(nx); // oval thigh
+  k += 0.1 * bell(y, 1.3, 0.12) * med; // vastus medialis above the knee
+  return k;
+}
+function deformLeg(geo, extra = 0) {
+  const p = geo.attributes.position;
+  for (let i = 0; i < p.count; i++) {
+    const x = p.getX(i), y = p.getY(i), z = p.getZ(i);
+    const k = legShape(x, y, z) + extra;
+    p.setXYZ(i, x * k, y, z * k);
+  }
+  geo.computeVertexNormals();
+  return geo;
 }
 function latheFrom(prof, k = 1, y0 = -1, y1 = 9) {
   const sp = new THREE.SplineCurve(prof.filter((p) => p[1] >= y0 && p[1] <= y1).map((p) => new THREE.Vector2(p[0] * k, p[1])));
-  return new THREE.LatheGeometry(sp.getPoints(80), 64);
+  return new THREE.LatheGeometry(sp.getPoints(120), 96);
 }
-function buildLeg(parent, skinHex) {
+// foot: deformed sphere — rounded heel, ankle rising into the leg, high instep, medial arch, flat sole,
+// widest at the ball; toes point to +z.
+function footGeo() {
+  const g = new THREE.SphereGeometry(1, 120, 80);
+  const p = g.attributes.position;
+  const sq = (v, e) => Math.sign(v) * Math.pow(Math.abs(v), e); // squircle: broad front, no pinched tip
+  const ss = (a, b, x) => { const k = clamp((x - a) / (b - a)); return k * k * (3 - 2 * k); };
+  for (let i = 0; i < p.count; i++) {
+    const sx = sq(p.getX(i), 0.62), sy = sq(p.getY(i), 0.8), sz = sq(p.getZ(i), 0.55);
+    const Z = 0.08 + sz * 0.155; // heel −0.075 … front 0.235
+    const u = (Z + 0.075) / 0.31;
+    const half = 0.041 + 0.027 * ss(0, 0.72, u) - 0.007 * ss(0.78, 1, u);
+    const top = 0.082 + 0.045 * ss(0, 0.22, u) - 0.087 * ss(0.25, 1, u); // heel, ankle, instep falling to the toes
+    let Y = sy > 0 ? sy * top : sy * 0.012;
+    if (sy < 0.2 && sx < 0 && u > 0.2 && u < 0.72) Y += 0.02 * Math.sin(((u - 0.2) / 0.52) * Math.PI) * Math.min(1, -sx * 1.4) * (1 - Math.max(0, sy) * 4); // medial arch
+    Y = Math.max(0.003, Y + 0.012);
+    p.setXYZ(i, sx * half, Y, Z);
+  }
+  g.computeVertexNormals();
+  return g;
+}
+const skinMat = (hex) => new THREE.MeshPhysicalMaterial({ color: hex, roughness: 0.52, sheen: 0.7, sheenRoughness: 0.5, sheenColor: new THREE.Color(0xffd6c2), clearcoat: 0.06, clearcoatRoughness: 0.6, transparent: true, opacity: 1, emissive: 0xff6a2b, emissiveIntensity: 0 });
+function buildLeg(parent, skinHex, mirror) {
   const g = new THREE.Group();
   parent.add(g);
-  const skin = new THREE.MeshStandardMaterial({ color: skinHex, roughness: 0.85, transparent: true, opacity: 1, emissive: 0xff6a2b, emissiveIntensity: 0 });
-  const leg = add(g, latheFrom(PROF), skin);
-  const foot = add(g, new THREE.CapsuleGeometry(0.075, 0.26, 8, 24), skin, [0, 0.1, 0.1], [Math.PI / 2, 0, 0]);
-  foot.scale.set(1.15, 1, 0.75);
-  const toeMat = new THREE.MeshStandardMaterial({ color: skinHex, roughness: 0.85, transparent: true });
+  const inner = new THREE.Group(); // mirrored for the other leg so the big toe is always medial
+  inner.scale.x = mirror ? -1 : 1;
+  g.add(inner);
+  const skin = skinMat(skinHex);
+  const leg = add(inner, deformLeg(latheFrom(PROF)), skin);
+  const fg = new THREE.Group(); // whole foot scaled to real proportions (≈ 26 cm foot for a 90 cm leg)
+  fg.scale.setScalar(1.3);
+  inner.add(fg);
+  const foot = add(fg, footGeo(), skin);
+  const toeMat = skinMat(skinHex);
+  const nailMat = new THREE.MeshPhysicalMaterial({ color: 0xf7ddd3, roughness: 0.25, clearcoat: 0.9, clearcoatRoughness: 0.2 });
+  // big toe medial (−x), toe line curving back to the little toe
+  const TOES = [[-0.038, 0.214, 0.02, 0.04], [-0.01, 0.222, 0.0128, 0.026], [0.012, 0.216, 0.0122, 0.024], [0.031, 0.205, 0.0115, 0.021], [0.048, 0.19, 0.0108, 0.017]];
   const toes = [];
-  for (let i = 0; i < 5; i++) toes.push(add(g, sphere(0.026 - i * 0.002, 16, 12), toeMat, [0.055 - i * 0.027, 0.07, 0.33 - i * 0.012]));
-  return { g, leg, foot, skin, toes, toeMat };
+  TOES.forEach(([x, z, r, l]) => {
+    const t = new THREE.Group();
+    t.position.set(x, r * 0.92 + 0.004, z);
+    t.rotation.set(0.1, x * 1.2, 0);
+    fg.add(t);
+    const m = add(t, new THREE.CapsuleGeometry(r, l, 8, 20), toeMat, [0, 0, l / 2], [Math.PI / 2, 0, 0]);
+    m.scale.set(1.12, 0.84, 1);
+    const tip = add(t, sphere(r * 1.02, 24, 16), toeMat, [0, -r * 0.1, l + r * 0.1]);
+    tip.scale.set(1.08, 0.82, 0.92);
+    const nail = add(t, sphere(r * 0.74, 24, 12), nailMat, [0, r * 0.6, l + r * 0.02], [0.28, 0, 0], { cast: false });
+    nail.scale.set(1, 0.26, 0.92);
+    toes.push(t);
+  });
+  return { g, inner, leg, foot, skin, toes, toeMat };
 }
 {
   LG.ped = add(legScene, cyl(0.85, 0.06, 96), clay(0xdfe9e2), [0, 0.03, 0]);
-  LG.a = buildLeg(legScene, 0xf2c9a9); // the main leg (Herr K.'s left leg in the case)
-  LG.b = buildLeg(legScene, 0xf2c9a9); // second leg, only in the case
+  LG.a = buildLeg(legScene, 0xefc3a1, false); // the main leg (Herr K.'s left leg in the case)
+  LG.b = buildLeg(legScene, 0xefc3a1, true); // his right leg, only in the case
   LG.a.g.position.y = LG.b.g.position.y = 0.06;
   // measuring tape (Satz 3)
   const gold = clay(0xf4c430);
   LG.len = add(legScene, tube([[0.3, 0.08, 0.05], [0.3, 1.0, 0.05], [0.3, 2.04, 0.05]], 0.012, false, 60), gold, [0, 0, 0], [0, 0, 0], { cast: false });
-  LG.ringW = add(legScene, new THREE.TorusGeometry(0.17, 0.012, 10, 64), gold, [0, 0.7, 0], [Math.PI / 2, 0, 0]);
+  LG.ringW = add(legScene, new THREE.TorusGeometry(0.185, 0.012, 10, 64), gold, [0, 0.7, -0.02], [Math.PI / 2, 0, 0]);
   LG.ringO = add(legScene, new THREE.TorusGeometry(0.24, 0.012, 10, 64), gold, [0, 1.81, 0], [Math.PI / 2, 0, 0]);
   // stocking (Satz 3 + case)
   const stockMat = () => new THREE.MeshStandardMaterial({ color: 0x8fd9c4, roughness: 0.6, transparent: true, opacity: 0.55, depthWrite: false, side: THREE.DoubleSide });
-  LG.stockA = add(LG.a.g, latheFrom(PROF.slice(1, -2), 1.05, 0.12, 1.8), stockMat(), [0, 0, 0], [0, 0, 0], { cast: false });
-  LG.stockB = add(LG.b.g, latheFrom(PROF.slice(1, -2), 1.05, 0.12, 1.8), stockMat(), [0, 0, 0], [0, 0, 0], { cast: false });
+  LG.stockA = add(LG.a.inner, deformLeg(latheFrom(PROF.slice(1, -2), 1.04, 0.12, 1.8), 0.02), stockMat(), [0, 0, 0], [0, 0, 0], { cast: false });
+  LG.stockB = add(LG.b.inner, deformLeg(latheFrom(PROF.slice(1, -2), 1.04, 0.12, 1.8), 0.02), stockMat(), [0, 0, 0], [0, 0, 0], { cast: false });
   // Pütter bandage: overlapping tilted turns from the foot up to the knee
   LG.bands = [];
   for (let i = 0; i < 11; i++) {
     const y = 0.16 + i * 0.085;
-    const r = profR(y) + 0.022;
+    const r = profR(y) * (1 + 0.24 * bell(y, 0.66, 0.16)) + 0.026;
     const m = add(LG.a.g, new THREE.TorusGeometry(r, 0.032, 10, 64), new THREE.MeshStandardMaterial({ color: 0xeee3cc, roughness: 0.95 }), [0, y + 0.06, 0], [Math.PI / 2 + (i % 2 ? 0.28 : -0.28), 0, 0]);
     m.scale.set(1, 1, 1.6);
     LG.bands.push(m);
@@ -269,7 +471,7 @@ function renderLeg(t, shot) {
   const thick = inCase ? 0.16 * P(t, C.c_links, 1.4) : 0;
   const k = 1 - slim + thick;
   LG.a.leg.scale.set(k, 1, k);
-  LG.a.foot.scale.set(1.15 * (1 + thick * 0.4), 1, 0.75 * (1 + thick * 0.4));
+  LG.a.foot.scale.set(1 + thick * 0.4, 1, 1 + thick * 0.15);
   LG.a.skin.emissiveIntensity = inCase ? 0.32 * P(t, C.c_warm, 1.0) : 0;
   const pain = inCase ? P(t, C.c_wade, 0.6) * (1 - P(t, C.c_m1 - 0.3, 0.5)) : 0;
   LG.pain.material.opacity = pain * (0.22 + 0.16 * Math.sin((t - C.c_wade) * 6));
@@ -323,7 +525,7 @@ function renderLeg(t, shot) {
   else if (inPu) keys = [
     { t: shot.a, p: [2.1, 1.6, 5.9], l: [0.05, 1.02, 0], o: 360 },
     { t: C.pu_kv, p: [1.8, 1.15, 4.3], l: [0, 0.68, 0.05], o: 360, d: 1.8 },
-    { t: C.pu_alarm, p: [1.3, 0.7, 2.9], l: [0, 0.3, 0.12], o: 360, d: 1.4 },
+    { t: C.pu_alarm, p: [0.75, 0.45, 1.35], l: [0, 0.1, 0.22], o: 360, d: 1.4 },
     { t: C.pu_neu, p: [1.8, 1.15, 4.3], l: [0, 0.68, 0.05], o: 360, d: 1.6 },
   ];
   else if (inS7) keys = [
@@ -344,7 +546,7 @@ function renderLeg(t, shot) {
   W.pin(el("pin-wade"), [0.17, 0.7, 0.02]);
   W.pin(el("pin-ober"), [0.24, 1.81, 0.02]);
   W.pin(el("pin-passt"), [0.16, 0.55, 0.05]);
-  W.pin(el("pin-zeh"), [0.03, 0.09, 0.34]);
+  W.pin(el("pin-zeh"), [-0.05, 0.06, 0.32]);
   W.pin(el("pin-pumpe"), [-0.1, 0.62, 0]);
   W.pin(el("pin-blut"), [0.08, 0.98, 0.06]);
   W.pin(el("pin-dick"), [ax + 0.17 * (1 + thick), 1.1, 0]);

@@ -109,14 +109,20 @@
             <div class="hdr"><div class="tag red"><i></i>Satz 1 · Mythos</div><div class="h1">Virchow-Trias</div></div>
             <div id="s1-sub" class="sub" style="position: absolute; left: 120px; top: 232px">Drei Dinge, die eine Thrombose begünstigen</div>
             <div id="trias">
-              <div class="glass frost" style="position: absolute; left: -24px; top: -34px; right: -24px; bottom: -30px"></div>
-              <svg viewBox="0 0 880 600"><path id="tri" d="M440 150 L190 500 L690 500 Z" /></svg>
+              <svg viewBox="0 0 860 660">
+                <defs><linearGradient id="trig" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2ECC91" stop-opacity=".16" /><stop offset="1" stop-color="#2ECC91" stop-opacity=".04" /></linearGradient></defs>
+                <path id="tri" d="M430 120 L150 520 L710 520 Z" />
+                <path id="tri-fill" d="M430 120 L150 520 L710 520 Z" fill="url(#trig)" />
+              </svg>
               <div class="mid-l" id="tri-l">Virchow-Trias</div>
-              <div id="tc1" class="glass tc"><div class="n">Erstens</div><div class="t">Blut fließt langsamer</div><div class="s">z. B. im Bett, bewegt sich kaum</div></div>
-              <div id="tc2" class="glass tc"><div class="n">Zweitens</div><div class="t">Gefäßwand geschädigt</div><div class="s">z. B. Operation, Entzündung</div></div>
-              <div id="tc3" class="glass tc"><div class="n">Drittens</div><div class="t">Gerinnung verändert</div><div class="s">z. B. Medikamente, Schwangerschaft</div></div>
+              <div id="tn1" class="tnode" style="left: 430px; top: 120px"><svg class="ico" viewBox="0 0 64 64"><path d="M6 24h52M6 40h52" /><circle class="fr" cx="18" cy="32" r="4" /><circle class="fr" cx="32" cy="32" r="4" /><circle class="fr" cx="46" cy="32" r="4" /><path d="M24 50l-6 6 6 6" style="stroke: var(--red)" transform="translate(0 -8)" /></svg></div>
+              <div id="tn2" class="tnode" style="left: 150px; top: 520px"><svg class="ico" viewBox="0 0 64 64"><path d="M6 22h20l4 6-4 4 6 4 4-6 22 0M6 42h52" /><path d="M26 22l4 6-4 4 6 4 4-6" style="stroke: var(--red)" /></svg></div>
+              <div id="tn3" class="tnode" style="left: 710px; top: 520px"><svg class="ico" viewBox="0 0 64 64"><path d="M32 6c10 14 18 24 18 34a18 18 0 0 1-36 0c0-10 8-20 18-34z" /><circle class="fr" cx="28" cy="40" r="4" /><circle class="fr" cx="36" cy="44" r="4" /><circle class="fr" cx="34" cy="35" r="3" /><path d="M24 36l16 10M26 46l12-12" style="stroke: #C9A24A; stroke-width: 2.2" /></svg></div>
+              <div id="tc1" class="tlab" style="left: 520px; top: 64px; width: 340px"><div class="n">Erstens</div><div class="t">Blut fließt langsamer</div><div class="s">z. B. im Bett, bewegt sich kaum</div></div>
+              <div id="tc2" class="tlab" style="left: 30px; top: 600px; width: 380px"><div class="n">Zweitens</div><div class="t">Gefäßwand geschädigt</div><div class="s">z. B. Operation, Entzündung</div></div>
+              <div id="tc3" class="tlab" style="left: 470px; top: 600px; width: 390px; text-align: right"><div class="n">Drittens</div><div class="t">Gerinnung verändert</div><div class="s">z. B. Medikamente, Schwangerschaft</div></div>
             </div>
-            <div id="s1-knie" class="glass card" style="position: absolute; left: 120px; top: 900px; padding: 18px 30px"><div class="mid" style="font-size: 34px">Auch: den Fünfundzwanzigjährigen nach der Knie-OP</div></div>
+            <div id="s1-knie" class="glass card" style="position: absolute; left: 1010px; top: 800px; padding: 16px 28px"><div class="mid" style="font-size: 30px">Auch: den Fünfundzwanzigjährigen nach der Knie-OP</div></div>
             <div id="s1-emb" class="glass frost card" style="position: absolute; left: 120px; top: 300px; width: 760px; padding: 36px 42px">
               <div class="lbl">Wenn sich ein Gerinnsel löst</div>
               <div class="big" style="font-size: 46px">… kann es in die Lunge wandern</div>
@@ -226,7 +232,7 @@
 
           <!-- ============================================================ Pütter (3D leg, bandage) -->
           <section id="s-puetter" class="scene">
-            <div class="hdr"><div class="tag "><i></i>Wenn keine Standardgröße passt</div><div class="h1">Kompressionsverband nach Pütter</div></div>
+            <div class="hdr"><div class="tag " style="font-size: 19px"><i></i>Wenn keine Standardgröße passt</div><div class="h1">Kompressionsverband nach Pütter</div></div>
             <div id="pu-card" class="glass frost card" style="position: absolute; left: 1100px; top: 250px; width: 700px; padding: 22px 34px">
               <div id="pu1" class="row" style="padding: 4px 0 10px"><div class="dot"></div><div class="t" style="font-size: 36px">Mit Kurzzugbinden</div></div>
               <div id="pu2">
@@ -270,16 +276,18 @@
             <div class="hdr"><div class="tag red"><i></i>Satz 5 · Doppelter Mythos</div><div class="h1">Gespritzt wird subkutan</div></div>
             <div id="body">
               <svg viewBox="0 0 520 800">
-                <path class="sil" d="M260 20c34 0 56 26 56 60s-22 62-56 62-56-28-56-62 22-60 56-60zM196 156c20-8 44-10 64-10s44 2 64 10c40 14 62 40 66 90l18 190c2 20-26 24-30 4l-24-170-4 120c0 30 6 60 6 92l14 300c2 24-38 28-42 4l-30-290h-16l-30 290c-4 24-44 20-42-4l14-300c0-32 6-62 6-92l-4-120-24 170c-4 20-32 16-30-4l18-190c4-50 26-76 66-90z" />
-                <circle class="nav" cx="260" cy="360" r="6" />
-                <ellipse id="zb1" class="zone" cx="214" cy="410" rx="30" ry="24" />
-                <ellipse id="zb2" class="zone" cx="306" cy="410" rx="30" ry="24" />
-                <ellipse id="zo1" class="zone" cx="164" cy="600" rx="22" ry="54" />
-                <ellipse id="zo2" class="zone" cx="356" cy="600" rx="22" ry="54" />
+                <circle class="sil" cx="260" cy="76" r="48" />
+                <path class="sil" d="M282.0 128.0 C290.0 131.3 278.7 142.2 286.0 148.0 C293.3 153.8 313.7 158.0 326.0 163.0 C338.3 168.0 352.0 170.8 360.0 178.0 C368.0 185.2 370.8 193.0 374.0 206.0 C377.2 219.0 377.2 235.7 379.0 256.0 C380.8 276.3 383.2 304.3 385.0 328.0 C386.8 351.7 388.7 381.0 390.0 398.0 C391.3 415.0 391.8 418.7 393.0 430.0 C394.2 441.3 398.0 456.0 397.0 466.0 C396.0 476.0 391.2 489.0 387.0 490.0 C382.8 491.0 375.2 481.7 372.0 472.0 C368.8 462.3 369.8 453.7 368.0 432.0 C366.2 410.3 363.5 370.0 361.0 342.0 C358.5 314.0 355.8 282.3 353.0 264.0 C350.2 245.7 345.8 232.3 344.0 232.0 C342.2 231.7 343.0 247.7 342.0 262.0 C341.0 276.3 339.3 303.3 338.0 318.0 C336.7 332.7 333.0 335.7 334.0 350.0 C335.0 364.3 341.0 387.7 344.0 404.0 C347.0 420.3 351.0 428.7 352.0 448.0 C353.0 467.3 352.2 495.0 350.0 520.0 C347.8 545.0 341.3 578.0 339.0 598.0 C336.7 618.0 338.2 623.0 336.0 640.0 C333.8 657.0 329.5 682.3 326.0 700.0 C322.5 717.7 314.0 734.7 315.0 746.0 C316.0 757.3 330.5 761.7 332.0 768.0 C333.5 774.3 332.0 781.3 324.0 784.0 C316.0 786.7 290.0 790.0 284.0 784.0 C278.0 778.0 287.0 763.7 288.0 748.0 C289.0 732.3 290.7 714.7 290.0 690.0 C289.3 665.3 286.3 628.3 284.0 600.0 C281.7 571.7 278.5 541.7 276.0 520.0 C273.5 498.3 271.7 480.7 269.0 470.0 C266.3 459.3 263.0 456.0 260.0 456.0 C257.0 456.0 253.7 459.3 251.0 470.0 C248.3 480.7 246.5 498.3 244.0 520.0 C241.5 541.7 238.3 571.7 236.0 600.0 C233.7 628.3 230.7 665.3 230.0 690.0 C229.3 714.7 231.0 732.3 232.0 748.0 C233.0 763.7 242.0 778.0 236.0 784.0 C230.0 790.0 204.0 786.7 196.0 784.0 C188.0 781.3 186.5 774.3 188.0 768.0 C189.5 761.7 204.0 757.3 205.0 746.0 C206.0 734.7 197.5 717.7 194.0 700.0 C190.5 682.3 186.2 657.0 184.0 640.0 C181.8 623.0 183.3 618.0 181.0 598.0 C178.7 578.0 172.2 545.0 170.0 520.0 C167.8 495.0 167.0 467.3 168.0 448.0 C169.0 428.7 173.0 420.3 176.0 404.0 C179.0 387.7 185.0 364.3 186.0 350.0 C187.0 335.7 183.3 332.7 182.0 318.0 C180.7 303.3 179.0 276.3 178.0 262.0 C177.0 247.7 177.8 231.7 176.0 232.0 C174.2 232.3 169.8 245.7 167.0 264.0 C164.2 282.3 161.5 314.0 159.0 342.0 C156.5 370.0 153.8 410.3 152.0 432.0 C150.2 453.7 151.2 462.3 148.0 472.0 C144.8 481.7 137.2 491.0 133.0 490.0 C128.8 489.0 124.0 476.0 123.0 466.0 C122.0 456.0 125.8 441.3 127.0 430.0 C128.2 418.7 128.7 415.0 130.0 398.0 C131.3 381.0 133.2 351.7 135.0 328.0 C136.8 304.3 139.2 276.3 141.0 256.0 C142.8 235.7 142.8 219.0 146.0 206.0 C149.2 193.0 152.0 185.2 160.0 178.0 C168.0 170.8 181.7 168.0 194.0 163.0 C206.3 158.0 226.7 153.8 234.0 148.0 C241.3 142.2 230.0 131.3 238.0 128.0 C246.0 124.7 274.0 124.7 282.0 128.0Z" />
+                <path d="M226 300c22 10 46 10 68 0M218 470c14-10 28-14 42-14s28 4 42 14" style="fill: none; stroke: rgba(15,92,58,.25); stroke-width: 3; stroke-linecap: round" />
+                <circle class="nav" cx="260" cy="332" r="6" />
+                <ellipse id="zb1" class="zone" cx="214" cy="374" rx="26" ry="20" />
+                <ellipse id="zb2" class="zone" cx="306" cy="374" rx="26" ry="20" />
+                <ellipse id="zo1" class="zone" cx="178" cy="540" rx="14" ry="44" />
+                <ellipse id="zo2" class="zone" cx="342" cy="540" rx="14" ry="44" />
               </svg>
             </div>
-            <div id="zl1" class="glass zl" style="top: 400px"><div class="d"></div><div><div class="lbl" style="margin: 0">Meist</div><div class="t">In die seitliche Bauchdecke unterhalb vom Nabel</div></div></div>
-            <div id="zl2" class="glass zl" style="top: 600px"><div class="d"></div><div><div class="lbl" style="margin: 0">Oder</div><div class="t">Außen in den Oberschenkel</div></div></div>
+            <div id="zl1" class="glass zl" style="top: 520px"><div class="d"></div><div><div class="lbl" style="margin: 0">Meist</div><div class="t">In die seitliche Bauchdecke unterhalb vom Nabel</div></div></div>
+            <div id="zl2" class="glass zl" style="top: 700px"><div class="d"></div><div><div class="lbl" style="margin: 0">Oder</div><div class="t">Außen in den Oberschenkel</div></div></div>
           </section>
 
           <!-- ============================================================ Satz 6 · game card -->
