@@ -1,6 +1,6 @@
 # Nichtraucherberatung — Storyboard
 
-Schulprojekt, Dialog Takiyat (PF) · Sami (P, 24, Asthma), Kurzberatung nach dem 5A-Modell (S3-Leitlinie).
+Schulprojekt, Dialog Takiyat (PF) · Sami (P, 24, Asthma), Kurzberatung nach der 5-A-Methode (S3-Leitlinie).
 Audio: `audio/dialog.mp3` (3:28.6), Zeiten aus `timeline.json`. Im Video beginnt der Dialog bei **0:10**
 (nach dem Intro). Ziel-Gesamtlänge ≈ 3:55 (< 5:00).
 
@@ -11,7 +11,7 @@ aktuelle Phase leuchtet. Text-Einblendungen = nur Wörter, die im Dialog gesagt 
 
 | # | Zeit (Video) | Replik | Bild | Einblendung (Zitat aus dem Dialog) |
 |---|---|---|---|---|
-| 1 | 0:00–0:10 | — | Titel | „Nichtraucherberatung“ · „Kurzberatung nach dem 5A-Modell“ · Takiyat (Pflegefachfrau in Ausbildung) & Sami (24, Asthma) |
+| 1 | 0:00–0:10 | — | Titel | „Nichtraucherberatung“ · „Kurzberatung nach der 5-A-Methode“ · Takiyat (Pflegefachfrau in Ausbildung) & Sami (24, Asthma) |
 | 2 | 0:10–0:35 | 01–04 | Einstieg: Zimmer, Begrüßung | „Wie geht es Ihnen heute mit der Atmung?“ |
 | 3 | 0:35–0:36 | — | Phasen-Karte **Ask** | „Ask – Rauchstatus erfragen“ |
 | 4 | 0:36–0:51 | 05–08 | Ask | Notiz-Karte: „zwanzig Stück“ · „seit sechzehn – acht Jahre“ |
