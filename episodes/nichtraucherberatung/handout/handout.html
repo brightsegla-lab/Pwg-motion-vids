@@ -69,9 +69,41 @@
       .rogers3 .what { font-size: 7.9pt; color: var(--ink2); line-height: 1.3; }
       .rogers3 q { font-size: 8.8pt; }
       .src { margin-top: 3mm; font-size: 7.2pt; color: var(--ink2); line-height: 1.4; }
+      /* two-page layout: more air */
+      body { font-size: 9.4pt; line-height: 1.4; }
+      .page { padding: 13mm 14mm 14mm; page-break-after: always; }
+      .page:last-child { page-break-after: auto; }
+      h1 { font-size: 24pt; }
+      h2 { font-size: 11.6pt; margin-bottom: 2.6mm; }
+      .sec { margin-top: 4.6mm; }
+      .def { font-size: 10.6pt; padding: 3.6mm 5mm; }
+      .rogers3 > div { padding: 3.4mm 3.8mm; gap: 1.6mm; }
+      .rogers3 b { font-size: 10.6pt; }
+      .rogers3 .what { font-size: 9pt; line-height: 1.38; }
+      .rogers3 q { font-size: 10pt; }
+      td { padding: 1.8mm 3.4mm; font-size: 9.2pt; }
+      td:first-child { font-size: 11pt; width: 22mm; }
+      td:nth-child(2) { width: 70mm; white-space: normal; }
+      q, .q { font-size: 10pt; }
+      li { font-size: 9.4pt; }
+      ul { gap: 2.4mm; }
+      .warn { font-size: 10pt; padding: 2.8mm 3.6mm; margin-top: 2.6mm; }
+      .net { padding: 4mm 4.6mm; }
+      .net h3 { font-size: 10.4pt; margin: 3.4mm 0 1.4mm; }
+      .net ol { font-size: 9.4pt; gap: 1mm; }
+      .net .tip { font-size: 9pt; margin-top: 2.4mm; }
+      .gloss { font-size: 9pt; gap: 2.2mm 6mm; }
+      .help { padding: 3.2mm 5.4mm; margin-top: 4.6mm; }
+      .help .big { font-size: 13.6pt; }
+      .help .sm { font-size: 8.6pt; }
+      .src { font-size: 7.8pt; margin-top: 4mm; }
+      .foot { position: absolute; left: 14mm; right: 14mm; bottom: 7mm; display: flex; justify-content: space-between; font-size: 7.6pt; color: var(--ink2); border-top: 1px solid var(--line); padding-top: 2mm; }
+      .rf { background: #f6f1fb; border-left: 4px solid var(--plum); border-radius: 10px; padding: 3.6mm 4.6mm; }
+      .rf p { font-size: 9.4pt; margin-top: 1.4mm; }
     </style>
   </head>
   <body>
+    <!-- ===================== Seite 1: Grundlagen ===================== -->
     <section class="page">
       <div class="top">
         <div>
@@ -98,11 +130,11 @@
       <div class="sec">
         <h2><i></i>Ablauf: die 5-A-Methode der Kurzberatung</h2>
         <table>
-          <tr><td>Ask</td><td>Rauchstatus erfragen, dokumentieren</td><td><q>Wie viel rauchen Sie zurzeit am Tag?</q></td></tr>
-          <tr><td>Advise</td><td>individuell zum Rauchstopp raten</td><td><q>Mit dem Rauchen aufzuhören ist das Wichtigste …</q></td></tr>
-          <tr><td>Assess</td><td>Abhängigkeit und Motivation einschätzen</td><td><q>Wann rauchen Sie morgens die erste Zigarette?</q></td></tr>
-          <tr><td>Assist</td><td>unterstützen: NET, Telefonberatung, Infoblatt</td><td><q>Wären Sie bereit, das Pflaster auszuprobieren?</q></td></tr>
-          <tr><td>Arrange</td><td>Folgekontakt vereinbaren</td><td><q>Morgen früh setze ich mich wieder zu Ihnen.</q></td></tr>
+          <tr><td>Ask</td><td>Rauchstatus erfragen und dokumentieren</td><td><q>Wie viel rauchen Sie zurzeit am Tag?</q></td></tr>
+          <tr><td>Advise</td><td>individuell und motivierend zum Rauchstopp raten</td><td><q>Mit dem Rauchen aufzuhören ist das Wichtigste, was Sie bei COPD für Ihre Lunge tun können.</q></td></tr>
+          <tr><td>Assess</td><td>Abhängigkeit (Fagerström-Test) und Motivation einschätzen</td><td><q>Wann rauchen Sie morgens die erste Zigarette?</q> · Skala 0–10</td></tr>
+          <tr><td>Assist</td><td>unterstützen: Nikotinersatztherapie, Telefonberatung, Infoblatt</td><td><q>Wären Sie bereit, das Pflaster hier im Krankenhaus auszuprobieren?</q></td></tr>
+          <tr><td>Arrange</td><td>Folgekontakt vereinbaren und das Gespräch dokumentieren</td><td><q>Unser Gespräch halte ich in der Pflegedokumentation fest.</q></td></tr>
         </table>
       </div>
 
@@ -111,53 +143,92 @@
           <h2><i></i>Gesprächstechniken</h2>
           <ul>
             <li><b>Um Erlaubnis fragen</b> – <q>Dürfte ich trotzdem kurz mit Ihnen darüber sprechen?</q></li>
-            <li><b>Skalierungsfrage</b> – <q>Eine Vier. Und warum keine Zwei?</q></li>
-            <li><b>Entscheidung beim Patienten</b> – <q>Sie entscheiden, ich begleite Sie.</q></li>
+            <li><b>Reflektieren statt widersprechen</b> – <q>Jede Lunge reagiert anders.</q></li>
+            <li><b>Skalierungsfrage</b> – <q>Eine Vier. Und warum keine Zwei?</q> (eigene Gründe hervorlocken)</li>
+            <li><b>Entscheidung beim Patienten lassen</b> – <q>Sie entscheiden, ich begleite Sie.</q></li>
           </ul>
-          <h2 style="margin-top: 3.4mm"><i style="background: var(--coral)"></i>Bei COPD besonders wichtig</h2>
+        </div>
+        <div>
+          <h2><i style="background: var(--coral)"></i>Bei COPD besonders wichtig</h2>
           <ul class="copd">
             <li>Rauchstopp ist die wichtigste Maßnahme: Schäden bleiben, aber die Krankheit schreitet langsamer voran.</li>
-            <li>Im Krankenhaus mit der Entwöhnung beginnen, Kontakt über mindestens einen Monat (S3, A).</li>
+            <li>Geringe Motivation? Motivierende Gesprächsführung statt Belehrung.</li>
+            <li>Im Krankenhaus mit der Entwöhnung beginnen, unterstützender Kontakt über mindestens einen Monat (S3, A).</li>
           </ul>
           <div class="warn">Sauerstoff + Rauchen = Brandgefahr!</div>
         </div>
+      </div>
+
+      <div class="foot"><span>Grundlagen einer Beratung · Gruppe Takiyat &amp; Sami</span><span>Seite 1 / 2</span></div>
+    </section>
+
+    <!-- ===================== Seite 2: NET + Praxis ===================== -->
+    <section class="page">
+      <div class="top">
+        <div>
+          <div class="kicker">Handout · Praxis</div>
+          <h1>Nikotinersatztherapie <span>(NET)</span></h1>
+          <div class="sub">Nikotin ohne die Schadstoffe aus dem Rauch – lindert die Entzugserscheinungen</div>
+        </div>
+      </div>
+
+      <div class="sec two">
         <div class="net">
-          <h2 style="margin-bottom: 1.4mm"><i></i>Nikotinersatztherapie (NET)</h2>
-          <div>Nikotin <b>ohne die Schadstoffe aus dem Rauch</b>: lindert die Entzugserscheinungen. Pflaster, Kaugummi, Lutschtablette, Spray oder Inhaler.</div>
-          <h3>Nikotinpflaster – Grundbedarf</h3>
+          <h3 style="margin-top: 0">Nikotinpflaster – für den Grundbedarf</h3>
           <ol>
-            <li>morgens auf saubere, unbehaarte Haut kleben, täglich eine andere Stelle</li>
-            <li>gibt Nikotin gleichmäßig über den Tag ab</li>
+            <li>morgens auf eine saubere, unbehaarte Hautstelle kleben, jeden Tag eine andere Stelle</li>
+            <li>gibt das Nikotin gleichmäßig über den Tag ab</li>
             <li>Stärke nach ärztlicher Anordnung, nach einigen Wochen langsam verringern</li>
           </ol>
-          <h3>Nikotinkaugummi – starke Momente</h3>
+          <h3>Mögliche Nebenwirkungen</h3>
+          <ul>
+            <li>Haut wird rot oder juckt → Klebestelle täglich wechseln</li>
+            <li>unruhiger Schlaf, lebhafte Träume → Pflaster vor dem Schlafengehen abnehmen (Rücksprache mit der Ärztin)</li>
+          </ul>
+        </div>
+        <div class="net">
+          <h3 style="margin-top: 0">Nikotinkaugummi – für starke Momente</h3>
           <ol>
             <li>langsam kauen, bis es leicht scharf schmeckt</li>
             <li>in die Wangentasche legen („parken“)</li>
             <li>wenn der Geschmack nachlässt, wieder kauen</li>
           </ol>
-          <div class="tip">Ca. 15 Min. vorher kein Kaffee, keine Cola (schlechtere Aufnahme). Reicht ein Präparat nicht: <b>Pflaster + schnell wirksames Präparat</b> kombinieren (S3, A).</div>
+          <div class="tip">Ca. 15 Minuten vorher keinen Kaffee, keine Cola und keine sauren Säfte: Sie verschlechtern die Aufnahme des Nikotins.</div>
+          <h3>Kombination</h3>
+          <div style="font-size: 9.2pt">Reicht ein Präparat allein nicht, empfiehlt die S3-Leitlinie <b>Pflaster + schnell wirksames Präparat</b> (z. B. Kaugummi) – immer mit begleitender Beratung (Empfehlungsgrad A).</div>
         </div>
+      </div>
+
+      <div class="sec rf">
+        <h2 style="margin-bottom: 0"><i style="background: var(--plum)"></i>Und bei einem Rückfall?</h2>
+        <p>Ein Rückfall ist <b>kein Scheitern</b> – viele brauchen mehrere Versuche, bis es klappt. Wichtig ist, nicht aufzugeben und darüber zu sprechen: mit der Pflegefachperson, der Ärztin oder der Telefonberatung, die auch nach einem Rückfall hilft.</p>
+        <p><q>Dann ist das kein Scheitern. Viele brauchen mehrere Versuche, bis es klappt.</q></p>
       </div>
 
       <div class="sec">
         <h2><i></i>Fachbegriffe</h2>
         <div class="gloss">
+          <div><b>5-A-Methode</b> – Ablauf der Kurzberatung: Ask, Advise, Assess, Assist, Arrange</div>
           <div><b>COPD</b> – chronisch obstruktive Lungenerkrankung: dauerhaft verengte Atemwege</div>
-          <div><b>Fagerström-Test</b> – Fragebogen zur Stärke der Tabakabhängigkeit</div>
-          <div><b>Entzugserscheinungen</b> – z. B. Unruhe, Reizbarkeit, starkes Rauchverlangen</div>
-          <div><b>Motivierende Gesprächsführung</b> – stärkt die eigene Motivation zur Veränderung</div>
+          <div><b>Fagerström-Test</b> – Fragebogen zur Stärke der Tabakabhängigkeit (z. B. erste Zigarette am Morgen)</div>
+          <div><b>Entzugserscheinungen</b> – z. B. Unruhe, Reizbarkeit, starkes Rauchverlangen nach dem Rauchstopp</div>
+          <div><b>NET</b> – Nikotinersatztherapie: Pflaster, Kaugummi, Lutschtablette, Spray oder Inhaler</div>
+          <div><b>Motivierende Gesprächsführung</b> – partnerschaftliches Gespräch, das die eigene Motivation zur Veränderung stärkt</div>
           <div><b>Ambivalenz</b> – gleichzeitig wollen und nicht wollen („aufhören ja, aber …“)</div>
           <div><b>Selbstwirksamkeit</b> – Vertrauen, eine Veränderung selbst zu schaffen</div>
+          <div><b>Rückfall</b> – erneutes Rauchen nach einem Rauchstopp; Teil des Lernprozesses, kein Scheitern</div>
+          <div><b>Pflegedokumentation</b> – schriftliche Festhaltung von Beratung und Vereinbarungen für das ganze Team</div>
         </div>
       </div>
 
       <div class="help">
-        <div><div class="big">Rauchfrei-Telefon <span>0800 8 31 31 31</span></div><div class="sm">kostenlos (BIÖG) · auf Wunsch mit Rückrufen, auch nach der Entlassung</div></div>
-        <div style="text-align: right"><div class="big" style="font-size: 11.4pt">rauchfrei-info.de</div><div class="sm">kostenloses Online-Ausstiegsprogramm</div></div>
+        <div><div class="big">Rauchfrei-Telefon <span>0800 8 31 31 31</span></div><div class="sm">kostenlos (BIÖG) · auf Wunsch mit Rückrufen, auch nach der Entlassung und nach einem Rückfall</div></div>
+        <div style="text-align: right"><div class="big" style="font-size: 12pt">rauchfrei-info.de</div><div class="sm">kostenloses Online-Ausstiegsprogramm</div></div>
       </div>
 
-      <div class="src"><b>Quellen:</b> S3-Leitlinie „Rauchen und Tabakabhängigkeit: Screening, Diagnostik und Behandlung“, AWMF-Register Nr. 076-006 (2021) · Miller &amp; Rollnick: Motivierende Gesprächsführung · Rogers: Klientenzentrierte Gesprächsführung · BIÖG: rauchfrei-info.de</div>
+      <div class="src"><b>Quellen:</b> S3-Leitlinie „Rauchen und Tabakabhängigkeit: Screening, Diagnostik und Behandlung“, AWMF-Register Nr. 076-006 (2021) · Fachinformationen Nikotinpflaster und Nikotinkaugummi · Miller &amp; Rollnick: Motivierende Gesprächsführung · Rogers: Klientenzentrierte Gesprächsführung · BIÖG: rauchfrei-info.de</div>
+
+      <div class="foot"><span>Grundlagen einer Beratung · Gruppe Takiyat &amp; Sami</span><span>Seite 2 / 2</span></div>
     </section>
   </body>
 </html>

@@ -9,8 +9,8 @@ const { chromium } = require("playwright");
   await p.evaluate(() => document.fonts.ready);
   await p.pdf({ path: pdf, format: "A4", printBackground: true, preferCSSPageSize: true });
   const over = await p.evaluate(() => [...document.querySelectorAll(".page")].map((pg) => {
-    const limit = pg.getBoundingClientRect().bottom - 34; // bottom padding
-    return Math.round(Math.max(...[...pg.children].map((c) => c.getBoundingClientRect().bottom)) - limit);
+    const foot = pg.querySelector(".foot"); const limit = foot ? foot.getBoundingClientRect().top - 4 : pg.getBoundingClientRect().bottom - 34;
+    return Math.round(Math.max(...[...pg.children].filter((c) => !c.classList.contains("foot")).map((c) => c.getBoundingClientRect().bottom)) - limit);
   }));
   console.log("overflow px per page (must be <= 0):", over);
   if (png) await p.screenshot({ path: png, fullPage: true });
