@@ -166,64 +166,76 @@
    "nr": 25,
    "speaker": "PF",
    "phase": "Assist",
-   "text": "[warm] Das sind gute Gründe. Sie müssen heute nichts entscheiden. Wenn Sie möchten, spreche ich mit der Ärztin über eine Nikotinersatztherapie, zum Beispiel ein Pflaster. Das lindert die Entzugserscheinungen, hier im Krankenhaus und danach."
+   "text": "[warm] Das sind gute Gründe. Sie müssen heute nichts entscheiden. Wenn Sie möchten, spreche ich mit der Ärztin über eine Nikotinersatztherapie. Dabei bekommt Ihr Körper Nikotin, aber ohne die Schadstoffe aus dem Rauch. Das lindert die Entzugserscheinungen."
   },
   {
    "nr": 26,
    "speaker": "P",
    "phase": "Assist",
-   "text": "[skeptisch] Und beim Skat? Da raucht doch jeder."
+   "text": "[skeptisch] Und wie funktioniert das?"
   },
   {
    "nr": 27,
    "speaker": "PF",
    "phase": "Assist",
-   "text": "Genau das ist eine schwierige Situation. Dafür gibt es Nikotinkaugummis für starke Momente. Und vielleicht kann Ihre Frau Sie dabei unterstützen."
+   "text": "Zum Beispiel mit einem Nikotinpflaster: Das kleben Sie morgens auf eine unbehaarte Hautstelle, jeden Tag an eine andere. Es gibt das Nikotin gleichmäßig über den Tag ab. Die Stärke legt die Ärztin fest, und nach einigen Wochen wird sie langsam verringert."
   },
   {
    "nr": 28,
    "speaker": "P",
    "phase": "Assist",
-   "text": "[nachdenklich] Die würde sich freuen. Die sagt das schon lange."
+   "text": "[skeptisch] Und beim Skat? Da raucht doch jeder."
   },
   {
    "nr": 29,
    "speaker": "PF",
    "phase": "Assist",
-   "text": "Dazu gibt es eine kostenlose Telefonberatung zum Rauchstopp. Dort ruft man Sie auf Wunsch zurück und begleitet Sie auch nach der Entlassung. Ich gebe Ihnen ein Infoblatt mit allen Nummern."
+   "text": "Genau das ist eine schwierige Situation. Dafür gibt es Nikotinkaugummis. Wichtig ist die Kautechnik: langsam kauen, bis es leicht scharf schmeckt, dann in die Wangentasche legen, und später wieder kauen. Und kurz vorher keinen Kaffee und keine Cola, sonst wirkt das Nikotin schlechter. Vielleicht kann Ihre Frau Sie auch unterstützen."
   },
   {
    "nr": 30,
    "speaker": "P",
    "phase": "Assist",
-   "text": "[zögernd] Auf einen Schlag aufhören … das schaffe ich nicht."
+   "text": "[nachdenklich] Die würde sich freuen. Die sagt das schon lange."
   },
   {
    "nr": 31,
    "speaker": "PF",
    "phase": "Assist",
-   "text": "[verständnisvoll] Dann gehen wir es Schritt für Schritt an. Wären Sie bereit, das Pflaster hier im Krankenhaus auszuprobieren?"
+   "text": "Dazu gibt es eine kostenlose Telefonberatung zum Rauchstopp. Dort ruft man Sie auf Wunsch zurück und begleitet Sie auch nach der Entlassung. Ich gebe Ihnen ein Infoblatt mit allen Nummern."
   },
   {
    "nr": 32,
    "speaker": "P",
    "phase": "Assist",
-   "text": "[nach kurzer Pause] Ausprobieren kann ich es ja mal."
+   "text": "[zögernd] Auf einen Schlag aufhören … das schaffe ich nicht."
   },
   {
    "nr": 33,
+   "speaker": "PF",
+   "phase": "Assist",
+   "text": "[verständnisvoll] Dann gehen wir es Schritt für Schritt an. Wären Sie bereit, das Pflaster hier im Krankenhaus auszuprobieren?"
+  },
+  {
+   "nr": 34,
+   "speaker": "P",
+   "phase": "Assist",
+   "text": "[nach kurzer Pause] Ausprobieren kann ich es ja mal."
+  },
+  {
+   "nr": 35,
    "speaker": "PF",
    "phase": "Arrange",
    "text": "[erfreut] Das freut mich. Dann halten wir fest: Ich spreche heute mit der Ärztin über das Pflaster. Sie bekommen das Infoblatt. Und morgen früh setze ich mich wieder zu Ihnen, und wir schauen, wie es Ihnen damit geht. Passt das für Sie?"
   },
   {
-   "nr": 34,
+   "nr": 36,
    "speaker": "P",
    "phase": "Arrange",
    "text": "Ja. Und die Zigaretten … die kann meine Frau nachher mitnehmen."
   },
   {
-   "nr": 35,
+   "nr": 37,
    "speaker": "PF",
    "phase": "Arrange",
    "text": "[warm] Das ist ein guter erster Schritt. Sie entscheiden, ich begleite Sie. Bis morgen, Sami."

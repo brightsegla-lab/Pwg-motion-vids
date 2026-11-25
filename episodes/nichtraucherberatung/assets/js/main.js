@@ -93,8 +93,13 @@
   at("as-why", null, { x: -16 });
 
   at("ass-net");
-  ["ass-pfl", "ass-skat", "ass-kau", "ass-frau"].forEach((k) => at(k, null, { x: -24 }));
-  hide($("ass-a"), cue("ass-tel") - 0.1, 0.35);
+  at("net-1");
+  at("net-2");
+  hide($("ass-a"), cue("pfl-1") - 0.1, 0.35);
+  ["pfl-1", "pfl-2", "pfl-3", "pfl-4"].forEach((k) => at(k, null, { x: -24 }));
+  hide($("ass-p"), cue("ass-skat") - 0.1, 0.35);
+  ["ass-skat", "kau-1", "kau-2", "kau-3", "kau-4", "kau-5", "ass-frau"].forEach((k) => at(k, null, { x: -24 }));
+  hide($("ass-k"), cue("ass-tel") - 0.1, 0.35);
   at("ass-tel", null, { x: -24 });
   tl.fromTo($("c-ass-rueck"), { opacity: 0 }, { opacity: 1, duration: 0.45 }, cue("ass-rueck"));
   at("ass-info", null, { x: -24 });

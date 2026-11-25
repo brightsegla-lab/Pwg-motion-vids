@@ -138,3 +138,4 @@ html,body{width:1920px;height:1080px;overflow:hidden;background:var(--cream)}
 .warn{display:flex;flex-direction:column;gap:12px;padding:30px 32px;border-radius:22px;background:#FFF1EC;border:3px solid var(--gold);opacity:0}
 .warn .k{font-weight:800;font-size:24px;letter-spacing:.14em;text-transform:uppercase;color:var(--goldd)}
 .warn .v{font-weight:800;font-size:44px;line-height:1.15}
+.num{width:34px;height:34px;flex-shrink:0;border-radius:50%;background:var(--green);color:#fff;font-weight:800;font-size:20px;display:flex;align-items:center;justify-content:center;margin-top:2px}
