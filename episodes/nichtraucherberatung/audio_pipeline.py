@@ -25,7 +25,7 @@ API = "https://api.elevenlabs.io"
 RATE = 44100
 GAP_REPLIK = 0.4
 GAP_PHASE = 0.8
-TARGET = 4 * 60 + 45
+TARGET = 6 * 60  # max dialog length (the 5-min limit was lifted)
 VOICE_SETTINGS = {"stability": 0.5}  # same as the Flows takes in the history
 
 
@@ -114,7 +114,7 @@ def cmd_fetch(_):
         mp3(r["nr"]).write_bytes(request("GET", f"/v1/history/{best['history_item_id']}/audio", raw=True))
         print(f"{r['nr']:02d} aus History ({len(hits)} Treffer, neuester genommen)")
     (AUDIO / "missing.json").write_text(json.dumps(missing))
-    print(f"\n{33 - len(missing)} gefunden, {len(missing)} fehlen: {missing}")
+    print(f"\n{len(cfg['repliken']) - len(missing)} gefunden, {len(missing)} fehlen: {missing}")
 
 
 def cmd_generate(args):
@@ -209,7 +209,7 @@ def cmd_assemble(_):
 
     for p in phases:
         print(f"{p['phase']:<9} {fmt(p['start'])} – {fmt(p['end'])}")
-    verdict = "OK, unter 4:45" if total < TARGET else f"ZU LANG um {fmt(total - TARGET)}"
+    verdict = "OK" if total < TARGET else f"ZU LANG um {fmt(total - TARGET)}"
     print(f"\nGesamtdauer dialog.mp3: {fmt(total)}  ({verdict})")
 
 

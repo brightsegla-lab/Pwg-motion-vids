@@ -184,58 +184,82 @@
    "nr": 28,
    "speaker": "P",
    "phase": "Assist",
-   "text": "[skeptisch] Und beim Skat? Da raucht doch jeder."
+   "text": "[besorgt] Hat das Pflaster Nebenwirkungen?"
   },
   {
    "nr": 29,
    "speaker": "PF",
    "phase": "Assist",
-   "text": "Genau das ist eine schwierige Situation. Dafür gibt es Nikotinkaugummis. Wichtig ist die Kautechnik: langsam kauen, bis es leicht scharf schmeckt, dann in die Wangentasche legen, und später wieder kauen. Und kurz vorher keinen Kaffee und keine Cola, sonst wirkt das Nikotin schlechter. Vielleicht kann Ihre Frau Sie auch unterstützen."
+   "text": "Manchmal wird die Haut unter dem Pflaster rot oder juckt. Deshalb kleben Sie es jeden Tag an eine andere Stelle. Und wenn Sie nachts unruhig schlafen oder sehr lebhaft träumen, können Sie es vor dem Schlafengehen abnehmen. Das besprechen wir mit der Ärztin."
   },
   {
    "nr": 30,
    "speaker": "P",
    "phase": "Assist",
-   "text": "[nachdenklich] Die würde sich freuen. Die sagt das schon lange."
+   "text": "[skeptisch] Und beim Skat? Da raucht doch jeder."
   },
   {
    "nr": 31,
    "speaker": "PF",
    "phase": "Assist",
-   "text": "Dazu gibt es eine kostenlose Telefonberatung zum Rauchstopp. Dort ruft man Sie auf Wunsch zurück und begleitet Sie auch nach der Entlassung. Ich gebe Ihnen ein Infoblatt mit allen Nummern."
+   "text": "Genau das ist eine schwierige Situation. Dafür gibt es Nikotinkaugummis. Wichtig ist die Kautechnik: langsam kauen, bis es leicht scharf schmeckt, dann in die Wangentasche legen, und später wieder kauen. Und kurz vorher keinen Kaffee und keine Cola, sonst wirkt das Nikotin schlechter. Vielleicht kann Ihre Frau Sie auch unterstützen."
   },
   {
    "nr": 32,
    "speaker": "P",
    "phase": "Assist",
-   "text": "[zögernd] Auf einen Schlag aufhören … das schaffe ich nicht."
+   "text": "[nachdenklich] Die würde sich freuen. Die sagt das schon lange."
   },
   {
    "nr": 33,
    "speaker": "PF",
    "phase": "Assist",
-   "text": "[verständnisvoll] Dann gehen wir es Schritt für Schritt an. Wären Sie bereit, das Pflaster hier im Krankenhaus auszuprobieren?"
+   "text": "Dazu gibt es eine kostenlose Telefonberatung zum Rauchstopp. Dort ruft man Sie auf Wunsch zurück und begleitet Sie auch nach der Entlassung. Ich gebe Ihnen ein Infoblatt mit allen Nummern."
   },
   {
    "nr": 34,
    "speaker": "P",
    "phase": "Assist",
-   "text": "[nach kurzer Pause] Ausprobieren kann ich es ja mal."
+   "text": "[zögernd] Auf einen Schlag aufhören … das schaffe ich nicht."
   },
   {
    "nr": 35,
    "speaker": "PF",
-   "phase": "Arrange",
-   "text": "[erfreut] Das freut mich. Dann halten wir fest: Ich spreche heute mit der Ärztin über das Pflaster. Sie bekommen das Infoblatt. Und morgen früh setze ich mich wieder zu Ihnen, und wir schauen, wie es Ihnen damit geht. Passt das für Sie?"
+   "phase": "Assist",
+   "text": "[verständnisvoll] Dann gehen wir es Schritt für Schritt an. Wären Sie bereit, das Pflaster hier im Krankenhaus auszuprobieren?"
   },
   {
    "nr": 36,
+   "speaker": "P",
+   "phase": "Assist",
+   "text": "[nach kurzer Pause] Ausprobieren kann ich es ja mal."
+  },
+  {
+   "nr": 37,
+   "speaker": "P",
+   "phase": "Assist",
+   "text": "[zögernd] Und wenn ich doch wieder eine rauche?"
+  },
+  {
+   "nr": 38,
+   "speaker": "PF",
+   "phase": "Assist",
+   "text": "[ruhig] Dann ist das kein Scheitern. Viele brauchen mehrere Versuche, bis es klappt. Wichtig ist, dass Sie nicht aufgeben und darüber sprechen: mit mir, mit der Ärztin oder mit der Telefonberatung. Die hilft auch nach einem Rückfall."
+  },
+  {
+   "nr": 39,
+   "speaker": "PF",
+   "phase": "Arrange",
+   "text": "[warm] Dann halten wir fest: Ich spreche heute mit der Ärztin über das Pflaster. Sie bekommen das Infoblatt. Und morgen früh setze ich mich wieder zu Ihnen, und wir schauen, wie es Ihnen damit geht. Unser Gespräch halte ich in der Pflegedokumentation fest, damit das ganze Team Bescheid weiß. Passt das für Sie?"
+  },
+  {
+   "nr": 40,
    "speaker": "P",
    "phase": "Arrange",
    "text": "Ja. Und die Zigaretten … die kann meine Frau nachher mitnehmen."
   },
   {
-   "nr": 37,
+   "nr": 41,
    "speaker": "PF",
    "phase": "Arrange",
    "text": "[warm] Das ist ein guter erster Schritt. Sie entscheiden, ich begleite Sie. Bis morgen, Sami."

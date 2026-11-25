@@ -1,6 +1,6 @@
 {
   "audio": "audio/dialog.mp3",
-  "duration": 260.16,
+  "duration": 298.48,
   "sample_rate": 44100,
   "gaps": {
     "replik": 0.4,
@@ -46,19 +46,19 @@
     {
       "phase": "Assist",
       "start": 149.04,
-      "end": 235.28,
+      "end": 270.08,
       "repliken": [
         25,
-        34
+        38
       ]
     },
     {
       "phase": "Arrange",
-      "start": 236.08,
-      "end": 260.16,
+      "start": 270.88,
+      "end": 298.48,
       "repliken": [
-        35,
-        37
+        39,
+        41
       ]
     }
   ],
@@ -339,9 +339,9 @@
       "speaker": "P",
       "name": "Sami",
       "phase": "Assist",
-      "text": "Und beim Skat? Da raucht doch jeder.",
+      "text": "Hat das Pflaster Nebenwirkungen?",
       "start": 182.72,
-      "end": 185.52
+      "end": 185.04
     },
     {
       "nr": 29,
@@ -349,9 +349,9 @@
       "speaker": "PF",
       "name": "Takiyat",
       "phase": "Assist",
-      "text": "Genau das ist eine schwierige Situation. Dafür gibt es Nikotinkaugummis. Wichtig ist die Kautechnik: langsam kauen, bis es leicht scharf schmeckt, dann in die Wangentasche legen, und später wieder kauen. Und kurz vorher keinen Kaffee und keine Cola, sonst wirkt das Nikotin schlechter. Vielleicht kann Ihre Frau Sie auch unterstützen.",
-      "start": 185.92,
-      "end": 206.56
+      "text": "Manchmal wird die Haut unter dem Pflaster rot oder juckt. Deshalb kleben Sie es jeden Tag an eine andere Stelle. Und wenn Sie nachts unruhig schlafen oder sehr lebhaft träumen, können Sie es vor dem Schlafengehen abnehmen. Das besprechen wir mit der Ärztin.",
+      "start": 185.44,
+      "end": 200.16
     },
     {
       "nr": 30,
@@ -359,9 +359,9 @@
       "speaker": "P",
       "name": "Sami",
       "phase": "Assist",
-      "text": "Die würde sich freuen. Die sagt das schon lange.",
-      "start": 206.96,
-      "end": 210.24
+      "text": "Und beim Skat? Da raucht doch jeder.",
+      "start": 200.56,
+      "end": 203.36
     },
     {
       "nr": 31,
@@ -369,9 +369,9 @@
       "speaker": "PF",
       "name": "Takiyat",
       "phase": "Assist",
-      "text": "Dazu gibt es eine kostenlose Telefonberatung zum Rauchstopp. Dort ruft man Sie auf Wunsch zurück und begleitet Sie auch nach der Entlassung. Ich gebe Ihnen ein Infoblatt mit allen Nummern.",
-      "start": 210.64,
-      "end": 221.68
+      "text": "Genau das ist eine schwierige Situation. Dafür gibt es Nikotinkaugummis. Wichtig ist die Kautechnik: langsam kauen, bis es leicht scharf schmeckt, dann in die Wangentasche legen, und später wieder kauen. Und kurz vorher keinen Kaffee und keine Cola, sonst wirkt das Nikotin schlechter. Vielleicht kann Ihre Frau Sie auch unterstützen.",
+      "start": 203.76,
+      "end": 224.4
     },
     {
       "nr": 32,
@@ -379,9 +379,9 @@
       "speaker": "P",
       "name": "Sami",
       "phase": "Assist",
-      "text": "Auf einen Schlag aufhören … das schaffe ich nicht.",
-      "start": 222.08,
-      "end": 226.16
+      "text": "Die würde sich freuen. Die sagt das schon lange.",
+      "start": 224.8,
+      "end": 228.08
     },
     {
       "nr": 33,
@@ -389,9 +389,9 @@
       "speaker": "PF",
       "name": "Takiyat",
       "phase": "Assist",
-      "text": "Dann gehen wir es Schritt für Schritt an. Wären Sie bereit, das Pflaster hier im Krankenhaus auszuprobieren?",
-      "start": 226.56,
-      "end": 232.48
+      "text": "Dazu gibt es eine kostenlose Telefonberatung zum Rauchstopp. Dort ruft man Sie auf Wunsch zurück und begleitet Sie auch nach der Entlassung. Ich gebe Ihnen ein Infoblatt mit allen Nummern.",
+      "start": 228.48,
+      "end": 239.52
     },
     {
       "nr": 34,
@@ -399,39 +399,79 @@
       "speaker": "P",
       "name": "Sami",
       "phase": "Assist",
-      "text": "Ausprobieren kann ich es ja mal.",
-      "start": 232.88,
-      "end": 235.28
+      "text": "Auf einen Schlag aufhören … das schaffe ich nicht.",
+      "start": 239.92,
+      "end": 244.0
     },
     {
       "nr": 35,
       "file": "audio/35.mp3",
       "speaker": "PF",
       "name": "Takiyat",
-      "phase": "Arrange",
-      "text": "Das freut mich. Dann halten wir fest: Ich spreche heute mit der Ärztin über das Pflaster. Sie bekommen das Infoblatt. Und morgen früh setze ich mich wieder zu Ihnen, und wir schauen, wie es Ihnen damit geht. Passt das für Sie?",
-      "start": 236.08,
-      "end": 249.28
+      "phase": "Assist",
+      "text": "Dann gehen wir es Schritt für Schritt an. Wären Sie bereit, das Pflaster hier im Krankenhaus auszuprobieren?",
+      "start": 244.4,
+      "end": 250.32
     },
     {
       "nr": 36,
       "file": "audio/36.mp3",
       "speaker": "P",
       "name": "Sami",
-      "phase": "Arrange",
-      "text": "Ja. Und die Zigaretten … die kann meine Frau nachher mitnehmen.",
-      "start": 249.68,
-      "end": 254.24
+      "phase": "Assist",
+      "text": "Ausprobieren kann ich es ja mal.",
+      "start": 250.72,
+      "end": 253.12
     },
     {
       "nr": 37,
       "file": "audio/37.mp3",
+      "speaker": "P",
+      "name": "Sami",
+      "phase": "Assist",
+      "text": "Und wenn ich doch wieder eine rauche?",
+      "start": 253.52,
+      "end": 256.24
+    },
+    {
+      "nr": 38,
+      "file": "audio/38.mp3",
+      "speaker": "PF",
+      "name": "Takiyat",
+      "phase": "Assist",
+      "text": "Dann ist das kein Scheitern. Viele brauchen mehrere Versuche, bis es klappt. Wichtig ist, dass Sie nicht aufgeben und darüber sprechen: mit mir, mit der Ärztin oder mit der Telefonberatung. Die hilft auch nach einem Rückfall.",
+      "start": 256.64,
+      "end": 270.08
+    },
+    {
+      "nr": 39,
+      "file": "audio/39.mp3",
+      "speaker": "PF",
+      "name": "Takiyat",
+      "phase": "Arrange",
+      "text": "Dann halten wir fest: Ich spreche heute mit der Ärztin über das Pflaster. Sie bekommen das Infoblatt. Und morgen früh setze ich mich wieder zu Ihnen, und wir schauen, wie es Ihnen damit geht. Unser Gespräch halte ich in der Pflegedokumentation fest, damit das ganze Team Bescheid weiß. Passt das für Sie?",
+      "start": 270.88,
+      "end": 287.6
+    },
+    {
+      "nr": 40,
+      "file": "audio/40.mp3",
+      "speaker": "P",
+      "name": "Sami",
+      "phase": "Arrange",
+      "text": "Ja. Und die Zigaretten … die kann meine Frau nachher mitnehmen.",
+      "start": 288.0,
+      "end": 292.56
+    },
+    {
+      "nr": 41,
+      "file": "audio/41.mp3",
       "speaker": "PF",
       "name": "Takiyat",
       "phase": "Arrange",
       "text": "Das ist ein guter erster Schritt. Sie entscheiden, ich begleite Sie. Bis morgen, Sami.",
-      "start": 254.64,
-      "end": 260.16
+      "start": 292.96,
+      "end": 298.48
     }
   ]
 }

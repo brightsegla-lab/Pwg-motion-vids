@@ -14,8 +14,8 @@
       Every on-screen word comes from the dialog (repliken.json) or the approved storyboard
       (phase names / S3 step definitions, title, end card). Timing: assets/js/data.js (build_data.py).
     -->
-    <div id="root" data-composition-id="main" data-start="0" data-duration="286.16" data-width="1920" data-height="1080">
-      <div id="bg" class="layer clip" data-start="0" data-duration="286.16" data-track-index="0">
+    <div id="root" data-composition-id="main" data-start="0" data-duration="324.48" data-width="1920" data-height="1080">
+      <div id="bg" class="layer clip" data-start="0" data-duration="324.48" data-track-index="0">
         <div class="dots"></div>
         <div class="b1"></div>
         <div class="b2"></div>
@@ -42,7 +42,7 @@
       </section>
 
       <!-- dialog -->
-      <section id="main-clip" class="layer clip" data-start="9" data-duration="262.56" data-track-index="2">
+      <section id="main-clip" class="layer clip" data-start="9" data-duration="300.88" data-track-index="2">
         <div id="main" class="layer" style="opacity: 0">
           <div id="topbar">
             <div id="tb-title">Nichtraucher<span>beratung</span></div>
@@ -272,6 +272,12 @@
                 <div class="row" id="c-pfl-3"><div class="num">2</div><div class="t">gibt das Nikotin gleichmäßig über den Tag ab</div></div>
                 <div class="row" id="c-pfl-4"><div class="num">3</div><div><div class="t">Stärke legt die Ärztin fest</div><div class="s">nach einigen Wochen langsam verringern</div></div></div>
               </div>
+              <div id="ass-n" class="rows" style="position: absolute; left: 0; right: 0; top: 190px; gap: 16px">
+                <div class="lbl row" id="c-pfl-nw">Mögliche Nebenwirkungen</div>
+                <div class="row" id="c-nw-1"><div class="dot gold"></div><div><div class="t">Haut wird rot oder juckt</div><div class="s" id="c-nw-2" style="opacity: 0">→ jeden Tag eine andere Stelle</div></div></div>
+                <div class="row" id="c-nw-3"><div class="dot gold"></div><div><div class="t">unruhiger Schlaf, lebhafte Träume</div><div class="s">→ vor dem Schlafengehen abnehmen</div></div></div>
+                <div class="row" id="c-nw-4"><div class="dot"></div><div class="t">Rücksprache mit der Ärztin</div></div>
+              </div>
               <div id="ass-k" class="rows" style="position: absolute; left: 0; right: 0; top: 190px; gap: 14px">
                 <div class="row" id="c-ass-skat"><div class="dot gold"></div><div class="t">Schwierige Situation: der Skatabend</div></div>
                 <div class="lbl row" id="c-kau-1">Nikotinkaugummi – Kautechnik</div>
@@ -287,6 +293,12 @@
                 <div class="row" id="c-ass-step"><div class="dot gold"></div><div class="t">Schritt für Schritt</div></div>
                 <div class="stamp" id="c-ass-try"><div class="k">Erster Schritt</div><div class="v">Pflaster ausprobieren</div></div>
               </div>
+              <div id="ass-r" class="rows" style="position: absolute; left: 0; right: 0; top: 190px; gap: 16px">
+                <div class="lbl row" id="c-rf-q">Und bei einem Rückfall?</div>
+                <div class="kv" id="c-rf-1"><div class="k">Kein Scheitern</div><div class="v">Viele brauchen mehrere Versuche</div></div>
+                <div class="row" id="c-rf-3"><div class="dot"></div><div class="t">nicht aufgeben und darüber sprechen</div></div>
+                <div class="row" id="c-rf-4"><div class="dot"></div><div class="t">Telefonberatung hilft auch nach einem Rückfall</div></div>
+              </div>
             </div>
             <!-- Arrange -->
             <div class="ph" id="ph-Arrange">
@@ -295,6 +307,7 @@
                 <div class="check" id="c-arr-1"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 16.5l6 6L25 10" /></svg></div><div class="t">Heute: mit der Ärztin über das Pflaster sprechen</div></div>
                 <div class="check" id="c-arr-2"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 16.5l6 6L25 10" /></svg></div><div class="t">Sami bekommt das Infoblatt</div></div>
                 <div class="check" id="c-arr-3"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 16.5l6 6L25 10" /></svg></div><div class="t">Morgen früh: gemeinsam schauen, wie es mit dem Pflaster geht</div></div>
+                <div class="check" id="c-arr-doc"><div class="box"><div class="fill"></div><svg viewBox="0 0 32 32"><path d="M7 16.5l6 6L25 10" /></svg></div><div class="t">Gespräch in der Pflegedokumentation festhalten</div></div>
               </div>
               <div style="position: absolute; left: 0; right: 0; bottom: 0; height: 150px">
                 <div class="quote" id="c-arr-ok" style="position: absolute; left: 0; right: 0; bottom: 0; color: var(--goldd)">„Die Zigaretten kann meine Frau nachher mitnehmen.“</div>
@@ -314,7 +327,7 @@
       </section>
 
       <!-- end card -->
-      <section id="outro-clip" class="layer clip" data-start="270.11" data-duration="16.05" data-track-index="3">
+      <section id="outro-clip" class="layer clip" data-start="308.43" data-duration="16.05" data-track-index="3">
         <div id="outro" class="layer">
           <div id="o-h" style="opacity: 0">Die 5 A der Kurzberatung</div>
           <div id="o-cards">
@@ -335,7 +348,7 @@
         </div>
       </section>
 
-      <audio id="voice" src="audio/dialog.mp3" data-start="10" data-duration="260.16" data-track-index="4" data-volume="1"></audio>
+      <audio id="voice" src="audio/dialog.mp3" data-start="10" data-duration="298.48" data-track-index="4" data-volume="1"></audio>
     </div>
     <script src="assets/js/main.js"></script>
     <script>

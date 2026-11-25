@@ -97,7 +97,10 @@
   at("net-2");
   hide($("ass-a"), cue("pfl-1") - 0.1, 0.35);
   ["pfl-1", "pfl-2", "pfl-3", "pfl-4"].forEach((k) => at(k, null, { x: -24 }));
-  hide($("ass-p"), cue("ass-skat") - 0.1, 0.35);
+  hide($("ass-p"), cue("pfl-nw") - 0.1, 0.35);
+  ["pfl-nw", "nw-1", "nw-3", "nw-4"].forEach((k) => at(k, null, { x: -24 }));
+  tl.fromTo($("c-nw-2"), { opacity: 0 }, { opacity: 1, duration: 0.45 }, cue("nw-2"));
+  hide($("ass-n"), cue("ass-skat") - 0.1, 0.35);
   ["ass-skat", "kau-1", "kau-2", "kau-3", "kau-4", "kau-5", "ass-frau"].forEach((k) => at(k, null, { x: -24 }));
   hide($("ass-k"), cue("ass-tel") - 0.1, 0.35);
   at("ass-tel", null, { x: -24 });
@@ -106,12 +109,15 @@
   tl.fromTo($("prop-info"), { attr: { opacity: 0 } }, { attr: { opacity: 1 }, duration: 0.5 }, cue("ass-info"));
   at("ass-step", null, { x: -24 });
   tl.fromTo($("c-ass-try"), { opacity: 0, scale: 0.9 }, { opacity: 1, scale: 1, duration: 0.5, ease: "power2.out" }, cue("ass-try"));
+  hide($("ass-b"), cue("rf-q") - 0.1, 0.35);
+  ["rf-q", "rf-1", "rf-3", "rf-4"].forEach((k) => at(k, null, { x: -24 }));
 
   // checklist: row on its words, tick once the measure has been said in full
   const ticks = [
     ["arr-1", cue("arr-2") - 0.4],
     ["arr-2", cue("arr-3") - 0.4],
-    ["arr-3", cue("arr-ok") - 0.6],
+    ["arr-3", cue("arr-doc") - 0.4],
+    ["arr-doc", cue("arr-ok") - 0.6],
   ];
   ticks.forEach(([k, tick]) => {
     const row = $("c-" + k);
