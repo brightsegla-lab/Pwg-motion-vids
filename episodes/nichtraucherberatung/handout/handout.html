@@ -13,25 +13,25 @@
       :root { --blue: #3e8ede; --blue2: #2563b8; --deep: #173e7a; --ink: #14213d; --ink2: #44506a; --bg: #f4f6fa; --coral: #f28c6b; --coral2: #b4482a; --line: #dfe5ef; --plum: #7e5ba6; }
       @page { size: A4; margin: 0; }
       * { margin: 0; padding: 0; box-sizing: border-box; }
-      body { font-family: "Montserrat", sans-serif; color: var(--ink); font-size: 8.8pt; line-height: 1.32; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
-      .page { width: 210mm; height: 297mm; padding: 11mm 13mm 9mm; position: relative; overflow: hidden; background: #fff; }
+      body { font-family: "Montserrat", sans-serif; color: var(--ink); font-size: 8.6pt; line-height: 1.3; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      .page { width: 210mm; height: 297mm; padding: 10mm 13mm 8mm; position: relative; overflow: hidden; background: #fff; }
       .top { display: flex; justify-content: space-between; align-items: flex-end; padding-bottom: 3mm; border-bottom: 3px solid var(--blue); }
       .kicker { font-weight: 700; font-size: 7.6pt; letter-spacing: .14em; text-transform: uppercase; color: var(--blue2); }
-      h1 { font-weight: 900; font-size: 21pt; line-height: 1.05; margin-top: 1.4mm; }
+      h1 { font-weight: 900; font-size: 20pt; line-height: 1.05; margin-top: 1.4mm; }
       h1 span { color: var(--blue2); }
       .sub { font-weight: 600; font-size: 10pt; color: var(--ink2); margin-top: 1mm; }
       .badge { text-align: right; font-size: 7.8pt; color: var(--ink2); line-height: 1.45; }
       .badge b { display: block; font-size: 9pt; color: var(--ink); white-space: nowrap; }
       h2 { font-weight: 800; font-size: 10.6pt; margin-bottom: 2mm; display: flex; align-items: center; gap: 6px; }
       h2 i { width: 8px; height: 8px; border-radius: 50%; background: var(--blue); display: block; }
-      .sec { margin-top: 3.1mm; }
-      .def { background: #eef4fc; border-radius: 10px; padding: 3.2mm 4.4mm; font-weight: 600; font-size: 9.8pt; }
+      .sec { margin-top: 2.7mm; }
+      .def { background: #eef4fc; border-radius: 10px; padding: 2.6mm 4.2mm; font-weight: 600; font-size: 9.8pt; }
       .def b { color: var(--blue2); }
       .three { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.6mm; }
       .three div { border: 1.4px solid var(--line); border-radius: 9px; padding: 2.4mm 3mm; font-size: 8.4pt; color: var(--ink2); }
       .three b { display: block; color: var(--plum); font-size: 9.6pt; }
       table { width: 100%; border-collapse: separate; border-spacing: 0 1.1mm; }
-      td { background: var(--bg); padding: 1.3mm 3mm; vertical-align: middle; font-size: 8.4pt; line-height: 1.3; }
+      td { background: var(--bg); padding: 1.05mm 3mm; vertical-align: middle; font-size: 8.4pt; line-height: 1.3; }
       td:first-child { border-radius: 8px 0 0 8px; width: 19mm; font-weight: 900; font-size: 10pt; color: var(--blue2); }
       td:nth-child(2) { width: 66mm; font-weight: 600; white-space: nowrap; }
       td:last-child { border-radius: 0 8px 8px 0; }
@@ -47,7 +47,7 @@
       .help .big { font-weight: 900; font-size: 12pt; }
       .help .big span { color: #9cc8f5; }
       .help .sm { font-size: 8pt; color: rgba(255,255,255,.88); }
-      .net { background: #eef4fc; border-radius: 10px; padding: 3mm 3.6mm; }
+      .net { background: #eef4fc; border-radius: 10px; padding: 2.6mm 3.4mm; }
       .net h3 { font-weight: 800; font-size: 9.4pt; color: var(--blue2); margin: 2mm 0 1mm; }
       .net h3:first-of-type { margin-top: 0; }
       .net ol { margin-left: 4.2mm; display: flex; flex-direction: column; gap: .6mm; font-size: 8.5pt; }
@@ -63,6 +63,11 @@
       .net ol li::before { display: none; }
       .gloss { display: grid; grid-template-columns: 1fr 1fr; gap: 1.1mm 5mm; font-size: 8.1pt; line-height: 1.32; color: var(--ink2); }
       .gloss b { color: var(--deep); font-weight: 800; }
+      .rogers3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.6mm; }
+      .rogers3 > div { border: 1.4px solid var(--line); border-left: 4px solid var(--plum); border-radius: 9px; padding: 2.2mm 3mm; display: flex; flex-direction: column; gap: 1mm; }
+      .rogers3 b { color: var(--plum); font-size: 9.6pt; font-weight: 800; }
+      .rogers3 .what { font-size: 7.9pt; color: var(--ink2); line-height: 1.3; }
+      .rogers3 q { font-size: 8.8pt; }
       .src { margin-top: 3mm; font-size: 7.2pt; color: var(--ink2); line-height: 1.4; }
     </style>
   </head>
@@ -78,8 +83,16 @@
       </div>
 
       <div class="sec def">
-        <b>Beratung</b> ist ein ergebnisoffenes Gespräch auf Augenhöhe: Die Pflegefachperson hilft der Person, ihre Situation zu verstehen und Möglichkeiten abzuwägen. <b>Die Entscheidung trifft die Patientin oder der Patient selbst.</b>
-        <div class="rog"><span>Haltung nach Carl Rogers:</span> <b>Empathie</b> · <b>Akzeptanz</b> (nicht belehren) · <b>Echtheit</b></div>
+        <b>Ziel der Beratung:</b> Sami soll – gut informiert und ohne Druck – <b>selbst entscheiden</b>, ob und wie er mit dem Rauchen aufhört, und mit der Pflegefachperson einen konkreten ersten Schritt planen.
+      </div>
+
+      <div class="sec">
+        <h2><i style="background: var(--plum)"></i>Haltung nach Carl Rogers – die drei Grundhaltungen</h2>
+        <div class="rogers3">
+          <div><b>Empathie</b><span class="what">einfühlendes Verstehen: die Situation aus Sicht des Patienten sehen und das Verstandene in eigenen Worten zurückmelden.</span><q>Sie sehen bei Ihren Freunden, dass es auch anders gehen kann.</q></div>
+          <div><b>Akzeptanz</b><span class="what">bedingungslose Wertschätzung: den Menschen annehmen, wie er ist, ohne sein Verhalten zu bewerten, ohne Vorwürfe und Belehrung.</span><q>Ich möchte Ihnen keine Vorwürfe machen.</q></div>
+          <div><b>Echtheit (Kongruenz)</b><span class="what">ehrlich und stimmig sein: Worte, Mimik und Haltung passen zusammen, die eigene Einschätzung wird offen gesagt.</span><q>Ich sage Ihnen ehrlich, was ich denke.</q></div>
+        </div>
       </div>
 
       <div class="sec">
@@ -87,7 +100,7 @@
         <table>
           <tr><td>Ask</td><td>Rauchstatus erfragen, dokumentieren</td><td><q>Wie viel rauchen Sie zurzeit am Tag?</q></td></tr>
           <tr><td>Advise</td><td>individuell zum Rauchstopp raten</td><td><q>Mit dem Rauchen aufzuhören ist das Wichtigste …</q></td></tr>
-          <tr><td>Assess</td><td>Abhängigkeit und Motivation einschätzen</td><td><q>Wann rauchen Sie morgens die erste Zigarette?</q> · Skala 0–10</td></tr>
+          <tr><td>Assess</td><td>Abhängigkeit und Motivation einschätzen</td><td><q>Wann rauchen Sie morgens die erste Zigarette?</q></td></tr>
           <tr><td>Assist</td><td>unterstützen: NET, Telefonberatung, Infoblatt</td><td><q>Wären Sie bereit, das Pflaster auszuprobieren?</q></td></tr>
           <tr><td>Arrange</td><td>Folgekontakt vereinbaren</td><td><q>Morgen früh setze ich mich wieder zu Ihnen.</q></td></tr>
         </table>
@@ -98,7 +111,6 @@
           <h2><i></i>Gesprächstechniken</h2>
           <ul>
             <li><b>Um Erlaubnis fragen</b> – <q>Dürfte ich trotzdem kurz mit Ihnen darüber sprechen?</q></li>
-            <li><b>Reflektieren statt widersprechen</b> – <q>Jede Lunge reagiert anders.</q></li>
             <li><b>Skalierungsfrage</b> – <q>Eine Vier. Und warum keine Zwei?</q></li>
             <li><b>Entscheidung beim Patienten</b> – <q>Sie entscheiden, ich begleite Sie.</q></li>
           </ul>
@@ -111,7 +123,7 @@
         </div>
         <div class="net">
           <h2 style="margin-bottom: 1.4mm"><i></i>Nikotinersatztherapie (NET)</h2>
-          <div>Der Körper bekommt Nikotin – <b>ohne die Schadstoffe aus dem Rauch</b>. Das lindert die Entzugserscheinungen. Mit begleitender Beratung steigen die Erfolgschancen (S3, A).</div>
+          <div>Nikotin <b>ohne die Schadstoffe aus dem Rauch</b>: lindert die Entzugserscheinungen. Pflaster, Kaugummi, Lutschtablette, Spray oder Inhaler.</div>
           <h3>Nikotinpflaster – Grundbedarf</h3>
           <ol>
             <li>morgens auf saubere, unbehaarte Haut kleben, täglich eine andere Stelle</li>
@@ -124,18 +136,16 @@
             <li>in die Wangentasche legen („parken“)</li>
             <li>wenn der Geschmack nachlässt, wieder kauen</li>
           </ol>
-          <div class="tip">Ca. 15 Min. vorher kein Kaffee, keine Cola, keine sauren Säfte: Sie verschlechtern die Aufnahme. Reicht ein Präparat nicht, empfiehlt die S3-Leitlinie die <b>Kombination Pflaster + schnell wirksames Präparat</b> (A).</div>
+          <div class="tip">Ca. 15 Min. vorher kein Kaffee, keine Cola (schlechtere Aufnahme). Reicht ein Präparat nicht: <b>Pflaster + schnell wirksames Präparat</b> kombinieren (S3, A).</div>
         </div>
       </div>
 
       <div class="sec">
         <h2><i></i>Fachbegriffe</h2>
         <div class="gloss">
-          <div><b>5-A-Methode</b> – Ablauf der Kurzberatung: Ask, Advise, Assess, Assist, Arrange</div>
           <div><b>COPD</b> – chronisch obstruktive Lungenerkrankung: dauerhaft verengte Atemwege</div>
           <div><b>Fagerström-Test</b> – Fragebogen zur Stärke der Tabakabhängigkeit</div>
           <div><b>Entzugserscheinungen</b> – z. B. Unruhe, Reizbarkeit, starkes Rauchverlangen</div>
-          <div><b>NET</b> – Nikotinersatztherapie: Pflaster, Kaugummi, Lutschtablette, Spray, Inhaler</div>
           <div><b>Motivierende Gesprächsführung</b> – stärkt die eigene Motivation zur Veränderung</div>
           <div><b>Ambivalenz</b> – gleichzeitig wollen und nicht wollen („aufhören ja, aber …“)</div>
           <div><b>Selbstwirksamkeit</b> – Vertrauen, eine Veränderung selbst zu schaffen</div>
